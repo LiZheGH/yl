@@ -1,0 +1,676 @@
+@CHARSET "UTF-8";
+body{
+    overflow-y: scroll!important;
+}
+*{
+	outline: 0!important;
+}
+input,select,button,input[type=checkbox]{
+	outline: 0!important;
+}
+html,body{height: 100%;}
+.m-t10{margin-top: 10px;}
+.fwb{font-weight: bold;}
+.c_9{color: #999;}
+.im_mark_color{color: #c00;}
+.wuliu_color{
+	color: #ac9f5e!important;
+}
+.button_btn{
+	display: inline-block;
+	background: #ac9f5e;
+	border-radius: 3px;
+	color: #fff;
+	border: none;
+}
+.button_btn:hover{
+	background: #416aac;
+}
+.a_btn{
+	display: inline-block;
+	background: #ac9f5e;
+	border-radius: 3px;
+	color: #fff!important;
+	text-align: center;
+}
+.a_btn:hover{
+	color: #fff!important;
+	background: #ac9f5e;
+	text-decoration:none!important;
+}
+.cur_text{cursor: text;}
+.header_right .right_list li a:hover{
+	color: #f00;
+	text-decoration: underline!important;
+}
+/*物流管理公用头部*/
+.logis_body{color: #333;}
+.wrapper {
+	min-height: 100%;
+	height: auto!important;
+	margin: 0 auto;
+}
+.logis_header{
+	width: 100%;
+	height: 70px;
+	background: #ac9f5e;
+}
+.logis_topNav{
+	margin: 0 auto;
+	width: 1200px;
+	height: 70px;
+	line-height: 70px;
+}
+.logis_topNav_logo{
+	float: left;
+	width: 173px;
+	height: 70px;
+}
+.logis_nav_logo{
+	display: block;
+    width: 173px;
+    height: 70px;
+	background: url(/public/img/wl_head_logo.png) no-repeat center;
+    background-size: 100%;
+}
+.logis_nav_logo a{
+	display: inline-block;
+	height: 42px;
+}
+.logis_nav_logo .logis_href_home{
+	width: 65px;
+}
+.logis_nav_logo .logis_href_person{
+	width: 104px;
+}
+.retailer_menu{
+	float: left;
+	margin-left: 68px;
+	height: 70px;
+}
+.retailer_menu li{
+	float: left;
+	width: 113px;
+	text-align: center;
+}
+.retailer_menu li a{
+	padding: 6px 16px;
+	width: 100px;
+	font-size: 16px;
+	color: #fff;
+	border: 1px solid transparent;
+}
+.retailer_menu li a:hover{
+	border: 1px solid #fff;
+}
+/*容器*/
+.logis_box{
+	margin: 28px auto 0 auto;
+	padding-bottom: 68px;
+	width: 1200px;
+}
+/*footer*/
+.logis_footer{
+	position: relative;
+	margin-top: -68px;
+	padding: 10px 0;
+	width: 100%;
+	height: 68px;
+	background: #ac9f5e;
+	color: #fff;
+	clear: both;
+	text-align: center;
+	font-size: 14px;
+	line-height: 24px;
+}
+.logis_footer p{
+	margin: 0;
+}
+/*左侧导航栏*/
+.logis_left{
+	float: left;
+	padding: 0 8px;
+	width: 190px;
+	height: 600px;
+	min-height: 600px;
+	background: #fff;
+	border: 1px solid #F0F0F0;
+}
+.logis_right{
+	float: right;
+	margin-bottom: 50px;
+	width: 990px;
+	height: auto;
+	min-height: 600px;
+}
+.left_lists{
+	padding: 20px 0 13px 15px;
+	border-bottom: 1px dashed #D6D6D6;
+}
+.left_nav_lists_tle{
+	padding-left: 30px;
+	background: url(/public/img/re_icons.png) no-repeat left top;
+}
+.left_nav_tle{
+	display: inline-block;
+	width: 121px;
+	background: url(/public/img/arr_right.png) no-repeat right center;
+	font-size: 12px;
+	font-weight: bold;
+}
+.left_nav_bg{
+	padding-right: 5px;
+	background: url(/public/img/arr_right1.png) no-repeat right center!important;
+	font-size: 12px;
+	font-weight: 600;
+}
+.left_nav_tle_nobg{
+	background: none!important;
+}
+.tles_06{
+	background-position-y: -100px!important;
+}
+.tles_wl{
+	background-position-y: -200px!important;
+}
+/*右侧*/
+.logis_right_tle{
+	margin-bottom: 20px;
+	padding-left: 50px;
+	width: 990px;
+	height: 56px;
+	line-height: 56px;
+	background: #fff url(/public/img/Window.png) no-repeat 20px center;
+	border: 1px solid #F0F0F0;
+}
+.logis_s_item{
+	margin-bottom: 20px;
+	padding: 14px 20px;
+	width: 990px;
+	height: 58px;
+	border: 1px solid #F0F0F0;
+	background: #FFF;
+}
+.logis_s_item span{
+	display: inline-block;
+	margin: 0 20px 0 0;
+	height: 30px;
+}
+.logis_s_item span label{
+	font-weight: normal;
+	text-align: right;
+	font-size: 12px;
+}
+.logis_s_item span input,.logis_s_item span select{
+	display: inline-block;
+	padding-left: 5px;
+	width: 150px;
+	height: 28px;
+	border: 1px solid #bfbfbf;
+	font-size: 12px;
+}
+.logis_mag_sea{
+	float: right;
+	width: 70px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 12px;
+}
+.logis_mag_tab_box{
+	position: relative;
+	padding: 0 20px 80px;
+	width: 990px;
+	height: auto;
+	min-height: 330px;
+	background: #fff;
+	font-size: 12px;
+	border: 1px solid #F0F0F0;
+}
+.logis_mag_tab_tle{
+	margin-bottom: 15px;
+	width: 100%;
+	height: 55px;
+	line-height: 55px;
+	font-size: 12px;
+	border-bottom: 3px solid #ac9f5e;
+}
+.logis_mag_tab_tle li{
+	float: left;
+	margin: 0;
+	padding: 0;
+	width: 100px;
+	height: 55px;
+	font-weight: bold;
+	list-style-type: none;
+	cursor: pointer;
+	text-align: center;
+}
+.logis_mag_tab_tle li a{
+	display: inline-block;
+	font-size: 12px;
+	width: 100%;
+}
+.logis_mag_tab_tle li a:hover{
+	color: #333!important;
+}
+.logis_mag_tab{
+	margin-bottom: 20px;
+	width: 950px;
+}
+.logis_mag_tab tr{
+	height: 34px;
+	text-align: center;
+}
+.logis_mag_tab thead tr{
+	background: #E4E4E4;
+}
+.logis_mag_tab tbody tr{
+	border-bottom: 1px solid #E5E5E5;
+}
+.logis_mag_tab tbody tr .wl_goods{
+	display: block;
+	width: 300px;
+	white-space: nowrap;
+	word-break: break-word;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+.logis_mag_tab tbody tr .wl_goods:hover{
+	color: #ac9f5e;
+}
+.new_kc{
+	float: right;
+	margin: 13px 20px 13px 0;
+	width: 70px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 12px;
+}
+.wl_kc_icon{
+	background: #fff url(/public/img/wl_kc_icon.png) no-repeat 20px center;
+}
+/*订单管理*/
+.order_btn{
+	float: right;
+	margin: 13px 20px 13px 0;
+	width: 70px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 12px;
+}
+.order_s_item{height: 102px;}
+.order_s_item span input,.order_s_item span select{
+	width: 105px;
+}
+.order_s_item span i{color: #BFBFBF;}
+.order_s_item span{
+	margin: 0 10px 0 0;
+}
+.not_rev,.not_rev:hover{color: #999!important;}
+.list_box{
+	padding-left: 30px;
+}
+.left_lists li{
+	margin-bottom: 8px;
+}
+.left_nav_list{
+	font-size: 12px;
+	color: #666;
+}
+.logis_lists li a:hover{
+	color: #ac9f5e;
+}
+.logist_order_tle{
+	border-bottom: 3px solid #EBEBEB;
+}
+.logist_order_active{
+	border-bottom: 3px solid #ac9f5e;
+}
+/*个人中心*/
+.logis_person{
+	padding: 35px 0 20px 70px;
+}
+.logis_person_box{
+	padding-right: 55px;
+}
+.logis_person_p{
+	margin-bottom: 30px;
+	height: 50px;
+	border-bottom: 1px solid #F2F2F2;
+	text-align: center;
+	color: #333;
+	font-size: 14px;
+}
+.person_num{
+	color: #808086;
+}
+.logis_person_p a,.logis_person_p a:hover{
+	color: #ac9f5e;
+}
+.wl_person{
+	padding-left: 0;
+	background: #fff;
+}
+.wl_person_span{
+	padding-left: 50px;
+	background: url(/public/img/re_icons.png) no-repeat 20px center;
+}
+/*新增订单*/
+.neworder_wrap{
+	position: relative;
+	margin: 0 auto;
+	padding: 0 0 116px 0;
+	width: 100%;
+	height: auto;
+}
+.neworder_box{
+	margin: 50px auto;
+	width: 1200px;
+	height: auto;
+	background: #fff;
+}
+.neworder_tle{
+	padding-left: 30px;
+	width: 1200px;
+	height: 48px;
+	line-height: 44px;
+	background: #FAFAFA;
+	border-top: 4px solid #ac9f5e;
+}
+.neworder_tle label{
+	margin: 0;
+	font-size: 18px;
+}
+.neworder_info_box{
+	padding: 0 30px 30px 30px;
+	background: #fff;
+	font-size: 12px;
+}
+.neworder_tle_step{
+	font-size: 16px;
+	color: #ac9f5e;
+	font-weight: bold;
+}
+.neworder_info_fir select{
+	width: 148px;
+	height: 30px;
+	border: 1px solid #D9D9D9;
+}
+.upload_order{
+	margin-left: 20px;
+	width: 70px;
+	height: 30px;
+	line-height: 30px;
+}
+.neworder_info_fir,.neworder_info_sec,.neworder_info_tab{
+	padding: 40px 0;
+	border-bottom: 1px solid #D6D6D6;
+}
+.neworder_tab{
+	width: 100%;
+}
+.neworder_tab tr{
+	text-align: center;
+	height: 34px;
+	border-bottom: 1px solid #E5E5E5;
+}
+.neworder_tab thead tr{
+	background: #E4E4E4;
+}
+.neworder_all_p{
+	margin: 15px 0 25px 0;
+	font-size: 12px;
+}
+.neworder_all_p label{
+	color: #ac9f5e;
+	font-size: 16px;
+}
+.neworder_sub{
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+}
+body .layui-layer-wuliu{padding: 30px!important;border: 3px solid #dcdcdc;background: #fff!important;}
+body .layui-layer-wuliu .layui-layer-content{height: auto!important;}
+body .layui-layer-wuliu h1{margin-bottom:20px;font-size: 18px;color: #ac9f5e;text-align: center;}
+body .layui-layer-wuliu .layui-layer-content p{text-align: center;line-height: 25px;}
+body .layui-layer-wuliu .layui-layer-btn{position:absolute;bottom:20px;left:50%;margin-left:-57px;padding-top: 20px;text-align: center;}
+body .layui-layer-wuliu .layui-layer-btn .layui-layer-btn0{margin:0 auto;display:inline-block;background: #ac9f5e;border: 0!important;}
+body .layui-layer-wuliu .layui-layer-btn .layui-layer-btn1{margin:0;background: #f2b632;border: 0!important;color: #fff;}
+body .layui-layer-wuliu .layui-layer-setwin .layui-layer-close2:hover{background-position: -149px -31px;}
+body .layui-layer-wuliu .layui-layer-content .showTipMsg{margin-top:20px;font-size:16px;font-weight:bold;text-align:center;color:#ac9f5e;}
+.forPwd_p{
+	margin-bottom: 30px;
+	font-size: 24px;
+}
+.forPwd_div{
+	margin-bottom: 20px;
+	overflow: hidden;
+	height: 100px;
+}
+.for_pwd_input{
+	padding-left: 10px;
+	width: 240px;
+	height: 40px;
+	border: 1px solid #E4E4E4;
+	border-radius: 3px;
+}
+.send_yzm{
+	margin-left: 10px;
+	width: 86px;
+	height: 40px;
+	border: 0;
+	border-radius: 3px;
+	background: #ac9f5e;
+	color: #FFF;
+	font-size: 12px;
+}
+.in_send_btn{
+	display: inline-block;
+	width: 120px;
+	height: 39px;
+	background: #ccc;
+	border-radius: 3px;
+	text-align: center;
+	line-height: 39px;
+	border: 0;
+	color: #fff!important;
+	cursor: no-drop;
+	font-size: 14px;
+}
+.use_send_btn{
+	background: #ac9f5e;
+	cursor: pointer;
+}
+.use_send_btn:hover{
+	background: #416aac;
+}
+.del_goods_btn{
+	margin-right: 20px!important;
+	display: inline-block;
+	width: 120px;
+	height: 39px;
+	background: #F54368;
+	border-radius: 3px;
+	text-align: center;
+	line-height: 39px;
+	border: 0;
+	color: #fff!important;
+	cursor: pointer;
+	font-size: 14px;
+}
+.forPwd_div a{
+	color: #999!important;
+	padding-left: 10px;
+}
+.forPwd_div a:hover{
+	color: #999;
+	text-decoration: underline!important;
+}
+.forPwdError,.forPwdAgainError,.curPwdError,.againPwdError{
+	display: block;
+	margin: 10px 0;
+	color: #f00;
+}
+.uploadify-button,.newOrder_upload{
+	height: 30px!important;
+	border-radius: 3px!important;
+	border: none!important;
+}
+/*删除商品*/
+body .layui-layer-delGoods .layui-layer-btn .layui-layer-btn0{background: #ac9f5e;border: 1px solid #ac9f5e;}
+/*新增库存*/
+.logis_new_goods{
+	padding: 30px 0 30px 50px;
+}
+.new_goods{
+	margin-bottom: 30px;
+	font-size: 18px;
+	font-weight: bold;
+}
+.logis_new_goods p{
+	margin-bottom: 30px;
+}
+.logis_new_goods p i{
+	margin-left: 5px;
+	color: #f00;
+}
+.logis_new_goods label{
+	width: 65px;
+	font-weight: normal;
+}
+.logis_new_goods input[type="text"],.logis_new_goods select{
+	padding-left: 5px;
+	width: 236px;
+	height: 30px;
+	border: 1px solid #E4E4E4;
+	border-radius: 3px;
+}
+.logis_new_goods input[type="button"]{
+	margin: 20px 0;
+}
+.order_info label{
+	margin-right: 10px;
+	width: 120px;
+	text-align: right;
+}
+.order_info input[type="text"]{
+	width: 300px;
+	background: #F5F5F5;
+}
+.order_info p{
+	margin-bottom: 20px;
+}
+.orderinfo_btn{
+	margin: 50px 0 30px 75px;
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 16px;
+}
+.order_rev_btn{
+	margin-left: 50px;
+	display: inline-block;
+	width: 147px;
+	height: 40px;
+	line-height: 40px;
+	background: #d00c24;
+	color: #fff!important;
+	border-radius: 3px;
+	text-align: center;
+	font-size: 16px;
+}
+.order_rev_btn:hover{
+	background: #d23145;
+}
+.edit_order  input[type="text"]{
+	width: 300px;
+	background: #fff;
+}
+.new_order_tip{
+	color: #D00C24;
+	padding-left: 10px;
+}
+.xcConfirm_less .popBox .sgBtn.ok,.xcConfirm .popBox .sgBtn.ok{
+	background-color: #ac9f5e!important;
+}
+.ri_nav_pur,#newBridge{display: none!important;}
+.log_footer a:hover{
+	text-decoration: underline!important;
+	color: #ac9f5e!important;
+}
+.pageNum{
+	position: absolute;
+	right: 0;
+	bottom: 45px;
+	margin-top: 30px;
+}
+.laypageskin_molv a:hover,.laypage_main button:hover{border: 1px solid #ac9f5e!important;color: #ac9f5e!important;}
+#gohome,#goback{color: #ac9f5e!important;}
+.store_pre{
+	color: #D00C24;
+}
+.store_pre i{
+	display: inline-block;
+	margin-right: 5px;
+	width: 25px;
+	height: 25px;
+	background: #D00C24;
+	color: #fff!important;
+	border-radius: 50%;
+	font-size: 20px;
+	line-height: 22px;
+	text-align: center;
+}
+.no_orderBox{
+	margin: 80px auto;
+	width: 301px;
+}
+.no_order{
+	display: inline-block;
+	width: 115px;
+	height: 99px;
+}
+.no_order_tip{
+	font-size: 18px;
+	color: #66667d;
+}
+.logis_order_tab{
+	margin-bottom: 45px;
+	width: 900px;
+}
+.logis_order_tab tbody td{
+	height: 45px;
+}
+.op_btn{
+	color: #ac9f5e;
+}
+.op_btn span{
+	cursor: pointer;
+}
+.logis_order_tab td select{width: 300px;}
+.logis_order_tab input[type="text"]{
+	width: 100px;
+	text-align: center;
+}
+.b0{
+	border: 0!important;
+}
+.order_new_p{
+	margin: -20px 0 45px 0!important;
+}
+.logis_mag_imp{
+	width: 136px;
+	margin: 10px 0 0 20px;
+}
+.logis_mag_tab_box input[type="checkbox"]{
+	margin: -1px 5px 0 0;
+}
+.order_s_all{
+	margin: 0 0 10px 28px;
+}
+.layui-layer-tips .layui-layer-content{background-color: #fff!important;box-shadow:1px 2px 8px 1px rgba(0,0,0,.3)!important;color:#e4393c!important;}
+.layui-layer-tips i.layui-layer-TipsR{border-bottom-color:#fff!important;}
+.layui-layer-tips i.layui-layer-TipsB{border-right-color:#fff!important;}
+.logis_mag_tab .orderStatus{color: #ac9f5e;}
+.logis_mag_tab .orderStatus:hover{text-decoration: underline!important;}

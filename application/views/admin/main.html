@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html ng-controller="LayoutController">
+<head>
+<meta charset="utf-8">
+<title>物流调度管理系统</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no" name="viewport" />
+
+{literal}
+<link rel="stylesheet" type="text/css" href="/public/libs/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="/public/assets/css/common.min.css?v=201405051937" type='text/css' />
+<script type="text/javascript" src="/public/js/jquery.js"></script>
+<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script> 
+<script type="text/javascript" src="/public/js/web.js?"></script>
+<script type="text/javascript" src="http://api.map.baidu.com/api?v=1.5&ak=ADF8LePELvtO1Ny9UMvmeux5"></script>
+<script type="text/javascript" src="/public/js/jquery.easyui.min.js"></script>
+<link rel="stylesheet" type="text/css" href="/public/assets/css/metro/easyui.css">
+<link rel="stylesheet" type="text/css" href="/public/assets/css/icon.css">
+{/literal}
+<link rel="stylesheet" type="text/css" href="/public/assets/css/jquery.datetimepicker.css" />
+<script type="text/javascript" src="/public/js/jquery.datetimepicker.js"></script>
+<script type="text/javascript" src="/public/libs/bootstrap/js/bootstrap.min.js" ></script>
+
+<script type="text/javascript" src="/public/js/bootstrap-tooltip.js" ></script>
+<script type="text/javascript" src="/public/js/bootstrap-popover.js" ></script>
+<script type="text/javascript" src="/public/ckeditor/ckeditor.js"></script>
+<script type="text/javascript" src="/public/ckfinder/ckfinder.js"></script>
+<script src="/public/libs/paginator/src/bootstrap-paginator.js"></script>
+<script src="/public/libs/paginator/lib/qunit-1.11.0.js"></script>
+<link rel="stylesheet" href="/public/assets/css/paginator.css">
+<style>
+	th {
+		text-align:center;
+	}
+	
+	table {
+		text-align:center;
+	}
+	td>a.table-btn {
+		color: #7a7d82;
+	    cursor: pointer;
+	    display: inline-block;
+	    margin-right: 15px;
+	}
+</style>
+{literal}
+<script type="text/javascript">
+
+$(function() {
+	
+	var url = location.href;  
+	
+	if(url.lastIndexOf('#') > 0) {
+		var curPage = url.substring(url.lastIndexOf('#')+1, url.length).trim();
+		var arr = curPage.split('/');
+		var curPageView;
+		if(arr.length > 1)
+			curPageView = '/' + arr[1] + '/' + arr[2] + '/' + arr[3];
+		else
+			curPageView = '';
+		var params;
+		
+		if(arr.length > 5)
+			params = curPage.replace(curPageView + '/', '');
+		else
+			params = '';
+		switchView(curPageView, params);
+	}
+	
+	$('.dropdown-toggle').dropdown();
+
+});
+
+function reloadUrl(url) {
+	//window.open(url);
+	//window.close();
+	//document.location.href=url;
+	//sleep(2000);
+	//window.location.reload();
+}
+
+function sleep(numberMillis) {
+	var now = new Date();
+	var exitTime = now.getTime() + numberMillis;
+	while (true) {
+		now = new Date();
+		if (now.getTime() > exitTime)
+			return;
+		}
+	}
+
+</script>
+{/literal}
+</head>
+<body class="page-header-fixed default-layout">
+	<div class="header navbar navbar-fixed-top mega-menu">
+		<div class="header-inner">
+			<span style="color:#d63837;font-size:2.0rem;font-family:雅黑; float:left;margin-left:25px;width:95%;margin-top:5px;">管理员</span>
+			<a class="navbar-brand logo" style="width:200px;" href="/admin/"> <span style="font-size:1.4rem;">物流调度管理系统</span>
+			</a>
+			<div class="hor-menu">
+				<ul class="nav navbar-nav">
+				</ul>
+			</div>
+			<ul class="nav navbar-nav pull-right" style="margin-top:-15px;">
+				<li class="dropdown user"><a class="dropdown-toggle" style="height: 40px;"
+					data-close-others="true" data-hover="dropdown" data-toggle="dropdown" href="javascript:void(0);"> <img width="25px" height="25px"
+						 alt=""
+						src="/public/assets/imgs/chrome.png"> <span class="name ng-binding"
+						ng-bind="user.name">{$curUser.username}</span> <i class="fa fa-caret-down"></i>
+				</a>
+					<ul class="dropdown-menu" >
+						<li>
+						<a href="logout.php"> <i class="fa fa-key"></i> 退出
+						</a>
+						</li>
+					</ul></li>
+			</ul>
+		</div>
+	</div>
+	<div class="clearfix"></div>
+	
+	<div class="page-container">
+		<div class="page-sidebar-wrapper" siderbarhtml="navPage" ng-show="navPage!=''" >
+			<a class="navbar-toggle hidden-lg hidden-md ng-scope" data-target=".navbar-collapse" data-toggle="collapse" href="javascript:void(0);"> <img
+				alt="菜单" src="/public/assets/imgs/menu-toggler.png">
+			</a>
+			<div class="page-sidebar navbar-collapse collapse ng-scope" style="padding-top:5px;">
+				<ul id="sidenav" class="page-sidebar-menu" ng-init="initSelected()">
+					<li id="nav_system" class="ng-scope"><a href="javascript:void(0);" onclick="openNav(this);"> <i class="fa fa-cog"></i> <span
+							class="title ng-binding" ng-bind="i.title">系统设置</span></a>
+						<ul class="sub-menu ng-scope" ng-if="i.submenu" ng-init="submenuInit(i.submenu, i.title)">
+							<li class="ng-scope" id="account" ><a href="#/system/account/list" onclick="switchView('/system/account/list', '')"> <span class="ng-binding" ng-bind="j.title"> 账号管理</span>
+							</a></li>
+						</ul>
+						<ul class="sub-menu ng-scope" ng-if="i.submenu" ng-init="submenuInit(i.submenu, i.title)">
+							<li class="ng-scope" id="role" ><a href="#/system/role/list" onclick="switchView('/system/role/list', '')"> <span class="ng-binding" ng-bind="j.title"> 角色管理</span>
+							</a></li>
+						</ul>
+						<ul class="sub-menu ng-scope" ng-if="i.submenu" ng-init="submenuInit(i.submenu, i.title)">
+							<li class="ng-scope" id="power" ><a href="#/system/power/list" onclick="switchView('/system/power/list', '')"> <span class="ng-binding" ng-bind="j.title"> 权限管理</span>
+							</a></li>
+						</ul>
+						<ul class="sub-menu ng-scope" ng-if="i.submenu" ng-init="submenuInit(i.submenu, i.title)">
+							<li class="ng-scope" id="cpassword" ><a href="#/system/person/password" onclick="switchView('/system/person/password', '')"> <span class="ng-binding" ng-bind="j.title"> 更改密码</span>
+							</a></li>
+						</ul>
+					</li>
+					
+					<li  id="nav_op" class="ng-scope"><a href="javascript:void(0);" onclick="openNav(this);"> <i class="fa fa-briefcase"></i> <span
+							class="title ng-binding" ng-bind="i.title">运营管理</span>
+					</a>
+						<ul class="sub-menu ng-scope">
+							<li class="ng-scope" id="order_import"><a href="#/op/order_import/batch_list" onclick="openOneNav(this, '/op/order_import/batch_list')"> <span class="ng-binding" ng-bind="j.title">订单导入</span>
+							</a></li>
+						</ul>
+						<ul class="sub-menu ng-scope">
+							<li class="ng-scope" id="order"><a href="#/op/order/list" onclick="openOneNav(this, '/op/order/list')"> <span class="ng-binding" ng-bind="j.title">订单管理</span>
+							</a></li>
+						</ul>
+						
+						<ul class="sub-menu ng-scope">
+							<li class="ng-scope" id="task"><a href="#/op/task/list" onclick="openOneNav(this, '/op/task/list')"> <span class="ng-binding" ng-bind="j.title">任务管理</span>
+							</a></li>
+						</ul>
+						<ul class="sub-menu ng-scope">
+							<li class="ng-scope" id="monitor"><a href="#/op/monitor/list" onclick="openOneNav(this, '/op/monitor/list')"> <span class="ng-binding" ng-bind="j.title">系统监控</span>
+							</a></li>
+						</ul>
+						
+					</li>
+					<li id="nav_base" class="ng-scope"><a href="javascript:void(0);" onclick="openNav(this);"> <i class="fa fa-icon-base"></i> <span
+							class="title ng-binding" ng-bind="i.title">基础配置</span>
+					</a>
+						<ul class="sub-menu ng-scope">
+							<li class="ng-scope" id="addresser"><a href="#/base/addresser/list"  onclick="openOneNav(this, '/base/addresser/list')"> <span class="ng-binding" ng-bind="j.title">快递员管理</span>
+							</a></li>
+						</ul>
+						<ul class="sub-menu ng-scope">
+							<li class="ng-scope" id="sorter"><a href="#/base/sorter/list"  onclick="openOneNav(this, '/base/sorter/list')"> <span class="ng-binding" ng-bind="j.title">分拣员管理</span>
+							</a></li>
+						</ul>
+						<ul class="sub-menu ng-scope">
+							<li class="ng-scope" id="car"><a href="#/base/car/list"  onclick="openOneNav(this, '/base/car/list')"> <span class="ng-binding" ng-bind="j.title">运转车管理</span>
+							</a></li>
+						</ul>
+						<ul class="sub-menu ng-scope">
+							<li class="ng-scope" id="driver"><a href="#/base/driver/list"  onclick="openOneNav(this, '/base/driver/list')"> <span class="ng-binding" ng-bind="j.title">司机管理</span>
+							</a></li>
+						</ul>
+						<ul class="sub-menu ng-scope">
+							<li class="ng-scope" id="station"><a href="#/base/station/list"  onclick="openOneNav(this, '/base/station/list')"> <span class="ng-binding" ng-bind="j.title">段道管理</span>
+							</a></li>
+						</ul>
+						<ul class="sub-menu ng-scope">
+							<li class="ng-scope" id="package"><a href="#/base/package/list"  onclick="openOneNav(this, '/base/package/list')"> <span class="ng-binding" ng-bind="j.title">任务包管理</span>
+							</a></li>
+						</ul>
+						<ul class="sub-menu ng-scope">
+							<li class="ng-scope" id="exchanger"><a href="#/base/exchanger/list"  onclick="openOneNav(this, '/base/exchanger/list')"> <span class="ng-binding" ng-bind="j.title">转运站管理</span>
+							</a></li>
+						</ul>
+						<ul class="sub-menu ng-scope">
+							<li class="ng-scope" id="locations"><a href="#/base/locations/list"  onclick="openOneNav(this, '/base/locations/list')"> <span class="ng-binding" ng-bind="j.title">地标管理</span>
+							</a></li>
+						</ul>
+						<ul class="sub-menu ng-scope">
+							<li class="ng-scope" id="provider"><a href="#/base/provider/list"  onclick="openOneNav(this, '/base/provider/list')"> <span class="ng-binding" ng-bind="j.title">第三方管理</span>
+							</a></li>
+						</ul>
+						<ul class="sub-menu ng-scope">
+							<li class="ng-scope" id="goods_type"><a href="#/base/goods_type/list"  onclick="openOneNav(this, '/base/goods_type/list')"> <span class="ng-binding" ng-bind="j.title">物品类型管理</span>
+							</a></li>
+						</ul>
+						<ul class="sub-menu ng-scope">
+							<li class="ng-scope" id="express_product"><a href="#/base/express_product/list"  onclick="openOneNav(this, '/base/express_product/list')"> <span class="ng-binding" ng-bind="j.title">快递产品管理</span>
+							</a></li>
+						</ul>
+					</li>
+					<li  id="nav_metic" class="ng-scope"><a href="javascript:void(0);" onclick="openNav(this);"> <i class="fa glyphicon glyphicon-globe"></i> <span
+							class="title ng-binding" style="margin-left:5px;" ng-bind="i.title">调度算法管理</span>
+					</a>
+						<ul class="sub-menu ng-scope">
+							<li class="ng-scope" id="m1"><a href="#/metic/company1/list" onclick="openOneNav(this, '/metic/company1/edit')"> <span class="ng-binding" ng-bind="j.title">调度算法1</span>
+							</a></li>
+						</ul>
+						<ul class="sub-menu ng-scope">
+							<li class="ng-scope" id="m2"><a href="#/metic/company2/list" onclick="openOneNav(this, '/metic/company2/edit')"> <span class="ng-binding" ng-bind="j.title">调度算法2</span>
+							</a></li>
+						</ul>
+						
+					</li>
+					
+					<li  id="nav_performance" class="ng-scope"><a href="javascript:void(0);" onclick="openNav(this);"> <i class="fa fa-icon-reservation"></i> <span
+							class="title ng-binding" ng-bind="i.title">统计分析</span>
+					</a>
+						<ul class="sub-menu ng-scope">
+							<li class="ng-scope" id="performance_main"><a href="#/performance/main/list" onclick="openOneNav(this, '/performance/main/list')"> <span class="ng-binding" ng-bind="j.title">总体情况统计</span>
+							</a></li>
+						</ul>
+						<ul class="sub-menu ng-scope">
+							<li class="ng-scope" id="income"><a href="#/performance/income/list" onclick="openOneNav(this, '/performance/income/list')"> <span class="ng-binding" ng-bind="j.title">收入统计</span>
+							</a></li>
+						</ul>
+						<ul class="sub-menu ng-scope">
+							<li class="ng-scope" id="pticket"><a href="#/performance/pticket/list" onclick="openOneNav(this, '/performance/pticket/list')"> <span class="ng-binding" ng-bind="j.title">快递员工作量统计</span>
+							</a></li>
+						</ul>
+						<ul class="sub-menu ng-scope">
+							<li class="ng-scope" id="attendance"><a href="#/performance/attendance/list" onclick="openOneNav(this, '/performance/attendance/list')"> <span class="ng-binding" ng-bind="j.title">分拣员工作量统计</span>
+							</a></li>
+						</ul>
+						<ul class="sub-menu ng-scope">
+							<li class="ng-scope" id="sticket"><a href="#/performance/sticket/list" onclick="openOneNav(this, '/performance/sticket/list')"> <span class="ng-binding" ng-bind="j.title">运转车工作量统计</span>
+							</a></li>
+						</ul>
+					</li>
+					
+					
+					
+					
+					
+				</ul>
+			</div>
+		</div>
+		<div class="page-content-wrapper ng-scope" ng-view="">
+			<div id="page-content" class="page-content ng-scope" ng-init="getSelfInfo()">
+
+			</div>
+		</div>
+	</div>
+</body>
+</html>

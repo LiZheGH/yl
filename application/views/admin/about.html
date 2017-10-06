@@ -1,0 +1,108 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<title>About</title>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+		<link href="{$WEB_BASE_URL}style/AdressBook.css" rel="stylesheet" type="text/css" />
+		<script src="{$WEB_BASE_URL}js/jquery.js" type="text/javascript"></script>
+		<script type="text/javascript" src="{$WEB_BASE_URL}js/popup.js"></script>
+		{literal}
+		<style>
+			a{color:#555;text-decoration:none;outline:none;blr:this.onFocus=this.blur();}
+			a:hover{color:#000;text-decoration:underline;}
+		</style>
+		<script type="text/javascript">
+			function show(num) {
+				var a1 = document.getElementById("a1");
+				var a2 = document.getElementById("a2");
+				var a3 = document.getElementById("a3");
+				var a4 = document.getElementById("a4");
+				
+				var title = document.getElementById("title");
+				var centerTxt = document.getElementById("centerTxt");
+				if(num == 1) {
+					a1.style.display = "none";
+					a2.style.display = "block";
+					a3.style.display = "block";
+					a4.style.display = "block";
+					
+					title.innerHTML = "What is VeeMore?";
+					centerTxt.innerHTML = "In our whole life we might meet and build relationships with thousands of people, more likely, we saved their contacts and then lost, some of them in fact we never contact at all. One thing we might realized and cannot be ignored is the tremendous value that existed in our social networks and these connections.<br/><br/>VeeMore devoted to help exploring your connections and  refreshing their values, making your business and life easier and better.";
+				} else if (num == 2) {
+					a2.style.display = "none";
+					a1.style.display = "block";
+					a3.style.display = "block";
+					a4.style.display = "block";
+					title.innerHTML = "Products of VeeMore";
+					centerTxt.innerHTML = "Currently，the mobile applications based on iOS and Andriod platform are both launched, VeeMore.com is ready for use as well.<br/><br/>The applications are developed to improve the system contacts experience and the smart design was made to enhance user intelligence. More features are available for you like, import google contacts, merge duplicate contacts, bulk SMS and etc.<br/><br/>Through VeeMore.com, you can quickly and efficiently manage your contacts, and sync your data to your different mobile devices.<br/><br/>More features in future, and surprise arrives.";
+				} else if (num == 3) {
+					a3.style.display = "none";
+					a2.style.display = "block";
+					a1.style.display = "block";
+					a4.style.display = "block";
+					title.innerHTML = "Pay for premium services";
+					centerTxt.innerHTML = "The applications are free to download and use. Premium features and services are available after pay.<br/><br/>Sync contacts is the main service we provide now. It will be charged in 3 months only with most users' satisfaction on its functions. The price of this service is considered to be $4.99 per year.<br/><br/>24/7 online service is available for paid customers, as well as opportunities for more new services free trial in future.<br/><br/>Thank you for your trust and support.";
+				} else if (num == 4) {
+					a4.style.display = "none";
+					a2.style.display = "block";
+					a3.style.display = "block";
+					a1.style.display = "block";
+					title.innerHTML = "Privacy and security";
+					centerTxt.innerHTML = "We highly respect your right and understand the sensitivity of user privacy.<br/><br/>Best effort will be made to ensure your data security: All users contacts and data will be well encrypted.<br/><br/>And we will NOT use your information for any purpose for any reason unless we get your permission; We will NOT transfer your information to any third party unless it is enforceable at law.";
+				}
+				
+			}
+			function showFeedback() {
+				window.open ("feedback.php", "newwindow", "alwaysRaised=yes,directories=no, height=400, width=500,screenX=400,screenY =300 , toolbar=no, menubar=no, scrollbars=no, resizable=no, location=no, status=no ,　　titlebar=no,location=no "); 
+			}
+		</script>
+		{/literal}
+	</head>
+	<body onload="show(1)">
+		<div class="homeBody">
+			<div class="homeTop">
+				<a href="{$WEB_BASE_URL}index.php">
+				<div class="homeLogo">
+					<span></span>
+				</div>
+				</a>
+				<div class="search">
+				<form action="search.action" method="post" target="mainFrame">
+					<input type="hidden" name="serchValue" id="serchValue"
+						class="serchInpu" />
+					<input name="button" type="hidden" class="serchBtn" id="button"
+						value=" " />
+				</form>
+				</div>
+				<p class="homeRightNav">
+					<a href="">About</a>
+					<a href="#" onclick="showFeedback()">Feedback</a>
+					<a href="{$WEB_BASE_URL}index.php">Home</a>
+			
+				</p>
+
+			</div>
+			<div class="homeMain">
+				<center>
+				<div class="signupTitle"><table><tr><td><div class="colorSpan"></div></td><td> <div class="info" id="title"></div></td></tr></table></div>
+				<div class="signup">
+						<div id="centerTxt" style="margin:5px 15px 5px 15px; font-size:18px; text-align:left;"></div>
+				</div>
+				
+				</center>
+				<table style="width:700px; align:center; margin-left:auto; margin-right:auto;"><tr><td style="padding-left:5px;">&nbsp;<a href="javascript:void(0);" onclick="show(1)" id="a1">What is VeeMore?</a></td><td>&nbsp;<a href="javascript:void(0);" onclick="show(2)" id="a2">Products of VeeMore</a></td><td>&nbsp;<a href="javascript:void(0);" onclick="show(3)" id="a3">Pay for premium services</a></td><td>&nbsp;<a href="javascript:void(0);" onclick="show(4)" id="a4">Privacy and security</a></td></tr></table>
+			</div>
+			
+			<div class="homeBottom">
+				<br />
+				<center>
+					<hr size=1 class="homeBottomHr" />
+				</center>
+				<div class="homeBottomText">
+					Copyright 2013&nbsp;&nbsp;VeeMore.com
+				</div>
+			</div>
+		</div>
+<script type="text/javascript" charset="UTF-8" src="http://s1.kutongji.com/stat.php?site=82"></script>
+	</body>
+</html>

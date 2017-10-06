@@ -1,0 +1,58 @@
+@CHARSET "UTF-8";
+@font-face {
+	font-family: 'FontAwesome';
+	src:url('/public/fonts/fontawesome-webfont.ttf');
+	font-weight: normal;
+	font-style: normal
+}
+body{
+	background:#000;
+	width:100%;
+	height:auto;
+	overflow-y: scroll;
+	font-family: "Helvetica Neue","FontAwesome",Helvetica,Arial,sans-serif;
+}
+ul{list-style:none;}
+p{margin:0;padding:0;}
+.db{display: block;}
+.left{float:left!important}
+.right{float:right!important}
+.both{clear:both!important}
+.bg-b{background-color:#000!important}
+.bg-w{background-color:#fff!important}
+.color-def{color:#ac9f5e!important}
+.color-w{color:#fff!important}
+.color-b{color:#000!important}
+.b-1-s-w{border:1px solid #fff};
+.b-1-s-b{border:1px solid #000};
+.b-1-s-f2{border:1px solid #f2f2f2};
+.b-1-s-def{border:1px solid #ac9f5e};
+.b-r-50{border-radius:50%;}
+.p-0{padding:0rem}
+.p-1{padding:1rem}
+.p-1_5{padding:1.5rem}
+.p-t-1{padding-top:1rem;}
+.p-l-0{padding-left:0rem;}
+.p-r-0{padding-rihgt:0rem;}
+.p-l-1{padding-left:1rem;}
+.p-r-1{padding-rihgt:1rem;}
+.p-b-1{padding-bottom:1rem;}
+.m-0{margin:0}
+.m-1{margin:1rem}
+.m-1-a{margin:1rem auto}
+.m-t-1{margin-top:1rem;}
+.m-l-0{margin-left:0!important;}
+.m-r-0{margin-right:0!important;}
+.m-l-1{margin-left:1rem;}
+.m-r-1{margin-rihgt:1rem;}
+.m-b-1{margin-bottom:1rem;}
+.m-0-a{margin:0 auto;}
+
+.fs1{font-size:1rem;}
+.fs1_5{font-size:1.5rem;}
+.fs2{font-size:2rem;}
+.fs2_5{font-size:2.5rem;}
+.fs3{font-size:3rem;}
+.t-c{text-align: center!important}
+.t-l{text-align: left!important}
+.t-r{text-align: right!important}

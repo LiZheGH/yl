@@ -1,0 +1,44 @@
+<div class="page-footer" style="display:none;">
+  <div class="page-footer-inner"> &copy;copyright 2016 </div>
+  <div class="scroll-to-top"> <i class="icon-arrow-up"></i> </div>
+</div>
+    <!-- system modal start -->
+    <div id="ycf-alert" class="modal" style="z-index:99999;">
+      <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+            <h5 class="modal-title"><i class="fa fa-exclamation-circle"></i> [Title]</h5>
+          </div>
+          <div class="modal-body large">
+            <p>[Message]</p>
+          </div>
+          <div class="modal-footer" >
+            <button type="button" class="btn btn-primary ok" data-dismiss="modal">[BtnOk]</button>
+            <button type="button" class="btn btn-default cancel" data-dismiss="modal">[BtnCancel]</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  <!-- system modal end -->
+  <!-- system diy sysAlert start-->
+  	{literal}
+	<button class="btn btn-primary noty" data-noty-options="" id="sysMsg" style="display:none;">
+        <i class="glyphicon glyphicon-bell icon-white"></i>
+    </button>  
+      
+    <script>
+    	
+    		/* 	text   文字; 		 
+    			type   类型;		[success 绿色,error 红色,alert 白色]
+    			layout 位置;		[topLeft 左上,topCenter 中上,topRight 右上]
+    					   	   	[center 正中],[bottomLeft 左下,bottomRight 右下]    			
+    		*/
+    		function sysAlert(text,type){
+            alert(text);
+            return false;
+    		};
+    	
+    </script>
+    {/literal}
+  <!-- system diy sysAlert end-->

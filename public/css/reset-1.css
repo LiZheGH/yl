@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td, img, a, body {
+	margin: 0;
+	padding: 0;
+}
+html {
+	font-family: sans-serif;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+	display: block;
+}
+submit {
+	border: 0;
+}
+fieldset, img {
+	border: 0;
+}
+img {
+	display: block;
+	border: none;
+}
+address, caption, cite, code, dfn, em, strong, th, var {
+	font-style: normal;
+	font-weight: normal;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-size: 100%;
+	font-weight: normal;
+}
+abbr, acronym, img, a {
+	border: 0;
+}
+input, select {
+	vertical-align: middle;
+}
+input {
+	cursor: auto;
+}
+em, i {
+	font-style: normal;
+}
+ul, li {
+	list-style: none;
+}
+textarea {
+	outline: none;
+	resize: none;
+}
+body {
+	font-size: 10.5pt;
+	font-family: Microsoft YaHei !important;
+}
+.clearfix:after {
+	clear: both;
+	content: ".";
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+.clearfix {
+	display: inline-block;
+}
+.clearfix {
+ *zoom: 1;
+}
+.f-l{ float:left;}   .f-r{ float:right;}
+.mt20{ margin-top:20px !important;}
+.mr8{ margin-right:8px;}
