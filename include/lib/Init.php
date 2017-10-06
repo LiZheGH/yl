@@ -10,11 +10,11 @@ ini_set ( 'date.timezone', 'Asia/Shanghai' );
 if(isset($_SERVER['HTTP_HOST'])) {
 	//正式环境
 	define ( 'DOMAIN', 'www.yl.com' );
-	define ( 'DB_PASSWORD', '123abc!@#' );
+	define ( 'DB_PASSWORD', 'api3306' );
 	define ('WEIXIN_APP_ID', 'wx1c395d9d143e9ad2');
 }
 define ( 'DB_SERVERNAME', '127.0.0.1' );
-define ( 'DB_USERNAME', 'root' );
+define ( 'DB_USERNAME', 'api' );
 define ( 'DB_DBNAME', 'yl' );
 
 define ( 'SYSTEM_PATH', dirname ( __FILE__ ) );
