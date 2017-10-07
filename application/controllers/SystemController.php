@@ -930,9 +930,8 @@ class SystemController extends WebBaseController {
 		$imstr[3]["x"] = $imstr[2]["x"]+$font_size-1+rand(0,1);
 		$imstr[3]["y"] = rand(1,3);
 
-		session_start();
+// 		session_start();
 		$_SESSION['captcha'] = $string;
-		var_dump($_SESSION);exit();
 		//写入随机字串
 		for($i=0;$i<4;$i++){
 			//获取随机较深颜色
