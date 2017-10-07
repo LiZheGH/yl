@@ -59,7 +59,7 @@ class SystemController extends WebBaseController {
 	 * Construct
 	 */
 	public function __construct($params) {
-		// session_start();
+		session_start();
 		parent::__construct ($params);
 		$this->log ( '', $_SERVER ["REQUEST_URI"] );
 		$this->smarty->assign ( 'WEB_IMG_BASE_URL', WEB_IMG_BASE_URL );
