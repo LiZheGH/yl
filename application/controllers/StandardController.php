@@ -31,36 +31,45 @@ class StandardController extends WebBaseController {
 		$this->smarty->assign ( 'curUser', $this->curUser );
 		$this->__checkAdminUserLogin();
 	}
-    //科室管理
+    //质量指标字典
 	public function indexAction() {
 	    $this->smarty->display(VIEW_DIR . "standard/dictionaries.html");
 	}
-	//科室管理 列表
+	//质量指标字典 列表
     public function ajaxDictionaryListAction(){
-        $this->__displayOutput($this->dictionary->getParentList());
+        $list = $this->dictionary->getParentList();
+        $childList = $this->dictionary->getChildCountNumList();
+        foreach ($list as $key => $value){
+            $list[$key]['child_num'] = isset($childList[$value['p_id']])?$childList[$value['p_id']]:0;
+        }
+        $this->__displayOutput($list);
     }
-    //科室管理 添加提交
-    public function ajaxSectionAddAction(){
-        $name = $this->__getParam('name');
-        $status = intval($this->__getParam('status'));
-        $res = $this->section->add(array('name'=>$name,'status'=>$status));
+    //质量指标字典 添加提交
+    public function ajaxDictionaryAddAction(){
+        $data = array(
+            'cdate'     => date('Y-m-d H:i:s'),
+            'p_id'      => 0,
+            'type_name' => $this->__getParam('type_name')
+        );
+        if (empty($data['type_name']))
+            $this->__ajaxReturn(false,'请填写名称');
+        $res = $this->dictionary->add($data);
         if ($res)
             $this->__ajaxReturn(true,'成功');
         else
             $this->__ajaxReturn(false,'失败');
     }
-    //科室管理 修改提交
-    public function ajaxSectionUpdateAction(){
+    //质量指标字典 修改提交
+    public function ajaxDictionaryUpdateAction(){
         $id = intval($this->__getParam('id'));
-        $name = $this->__getParam('name');
-        $status = intval($this->__getParam('status'));
-        $res = $this->section->update(array('id' => $id,'name'=>$name,'status'=>$status));
+        $type_name = $this->__getParam('type_name');
+        $res = $this->dictionary->update(array('id' => $id,'type_name'=>$type_name));
         if ($res)
             $this->__ajaxReturn(true,'成功');
         else
             $this->__ajaxReturn(false,'失败');
     }
-    //科室管理 删除
+    //质量指标字典 删除
     public function ajaxSectionDeleteAction(){
         $id = intval($this->__getParam('id'));
         $res = $this->section->delete($id);

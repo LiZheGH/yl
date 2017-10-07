@@ -14,7 +14,7 @@ if(isset($_SERVER['HTTP_HOST'])) {
 	define ('WEIXIN_APP_ID', 'wx1c395d9d143e9ad2');
 }
 define ( 'DB_SERVERNAME', '127.0.0.1' );
-define ( 'DB_USERNAME', 'default' );
+define ( 'DB_USERNAME', 'root' );
 define ( 'DB_DBNAME', 'yl' );
 
 define ( 'SYSTEM_PATH', dirname ( __FILE__ ) );

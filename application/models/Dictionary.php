@@ -57,6 +57,13 @@ class Dictionary extends BaseModel{
 	public function getParentList(){
 	   return $this->db->getAll("SELECT * FROM ".$this->table." WHERE `p_id`='0'");
 	}
-
+    public function getChildCountNumList() {
+        $data = $this->db->getAll("SELECT COUNT(`id`) as num,`p_id` FROM ".$this->table." WHERE `p_id` != 0 GROUP BY `p_id`");
+        $list = array();
+        foreach ($data as $info){
+            $list[$info['p_id']] = $info['num'];
+        }
+        return $list;
+    }
 
 }

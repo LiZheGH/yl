@@ -10,14 +10,14 @@
         </div>
         <div class="portlet-body">
         	<div id="toolbar1" style="margin-bottom:0px;">
-				<button class="btn btn-primary btn-sm" onClick="showModal();">&nbsp;&nbsp;新增&nbsp;&nbsp;</button>
+				<button class="btn btn-primary btn-sm" onClick="showModal();">添加质量科目类型</button>
 		   	</div>
-		   <table id="tableId" data-url="/Standard/ajaxDictionaryList" data-sort-name="id" data-sort-order="desc" data-toggle="table"
+		   <table id="tableId" data-url="/Standard/ajaxDictionaryList" data-sort-name="id" data-sort-order="asc" data-toggle="table"
 		   		data-click-to-select="true"  data-pagination="true"  data-show-refresh="true" data-show-columns="true" data-search="true" data-toolbar="#toolbar1">
 				<thead>
 					<tr>
 						<th data-checkbox="true"></th>
-						<th data-field="id">ID</th>
+						<th data-field="id" data-formatter="indexFormatter" >索引ID</th>
 						<th data-field="type_name">质量科目类型名称</th>
 						<th data-field="child_num">子类数量</th>
 						<th data-field="operate" data-formatter="operateFormatter" data-events="operateEvents">操作</th>
@@ -44,16 +44,9 @@
 				<form role="form" id="oneForm" class="form-horizontal">
 					<input id="id" type="hidden" />
 					<div class="form-group">
-						<label class="col-sm-2 control-label">科室名称</label>
+						<label class="col-sm-2 control-label">质量科目类型名称</label>
 						<div class="col-sm-9">
-	                    	<input type="text"  class="form-control" id="name" placeholder="科室名称">
-	                    </div>
-					</div>
-            		<div class="form-group">
-						<label class="col-sm-2 control-label">是否有效</label>
-						<div class="col-sm-9" style="    margin-top: 7px;">
-							<label><input type="radio" name="status" value="0" checked/><font color="red">无效</font></label>
-	                    	<label style="margin-left:20px;"><input type="radio" name="status" value="1" /><font color="green">有效</font></label>
+	                    	<input type="text"  class="form-control" id="type_name" placeholder="质量科目类型名称">
 	                    </div>
 					</div>
                	</form>
@@ -74,12 +67,18 @@ function showStatus(value,row,index){
 		return '<font color="red">无效</font>';
 	}
 }
+function indexFormatter(value, row, index) {
+	return index+1;
+}
 function operateFormatter(value, row, index) {
     return [
         '<a class="edit ml10" href="javascript:void(0)" title="Edit">',
+            '<i class="glyphicon glyphicon-pencil">修改</i>',
+        '</a> ',
+        '<a class="list ml10" href="javascript:void(0)" title="List">',
             '<i class="glyphicon glyphicon-eye-open">查看子类</i>',
         '</a> ',
-        '<a class="add ml10" href="javascript:void(0)" title="Edit">',
+        '<a class="add ml10" href="javascript:void(0)" title="AddChild">',
             '<i class="glyphicon glyphicon-plus">添加子类</i>',
         '</a> ',
         '<a class="remove ml10" href="javascript:void(0)" title="Remove">',
@@ -135,11 +134,10 @@ function showModal() {
 
 function addOne() {
 	var str = '';
-    	str += '&name=' + $("#name").val();
-    	str += '&status=' + $("input[name='status']:checked").val();
+    	str += '&type_name=' + $("#type_name").val();
 	str = str.substr(1);
 	$.ajax({
-        url:'/base/ajaxSectionAdd',
+        url:'/Standard/ajaxDictionaryAdd/',
         type:'post',
 		dataType : 'json',
 		data : encodeURI(str),
@@ -165,17 +163,15 @@ function opUpdate(row){
 	$('#modalSubmit').attr('onclick', 'updateOne()');
 	$('#oneForm')[0].reset();
 	$('#id').val(row.id);
-	$("#name").val(row.name);
-	$("input[value='"+row.status+"']").prop("checked",true);
+	$("#type_name").val(row.type_name);
     $('#myModal').modal('show').find(".modal-dialog").addClass("modal-lg");
 }
 function updateOne() {
 	var id = $('#id').val();
 	var str = '';
-	str += '&name=' + $("#name").val();
-	str += '&status=' + $("input[name='status']:checked").val();
+	str += '&type_name=' + $("#type_name").val();
 	$.ajax({
-        url:'/base/ajaxSectionUpdate',
+        url:'/Standard/ajaxDictionaryUpdate',
         type:'post',
 		dataType : 'json',
 		data : encodeURI('id=' + id + str),
