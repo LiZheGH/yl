@@ -100,7 +100,8 @@ class SystemController extends WebBaseController {
 	 * ajax 登录
 	 */
 	public function ajaxLoginAction() {
-	    var_dump($_POST);exit;
+	    var_dump($_POST);
+	    var_dump($_SESSION['captcha']);exit;
 		$result = array ();
 		$username = $this->__getParam ( 'username' );
 		$password = $this->__getParam ( 'password' );
