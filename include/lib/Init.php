@@ -11,8 +11,8 @@ if(isset($_SERVER['HTTP_HOST'])) {
     if ($_SERVER['HTTP_HOST'] == 'yl.codeboxs.com'){
         //正式环境
         define ( 'DOMAIN', 'yl.codeboxs.com' );
-        define ( 'DB_USERNAME', 'api' );
-        define ( 'DB_PASSWORD', 'api3306' );
+        define ( 'DB_USERNAME', 'default' );
+        define ( 'DB_PASSWORD', '123abc!@#' );
         define ( 'DB_DBNAME', 'yl' );
     } else {
         //正式环境
