@@ -100,6 +100,7 @@ class SystemController extends WebBaseController {
 	 * ajax 登录
 	 */
 	public function ajaxLoginAction() {
+	    $_SESSION = array('aaa'=>111);
 	    var_dump($_POST);
 	    var_dump($_SESSION);exit;
 		$result = array ();
