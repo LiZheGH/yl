@@ -932,6 +932,7 @@ class SystemController extends WebBaseController {
 
 		session_start();
 		$_SESSION['captcha'] = $string;
+		var_dump($_SESSION);exit();
 		//写入随机字串
 		for($i=0;$i<4;$i++){
 			//获取随机较深颜色
