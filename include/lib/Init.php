@@ -1,4 +1,5 @@
 <?php
+var_dump($_SERVER['HTTP_HOST']);exit;
 define ( 'ENV_LOCAL', 1 ); // 内网环境
 define ( 'ENV_DEVEL', 2 ); // 测试环境（初步判断条件为Windows,NT开头的域名访问）
 define ( 'ENV_OUTER', 4 ); // 外网生产环境，正常访问环境
@@ -8,6 +9,7 @@ ini_set ( 'date.timezone', 'Asia/Shanghai' );
 
 
 if(isset($_SERVER['HTTP_HOST'])) {
+    if ($_SERVER['HTTP_HOST'] == 'http://yl.codeboxs.com/')
 	//正式环境
 	define ( 'DOMAIN', 'www.yl.com' );
 	define ( 'DB_PASSWORD', '123abc!@#' );
