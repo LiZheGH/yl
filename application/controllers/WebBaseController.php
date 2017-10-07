@@ -105,8 +105,6 @@ class WebBaseController {
 	public function __construct($params = array()) {
 	    $this->__loadModels();
 		$this->log_file = DATA_DIR . 'adminlog.' . date ( "Y-m-d" ) . '.log';
-		$this->access_token_file = PUBLIC_DIR."token/access_token.php";
-		$this->jsapi_ticket_file = PUBLIC_DIR."token/jsapi_ticket.php";
 		$this->timestamp = time();
 		$this->smarty = LibSmarty::getInstance();
 		$this->smarty->assign('WEB_BASE_URL', WEB_BASE_URL);
@@ -127,27 +125,6 @@ class WebBaseController {
 		}
 	}
 
-	/**
-	 * 授权登录
-	 * @param string $openid
-	 */
-    protected function __checkOauth($isAjax=false,$openid=false,$from='index'){
-        if($openid == false) {
-            if(!isset($_SESSION['openid']) || empty($_SESSION['openid'])) {
-                if ($isAjax){
-                    $result = $this->fail;
-    		        $result['msg'] = '用户身份未识别';
-                    $this->__displayOutput($result);
-                } else {
-                    //跳授权页面
-                    header('Location:https://open.weixin.qq.com/connect/oauth2/authorize?appid='.$this->app_id.'&redirect_uri='.urlencode('http://'.DOMAIN.'/we/oauth').'&response_type=code&scope=snsapi_userinfo&state='.$from.'#wechat_redirect');
-                    exit;
-                }
-            }
-            $openid = $_SESSION['openid'];
-        }
-        return $openid;
-    }
 	/**
 	 * init user information
 	 *
@@ -207,23 +184,6 @@ class WebBaseController {
 		$str = str_replace("%20"," ",$str);
 		return $str;
 	}
-	protected function __initYcAccountInfo(){
-	    if(isset( $_SESSION['yc_account'] ) && $_SESSION['yc_account'])
-	        $this->curUser = $_SESSION['yc_account'];
-	    else
-	        $this->curUser = null;
-	}
-	protected function __checkYCLogin(){
-	    // 判断是否登录
-	    $user_id = isset($_SESSION['yc_account']['id'])?intval($_SESSION['yc_account']['id']):0;
-	    if(empty($user_id)) {
-	        $this->smarty->assign('web_app_id',$this->web_app_id);
-	        $this->smarty->assign('redirect_uri',urlencode(WEB_BASE_URL.'yc/Oauth'));
-	        $this->smarty->display( YC_VIEW_DIR . 'ycLogin.html' );
-	        exit();
-	    }
-	}
-
 	protected function __checkAdminUserLogin() {
 	    // 判断是否登录
 	    $user_id = isset($_SESSION['system_account']['id'])?intval($_SESSION['system_account']['id']):0;
