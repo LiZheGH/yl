@@ -53,9 +53,8 @@ class Dictionary extends BaseModel{
 		}
 		return self::$instance;
 	}
-
-	public function getParentList(){
-	   return $this->db->getAll("SELECT * FROM ".$this->table." WHERE `p_id`='0'");
+	public function getListByPid($p_id=0){
+	    return $this->db->getAll("SELECT * FROM ".$this->table." WHERE `p_id`='{$p_id}'");
 	}
     public function getChildCountNumList() {
         $data = $this->db->getAll("SELECT COUNT(`id`) as num,`p_id` FROM ".$this->table." WHERE `p_id` != 0 GROUP BY `p_id`");
