@@ -100,10 +100,6 @@ class SystemController extends WebBaseController {
 	 * ajax 登录
 	 */
 	public function ajaxLoginAction() {
-	    $_SESSION['aaa'] = 111;
-	    var_dump($_POST);
-	    echo var_dump(is_writeable(ini_get(“session.save_path”)));
-	    var_dump($_SESSION);exit;
 		$result = array ();
 		$username = $this->__getParam ( 'username' );
 		$password = $this->__getParam ( 'password' );
