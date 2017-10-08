@@ -172,11 +172,10 @@
 		<div class="modal-content">
 			<div class="modal-header"  style="text-align:center;">
 				<button type="button" class="close" data-dismiss="modal">×</button>
-				<h3>设置公式&应用科室</h3>
+				<h3 id="setModalTitle">设置公式&应用科室</h3>
 			</div>
 			<div class="modal-body">
 				<form role="form" id="oneSetForm" class="form-horizontal">
-					<input id="id" type="hidden" />
 					<div class="form-group">
 						<label class="col-sm-2 control-label">公式内容</label>
 						<div class="col-sm-9">
@@ -213,6 +212,43 @@
 				<a class="btn btn-default" data-dismiss="modal">取消</a>
 				<a class="btn btn-primary" id="modalSubmit" onclick="addSetOne();">提交</a>
 			</div>
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="moreModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-sm">
+		<div class="modal-content">
+			<div class="modal-header"  style="text-align:center;">
+				<button type="button" class="close" data-dismiss="modal">×</button>
+				<h3 id="moreModalTitle">多标准</h3>
+			</div>
+			<form role="form" id="moreForm" class="form-horizontal" method="POST">
+				<div class="modal-body">
+					<div class="form-group">
+						<label class="col-sm-1 control-label"></label>
+						<div class="col-sm-9">
+							<p style="color:red;font-size:20px" id="default_value"></p>
+	                    </div>
+					</div>
+					<div class="form-group">
+						<div class="col-sm-9 controls" style="line-height: 40px;">
+							{foreach from=$sectionList item=section key=section_id}
+							<label class="checkbox" style="float:left;margin-left:15%;width:35%;">
+								<input type="checkbox" class="form-control section" name="section[{$section_id}]" style="float:left;" value="{$section_id}">
+								<span style="float:left;">{$section}</span>
+								<input type="number" name="standard[{$section_id}]" class="form-control" style="width:120px;float:right;">
+								<span style="float:right;margin-right:10px;">标准：</span>
+							</label>
+                    		{/foreach}
+	                    </div>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<input type="hidden" id="more_id" name="d_id"/>
+					<a class="btn btn-default" data-dismiss="modal">取消</a>
+					<button class="btn btn-primary" id="moreSubmit">提交</button>
+				</div>
+        	</form>
 		</div>
 	</div>
 </div>
@@ -392,6 +428,7 @@ function opChildUpdate(row){
 	$('#ChildModal').modal('show').find(".modal-dialog").addClass("modal-lg");
 }
 function opChildSet(row){
+	$("#setModalTitle").html("设置公式&应用科室<br /><font color='red'>"+row.type_name+"</font>");
 	$('#oneSetForm')[0].reset();
 	$("#set_id").val(row.id);
 	$("#formula").val(row.formula);
@@ -401,9 +438,6 @@ function opChildSet(row){
 	}
 	$('#section').multiSelect('refresh');
 	$('#setModal').modal('show').find(".modal-dialog").addClass("modal-lg");
-}
-function opChildMore(row){
-
 }
 function addSetOne(){
 	$.post(
@@ -420,6 +454,19 @@ function addSetOne(){
 			} else {
 				alert(data['msg']);
 			}
+		},"json"
+	);
+}
+function opChildMore(row){
+	$("#moreModalTitle").html("设置多标准值<br /><font color='red'>"+row.type_name+"</font>");
+	$("#default_value").html("通用标准值："+row.range+row.standard);
+	$.post(
+		'/Standard/ajaxDictionaryGetMore',
+		{
+			'id':row.id
+		},function(data){
+			$("#more_id").val(row.id);
+			$('#moreModal').modal('show').find(".modal-dialog").addClass("modal-lg");
 		},"json"
 	);
 }
@@ -503,7 +550,6 @@ $(function(){
         		alert(data['msg']);
         		$('#ChildModal').modal('hide');
         		refreshChild($("#edit_id").val());
-        		$('#childForm')[0].reset();
 			} else {
 				alert(data['msg']);
 			}
@@ -513,9 +559,31 @@ $(function(){
                 dataType:  'json',//数据类型
                 beforeSubmit: validateForm,
                 success : showResponse,
-                resetForm : false,//数据返回后，是否清除表单内容
+                resetForm : true,//数据返回后，是否清除表单内容
         };
         $("#childForm").ajaxForm(options);
+	});
+	//添加修改子类提交
+	$("#moreSubmit").click(function(){
+        var validateForm = function(){
+        }
+        var showResponse = function(data){
+        	if(data['success']) {
+        		alert(data['msg']);
+        		$('#moreModal').modal('hide');
+        		refreshChild($("#edit_id").val());
+			} else {
+				alert(data['msg']);
+			}
+        };
+        var options= {
+                url : "/Standard/ajaxDictionaryMoreAddUpdate",
+                dataType:  'json',//数据类型
+                beforeSubmit: validateForm,
+                success : showResponse,
+                resetForm : true,//数据返回后，是否清除表单内容
+        };
+        $("#moreForm").ajaxForm(options);
 	});
 });
 </script>

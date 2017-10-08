@@ -59,8 +59,6 @@ class BaseModel {
 	{
 
 	}
-
-
 	public function add($data) {
 	    if($this->db->add($this->table, $data)) {
 	    	return $this->db->getLastId();
@@ -68,21 +66,17 @@ class BaseModel {
 	    	return false;
 	    }
 	}
-
 	public function getById($id) {
 		if(!CommonFuncs::checkId($id))
 			return;
 		return $this->db->fetOne($this->table, '*', 'id=' . $id);
 	}
-
 	public function getAll() {
 	    return $this->db->getAll("SELECT * FROM $this->table WHERE 1=1");
 	}
-
 	public function getPageData($page, $rows, $order_by=' order by id desc ') {
 		return $this->db->fetAll($this->table, '*', $order_by . ' ' . "LIMIT " . ($page-1)*$rows . ", " . $rows, '1=1');
 	}
-
 	public function getCount() {
 		$data = $this->db->fetRowCount($this->table, 'id', '1=1');
 		if($data)
@@ -90,28 +84,17 @@ class BaseModel {
 		else
 			return 0;
 	}
-
 	public function update($data) {
 		return $this->db->update($this->table, $data, 'id=' . $data['id']);
 	}
-
-
 	public function delete($id) {
 	    return $this->db->delete($this->table, 'id=' . $id);
 	}
-
 	public function getTableColumns(){
 	    $data = $this->db->getFields($this->table);
 	    foreach($data as $val){
 	        $column[] = $val['Field'];
 	    }
 	    return $column;
-	}
-
-	public function getListByOpenId($openid) {
-		return $this->db->fetAll($this->table, '*', 'id desc', "openid='" . $openid . "'");
-	}
-	public function getShowListByOpenId($openid) {
-	    return $this->db->fetAll($this->table, '*', 'id desc', "openid='" . $openid . "' AND `is_del` = 0 ");
 	}
 }

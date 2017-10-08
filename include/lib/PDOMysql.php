@@ -403,7 +403,7 @@ class PDOMysql {
 			$k++;
 		}
 		$sql .= ";";
-// 		echo $sql . "\r\n\r\n";
+		echo $sql . "\r\n\r\n";
 		return self::execute($sql);
 	}
 /**

@@ -18,6 +18,11 @@ class StandardController extends WebBaseController {
 	 * @var Dictionary
 	 */
 	protected $dictionary;
+	/**
+	 *
+	 * @var Standard
+	 */
+	protected $standard;
 
 	/**
 	 * Construct
@@ -128,6 +133,31 @@ class StandardController extends WebBaseController {
         if (!empty($data['formula_section']))
             $data['formula_num'] = count($_POST['section']);
         $res = $this->dictionary->update($data);
+        if ($res)
+            $this->__ajaxReturn(true,'成功');
+        else
+            $this->__ajaxReturn(false,'失败');
+    }
+    //多标准值
+    public function ajaxDictionaryGetMoreAction(){
+        $id = intval($this->__getParam('id'));
+        $list = $this->standard->getListByDid($id);
+        $this->__displayOutput($list);
+    }
+    //多标准添加&修改
+    public function ajaxDictionaryMoreAddUpdateAction(){
+        $d_id = intval($this->__getParam('d_id'));
+        $section = $_POST['section'];
+        $data = array();
+        foreach ($section as $val){
+            $data[] = array(
+                'd_id'      => $d_id,
+                'section'   => $val,
+                'standard'  => intval($_POST['standard'])
+            );
+        }
+        $this->standard->deleteByDid($d_id);
+        $res = $this->standard->batchAdd();
         if ($res)
             $this->__ajaxReturn(true,'成功');
         else

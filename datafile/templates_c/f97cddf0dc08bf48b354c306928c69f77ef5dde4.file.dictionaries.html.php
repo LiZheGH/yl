@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2017-10-08 22:49:51
+<?php /* Smarty version Smarty-3.1.13, created on 2017-10-09 01:04:22
          compiled from "/private/var/www/yl/application/views/admin/standard/dictionaries.html" */ ?>
 <?php /*%%SmartyHeaderCode:106657305059d49e014e1d86-66322281%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'f97cddf0dc08bf48b354c306928c69f77ef5dde4' => 
     array (
       0 => '/private/var/www/yl/application/views/admin/standard/dictionaries.html',
-      1 => 1507474124,
+      1 => 1507481920,
       2 => 'file',
     ),
   ),
@@ -202,11 +202,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 		<div class="modal-content">
 			<div class="modal-header"  style="text-align:center;">
 				<button type="button" class="close" data-dismiss="modal">×</button>
-				<h3>设置公式&应用科室</h3>
+				<h3 id="setModalTitle">设置公式&应用科室</h3>
 			</div>
 			<div class="modal-body">
 				<form role="form" id="oneSetForm" class="form-horizontal">
-					<input id="id" type="hidden" />
 					<div class="form-group">
 						<label class="col-sm-2 control-label">公式内容</label>
 						<div class="col-sm-9">
@@ -251,6 +250,53 @@ $_smarty_tpl->tpl_vars['section']->_loop = true;
 				<a class="btn btn-default" data-dismiss="modal">取消</a>
 				<a class="btn btn-primary" id="modalSubmit" onclick="addSetOne();">提交</a>
 			</div>
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="moreModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-sm">
+		<div class="modal-content">
+			<div class="modal-header"  style="text-align:center;">
+				<button type="button" class="close" data-dismiss="modal">×</button>
+				<h3 id="moreModalTitle">多标准</h3>
+			</div>
+			<form role="form" id="moreForm" class="form-horizontal" method="POST">
+				<div class="modal-body">
+					<div class="form-group">
+						<label class="col-sm-1 control-label"></label>
+						<div class="col-sm-9">
+							<p style="color:red;font-size:20px" id="default_value"></p>
+	                    </div>
+					</div>
+					<div class="form-group">
+						<div class="col-sm-9 controls" style="line-height: 40px;">
+							<?php  $_smarty_tpl->tpl_vars['section'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['section']->_loop = false;
+ $_smarty_tpl->tpl_vars['section_id'] = new Smarty_Variable;
+ $_from = $_smarty_tpl->tpl_vars['sectionList']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
+foreach ($_from as $_smarty_tpl->tpl_vars['section']->key => $_smarty_tpl->tpl_vars['section']->value){
+$_smarty_tpl->tpl_vars['section']->_loop = true;
+ $_smarty_tpl->tpl_vars['section_id']->value = $_smarty_tpl->tpl_vars['section']->key;
+?>
+							<label class="checkbox" style="float:left;margin-left:15%;width:35%;">
+								<input type="checkbox" class="form-control section" name="section[<?php echo $_smarty_tpl->tpl_vars['section_id']->value;?>
+]" style="float:left;" value="<?php echo $_smarty_tpl->tpl_vars['section_id']->value;?>
+">
+								<span style="float:left;"><?php echo $_smarty_tpl->tpl_vars['section']->value;?>
+</span>
+								<input type="number" name="standard[<?php echo $_smarty_tpl->tpl_vars['section_id']->value;?>
+]" class="form-control" style="width:120px;float:right;">
+								<span style="float:right;margin-right:10px;">标准：</span>
+							</label>
+                    		<?php } ?>
+	                    </div>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<input type="hidden" id="more_id" name="d_id"/>
+					<a class="btn btn-default" data-dismiss="modal">取消</a>
+					<button class="btn btn-primary" id="moreSubmit">提交</button>
+				</div>
+        	</form>
 		</div>
 	</div>
 </div>
@@ -430,6 +476,7 @@ function opChildUpdate(row){
 	$('#ChildModal').modal('show').find(".modal-dialog").addClass("modal-lg");
 }
 function opChildSet(row){
+	$("#setModalTitle").html("设置公式&应用科室<br /><font color='red'>"+row.type_name+"</font>");
 	$('#oneSetForm')[0].reset();
 	$("#set_id").val(row.id);
 	$("#formula").val(row.formula);
@@ -439,9 +486,6 @@ function opChildSet(row){
 	}
 	$('#section').multiSelect('refresh');
 	$('#setModal').modal('show').find(".modal-dialog").addClass("modal-lg");
-}
-function opChildMore(row){
-
 }
 function addSetOne(){
 	$.post(
@@ -458,6 +502,19 @@ function addSetOne(){
 			} else {
 				alert(data['msg']);
 			}
+		},"json"
+	);
+}
+function opChildMore(row){
+	$("#moreModalTitle").html("设置多标准值<br /><font color='red'>"+row.type_name+"</font>");
+	$("#default_value").html("通用标准值："+row.range+row.standard);
+	$.post(
+		'/Standard/ajaxDictionaryGetMore',
+		{
+			'id':row.id
+		},function(data){
+			$("#more_id").val(row.id);
+			$('#moreModal').modal('show').find(".modal-dialog").addClass("modal-lg");
 		},"json"
 	);
 }
@@ -541,7 +598,6 @@ $(function(){
         		alert(data['msg']);
         		$('#ChildModal').modal('hide');
         		refreshChild($("#edit_id").val());
-        		$('#childForm')[0].reset();
 			} else {
 				alert(data['msg']);
 			}
@@ -551,9 +607,31 @@ $(function(){
                 dataType:  'json',//数据类型
                 beforeSubmit: validateForm,
                 success : showResponse,
-                resetForm : false,//数据返回后，是否清除表单内容
+                resetForm : true,//数据返回后，是否清除表单内容
         };
         $("#childForm").ajaxForm(options);
+	});
+	//添加修改子类提交
+	$("#moreSubmit").click(function(){
+        var validateForm = function(){
+        }
+        var showResponse = function(data){
+        	if(data['success']) {
+        		alert(data['msg']);
+        		$('#moreModal').modal('hide');
+        		refreshChild($("#edit_id").val());
+			} else {
+				alert(data['msg']);
+			}
+        };
+        var options= {
+                url : "/Standard/ajaxDictionaryMoreAddUpdate",
+                dataType:  'json',//数据类型
+                beforeSubmit: validateForm,
+                success : showResponse,
+                resetForm : true,//数据返回后，是否清除表单内容
+        };
+        $("#moreForm").ajaxForm(options);
 	});
 });
 </script>
