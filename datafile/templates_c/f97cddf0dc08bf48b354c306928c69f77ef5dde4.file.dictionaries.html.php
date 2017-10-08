@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2017-10-08 20:46:16
+<?php /* Smarty version Smarty-3.1.13, created on 2017-10-08 22:49:51
          compiled from "/private/var/www/yl/application/views/admin/standard/dictionaries.html" */ ?>
 <?php /*%%SmartyHeaderCode:106657305059d49e014e1d86-66322281%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'f97cddf0dc08bf48b354c306928c69f77ef5dde4' => 
     array (
       0 => '/private/var/www/yl/application/views/admin/standard/dictionaries.html',
-      1 => 1507466712,
+      1 => 1507474124,
       2 => 'file',
     ),
   ),
@@ -257,6 +257,7 @@ $_smarty_tpl->tpl_vars['section']->_loop = true;
 
 <script src="/public/js/jquery.multi-select.js"></script>
 <script type="text/javascript">
+$('#section').multiSelect();
 function showStatus(value,row,index){
 	if(row.status == 1){
 		return '<font color="green">否</font>';
@@ -436,7 +437,7 @@ function opChildSet(row){
 	for(var i in vals){
 		$("#section").find("option[value='"+vals[i]+"']").prop("selected",true);
 	}
-	$('#section').multiSelect();
+	$('#section').multiSelect('refresh');
 	$('#setModal').modal('show').find(".modal-dialog").addClass("modal-lg");
 }
 function opChildMore(row){

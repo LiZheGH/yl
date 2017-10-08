@@ -219,6 +219,7 @@
 {literal}
 <script src="/public/js/jquery.multi-select.js"></script>
 <script type="text/javascript">
+$('#section').multiSelect();
 function showStatus(value,row,index){
 	if(row.status == 1){
 		return '<font color="green">否</font>';
@@ -398,7 +399,7 @@ function opChildSet(row){
 	for(var i in vals){
 		$("#section").find("option[value='"+vals[i]+"']").prop("selected",true);
 	}
-	$('#section').multiSelect();
+	$('#section').multiSelect('refresh');
 	$('#setModal').modal('show').find(".modal-dialog").addClass("modal-lg");
 }
 function opChildMore(row){
