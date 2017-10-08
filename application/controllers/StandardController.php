@@ -55,6 +55,7 @@ class StandardController extends WebBaseController {
         $data = array(
             'cdate'     => date('Y-m-d H:i:s'),
             'p_id'      => 0,
+            'status'    => 1,
             'type_name' => $this->__getParam('type_name')
         );
         if (empty($data['type_name']))
@@ -147,17 +148,58 @@ class StandardController extends WebBaseController {
     //多标准添加&修改
     public function ajaxDictionaryMoreAddUpdateAction(){
         $d_id = intval($this->__getParam('d_id'));
-        $section = $_POST['section'];
+        $section = isset($_POST['section']) ? $_POST['section']:array();
         $data = array();
-        foreach ($section as $val){
-            $data[] = array(
-                'd_id'      => $d_id,
-                'section'   => $val,
-                'standard'  => intval($_POST['standard'])
+        if (!empty($section)){
+            foreach ($section as $val){
+                $data[] = array(
+                    'd_id'      => $d_id,
+                    'section'   => $val,
+                    'standard'  => intval($_POST['standard'][$val])
+                );
+            }
+            $dictionaryData = array(
+                'id'            => $d_id,
+                'cdate'         => date('Y-m-d H:i:s'),
+                'is_multi_index'=> '是'
+            );
+        } else {
+            $dictionaryData = array(
+                'id'            => $d_id,
+                'cdate'         => date('Y-m-d H:i:s'),
+                'is_multi_index'=> '否'
             );
         }
+        $this->dictionary->update($dictionaryData);
         $this->standard->deleteByDid($d_id);
-        $res = $this->standard->batchAdd($data);
+        $res = true;
+        if (!empty($data))
+            $res = $this->standard->batchAdd($data);
+        if ($res)
+            $this->__ajaxReturn(true,'成功');
+        else
+            $this->__ajaxReturn(false,'失败');
+    }
+    //设置重点监测科目&作废
+    public function ajaxUpdateChildAction(){
+        $ids = $this->__getParam('ids');
+        $status = intval($this->__getParam('status'));
+        $data = array('cdate'=>date('Y-m-d H:i:s'));
+        if ($status == 1)
+            $data['monitor_focus'] = '是';
+        elseif($status == 2)
+            $data['monitor_focus'] = '否';
+        elseif($status == 3)
+            $data['status'] = 0;
+        elseif($status == 4)
+            $data['status'] = 1;
+        elseif($status == 5){
+            $data['is_formula'] = '否';
+            $data['formula'] = NULL;
+            $data['formula_num'] = 0;
+            $data['formula_section'] = NULL;
+        }
+        $res = $this->dictionary->updateByIds($ids,$data);
         if ($res)
             $this->__ajaxReturn(true,'成功');
         else

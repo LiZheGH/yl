@@ -53,6 +53,9 @@ class Dictionary extends BaseModel{
 		}
 		return self::$instance;
 	}
+	public function updateByIds($ids,$data){
+        return $this->db->update($this->table,$data,"`id` IN ( ".$ids." )");
+	}
 	public function getListByPid($p_id=0){
 	    return $this->db->getAll("SELECT * FROM ".$this->table." WHERE `p_id`='{$p_id}'");
 	}

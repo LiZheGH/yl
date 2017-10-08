@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2017-10-05 23:39:48
+<?php /* Smarty version Smarty-3.1.13, created on 2017-10-09 02:49:06
          compiled from "/private/var/www/yl/application/views/admin/common/left_menu.html" */ ?>
 <?php /*%%SmartyHeaderCode:186008652059d49e312ae7e4-62552054%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '77144e57079b7612dbab46c3cd128013e24039ed' => 
     array (
       0 => '/private/var/www/yl/application/views/admin/common/left_menu.html',
-      1 => 1507217980,
+      1 => 1507488541,
       2 => 'file',
     ),
   ),
@@ -86,19 +86,19 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 		  	  	<span class="arrow"></span>
 		    </a>
 			<ul class="sub-menu">
-				<li><a href="/standard/dictionaries">各科质量数据上报</a></li>
-				<li><a href="/standard/dictionaries">历史上报查看</a></li>
-				<li><a href="/standard/dictionaries">导入数据</a></li>
-				<li><a href="/standard/dictionaries">修改数据</a></li>
-				<li><a href="/standard/dictionaries">按月份汇总数据</a></li>
-				<li><a href="/standard/dictionaries">按科室汇总数据</a></li>
-				<li><a href="/standard/dictionaries">导出数据</a></li>
-				<li><a href="/standard/dictionaries">质量科目报表</a></li>
-				<li><a href="/standard/dictionaries">选择上报指标</a></li>
-				<li><a href="/standard/dictionaries">选择上报部门</a></li>
-				<li><a href="/standard/dictionaries">重点检查颜色设置</a></li>
-				<li><a href="/standard/dictionaries">选择无关科室</a></li>
-				<li><a href="/standard/dictionaries">导出科室字典</a></li>
+				<li><a href="#">各科质量数据上报</a></li>
+				<li><a href="#">历史上报查看</a></li>
+				<li><a href="#">导入数据</a></li>
+				<li><a href="#">修改数据</a></li>
+				<li><a href="#">按月份汇总数据</a></li>
+				<li><a href="#">按科室汇总数据</a></li>
+				<li><a href="#">导出数据</a></li>
+				<li><a href="#">质量科目报表</a></li>
+				<li><a href="#">选择上报指标</a></li>
+				<li><a href="#">选择上报部门</a></li>
+				<li><a href="#">重点检查颜色设置</a></li>
+				<li><a href="#">选择无关科室</a></li>
+				<li><a href="#">导出科室字典</a></li>
 				<li><a href="/standard/dictionaries">检测指标字典</a></li>
 			</ul>
 		</li>

@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2017-10-09 01:04:22
+<?php /* Smarty version Smarty-3.1.13, created on 2017-10-09 02:45:15
          compiled from "/private/var/www/yl/application/views/admin/standard/dictionaries.html" */ ?>
 <?php /*%%SmartyHeaderCode:106657305059d49e014e1d86-66322281%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'f97cddf0dc08bf48b354c306928c69f77ef5dde4' => 
     array (
       0 => '/private/var/www/yl/application/views/admin/standard/dictionaries.html',
-      1 => 1507481920,
+      1 => 1507488313,
       2 => 'file',
     ),
   ),
@@ -99,6 +99,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 			<div class="modal-body" style="padding:15px 20px;">
 				<div id="toolbar2" style="margin-bottom:0px;">
 					<button class="btn btn-primary btn-sm" onClick="showChildModal();">添加子类</button>
+					<button class="btn btn-primary btn-sm" onClick="updateChild(3);">作废</button>
+					<button class="btn btn-primary btn-sm" onClick="updateChild(4);">激活</button>
+					<button class="btn btn-primary btn-sm" onClick="updateChild(1);">设置重点监测科目</button>
+					<button class="btn btn-primary btn-sm" onClick="updateChild(2);">取消重点监测科目</button>
+					<button class="btn btn-primary btn-sm" onClick="updateChild(5);">取消公式</button>
 			   	</div>
 				<table id="tableList" data-sort-name="id" data-sort-order="asc" data-toggle="table"
 			   		data-click-to-select="true"  data-pagination="true"  data-show-refresh="true" data-show-columns="true" data-search="true" data-toolbar="#toolbar2">
@@ -480,9 +485,11 @@ function opChildSet(row){
 	$('#oneSetForm')[0].reset();
 	$("#set_id").val(row.id);
 	$("#formula").val(row.formula);
-	var vals = row['formula_section'].split(",");
-	for(var i in vals){
-		$("#section").find("option[value='"+vals[i]+"']").prop("selected",true);
+	if(row['formula_section']){
+		var vals = row['formula_section'].split(",");
+		for(var i in vals){
+			$("#section").find("option[value='"+vals[i]+"']").prop("selected",true);
+		}
 	}
 	$('#section').multiSelect('refresh');
 	$('#setModal').modal('show').find(".modal-dialog").addClass("modal-lg");
@@ -498,6 +505,7 @@ function addSetOne(){
 			if(data['success']) {
         		alert(data['msg']);
         		$('#setModal').modal('hide');
+        		 $("#oneSetForm")[0].reset();
         		refreshChild($("#edit_id").val());
 			} else {
 				alert(data['msg']);
@@ -513,6 +521,10 @@ function opChildMore(row){
 		{
 			'id':row.id
 		},function(data){
+			for(var i in data){
+				$("input[name='section["+i+"]']").prop("checked",true);
+				$("input[name='standard["+i+"]']").val(data[i]);
+			}
 			$("#more_id").val(row.id);
 			$('#moreModal').modal('show').find(".modal-dialog").addClass("modal-lg");
 		},"json"
@@ -535,41 +547,68 @@ function operateChildFormatter(value, row, index) {
     ].join('');
 }
 window.operateChildEvents = {
-	    'click .edit': function (e, value, row, index) {
-	        opChildUpdate(row);
-	    },
-	    'click .set': function (e, value, row, index) {
-	    	opChildSet(row);
-	    },
-	    'click .more': function (e, value, row, index) {
-	    	opChildMore(row);
-	    },
-	    'click .remove': function (e, value, row, index) {
-			Modal.confirm({
-				msg: "<div style='text-align: center;'>是否删除记录？</div>",
-				title: "删除记录"
-			}).on( function (e) {
-				if(e) {
-					$.ajax({
-		    	        url:'/Standard/ajaxDictionaryDelete',
-		    	        type:'post',
-		    			dataType : 'json',
-		    			data : encodeURI('id=' + row.id),
-		    			async: false,
-		    			success:function(data){
-		    	        	if(data['success']) {
-		    	        		alert(data['msg']);
-		    	        		refreshChild($("#edit_id").val());
-		    				} else {
-		    					alert(data['msg']);
-		    				}
-		    	        },
-		    	        error:function(){}
-		    	     });
-		    	}
-		  });
-	    }
-	};
+    'click .edit': function (e, value, row, index) {
+        opChildUpdate(row);
+    },
+    'click .set': function (e, value, row, index) {
+    	opChildSet(row);
+    },
+    'click .more': function (e, value, row, index) {
+    	opChildMore(row);
+    },
+    'click .remove': function (e, value, row, index) {
+		Modal.confirm({
+			msg: "<div style='text-align: center;'>是否删除记录？</div>",
+			title: "删除记录"
+		}).on( function (e) {
+			if(e) {
+				$.ajax({
+	    	        url:'/Standard/ajaxDictionaryDelete',
+	    	        type:'post',
+	    			dataType : 'json',
+	    			data : encodeURI('id=' + row.id),
+	    			async: false,
+	    			success:function(data){
+	    	        	if(data['success']) {
+	    	        		alert(data['msg']);
+	    	        		refreshChild($("#edit_id").val());
+	    				} else {
+	    					alert(data['msg']);
+	    				}
+	    	        },
+	    	        error:function(){}
+	    	     });
+	    	}
+	  });
+    }
+};
+function updateChild(status){
+	var TableData = $('#tableList').bootstrapTable('getSelections');
+	var ids = '';
+	for(var i in TableData){
+		if(ids)
+			ids += ","+TableData[i].id;
+		else
+			ids = TableData[i].id;
+	}
+	if(!ids || ids == ''){
+		alert("请至少选择一条记录");
+		return false;
+	} else {
+		$.post(
+			'/Standard/ajaxUpdateChild',
+			{
+				'ids':ids,
+				'status':status,
+				'p_id':$("#edit_id").val()
+			},
+			function(data){
+				alert(data.msg);
+				refreshChild($("#edit_id").val());
+			},"json"
+		);
+	}
+}
 $(function(){
 	//添加修改子类提交
 	$("#ChildSubmit").click(function(){
