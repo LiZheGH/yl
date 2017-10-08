@@ -41,7 +41,7 @@ class StandardController extends WebBaseController {
         $list = $this->dictionary->getListByPid();
         $childList = $this->dictionary->getChildCountNumList();
         foreach ($list as $key => $value){
-            $list[$key]['child_num'] = isset($childList[$value['p_id']])?$childList[$value['p_id']]:0;
+            $list[$key]['child_num'] = isset($childList[$value['id']])?$childList[$value['id']]:0;
         }
         $this->__displayOutput($list);
     }
