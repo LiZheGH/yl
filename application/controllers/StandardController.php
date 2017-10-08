@@ -118,7 +118,7 @@ class StandardController extends WebBaseController {
         $data = array(
             'id'              => $this->__getParam('id'),
             'cdate'           => date('Y-m-d H:i:s'),
-            'formula'         => $_POST['formula'],
+            'formula'         => isset($_POST['formula'])?$_POST['formula']:'',
             'formula_section' => empty($_POST['section']) ? '':implode(',', $_POST['section'])
         );
         if (empty($data['formula']))

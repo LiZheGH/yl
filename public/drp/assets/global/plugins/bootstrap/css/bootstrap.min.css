@@ -2935,6 +2935,9 @@ tbody.collapse.in {
 	line-height:1.33;
 	border-radius:6px
 }
+select,input[type='text'],input[type='number'],textarea{
+	width:100%;
+}
 select.input-group-lg>.form-control,select.input-group-lg>.input-group-addon,select.input-group-lg>.input-group-btn>.btn {
 	height:46px;
 	line-height:46px
