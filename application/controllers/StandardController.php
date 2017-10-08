@@ -157,7 +157,7 @@ class StandardController extends WebBaseController {
             );
         }
         $this->standard->deleteByDid($d_id);
-        $res = $this->standard->batchAdd();
+        $res = $this->standard->batchAdd($data);
         if ($res)
             $this->__ajaxReturn(true,'成功');
         else

@@ -72,7 +72,7 @@ class Standard extends BaseModel{
 	        $tempArr[ceil($i/$num)][] = $data;
 	    }
 	    foreach ($tempArr as $listData){
-	        $res = $this->db->batchAdd($this->$table, $listData);
+	        $res = $this->db->batchAdd($this->table, $listData);
 	        if (!$res)
 	            return false;
 	    }
