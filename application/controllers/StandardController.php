@@ -205,6 +205,10 @@ class StandardController extends WebBaseController {
         else
             $this->__ajaxReturn(false,'失败');
     }
+    //导出科室字典提交
+    public function ajaxExportDictionarySubmitAction(){
+
+    }
 	protected function log($title, $log_data = '') {
 		$f = fopen ( $this->log_file, 'a+' );
 		fwrite ( $f, date ( 'Y-m-d H:i:s', time () ) . '_' . microtime () . ' ' . $title . ':' . $log_data . "\r\n\r\n" );

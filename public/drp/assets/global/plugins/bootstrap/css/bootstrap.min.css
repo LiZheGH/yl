@@ -2139,6 +2139,7 @@ _:-ms-fullscreen.input-lg,:root input[type=date].input-lg,_:-ms-fullscreen.input
 	cursor:pointer
 }
 .radio input[type=radio],.radio-inline input[type=radio],.checkbox input[type=checkbox],.checkbox-inline input[type=checkbox] {
+	border:0;
 	position:absolute;
 	margin-top:4px \9;
 	margin-left:-20px

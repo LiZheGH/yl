@@ -1,0 +1,179 @@
+{include file="{$VIEW_DIR}common/header.html"}
+<body class="page-header-fixed page-quick-sidebar-over-content">
+	<div class="page-container">
+	{include file="{$VIEW_DIR}common/left_menu.html"}
+	<div class="page-content-wrapper"><div class="page-content">
+	<div class="modal fade" id="portlet-config" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"></div>
+      <div class="portlet box blue-madison">
+        <div class="portlet-title">
+          <div class="caption"> <i class="fa fa-globe"></i>导出科室字典</div>
+        </div>
+        <div class="portlet-body">
+			<form role="form" id="form" class="form-horizontal" method="POST">
+				<div class="modal-body">
+					<div class="form-group">
+						<label class="col-sm-1 control-label"></label>
+						<div class="col-sm-9">
+							<p style="color:red;font-size:20px" id="default_value"></p>
+	                    </div>
+					</div>
+					<div class="form-group">
+						<div class="col-sm-9 controls" style="line-height: 40px;">
+							{foreach from=$sectionList item=section key=section_id}
+							<label class="checkbox" style="float:left;margin-left:5%;width:20%;">
+								<input type="checkbox" class="form-control section" name="section[{$section_id}]" style="float:left;" value="{$section_id}">
+								<span style="float:left;">{$section}</span>
+								<input type="number" name="standard[{$section_id}]" class="form-control" style="width:100px;float:right;">
+							</label>
+                    		{/foreach}
+	                    </div>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<input type="hidden" id="more_id" name="d_id"/>
+					<a class="btn btn-default" data-dismiss="modal">取消</a>
+					<button class="btn btn-primary" id="submit">提交</button>
+				</div>
+        	</form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{literal}
+<style>
+.form-horizontal .form-group {
+    margin:0;
+}
+</style>
+<script type="text/javascript">
+function showStatus(value,row,index){
+	if(row.status == 1){
+		return '<font color="green">有效</font>';
+	}else{
+		return '<font color="red">无效</font>';
+	}
+}
+function operateFormatter(value, row, index) {
+    return [
+        '<a class="edit ml10" href="javascript:void(0)" title="Edit">',
+            '<i class="glyphicon glyphicon-pencil"></i>',
+        '</a> ',
+        '<a class="remove ml10" href="javascript:void(0)" title="Remove">',
+            '<i class="glyphicon glyphicon-trash"></i>',
+        '</a>'
+    ].join('');
+}
+window.operateEvents = {
+    'click .edit': function (e, value, row, index) {
+        opUpdate(row);
+    },
+    'click .remove': function (e, value, row, index) {
+		Modal.confirm({
+			msg: "<div style='text-align: center;'>是否删除记录？</div>",
+			title: "删除记录"
+		}).on( function (e) {
+			if(e) {
+				$.ajax({
+	    	        url:'/base/ajaxSectionDelete',
+	    	        type:'post',
+	    			dataType : 'json',
+	    			data : encodeURI('id=' + row.id),
+	    			async: false,
+	    			success:function(data){
+	    	        	if(data['success']) {
+	    	        		$('#myModal').modal('hide');
+	    	        		alert(data['msg']);
+	    	        		refresh()
+	    	        		$('#oneForm')[0].reset();
+	    				} else {
+	    					alert(data['msg']);
+	    				}
+	    	        },
+	    	        error:function(){}
+	    	     });
+	    	}
+	  });
+    }
+};
+
+function refresh(){
+	$('#tableId').bootstrapTable('refresh', {
+        url: '/base/ajaxSectionList'
+    });
+}
+
+function showModal() {
+	$('#modalTitle').html('新增');
+	$('#modalSubmit').attr('onclick', 'addOne()');
+	$('#oneForm')[0].reset();
+	$('#myModal').modal('show').find(".modal-dialog").addClass("modal-lg");
+}
+
+function addOne() {
+	var str = '';
+    	str += '&name=' + $("#name").val();
+    	str += '&status=' + $("input[name='status']:checked").val();
+	str = str.substr(1);
+	$.ajax({
+        url:'/base/ajaxSectionAdd',
+        type:'post',
+		dataType : 'json',
+		data : encodeURI(str),
+        success:function(data){
+        	if(data['success']) {
+        		alert(data['msg']);
+        		$('#myModal').modal('hide');
+        		refresh();
+        		$('#oneForm')[0].reset();
+			} else {
+				alert(data['msg']);
+			}
+        },
+        error:function(){
+
+        }
+
+     });
+}
+
+function opUpdate(row){
+    $('#modalTitle').html('修改');
+	$('#modalSubmit').attr('onclick', 'updateOne()');
+	$('#oneForm')[0].reset();
+	$('#id').val(row.id);
+	$("#name").val(row.name);
+	$("input[value='"+row.status+"']").prop("checked",true);
+    $('#myModal').modal('show').find(".modal-dialog").addClass("modal-lg");
+}
+function updateOne() {
+	var id = $('#id').val();
+	var str = '';
+	str += '&name=' + $("#name").val();
+	str += '&status=' + $("input[name='status']:checked").val();
+	$.ajax({
+        url:'/base/ajaxSectionUpdate',
+        type:'post',
+		dataType : 'json',
+		data : encodeURI('id=' + id + str),
+		async: false,
+		success:function(data){
+        	if(data['success']) {
+        		alert(data['msg']);
+        		$('#myModal').modal('hide');
+        		refresh();
+        		$('#oneForm')[0].reset();
+			} else {
+				alert(data['msg']);
+			}
+        },
+        error:function(){
+
+        }
+	});
+}
+</script>
+{/literal}
+{include file="{$VIEW_DIR}common/footer.html"}
+</body>
+</html>
