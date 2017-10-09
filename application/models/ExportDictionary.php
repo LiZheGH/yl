@@ -5,14 +5,14 @@ require_once MODEL_DIR . 'BaseModel.php';
 
 /**
  * llx
- * AbnormalFall
+ * Dictionary
  */
-class Standard extends BaseModel{
+class ExportDictionary extends BaseModel{
 
 	/**
 	 * @var unknown
 	 */
-	protected $table = "yl_standard";
+	protected $table = "yl_export_dictionary";
 
 	/**
 	 * Get instance
@@ -53,15 +53,15 @@ class Standard extends BaseModel{
 		}
 		return self::$instance;
 	}
-	public function getListByDid($d_id){
-	    $list = $this->db->getAll("SELECT * FROM ".$this->table." WHERE `d_id` = '{$d_id}'");
+	public function getList(){
+	    $list = $this->db->getAll("SELECT * FROM ".$this->table." WHERE 1=1");
 	    $data = array();
 	    foreach ($list as $info){
 	        $data[$info['section']] = $info['standard'];
 	    }
 	    return $data;
 	}
-	public function deleteByDid($d_id) {
-	    return $this->db->delete($this->table, '`d_id`=' . $d_id);
+	public function deleteAll() {
+	    return $this->db->delete($this->table, '1=1');
 	}
 }

@@ -97,4 +97,18 @@ class BaseModel {
 	    }
 	    return $column;
 	}
+	public function batchAdd($dataList,$num='30') {
+	    $i = 0;
+	    $tempArr = array();
+	    foreach ($dataList as $data){
+	        $i++ ;
+	        $tempArr[ceil($i/$num)][] = $data;
+	    }
+	    foreach ($tempArr as $listData){
+	        $res = $this->db->batchAdd($this->table, $listData);
+	        if (!$res)
+	            return false;
+	    }
+	    return true;
+	}
 }

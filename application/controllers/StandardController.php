@@ -23,6 +23,11 @@ class StandardController extends WebBaseController {
 	 * @var Standard
 	 */
 	protected $standard;
+	/**
+	 *
+	 * @var ExportDictionary
+	 */
+	protected $exportDictionary;
 
 	/**
 	 * Construct
@@ -205,9 +210,29 @@ class StandardController extends WebBaseController {
         else
             $this->__ajaxReturn(false,'失败');
     }
+    //导出科室字典列表
+    public function ajaxGetExportDictionaryAction(){
+        $this->__displayOutput($this->exportDictionary->getList());
+    }
     //导出科室字典提交
     public function ajaxExportDictionarySubmitAction(){
-
+        $section = isset($_POST['section']) ? $_POST['section']:array();
+        $data = array();
+        if (!empty($section)){
+            foreach ($section as $val){
+                $data[] = array(
+                    'section'   => $val,
+                    'standard'  => intval($_POST['standard'][$val])
+                );
+            }
+        }
+        $this->exportDictionary->deleteAll();
+        if (!empty($data))
+            $res = $this->exportDictionary->batchAdd($data);
+        if ($res)
+            $this->__ajaxReturn(true,'成功');
+        else
+            $this->__ajaxReturn(false,'失败');
     }
 	protected function log($title, $log_data = '') {
 		$f = fopen ( $this->log_file, 'a+' );
