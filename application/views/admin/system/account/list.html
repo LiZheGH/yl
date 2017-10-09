@@ -12,7 +12,7 @@ $(function() {
 		onUploadSuccess: function(file,data,response){
 			$('#avatar').attr('src',data);
 		}
-	}); 
+	});
 });
 </script>
 <body class="page-header-fixed page-quick-sidebar-over-content" style="overflow:hidden;">
@@ -23,9 +23,9 @@ $(function() {
       <div class="portlet box blue-madison">
         <div class="portlet-title">
           <div class="caption"> <i class="fa fa-globe"></i>账号管理 </div>
-          
+
         </div>
-        
+
         <div class="portlet-body">
         <div id="toolbar1" style="margin-bottom:0px;">
 					<button class="btn btn-primary btn-sm" onClick="showModal();">&nbsp;&nbsp;新增&nbsp;&nbsp;
@@ -60,7 +60,7 @@ $(function() {
 				</div>
 				<div class="modal-body">
 					<form role="form" id="accountForm">
-					<input id="account_id" type="hidden" /> 
+					<input id="account_id" type="hidden" />
                     <div class="form-group">
                         <label for="username">用户名</label>
                         <input type="text" class="form-control" id="username" placeholder="Username">
@@ -101,7 +101,7 @@ $(function() {
 						</div>
 					</div>
                 </form>
-                <br/>		
+                <br/>
 				</div>
 				<div class="modal-footer">
 					<a href="#" class="btn btn-default" data-dismiss="modal">取消</a>
@@ -143,11 +143,11 @@ window.operateEvents = {
 				    			async: false,
 				    			success:function(data){
 				    	        	if(data['result_code'] == 0) {
-				    	        		sysAlert("删除成功!", "success");
+				    	        		Calert("删除成功!");
 				    	        		refresh();
 				    	        		$('#accountForm')[0].reset();
 				    				} else {
-				    					sysAlert(data['info'],'error');
+				    					Calert(data['info']);
 				    					return false;
 				    				}
 				    	        },
@@ -198,7 +198,7 @@ function opUpdate(row) {
         	}
 		},
 		error:function(){
-	   	 	
+
 	    }
 	});
 	$('#myModal').modal('show');
@@ -225,11 +225,11 @@ function addOne() {
 		data : encodeURI('username=' + username +  '&password=' + password + '&role_ids=' + role_ids + '&email=' + email + '&status=' + status + '&avatar=' + avatar),
         success:function(data){
         	if(data['result_code'] == 0) {
-        		sysAlert("添加成功!", "success");
+        		Calert("添加成功!");
         		refresh();
         		$('#accountForm')[0].reset();
 			} else {
-				sysAlert(data['info'],'error');
+				Calert(data['info']);
 				return false;
 			}
         },
@@ -262,11 +262,11 @@ function updateOne() {
 		data : encodeURI('id=' + id + '&username=' + username +  '&password=' + password + '&role_ids=' + role_ids + '&email=' + email + '&status=' + status + '&avatar=' + avatar),
         success:function(data){
         	if(data['result_code'] == 0) {
-        		sysAlert("修改成功!", "success");
+        		Calert("修改成功!");
         		refresh();
         		$('#accountForm')[0].reset();
 			} else {
-				sysAlert(data['info'],'error');
+				Calert(data['info']);
 				return false;
 			}
         },
@@ -293,14 +293,14 @@ function updateOne() {
 			return '锁定';
 		}
 	}
-	
+
 	function showModal() {
 		$('#modalTitle').html('新增');
 		$('#accountForm')[0].reset();
 		$('#myModal').modal('show');
 	}
-	
-	
+
+
 </script>
 {/literal}
 {include file="{$VIEW_DIR}common/footer.html"}

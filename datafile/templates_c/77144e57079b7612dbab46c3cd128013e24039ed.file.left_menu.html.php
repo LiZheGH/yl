@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2017-10-09 11:14:27
+<?php /* Smarty version Smarty-3.1.13, created on 2017-10-09 17:24:31
          compiled from "/private/var/www/yl/application/views/admin/common/left_menu.html" */ ?>
 <?php /*%%SmartyHeaderCode:186008652059d49e312ae7e4-62552054%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '77144e57079b7612dbab46c3cd128013e24039ed' => 
     array (
       0 => '/private/var/www/yl/application/views/admin/common/left_menu.html',
-      1 => 1507518852,
+      1 => 1507541018,
       2 => 'file',
     ),
   ),
@@ -94,10 +94,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 				<li><a href="#">按科室汇总数据</a></li>
 				<li><a href="#">导出数据</a></li>
 				<li><a href="#">质量科目报表</a></li>
-				<li><a href="#">选择上报指标</a></li>
-				<li><a href="#">选择上报部门</a></li>
-				<li><a href="#">重点检查颜色设置</a></li>
-				<li><a href="#">选择无关科室</a></li>
+				<li><a href="/standard/report_indicators">选择上报指标</a></li>
+				<li><a href="/standard/report_department">选择上报部门</a></li>
+				<!-- <li><a href="#">重点检查颜色设置</a></li> -->
+				<li><a href="/standard/irrelevant">选择无关科室</a></li>
 				<li><a href="/standard/export_dictionary">导出科室字典</a></li>
 				<li><a href="/standard/dictionaries">检测指标字典</a></li>
 			</ul>

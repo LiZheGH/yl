@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2017-10-07 21:36:17
+<?php /* Smarty version Smarty-3.1.13, created on 2017-10-10 02:51:24
          compiled from "/private/var/www/yl/application/views/admin/system/account/list.html" */ ?>
 <?php /*%%SmartyHeaderCode:58503236959d8d8510e6626-72003089%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '048017ad47eba615435adad688873417646ddbf1' => 
     array (
       0 => '/private/var/www/yl/application/views/admin/system/account/list.html',
-      1 => 1506342841,
+      1 => 1507574990,
       2 => 'file',
     ),
   ),
@@ -15,6 +15,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.13',
+  'unifunc' => 'content_59d8d85111c713_48979634',
   'variables' => 
   array (
     'VIEW_DIR' => 0,
@@ -22,8 +24,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'role' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.13',
-  'unifunc' => 'content_59d8d85111c713_48979634',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_59d8d85111c713_48979634')) {function content_59d8d85111c713_48979634($_smarty_tpl) {?><?php echo $_smarty_tpl->getSubTemplate (((string)$_smarty_tpl->tpl_vars['VIEW_DIR']->value)."common/header.html", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
 
@@ -40,7 +40,7 @@ $(function() {
 		onUploadSuccess: function(file,data,response){
 			$('#avatar').attr('src',data);
 		}
-	}); 
+	});
 });
 </script>
 <body class="page-header-fixed page-quick-sidebar-over-content" style="overflow:hidden;">
@@ -52,9 +52,9 @@ $(function() {
       <div class="portlet box blue-madison">
         <div class="portlet-title">
           <div class="caption"> <i class="fa fa-globe"></i>账号管理 </div>
-          
+
         </div>
-        
+
         <div class="portlet-body">
         <div id="toolbar1" style="margin-bottom:0px;">
 					<button class="btn btn-primary btn-sm" onClick="showModal();">&nbsp;&nbsp;新增&nbsp;&nbsp;
@@ -89,7 +89,7 @@ $(function() {
 				</div>
 				<div class="modal-body">
 					<form role="form" id="accountForm">
-					<input id="account_id" type="hidden" /> 
+					<input id="account_id" type="hidden" />
                     <div class="form-group">
                         <label for="username">用户名</label>
                         <input type="text" class="form-control" id="username" placeholder="Username">
@@ -137,7 +137,7 @@ $_smarty_tpl->tpl_vars['role']->_loop = true;
 						</div>
 					</div>
                 </form>
-                <br/>		
+                <br/>
 				</div>
 				<div class="modal-footer">
 					<a href="#" class="btn btn-default" data-dismiss="modal">取消</a>
@@ -179,11 +179,11 @@ window.operateEvents = {
 				    			async: false,
 				    			success:function(data){
 				    	        	if(data['result_code'] == 0) {
-				    	        		sysAlert("删除成功!", "success");
+				    	        		Calert("删除成功!");
 				    	        		refresh();
 				    	        		$('#accountForm')[0].reset();
 				    				} else {
-				    					sysAlert(data['info'],'error');
+				    					Calert(data['info']);
 				    					return false;
 				    				}
 				    	        },
@@ -234,7 +234,7 @@ function opUpdate(row) {
         	}
 		},
 		error:function(){
-	   	 	
+
 	    }
 	});
 	$('#myModal').modal('show');
@@ -261,11 +261,11 @@ function addOne() {
 		data : encodeURI('username=' + username +  '&password=' + password + '&role_ids=' + role_ids + '&email=' + email + '&status=' + status + '&avatar=' + avatar),
         success:function(data){
         	if(data['result_code'] == 0) {
-        		sysAlert("添加成功!", "success");
+        		Calert("添加成功!");
         		refresh();
         		$('#accountForm')[0].reset();
 			} else {
-				sysAlert(data['info'],'error');
+				Calert(data['info']);
 				return false;
 			}
         },
@@ -298,11 +298,11 @@ function updateOne() {
 		data : encodeURI('id=' + id + '&username=' + username +  '&password=' + password + '&role_ids=' + role_ids + '&email=' + email + '&status=' + status + '&avatar=' + avatar),
         success:function(data){
         	if(data['result_code'] == 0) {
-        		sysAlert("修改成功!", "success");
+        		Calert("修改成功!");
         		refresh();
         		$('#accountForm')[0].reset();
 			} else {
-				sysAlert(data['info'],'error');
+				Calert(data['info']);
 				return false;
 			}
         },
@@ -329,14 +329,14 @@ function updateOne() {
 			return '锁定';
 		}
 	}
-	
+
 	function showModal() {
 		$('#modalTitle').html('新增');
 		$('#accountForm')[0].reset();
 		$('#myModal').modal('show');
 	}
-	
-	
+
+
 </script>
 
 <?php echo $_smarty_tpl->getSubTemplate (((string)$_smarty_tpl->tpl_vars['VIEW_DIR']->value)."common/footer.html", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>

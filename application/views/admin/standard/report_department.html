@@ -6,7 +6,7 @@
 	<div class="modal fade" id="portlet-config" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"></div>
       <div class="portlet box blue-madison">
         <div class="portlet-title">
-          <div class="caption"> <i class="fa fa-globe"></i>导出科室字典</div>
+          <div class="caption"> <i class="fa fa-globe"></i>选择上报部门</div>
         </div>
         <div class="portlet-body">
 			<form role="form" id="form" class="form-horizontal" method="POST">
@@ -32,11 +32,6 @@
 								<input type="number" name="standard[{$section_id}]" class="form-control" style="width:80px;float:right;">
 							</label>
                     		{/foreach}
-                    		<label class="checkbox" style="float:left;width:15%;">
-								<input type="checkbox" class="form-control section" name="section[0]" style="float:left;" value="0">
-								<span style="float:left;">全院</span>
-								<input type="number" name="standard[0]" class="form-control" style="width:80px;float:right;">
-							</label>
 	                    </div>
 					</div>
 				</div>
@@ -70,7 +65,7 @@ $(function(){
 	});
 	//列表
 	$.post(
-		"/Standard/ajaxGetExportDictionary",
+		"/Standard/ajaxGetReportDepartment",
 		{},function(data){
 			for(var i in data){
 				$("input[name='section["+i+"]']").prop("checked",true);
@@ -86,11 +81,10 @@ $(function(){
 	    var validateForm = function(){
 	    }
 	    var showResponse = function(data){
-	   		Calert(data['msg']);
-	   		window.location.reload();
+	    	Calert(data['msg']);
 	    };
 	    var options= {
-	            url : "/Standard/ajaxExportDictionarySubmit",
+	            url : "/Standard/ajaxSubmitReportDepartment",
 	            dataType:  'json',//数据类型
 	            beforeSubmit: validateForm,
 	            success : showResponse,

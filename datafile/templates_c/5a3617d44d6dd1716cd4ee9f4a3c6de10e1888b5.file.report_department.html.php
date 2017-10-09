@@ -1,22 +1,22 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2017-10-10 03:00:19
-         compiled from "/private/var/www/yl/application/views/admin/standard/export_dictionary.html" */ ?>
-<?php /*%%SmartyHeaderCode:173108803359dae99dd78c56-39076272%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /* Smarty version Smarty-3.1.13, created on 2017-10-10 03:00:37
+         compiled from "/private/var/www/yl/application/views/admin/standard/report_department.html" */ ?>
+<?php /*%%SmartyHeaderCode:29708829959db33dc695952-40609852%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
-    '827f7ddb91f943011b90a0f87b6795ec8687036b' => 
+    '5a3617d44d6dd1716cd4ee9f4a3c6de10e1888b5' => 
     array (
-      0 => '/private/var/www/yl/application/views/admin/standard/export_dictionary.html',
-      1 => 1507575615,
+      0 => '/private/var/www/yl/application/views/admin/standard/report_department.html',
+      1 => 1507575634,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '173108803359dae99dd78c56-39076272',
+  'nocache_hash' => '29708829959db33dc695952-40609852',
   'function' => 
   array (
   ),
   'version' => 'Smarty-3.1.13',
-  'unifunc' => 'content_59dae99dd96d85_33254616',
+  'unifunc' => 'content_59db33dc6b0266_13335912',
   'variables' => 
   array (
     'VIEW_DIR' => 0,
@@ -26,7 +26,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_59dae99dd96d85_33254616')) {function content_59dae99dd96d85_33254616($_smarty_tpl) {?><?php echo $_smarty_tpl->getSubTemplate (((string)$_smarty_tpl->tpl_vars['VIEW_DIR']->value)."common/header.html", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
+<?php if ($_valid && !is_callable('content_59db33dc6b0266_13335912')) {function content_59db33dc6b0266_13335912($_smarty_tpl) {?><?php echo $_smarty_tpl->getSubTemplate (((string)$_smarty_tpl->tpl_vars['VIEW_DIR']->value)."common/header.html", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
 
 <body class="page-header-fixed page-quick-sidebar-over-content">
 	<div class="page-container">
@@ -36,7 +36,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 	<div class="modal fade" id="portlet-config" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"></div>
       <div class="portlet box blue-madison">
         <div class="portlet-title">
-          <div class="caption"> <i class="fa fa-globe"></i>导出科室字典</div>
+          <div class="caption"> <i class="fa fa-globe"></i>选择上报部门</div>
         </div>
         <div class="portlet-body">
 			<form role="form" id="form" class="form-horizontal" method="POST">
@@ -72,11 +72,6 @@ $_smarty_tpl->tpl_vars['section']->_loop = true;
 ]" class="form-control" style="width:80px;float:right;">
 							</label>
                     		<?php } ?>
-                    		<label class="checkbox" style="float:left;width:15%;">
-								<input type="checkbox" class="form-control section" name="section[0]" style="float:left;" value="0">
-								<span style="float:left;">全院</span>
-								<input type="number" name="standard[0]" class="form-control" style="width:80px;float:right;">
-							</label>
 	                    </div>
 					</div>
 				</div>
@@ -110,7 +105,7 @@ $(function(){
 	});
 	//列表
 	$.post(
-		"/Standard/ajaxGetExportDictionary",
+		"/Standard/ajaxGetReportDepartment",
 		{},function(data){
 			for(var i in data){
 				$("input[name='section["+i+"]']").prop("checked",true);
@@ -126,11 +121,10 @@ $(function(){
 	    var validateForm = function(){
 	    }
 	    var showResponse = function(data){
-	   		Calert(data['msg']);
-	   		window.location.reload();
+	    	Calert(data['msg']);
 	    };
 	    var options= {
-	            url : "/Standard/ajaxExportDictionarySubmit",
+	            url : "/Standard/ajaxSubmitReportDepartment",
 	            dataType:  'json',//数据类型
 	            beforeSubmit: validateForm,
 	            success : showResponse,
@@ -145,5 +139,4 @@ $(function(){
 <?php echo $_smarty_tpl->getSubTemplate (((string)$_smarty_tpl->tpl_vars['VIEW_DIR']->value)."common/footer.html", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
 
 </body>
-</html>
-<?php }} ?>
+</html><?php }} ?>

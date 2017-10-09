@@ -1,5 +1,5 @@
 {include file="{$VIEW_DIR}common/header.html"}
-<script type="text/javascript">	
+<script type="text/javascript">
 	function addOne() {
 		var power_name = $('#power_name').val();
 		var uri = $('#uri').val();
@@ -24,18 +24,18 @@
 	        		$('#tableId').bootstrapTable('refresh', {
 	                    url: '/system/ajaxPowerGetList'
 	                });
-	        		$('#oneForm')[0].reset(); 
+	        		$('#oneForm')[0].reset();
 				} else {
-					alert(data['info']);
+					Calert(data['info']);
 				}
 	        },
 	        error:function(){
-	       	 	
+
 	        }
 
 	     });
 	}
-	
+
 	function opUpdate(row){
         $('#modalTitle').html('修改权限');
 		$('#modalSubmit').attr('onclick', 'updateOne()');
@@ -45,9 +45,9 @@
 		$('#uri').val(row.uri);
 		$('#myModal').modal('show');
 	}
-	
-	
-	
+
+
+
 	function updateOne() {
 		var id = $('#id').val();
 		var power_name = $('#power_name').val();
@@ -73,20 +73,20 @@
 	        		$('#tableId').bootstrapTable('refresh', {
 	                    url: '/system/ajaxPowerGetList'
 	                });
-	        		$('#oneForm')[0].reset(); 
+	        		$('#oneForm')[0].reset();
 				} else {
 					alert(data['info']);
 				}
 	        },
 	        error:function(){
-	       	 	
+
 	        }
 
 	     });
 	}
-	
-	
-	
+
+
+
 	function showModal() {
 		$('#modalTitle').html('新增权限');
 		$('#modalSubmit').attr('onclick', 'addOne()');
@@ -102,7 +102,7 @@
       <div class="portlet box blue-madison">
         <div class="portlet-title">
           <div class="caption"> <i class="fa fa-globe"></i>账号管理 </div>
-          
+
         </div>
         <div class="portlet-body">
         	<div id="toolbar1" style="margin-bottom:0px;">
@@ -139,7 +139,7 @@
 				</div>
 				<div class="modal-body">
 					<form role="form" id="oneForm">
-					<input id="id" type="hidden" /> 
+					<input id="id" type="hidden" />
                     <div class="form-group">
                         <label for="power_name">权限名</label>
                         <input type="text" class="form-control" id="power_name" placeholder="权限名">
@@ -148,9 +148,9 @@
                         <label for="uri">访问URL</label>
                         <input type="text" class="form-control" id="uri" placeholder="访问URL">
                     </div>
-                    
+
                 </form>
-                		
+
 				</div>
 				<div class="modal-footer">
 					<a href="#" class="btn btn-default" data-dismiss="modal">取消</a>
@@ -199,13 +199,13 @@ window.operateEvents = {
 				    	        		$('#tableId').bootstrapTable('refresh', {
 				    	                    url: '/system/ajaxPowerGetList'
 				    	                });
-				    	        		$('#oneForm')[0].reset(); 
+				    	        		$('#oneForm')[0].reset();
 				    				} else {
 				    					alert(data['info']);
 				    				}
 				    	        },
 				    	        error:function(){
-				    	       	 	
+
 				    	        }
 
 				    	     });
@@ -213,7 +213,7 @@ window.operateEvents = {
 				  });
     }
 };
-</script>	
+</script>
 {include file="{$VIEW_DIR}common/footer.html"}
 </body>
 </html>

@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2017-10-09 15:00:47
+<?php /* Smarty version Smarty-3.1.13, created on 2017-10-10 03:10:05
          compiled from "/private/var/www/yl/application/views/admin/standard/dictionaries.html" */ ?>
 <?php /*%%SmartyHeaderCode:106657305059d49e014e1d86-66322281%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'f97cddf0dc08bf48b354c306928c69f77ef5dde4' => 
     array (
       0 => '/private/var/www/yl/application/views/admin/standard/dictionaries.html',
-      1 => 1507529480,
+      1 => 1507576197,
       2 => 'file',
     ),
   ),
@@ -20,9 +20,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'variables' => 
   array (
     'VIEW_DIR' => 0,
-    'sectionList' => 0,
+    'exportDictionaryList' => 0,
     'section_id' => 0,
-    'section' => 0,
+    'sectionList' => 0,
   ),
   'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
@@ -153,7 +153,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 						<label class="col-sm-2 control-label">正常值范围</label>
 						<div class="col-sm-9">
 							<select  class="form-control" id="range" name="range">
-                    			<option value="0">--请选择--</option>
+                    			<option value="">--请选择--</option>
                     			<option value="＞">＞（大于）</option>
                     			<option value="≥">≥（大于等于）</option>
                     			<option value="＝">＝（等于）</option>
@@ -172,7 +172,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 						<label class="col-sm-2 control-label">统计方式</label>
 						<div class="col-sm-9">
 	                    	<select  class="form-control" id="statistical_mode" name="statistical_mode">
-                    			<option value="0">--请选择--</option>
+                    			<option value="">--请选择--</option>
                     			<option value="平均值">平均值</option>
                     			<option value="求和">求和</option>
                     			<option value="计数">计数</option>
@@ -221,17 +221,20 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 						<label class="col-sm-2 control-label">公式应用科室</label>
 						<div class="col-sm-9">
 	                    	<select id='section' name="section" multiple='multiple'>
-							    <?php  $_smarty_tpl->tpl_vars['section'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['section']->_loop = false;
+							    <?php  $_smarty_tpl->tpl_vars['item'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['item']->_loop = false;
  $_smarty_tpl->tpl_vars['section_id'] = new Smarty_Variable;
- $_from = $_smarty_tpl->tpl_vars['sectionList']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
-foreach ($_from as $_smarty_tpl->tpl_vars['section']->key => $_smarty_tpl->tpl_vars['section']->value){
-$_smarty_tpl->tpl_vars['section']->_loop = true;
- $_smarty_tpl->tpl_vars['section_id']->value = $_smarty_tpl->tpl_vars['section']->key;
+ $_from = $_smarty_tpl->tpl_vars['exportDictionaryList']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
+foreach ($_from as $_smarty_tpl->tpl_vars['item']->key => $_smarty_tpl->tpl_vars['item']->value){
+$_smarty_tpl->tpl_vars['item']->_loop = true;
+ $_smarty_tpl->tpl_vars['section_id']->value = $_smarty_tpl->tpl_vars['item']->key;
 ?>
+							    <?php if ($_smarty_tpl->tpl_vars['section_id']->value!=0){?>
 	                    			<option value="<?php echo $_smarty_tpl->tpl_vars['section_id']->value;?>
-"><?php echo $_smarty_tpl->tpl_vars['section']->value;?>
+"><?php echo $_smarty_tpl->tpl_vars['sectionList']->value[$_smarty_tpl->tpl_vars['section_id']->value];?>
 </option>
+                    			<?php }?>
 	                    		<?php } ?>
+                    				<option value="0">全院</option>
 						    </select>
 	                    </div>
 					</div>
@@ -275,23 +278,25 @@ $_smarty_tpl->tpl_vars['section']->_loop = true;
 					</div>
 					<div class="form-group">
 						<div class="col-sm-9 controls" style="line-height: 40px;">
-							<?php  $_smarty_tpl->tpl_vars['section'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['section']->_loop = false;
+							<?php  $_smarty_tpl->tpl_vars['item'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['item']->_loop = false;
  $_smarty_tpl->tpl_vars['section_id'] = new Smarty_Variable;
- $_from = $_smarty_tpl->tpl_vars['sectionList']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
-foreach ($_from as $_smarty_tpl->tpl_vars['section']->key => $_smarty_tpl->tpl_vars['section']->value){
-$_smarty_tpl->tpl_vars['section']->_loop = true;
- $_smarty_tpl->tpl_vars['section_id']->value = $_smarty_tpl->tpl_vars['section']->key;
+ $_from = $_smarty_tpl->tpl_vars['exportDictionaryList']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
+foreach ($_from as $_smarty_tpl->tpl_vars['item']->key => $_smarty_tpl->tpl_vars['item']->value){
+$_smarty_tpl->tpl_vars['item']->_loop = true;
+ $_smarty_tpl->tpl_vars['section_id']->value = $_smarty_tpl->tpl_vars['item']->key;
 ?>
+							<?php if ($_smarty_tpl->tpl_vars['section_id']->value!=0){?>
 							<label class="checkbox" style="float:left;margin-left:15%;width:35%;">
 								<input type="checkbox" class="form-control section" name="section[<?php echo $_smarty_tpl->tpl_vars['section_id']->value;?>
 ]" style="float:left;" value="<?php echo $_smarty_tpl->tpl_vars['section_id']->value;?>
 ">
-								<span style="float:left;"><?php echo $_smarty_tpl->tpl_vars['section']->value;?>
+								<span style="float:left;"><?php echo $_smarty_tpl->tpl_vars['sectionList']->value[$_smarty_tpl->tpl_vars['section_id']->value];?>
 </span>
 								<input type="number" name="standard[<?php echo $_smarty_tpl->tpl_vars['section_id']->value;?>
 ]" class="form-control" style="width:120px;float:right;">
 								<span style="float:right;margin-right:10px;">标准：</span>
 							</label>
+							<?php }?>
                     		<?php } ?>
 	                    </div>
 					</div>
@@ -363,11 +368,11 @@ window.operateEvents = {
 	    			success:function(data){
 	    	        	if(data['success']) {
 	    	        		$('#myModal').modal('hide');
-	    	        		alert(data['msg']);
+	    	        		Calert(data['msg']);
 	    	        		refresh()
 	    	        		$('#oneForm')[0].reset();
 	    				} else {
-	    					alert(data['msg']);
+	    					Calert(data['msg']);
 	    				}
 	    	        },
 	    	        error:function(){}
@@ -399,12 +404,12 @@ function addOne() {
 		data : encodeURI(str),
         success:function(data){
         	if(data['success']) {
-        		alert(data['msg']);
+        		Calert(data['msg']);
         		$('#myModal').modal('hide');
         		refresh();
         		$('#oneForm')[0].reset();
 			} else {
-				alert(data['msg']);
+				Calert(data['msg']);
 			}
         },
         error:function(){
@@ -434,12 +439,12 @@ function updateOne() {
 		async: false,
 		success:function(data){
         	if(data['success']) {
-        		alert(data['msg']);
+        		Calert(data['msg']);
         		$('#myModal').modal('hide');
         		refresh();
         		$('#oneForm')[0].reset();
 			} else {
-				alert(data['msg']);
+				Calert(data['msg']);
 			}
         },
         error:function(){
@@ -503,12 +508,12 @@ function addSetOne(){
 			'section':$("#section").val()
 		},function(data){
 			if(data['success']) {
-        		alert(data['msg']);
+        		Calert(data['msg']);
         		$('#setModal').modal('hide');
         		$("#oneSetForm")[0].reset();
         		refreshChild($("#edit_id").val());
 			} else {
-				alert(data['msg']);
+				Calert(data['msg']);
 			}
 		},"json"
 	);
@@ -542,7 +547,7 @@ function operateChildFormatter(value, row, index) {
             '<i class="glyphicon glyphicon-trash">删除 </i>',
         '</a>',
         '<a class="more ml10" href="javascript:void(0)" title="AddChild">',
-            ' <i class="glyphicon glyphicon-th">多标准值</i>',
+            ' <i class="glyphicon glyphicon-edit">设置多标准</i>',
         '</a> '
     ].join('');
 }
@@ -570,10 +575,10 @@ window.operateChildEvents = {
 	    			async: false,
 	    			success:function(data){
 	    	        	if(data['success']) {
-	    	        		alert(data['msg']);
+	    	        		Calert(data['msg']);
 	    	        		refreshChild($("#edit_id").val());
 	    				} else {
-	    					alert(data['msg']);
+	    					Calert(data['msg']);
 	    				}
 	    	        },
 	    	        error:function(){}
@@ -592,7 +597,7 @@ function updateChild(status){
 			ids = TableData[i].id;
 	}
 	if(!ids || ids == ''){
-		alert("请至少选择一条记录");
+		Calert("请至少选择一条记录");
 		return false;
 	} else {
 		$.post(
@@ -603,7 +608,7 @@ function updateChild(status){
 				'p_id':$("#edit_id").val()
 			},
 			function(data){
-				alert(data.msg);
+				Calert(data.msg);
 				refreshChild($("#edit_id").val());
 			},"json"
 		);
@@ -618,27 +623,28 @@ $(function(){
         	for(var i=0;i< inputArr.length;i++){
         		var val = $("input[name='"+inputArr[i]+"']").val();
         		if(val == 0 || val == ''){
-        			alert(textArr[i]+' 为空!');
+        			Calert(textArr[i]+' 为空!');
         			return false;
         		}
         	}
-        	var selectArr = ['range','statistical_mode'];
-        	var textArr = ['正常值范围','统计方式'];
+        	var selectArr = ['statistical_mode'];
+        	var textArr = ['统计方式'];
         	for(var i=0;i< selectArr.length;i++){
         		var val = $("#"+selectArr[i]+"").val();
         		if(val == 0 || val == ''){
-        			alert(textArr[i]+' 为空!');
+        			Calert(textArr[i]+' 为空!');
         			return false;
         		}
         	}
         }
         var showResponse = function(data){
         	if(data['success']) {
-        		alert(data['msg']);
+        		Calert(data['msg']);
         		$('#ChildModal').modal('hide');
         		refreshChild($("#edit_id").val());
+        		refresh();
 			} else {
-				alert(data['msg']);
+				Calert(data['msg']);
 			}
         };
         var options= {
@@ -656,11 +662,11 @@ $(function(){
         }
         var showResponse = function(data){
         	if(data['success']) {
-        		alert(data['msg']);
+        		Calert(data['msg']);
         		$('#moreModal').modal('hide');
         		refreshChild($("#edit_id").val());
 			} else {
-				alert(data['msg']);
+				Calert(data['msg']);
 			}
         };
         var options= {

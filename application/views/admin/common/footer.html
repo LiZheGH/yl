@@ -2,6 +2,7 @@
   <div class="page-footer-inner"> &copy;copyright 2016 </div>
   <div class="scroll-to-top"> <i class="icon-arrow-up"></i> </div>
 </div>
+<div id="auto-close-dialogBox"></div>
     <!-- system modal start -->
     <div id="ycf-alert" class="modal" style="z-index:99999;">
       <div class="modal-dialog modal-sm">
@@ -25,20 +26,26 @@
   	{literal}
 	<button class="btn btn-primary noty" data-noty-options="" id="sysMsg" style="display:none;">
         <i class="glyphicon glyphicon-bell icon-white"></i>
-    </button>  
-      
+    </button>
+
     <script>
-    	
-    		/* 	text   文字; 		 
+
+    		/* 	text   文字;
     			type   类型;		[success 绿色,error 红色,alert 白色]
     			layout 位置;		[topLeft 左上,topCenter 中上,topRight 右上]
-    					   	   	[center 正中],[bottomLeft 左下,bottomRight 右下]    			
+    					   	   	[center 正中],[bottomLeft 左下,bottomRight 右下]
     		*/
     		function sysAlert(text,type){
             alert(text);
             return false;
     		};
-    	
+
     </script>
+    <style>
+    	#ycf-alert .modal-header{
+			color:#fff;
+    		background:#578ebe;
+    	}
+    </style>
     {/literal}
   <!-- system diy sysAlert end-->

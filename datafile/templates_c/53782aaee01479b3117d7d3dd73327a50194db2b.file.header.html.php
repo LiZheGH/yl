@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2017-10-05 23:44:15
+<?php /* Smarty version Smarty-3.1.13, created on 2017-10-10 02:48:20
          compiled from "/private/var/www/yl/application/views/admin/common/header.html" */ ?>
 <?php /*%%SmartyHeaderCode:195751315359d49db8736087-39869799%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '53782aaee01479b3117d7d3dd73327a50194db2b' => 
     array (
       0 => '/private/var/www/yl/application/views/admin/common/header.html',
-      1 => 1507218251,
+      1 => 1507574674,
       2 => 'file',
     ),
   ),
@@ -110,6 +110,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 <script type="text/javascript" src="/public/js/jquery.datetimepicker.full.js"></script>
 
 <script type="text/javascript" src="/public/js/jquery.form.js"></script>
+<link rel="stylesheet" href="/public/css/jquery.dialogbox.css">
+<script type="text/javascript" src="/public/js/jquery.dialogBox.js"></script>
 <script type="text/javascript">
 jQuery(document).ready(function() {
    Metronic.init(); // init metronic core componets
@@ -145,6 +147,17 @@ jQuery(document).ready(function() {
        //State = History.getState(),
        $log = $('#log');
 });
+//弹窗
+function Calert(content,title,time){
+	var title = arguments[1] || '<i class="fa fa-exclamation-circle" style="margin-right:5px;"></i><span>系统提示</span>';
+	var time = arguments[2] || 2500;
+	$('#auto-close-dialogBox').dialogBox({
+		autoHide: true,
+		time: time,
+		title: title,
+		content: content
+	});
+}
 $(function () {
 	//时间控件
 	$(".datetimepicker").datetimepicker({

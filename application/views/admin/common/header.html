@@ -85,6 +85,8 @@
 <script type="text/javascript" src="/public/js/jquery.datetimepicker.full.js"></script>
 
 <script type="text/javascript" src="/public/js/jquery.form.js"></script>
+<link rel="stylesheet" href="/public/css/jquery.dialogbox.css">
+<script type="text/javascript" src="/public/js/jquery.dialogBox.js"></script>
 <script type="text/javascript">
 jQuery(document).ready(function() {
    Metronic.init(); // init metronic core componets
@@ -120,6 +122,17 @@ jQuery(document).ready(function() {
        //State = History.getState(),
        $log = $('#log');
 });
+//弹窗
+function Calert(content,title,time){
+	var title = arguments[1] || '<i class="fa fa-exclamation-circle" style="margin-right:5px;"></i><span>系统提示</span>';
+	var time = arguments[2] || 2500;
+	$('#auto-close-dialogBox').dialogBox({
+		autoHide: true,
+		time: time,
+		title: title,
+		content: content
+	});
+}
 $(function () {
 	//时间控件
 	$(".datetimepicker").datetimepicker({

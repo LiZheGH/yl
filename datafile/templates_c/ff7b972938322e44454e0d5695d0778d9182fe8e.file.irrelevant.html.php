@@ -1,36 +1,52 @@
-{include file="{$VIEW_DIR}common/header.html"}
-{literal}
-<script type="text/javascript">
-	function showStatus(value,row,index){
-		if(row.status == 1){
-			return '<font color="green">有效</font>';
-		}else{
-			return '<font color="red">无效</font>';
-		}
-	}
-</script>
-{/literal}
+<?php /* Smarty version Smarty-3.1.13, created on 2017-10-10 03:02:19
+         compiled from "/private/var/www/yl/application/views/admin/standard/irrelevant.html" */ ?>
+<?php /*%%SmartyHeaderCode:127394885659db207642e237-93266053%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    'ff7b972938322e44454e0d5695d0778d9182fe8e' => 
+    array (
+      0 => '/private/var/www/yl/application/views/admin/standard/irrelevant.html',
+      1 => 1507574842,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '127394885659db207642e237-93266053',
+  'function' => 
+  array (
+  ),
+  'version' => 'Smarty-3.1.13',
+  'unifunc' => 'content_59db2076449042_85537602',
+  'variables' => 
+  array (
+    'VIEW_DIR' => 0,
+  ),
+  'has_nocache_code' => false,
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_59db2076449042_85537602')) {function content_59db2076449042_85537602($_smarty_tpl) {?><?php echo $_smarty_tpl->getSubTemplate (((string)$_smarty_tpl->tpl_vars['VIEW_DIR']->value)."common/header.html", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
+
 <body class="page-header-fixed page-quick-sidebar-over-content">
 	<div class="page-container">
-	{include file="{$VIEW_DIR}common/left_menu.html"}
+	<?php echo $_smarty_tpl->getSubTemplate (((string)$_smarty_tpl->tpl_vars['VIEW_DIR']->value)."common/left_menu.html", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
+
 	<div class="page-content-wrapper"><div class="page-content">
 	<div class="modal fade" id="portlet-config" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"></div>
       <div class="portlet box blue-madison">
         <div class="portlet-title">
-          <div class="caption"> <i class="fa fa-globe"></i>科室管理 </div>
+          <div class="caption"> <i class="fa fa-globe"></i>选择无关科室</div>
         </div>
         <div class="portlet-body">
         	<div id="toolbar1" style="margin-bottom:0px;">
 				<button class="btn btn-primary btn-sm" onClick="showModal();">&nbsp;&nbsp;新增&nbsp;&nbsp;</button>
 		   	</div>
-		   <table id="tableId" data-url="/base/ajaxSectionList" data-sort-name="id" data-sort-order="desc" data-toggle="table"
+		   <table id="tableId" data-url="/Standard/ajaxDictionaryGetAllChild" data-sort-name="id" data-sort-order="desc" data-toggle="table"
 		   		data-click-to-select="true"  data-pagination="true"  data-show-refresh="true" data-show-columns="true" data-search="true" data-toolbar="#toolbar1">
 				<thead>
 					<tr>
 						<th data-checkbox="true"></th>
-						<th data-field="id">ID</th>
-						<th data-field="name">科室名</th>
-						<th data-field="status" data-formatter="showStatus">是否有效</th>
+						<th data-field="id" data-formatter="indexFormatter">流水ID</th>
+						<th data-field="type_name">科目名称</th>
+						<th data-field="type_name" data-formatter="formatStandard">标准</th>
 						<th data-field="operate" data-formatter="operateFormatter" data-events="operateEvents">操作</th>
 					</tr>
 				</thead>
@@ -76,8 +92,21 @@
 		</div>
 	</div>
 </div>
-{literal}
+
 <script type="text/javascript">
+function showStatus(value,row,index){
+	if(row.status == 1){
+		return '<font color="green">有效</font>';
+	}else{
+		return '<font color="red">无效</font>';
+	}
+}
+function formatStandard(value, row, index) {
+	return row.range+row.standard;
+}
+function indexFormatter(value, row, index) {
+	return index+1;
+}
 function operateFormatter(value, row, index) {
     return [
         '<a class="edit ml10" href="javascript:void(0)" title="Edit">',
@@ -197,7 +226,9 @@ function updateOne() {
 	});
 }
 </script>
-{/literal}
-{include file="{$VIEW_DIR}common/footer.html"}
+
+<?php echo $_smarty_tpl->getSubTemplate (((string)$_smarty_tpl->tpl_vars['VIEW_DIR']->value)."common/footer.html", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
+
 </body>
 </html>
+<?php }} ?>
