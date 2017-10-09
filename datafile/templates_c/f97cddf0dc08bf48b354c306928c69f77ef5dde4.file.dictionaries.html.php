@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2017-10-09 02:45:15
+<?php /* Smarty version Smarty-3.1.13, created on 2017-10-09 15:00:47
          compiled from "/private/var/www/yl/application/views/admin/standard/dictionaries.html" */ ?>
 <?php /*%%SmartyHeaderCode:106657305059d49e014e1d86-66322281%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'f97cddf0dc08bf48b354c306928c69f77ef5dde4' => 
     array (
       0 => '/private/var/www/yl/application/views/admin/standard/dictionaries.html',
-      1 => 1507488313,
+      1 => 1507529480,
       2 => 'file',
     ),
   ),
@@ -505,7 +505,7 @@ function addSetOne(){
 			if(data['success']) {
         		alert(data['msg']);
         		$('#setModal').modal('hide');
-        		 $("#oneSetForm")[0].reset();
+        		$("#oneSetForm")[0].reset();
         		refreshChild($("#edit_id").val());
 			} else {
 				alert(data['msg']);
