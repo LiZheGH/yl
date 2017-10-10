@@ -4,15 +4,15 @@ require_once 'lib/CommonFuncs.php';
 require_once MODEL_DIR . 'BaseModel.php';
 
 /**
- *
- * Section
+ * llx
+ * ImportData
  */
-class Section extends BaseModel{
+class ImportData extends BaseModel{
 
 	/**
 	 * @var unknown
 	 */
-	protected $table = "yl_section";
+	protected $table = "yl_import_data";
 
 	/**
 	 * Get instance
@@ -53,15 +53,4 @@ class Section extends BaseModel{
 		}
 		return self::$instance;
 	}
-
-	public function getKeyNameInfo(){
-	    $list = $this->db->getAll("SELECT * FROM ".$this->table." WHERE `status`='1'");
-	    $data = array();
-	    foreach($list as $v){
-	        $data[$v['id']] = $v['name'];
-	    }
-	    return $data;
-	}
-
-
 }

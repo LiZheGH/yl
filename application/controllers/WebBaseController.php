@@ -283,7 +283,6 @@ class WebBaseController {
 		} else {
 			$result = array ();
 		}
-
 		header ( 'Content-type: application/json;charset=utf-8' );
 		echo json_encode ( $result );
 		exit;

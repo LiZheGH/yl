@@ -38,7 +38,11 @@ class StandardController extends WebBaseController {
 	 * @var ReportIndicators
 	 */
 	protected $reportIndicators;
-
+    /**
+     *
+     * @var ImportData
+     */
+	protected $importData;
 	/**
 	 * Construct
 	 */
@@ -51,6 +55,16 @@ class StandardController extends WebBaseController {
 		$this->smarty->assign ( 'curUser', $this->curUser );
 		$this->smarty->assign('sectionList',$this->section->getKeyNameInfo());
 		$this->smarty->assign('exportDictionaryList',$this->exportDictionary->getList());
+		$this->smarty->assign('reportDictionaryList',$this->reportdeDpartment->getList());
+		if ($this->__getParam('sessionid') && ($session_id = $this->__getParam('sessionid')) != session_id()) {
+		    $this->__log('sessionid', $this->__getParam('sessionid'));
+		    session_destroy();
+		    session_id($session_id);
+		    session_start();
+		    setcookie('PHPSESSID', $session_id, 0);
+		    $this->curUser = isset($_SESSION['retailer_account']) ? $_SESSION['retailer_account'] : array();
+		}
+		$this->smarty->assign('sessionid', session_id());
 		$this->__checkAdminUserLogin();
 	}
     //质量指标字典
@@ -374,6 +388,139 @@ class StandardController extends WebBaseController {
             $this->__ajaxReturn(true,'成功');
         else
             $this->__ajaxReturn(false,'失败');
+    }
+    //导入数据-下载模板-验证导出
+    public function ajaxDownTemplateAction(){
+        $section = intval($this->__getParam('section'));
+        $exportList = $this->reportIndicators->getOneBySection($section);
+        if (empty($exportList['subject_num']))
+            $this->__ajaxReturn(false, '当前科室 上报指标 无【管理质量科目】');
+        elseif (empty($exportList['section_num']))
+            $this->__ajaxReturn(false, '当前科室 上报指标 无【负责科室】');
+        else
+            $this->__ajaxReturn(true, 'ok');
+    }
+    //导入数据-下载模板
+    public function downTemplateAction(){
+        set_time_limit(0);
+        ini_set("memory_limit","512M");
+        header('Content-Type: application/vnd.ms-excel');
+        $section = intval($this->__getParam('section'));
+        $reportIndicatorsInfo = $this->reportIndicators->getOneBySection($section);
+        $sectionKeyInfo = $this->section->getKeyNameInfo();
+        $data = array();
+        $sectionArr = explode(',',$reportIndicatorsInfo['section_ids']);
+        $i = 69;
+        foreach ($sectionArr as $val){
+            if ($val != 0)
+                $data['1'][chr($i++)] = $sectionKeyInfo[$val];
+        }
+        $dictionaryList = $this->dictionary->getListByIds($reportIndicatorsInfo['subject_ids']);
+        $i = 2;
+        foreach ($dictionaryList as $value){
+            $data[$i++] = array(
+                'A' => $value['id'],
+                'B' => $value['type_name'],
+                'C' => $value['range'].$value['standard']
+            );
+        }
+        $fileName = "模板.xlsx";
+        require_once 'lib/PHPExcel.php';
+        require_once 'lib/PHPExcel/IOFactory.php';
+        require_once 'lib/PHPExcel/Reader/Excel2007.php';
+        // 创建PHPExcel对象
+        $objPHPExcel = new PHPExcel();
+        $objReader = PHPExcel_IOFactory::createReader('Excel2007');
+        $objPHPExcel = $objReader->load(BASE_DIR . "public/temp/" . $fileName);
+        // 循环设置特殊值
+        $objActSheet = $objPHPExcel->getActiveSheet();
+        foreach ($data as $key => $line) {
+            foreach ($line as $k => $v) {
+                $objActSheet->setCellValue($k . $key, $v);
+            }
+        }
+        // 重命名表
+        $fileName = iconv("utf-8", "gb2312", $sectionKeyInfo[$section]."模板.xlsx");
+        header('Content-Type: application/vnd.ms-excel');
+        header("Content-Disposition: attachment;filename=\"$fileName\"");
+        header('Cache-Control: max-age=0');
+        $objWriter = \PHPExcel_IOFactory::createWriter($objPHPExcel, 'Excel2007');
+        $objWriter->save('php://output'); // 文件通过浏览器下载
+        exit();
+    }
+    //导入数据-提交模板
+    public function ajaxUploadDataAction(){
+        if (empty($_FILES))
+            $this->__ajaxReturn(false, '文件丢失！');
+
+        $tempFile = $_FILES['Filedata']['tmp_name'];
+        $fileParts = pathinfo($_FILES['Filedata']['name']);
+        $data = array(
+            'file_ext' => $fileParts['extension'],
+            'original_name' => $_FILES['Filedata']['name'], // 客户端文件的原名称
+            'mime_type' => mime_content_type($_FILES['Filedata']['tmp_name']), // 文件的 MIME类型，需要浏览器提供该信息的支持，例如"image/gif"
+            'file_size' => $_FILES['Filedata']['size']
+        ); // 已上传文件的大小，单位为字节
+
+        if (strtolower($data['file_ext']) != 'xlsx')
+            $this->__ajaxReturn(false, '非法文件，服务器拒绝接收！');
+        // 将文件移到缓存
+        $targetFile = '/var/tmp/' . CommonFuncs::getUUID() . '.' . $fileParts['extension'];
+        move_uploaded_file($tempFile, $targetFile);
+        // 解析xls文件
+        $xls_data = CommonFuncs::parseXLS2($targetFile, 1);
+        if (! $xls_data || ! is_array($xls_data)){
+            $error_msg = array(
+                'success' => false,
+                'msg' => '文件解析失败，请检查文件内容！',
+                'type' => 'error'
+            );
+            $this->__displayOutput($error_msg);
+        }
+        $SysDate = date("Y-m-d H:i:s");
+        $report_time = $this->__getParam('report_time');
+        if (empty($report_time) || strtotime($report_time) > time() )
+            $this->__ajaxReturn(false,'上报时间不合法！');
+        // 初始化数据
+        $report_section = intval($this->__getParam('report_section'));
+        $sectionList = $this->section->getKeyNameInfo();
+        $sectionList = array_flip($sectionList);
+        $sectionList['全院'] = 0;
+        $headerInfo = $xls_data['1'];
+        foreach ($headerInfo as $key => $value){
+            if ($key < 3)
+                unset($headerInfo[$key]);
+            else{
+                $value = trim($value);
+                if ($value == '')
+                    unset($headerInfo[$key]);
+                else
+                    $headerInfo[$key] = $value;
+            }
+        }
+        unset($xls_data['1']);
+        $data = array();
+        foreach ($xls_data as $line){
+            if (empty($line['0'])) break;
+            foreach ($headerInfo as $k => $value){
+                if ($k < 2)
+                    continue;
+                else
+                    $data[] = array(
+                        'cdate'             => $SysDate,
+                        'report_time'       => $report_time,
+                        'report_section'    => $report_section,
+                        'section'           => intval($sectionList[$value]),
+                        'subject_id'        => intval($line['0']),
+                        'standard'          => $line[$k]
+                    );
+            }
+        }
+        $res = $this->importData->batchAdd($data);
+        if ($res)
+            $this->__ajaxReturn(true, '上传成功');
+        else
+            $this->__ajaxReturn(false, '上传失败');
     }
 	protected function log($title, $log_data = '') {
 		$f = fopen ( $this->log_file, 'a+' );

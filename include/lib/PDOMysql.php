@@ -108,7 +108,7 @@ class PDOMysql {
 		if($sql)
 			return self::$DB->exec ( $sql );
 		else
-			return;
+			return false;
 	}
 
 	/**
@@ -404,7 +404,7 @@ class PDOMysql {
 		}
 		$sql .= ";";
 // 		echo $sql . "\r\n\r\n";
-		return self::execute($sql);
+		return self::execute ( $sql );
 	}
 /**
  * *******************错误处理結束********************

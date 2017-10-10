@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2017-10-09 17:24:31
+<?php /* Smarty version Smarty-3.1.13, created on 2017-10-11 06:32:28
          compiled from "/private/var/www/yl/application/views/admin/common/left_menu.html" */ ?>
 <?php /*%%SmartyHeaderCode:186008652059d49e312ae7e4-62552054%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '77144e57079b7612dbab46c3cd128013e24039ed' => 
     array (
       0 => '/private/var/www/yl/application/views/admin/common/left_menu.html',
-      1 => 1507541018,
+      1 => 1507674743,
       2 => 'file',
     ),
   ),
@@ -88,11 +88,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 			<ul class="sub-menu">
 				<li><a href="#">各科质量数据上报</a></li>
 				<li><a href="#">历史上报查看</a></li>
-				<li><a href="#">导入数据</a></li>
-				<li><a href="#">修改数据</a></li>
+				<li><a href="/standard/import_data">导入数据</a></li>
+				<li><a href="/standard/edit_data">修改数据</a></li>
 				<li><a href="#">按月份汇总数据</a></li>
 				<li><a href="#">按科室汇总数据</a></li>
-				<li><a href="#">导出数据</a></li>
+				<li><a href="/standard/export_data">导出数据</a></li>
 				<li><a href="#">质量科目报表</a></li>
 				<li><a href="/standard/report_indicators">选择上报指标</a></li>
 				<li><a href="/standard/report_department">选择上报部门</a></li>

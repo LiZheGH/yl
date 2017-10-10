@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2017-10-10 03:10:05
+<?php /* Smarty version Smarty-3.1.13, created on 2017-10-11 06:00:00
          compiled from "/private/var/www/yl/application/views/admin/standard/dictionaries.html" */ ?>
 <?php /*%%SmartyHeaderCode:106657305059d49e014e1d86-66322281%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'f97cddf0dc08bf48b354c306928c69f77ef5dde4' => 
     array (
       0 => '/private/var/www/yl/application/views/admin/standard/dictionaries.html',
-      1 => 1507576197,
+      1 => 1507672797,
       2 => 'file',
     ),
   ),
@@ -286,7 +286,7 @@ $_smarty_tpl->tpl_vars['item']->_loop = true;
  $_smarty_tpl->tpl_vars['section_id']->value = $_smarty_tpl->tpl_vars['item']->key;
 ?>
 							<?php if ($_smarty_tpl->tpl_vars['section_id']->value!=0){?>
-							<label class="checkbox" style="float:left;margin-left:15%;width:35%;">
+							<label class="checkbox" style="float:left;margin-left:13%;width:37%;">
 								<input type="checkbox" class="form-control section" name="section[<?php echo $_smarty_tpl->tpl_vars['section_id']->value;?>
 ]" style="float:left;" value="<?php echo $_smarty_tpl->tpl_vars['section_id']->value;?>
 ">

@@ -246,7 +246,7 @@ class CommonFuncs
 		$mydir->close();
 		rmdir($dir);
 	}
-	
+
 	static public function delDirAndFile($dirName)
 	{
 	    if ($handle = opendir($dirName)) {

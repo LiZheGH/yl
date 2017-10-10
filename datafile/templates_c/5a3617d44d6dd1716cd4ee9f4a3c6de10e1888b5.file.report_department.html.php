@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2017-10-10 03:00:37
+<?php /* Smarty version Smarty-3.1.13, created on 2017-10-10 23:22:54
          compiled from "/private/var/www/yl/application/views/admin/standard/report_department.html" */ ?>
 <?php /*%%SmartyHeaderCode:29708829959db33dc695952-40609852%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '5a3617d44d6dd1716cd4ee9f4a3c6de10e1888b5' => 
     array (
       0 => '/private/var/www/yl/application/views/admin/standard/report_department.html',
-      1 => 1507575634,
+      1 => 1507648971,
       2 => 'file',
     ),
   ),
@@ -41,12 +41,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
         <div class="portlet-body">
 			<form role="form" id="form" class="form-horizontal" method="POST">
 				<div class="modal-body" style="padding:15px 0;">
-					<div class="form-group">
-						<label class="col-sm-1 control-label"></label>
-						<div class="col-sm-9">
-							<p style="color:red;font-size:20px" id="default_value"></p>
-	                    </div>
-					</div>
 					<div class="form-group">
 						<div class="col-sm-12 controls" style="line-height: 40px;">
 	                    	<label class="checkbox" style="float:left;margin-left: 5%">

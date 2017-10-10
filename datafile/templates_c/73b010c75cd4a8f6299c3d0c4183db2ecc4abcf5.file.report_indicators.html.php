@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2017-10-10 03:00:44
+<?php /* Smarty version Smarty-3.1.13, created on 2017-10-11 03:09:58
          compiled from "/private/var/www/yl/application/views/admin/standard/report_indicators.html" */ ?>
 <?php /*%%SmartyHeaderCode:82865322959db405825c638-70019062%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '73b010c75cd4a8f6299c3d0c4183db2ecc4abcf5' => 
     array (
       0 => '/private/var/www/yl/application/views/admin/standard/report_indicators.html',
-      1 => 1507574876,
+      1 => 1507662593,
       2 => 'file',
     ),
   ),
@@ -48,7 +48,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 					<tr>
 						<th data-checkbox="true"></th>
 						<th data-field="id" data-formatter="indexFormatter">索引ID</th>
-						<th data-field="name">科室名称</th>
+						<th data-field="name">上报科室名称</th>
 						<th data-field="subject_num">质量科目数量</th>
 						<th data-field="section_num">负责科室数量</th>
 						<th data-field="operate" data-formatter="operateFormatter" data-events="operateEvents">操作</th>

@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2017-10-10 02:48:20
+<?php /* Smarty version Smarty-3.1.13, created on 2017-10-10 23:53:02
          compiled from "/private/var/www/yl/application/views/admin/common/header.html" */ ?>
 <?php /*%%SmartyHeaderCode:195751315359d49db8736087-39869799%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '53782aaee01479b3117d7d3dd73327a50194db2b' => 
     array (
       0 => '/private/var/www/yl/application/views/admin/common/header.html',
-      1 => 1507574674,
+      1 => 1507650777,
       2 => 'file',
     ),
   ),
@@ -111,6 +111,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
 <script type="text/javascript" src="/public/js/jquery.form.js"></script>
 <link rel="stylesheet" href="/public/css/jquery.dialogbox.css">
+<script type="text/javascript" src="/public/js/spin.js"></script>
 <script type="text/javascript" src="/public/js/jquery.dialogBox.js"></script>
 <script type="text/javascript">
 jQuery(document).ready(function() {
