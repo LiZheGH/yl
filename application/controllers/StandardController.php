@@ -43,6 +43,10 @@ class StandardController extends WebBaseController {
      * @var ImportData
      */
 	protected $importData;
+
+	private $sectionList;
+	private $exportDictionaryList;
+	private $reportDictionaryList;
 	/**
 	 * Construct
 	 */
@@ -53,9 +57,16 @@ class StandardController extends WebBaseController {
 		$this->smarty->assign ( 'VIEW_DIR', VIEW_DIR );
 		$this->__initSystemAccountInfo ();
 		$this->smarty->assign ( 'curUser', $this->curUser );
-		$this->smarty->assign('sectionList',$this->section->getKeyNameInfo());
-		$this->smarty->assign('exportDictionaryList',$this->exportDictionary->getList());
-		$this->smarty->assign('reportDictionaryList',$this->reportdeDpartment->getList());
+
+		$this->sectionList = $this->section->getKeyNameInfo();
+		$this->smarty->assign('sectionList',$this->sectionList);
+
+		$this->exportDictionaryList = $this->exportDictionary->getList();
+		$this->smarty->assign('exportDictionaryList',$this->exportDictionaryList);
+
+		$this->reportDictionaryList = $this->reportdeDpartment->getList();
+		$this->smarty->assign('reportDictionaryList',$this->reportDictionaryList);
+
 		if ($this->__getParam('sessionid') && ($session_id = $this->__getParam('sessionid')) != session_id()) {
 		    $this->__log('sessionid', $this->__getParam('sessionid'));
 		    session_destroy();
@@ -237,7 +248,7 @@ class StandardController extends WebBaseController {
     }
     //导出科室字典列表
     public function ajaxGetExportDictionaryAction(){
-        $this->__displayOutput($this->exportDictionary->getList());
+        $this->__displayOutput($this->exportDictionaryList);
     }
     //导出科室字典提交
     public function ajaxExportDictionarySubmitAction(){
@@ -267,7 +278,7 @@ class StandardController extends WebBaseController {
     }
     //选择上报部门
     public function ajaxGetReportDepartmentAction(){
-        $this->__displayOutput($this->reportdeDpartment->getList());
+        $this->__displayOutput($this->reportDictionaryList);
     }
     //选择上报部门-提交
     public function ajaxSubmitReportDepartmentAction(){
@@ -294,7 +305,7 @@ class StandardController extends WebBaseController {
     //选择上报指标-列表
     public function ajaxGetReportIndicatorsAction(){
         $list = $this->reportdeDpartment->getAll();
-        $sectionKeyInfo = $this->section->getKeyNameInfo();
+        $sectionKeyInfo = $this->sectionList;
         $reportKeyInfo = $this->reportIndicators->getList();
         foreach ($list as $key => $value){
             $list[$key]['name'] = $sectionKeyInfo[$value['section']];
@@ -407,7 +418,7 @@ class StandardController extends WebBaseController {
         header('Content-Type: application/vnd.ms-excel');
         $section = intval($this->__getParam('section'));
         $reportIndicatorsInfo = $this->reportIndicators->getOneBySection($section);
-        $sectionKeyInfo = $this->section->getKeyNameInfo();
+        $sectionKeyInfo = $this->sectionList;
         $data = array();
         $sectionArr = explode(',',$reportIndicatorsInfo['section_ids']);
         $i = 69;
@@ -483,7 +494,7 @@ class StandardController extends WebBaseController {
             $this->__ajaxReturn(false,'上报时间不合法！');
         // 初始化数据
         $report_section = intval($this->__getParam('report_section'));
-        $sectionList = $this->section->getKeyNameInfo();
+        $sectionList = $this->sectionList;
         $sectionList = array_flip($sectionList);
         $sectionList['全院'] = 0;
         $headerInfo = $xls_data['1'];
@@ -512,7 +523,7 @@ class StandardController extends WebBaseController {
                         'report_section'    => $report_section,
                         'section'           => intval($sectionList[$value]),
                         'subject_id'        => intval($line['0']),
-                        'standard'          => $line[$k]
+                        'value'             => $line[$k]
                     );
             }
         }
@@ -521,6 +532,155 @@ class StandardController extends WebBaseController {
             $this->__ajaxReturn(true, '上传成功');
         else
             $this->__ajaxReturn(false, '上传失败');
+    }
+    //历史上报数据
+    public function ajaxImportDataListAction(){
+        $report_time = $this->__getParam('report_time');
+        if (empty($report_time))
+            $report_time = date("Y-m");
+        else
+            $report_time = date("Y-m",strtotime($report_time));
+        $list = $this->importData->getListByReportTime($report_time);
+        $allChild = $this->dictionary->getAllChildKeyInfo();
+        $data = array();
+        foreach ($list as $value) {
+            $data[$value['cdate'].$value['subject_id']][$value['section']] = $value['value'];
+        }
+        $listData = array();
+        $i = 0;
+        foreach ($data as $key => $sectionList){
+            $listData[$i]['id'] = $i;
+            $listData[$i]['cdate'] = substr($key,0,19);
+            $subject_id = substr($key,19);
+            $listData[$i]['type_name'] = $allChild[$subject_id]['type_name'];
+            $listData[$i]['standard'] = $allChild[$subject_id]['range'].$allChild[$subject_id]['standard'];
+            foreach ($sectionList as $section => $value){
+                $listData[$i]['s'.$section] = $value;
+            }
+            $i++;
+        }
+        $this->__displayOutput($listData);
+    }
+    //修改数据
+    public function ajaxEditImportDataListAction(){
+        $report_time = $this->__getParam('report_time');
+        if (empty($report_time))
+            $report_time = date("Y-m");
+        else
+            $report_time = date("Y-m",strtotime($report_time));
+        $list = $this->importData->getListByReportTime($report_time);
+        $allChild = $this->dictionary->getAllChildKeyInfo();
+        $listData = array();
+        foreach ($list as $value){
+            if ($value['section'] == 0)
+                $section_name = '全院';
+            else
+                $section_name = $this->sectionList[$value['section']];
+            if ($value['report_section'] == 0)
+                $report_section_name = '全院';
+            else
+                $report_section_name = $this->sectionList[$value['report_section']];
+            $listData[] = array(
+                'id'                    => $value['id'],
+                'section_name'          => $section_name,
+                'type_name'             => $allChild[$value['subject_id']]['type_name'],
+                'standard'              => $allChild[$value['subject_id']]['range'].$allChild[$value['subject_id']]['standard'],
+                'value'                 => $value['value'],
+                'report_section_name'   => $report_section_name
+            );
+        }
+        $this->__displayOutput($listData);
+    }
+    //导入数据 - 删除
+    public function ajaxImportDataDeleteAction(){
+        $id = intval($this->__getParam('id'));
+        $res = $this->importData->delete($id);
+        if ($res)
+            $this->__ajaxReturn(true,'成功');
+        else
+            $this->__ajaxReturn(false,'失败');
+    }
+    //按月汇总
+    public function ajaxGetSummaryMonthListAction(){
+        $report_time = $this->__getParam('report_time');
+        if (empty($report_time))
+            $report_time = date("Y");
+        else
+            $report_time = date("Y",strtotime($report_time));
+        $list = $this->importData->getListByYearReportTime($report_time);
+        $data = array();
+        foreach ($list as $value){
+            $month = substr($value['report_time'],5,2);
+            $data[$value['section'].'-'.$value['subject_id']][$month] = $value['value'];
+        }
+        $allChild = $this->dictionary->getAllChildKeyInfo();
+        $listData = array();
+        $i = 0;
+        foreach ($data as $key => $value){
+            $sectionSubjectArr = explode('-',$key);
+            $subject_id = $sectionSubjectArr[1];
+            $listData[$i]['id'] = $i;
+            if ($sectionSubjectArr[0] == 0)
+                $section_name = '全院';
+            else
+                $section_name = $this->sectionList[$sectionSubjectArr[0]];
+            $listData[$i]['section_name'] = $section_name;
+            $listData[$i]['type_name'] = $allChild[$subject_id]['type_name'];
+            $listData[$i]['standard'] = $allChild[$subject_id]['range'].$allChild[$subject_id]['standard'];
+            $num = 0;
+            $sum = 0;
+            foreach ($value as $k => $v){
+                $listData[$i]['m'.$k] = $v;
+                $num++;
+                $sum += $v;
+            }
+            $average = $sum/$num;
+            $listData[$i]['average'] = $average;
+            if (
+                    in_array($allChild[$subject_id]['range'],array('≥','＞'))
+                && $average < $allChild[$subject_id]['standard']
+            ) {
+                 $listData[$i]['status'] = -1;
+            } elseif (
+                    in_array($allChild[$subject_id]['range'],array('≤','＜'))
+                && $average > $allChild[$subject_id]['standard']
+            ){
+                 $listData[$i]['status'] = 1;
+            } else {
+                 $listData[$i]['status'] = 0;
+            }
+            $i++;
+        }
+        $this->__displayOutput($listData);
+    }
+    //按科室汇总
+    public function ajaxGetSummarySectionListAction(){
+        $report_time = $this->__getParam('report_time');
+        if (empty($report_time))
+            $report_time = date("Y-m");
+        else
+            $report_time = date("Y-m",strtotime($report_time));
+            $report_time = '2017-09';
+        $list = $this->importData->getListByReportTime($report_time);
+        $allChild = $this->dictionary->getAllChildKeyInfo();
+        $data = array();
+        foreach ($list as $value){
+            $data[$value['subject_id']][$value['section']] = $value['value'];
+        }
+        $listData = array();
+        $i = 0;
+        foreach ($data as $subject_id => $sectionList){
+            $listData[$i] = array(
+                'id'                    => $subject_id,
+                'type_name'             => $allChild[$subject_id]['type_name'],
+                'standard'              => $allChild[$subject_id]['range'].$allChild[$subject_id]['standard'],
+            );
+            foreach ($sectionList as $section =>  $value){
+                $listData[$i]['s'.$section] = $value;
+            }
+            $i++;
+        }
+        $this->__displayOutput($listData);
     }
 	protected function log($title, $log_data = '') {
 		$f = fopen ( $this->log_file, 'a+' );

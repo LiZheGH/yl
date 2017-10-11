@@ -70,6 +70,14 @@ class Dictionary extends BaseModel{
     public function getAllChildList(){
         return $this->db->getAll("SELECT `id`,`p_id`,`type_name`,`range`,`standard`,`computation` FROM ".$this->table." WHERE `p_id` != 0");
     }
+    public function getAllChildKeyInfo(){
+        $data = array();
+        $list = $this->getAllChildList();
+        foreach ($list as $value){
+            $data[$value['id']] = $value;
+        }
+        return $data;
+    }
     public function getListByIds($ids) {
         return $this->db->getAll("SELECT * FROM ".$this->table." WHERE `id` IN({$ids})");
     }

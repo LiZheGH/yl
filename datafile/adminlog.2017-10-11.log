@@ -4368,3 +4368,4453 @@
 
 2017-10-11 08:49:16_0.22550100 1507682956 :/favicon.ico
 
+2017-10-11 11:58:27_0.76628200 1507694307 :/
+
+2017-10-11 11:58:28_0.28189700 1507694308 :/system/account/list
+
+2017-10-11 11:58:28_0.49237200 1507694308 :/system/ajaxAccountGetList?sort=sort_weight&order=desc
+
+2017-10-11 11:58:28_0.67241700 1507694308 :/favicon.ico
+
+2017-10-11 11:58:32_0.66174900 1507694312 :/standard/import_data
+
+2017-10-11 11:58:32_0.88444000 1507694312 :/Standard/ajaxGetExportDictionary
+
+2017-10-11 11:58:32_0.99614200 1507694312 :/favicon.ico
+
+2017-10-11 11:58:33_0.98285500 1507694313 :/Standard/ajaxDownTemplate/
+
+2017-10-11 11:58:33_0.99196600 1507694313 :/Standard/downTemplate/section/9
+
+2017-10-11 11:58:52_0.43740200 1507694332 :/Standard/ajaxDownTemplate/
+
+2017-10-11 11:58:52_0.44581100 1507694332 :/Standard/downTemplate/section/9
+
+2017-10-11 11:59:22_0.19302000 1507694362 :/Standard/ajaxDownTemplate/
+
+2017-10-11 11:59:25_0.37362300 1507694365 :/Standard/ajaxDownTemplate/
+
+2017-10-11 12:00:42_0.77969700 1507694442 :/Standard/ajaxUploadData
+
+2017-10-11 12:05:55_0.48854600 1507694755 :/Standard/ajaxDownTemplate/
+
+2017-10-11 12:05:55_0.49715300 1507694755 :/Standard/downTemplate/section/9
+
+2017-10-11 13:07:55_0.65764000 1507698475 :/Standard/ajaxDownTemplate/
+
+2017-10-11 13:07:55_0.66664300 1507698475 :/Standard/downTemplate/section/9
+
+2017-10-11 15:22:48_0.69220500 1507706568 :/system/power/list
+
+2017-10-11 15:22:48_0.95420500 1507706568 :/system/ajaxPowerGetList?sort=sort_weight&order=desc
+
+2017-10-11 15:22:49_0.14679600 1507706569 :/favicon.ico
+
+2017-10-11 15:23:11_0.55723500 1507706591 :/favicon.ico
+
+2017-10-11 15:23:16_0.19324800 1507706596 :/system/ajaxPowerAdd
+
+2017-10-11 15:23:16_0.20285000 1507706596 :/system/ajaxPowerGetList?sort=sort_weight&order=desc
+
+2017-10-11 15:23:16_0.20617600 1507706596 :/favicon.ico
+
+2017-10-11 15:23:19_0.89554200 1507706599 :/standard/export_dictionary
+
+2017-10-11 15:23:20_0.13963500 1507706600 :/Standard/ajaxGetExportDictionary
+
+2017-10-11 15:23:20_0.37285400 1507706600 :/favicon.ico
+
+2017-10-11 15:23:25_0.18108800 1507706605 :/system/account/list
+
+2017-10-11 15:23:25_0.30053200 1507706605 :/system/ajaxAccountGetList?sort=sort_weight&order=desc
+
+2017-10-11 15:23:25_0.39067000 1507706605 :/favicon.ico
+
+2017-10-11 15:23:26_0.22723300 1507706606 :/system/power/list
+
+2017-10-11 15:23:26_0.33713500 1507706606 :/system/ajaxPowerGetList?sort=sort_weight&order=desc
+
+2017-10-11 15:23:26_0.43820900 1507706606 :/favicon.ico
+
+2017-10-11 15:23:30_0.34720700 1507706610 :/system/ajaxPowerUpdate
+
+2017-10-11 15:23:30_0.35523300 1507706610 :/system/ajaxPowerGetList?sort=sort_weight&order=desc
+
+2017-10-11 15:23:30_0.36926600 1507706610 :/favicon.ico
+
+2017-10-11 15:23:46_0.23066800 1507706626 :/system/ajaxPowerDelete
+
+2017-10-11 15:23:46_0.23835700 1507706626 :/system/ajaxPowerGetList?sort=sort_weight&order=desc
+
+2017-10-11 15:23:48_0.96486800 1507706628 :/system/power/list
+
+2017-10-11 15:23:49_0.15977500 1507706629 :/system/ajaxPowerGetList?sort=sort_weight&order=desc
+
+2017-10-11 15:23:49_0.31613800 1507706629 :/favicon.ico
+
+2017-10-11 15:24:05_0.52211500 1507706645 :/system/account/list
+
+2017-10-11 15:24:05_0.77008000 1507706645 :/system/ajaxAccountGetList?sort=sort_weight&order=desc
+
+2017-10-11 15:24:05_0.92582500 1507706645 :/favicon.ico
+
+2017-10-11 15:47:35_0.45223300 1507708055 :/system/account/list
+
+2017-10-11 15:47:35_0.64152100 1507708055 :/system/ajaxAccountGetList?sort=sort_weight&order=desc
+
+2017-10-11 15:47:35_0.80611800 1507708055 :/favicon.ico
+
+2017-10-11 15:48:40_0.61554900 1507708120 :/standard/list_data
+
+2017-10-11 15:48:40_0.76898800 1507708120 :/favicon.ico
+
+2017-10-11 15:49:52_0.87337700 1507708192 :/system/account/list
+
+2017-10-11 15:49:53_0.08729900 1507708193 :/system/ajaxAccountGetList?sort=sort_weight&order=desc
+
+2017-10-11 15:49:53_0.34794400 1507708193 :/favicon.ico
+
+2017-10-11 16:24:25_0.65037000 1507710265 :/standard/list_data
+
+2017-10-11 16:24:25_0.83310900 1507710265 :/favicon.ico
+
+2017-10-11 16:25:06_0.96001200 1507710306 :/standard/list_data
+
+2017-10-11 16:25:07_0.18656800 1507710307 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:25:07_0.36831300 1507710307 :/favicon.ico
+
+2017-10-11 16:25:52_0.63800100 1507710352 :/standard/list_data
+
+2017-10-11 16:25:52_0.85201600 1507710352 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:25:53_0.01914800 1507710353 :/favicon.ico
+
+2017-10-11 16:26:00_0.60842800 1507710360 :/standard/list_data
+
+2017-10-11 16:26:00_0.90757100 1507710360 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:26:01_0.11302600 1507710361 :/favicon.ico
+
+2017-10-11 16:29:13_0.14470700 1507710553 :/standard/list_data
+
+2017-10-11 16:29:13_0.46484200 1507710553 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:29:13_0.66913900 1507710553 :/favicon.ico
+
+2017-10-11 16:29:14_0.80553200 1507710554 :/standard/list_data
+
+2017-10-11 16:29:15_0.10650200 1507710555 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:29:15_0.30167800 1507710555 :/favicon.ico
+
+2017-10-11 16:29:16_0.37184000 1507710556 :/standard/list_data
+
+2017-10-11 16:29:16_0.65525200 1507710556 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:29:16_0.85121100 1507710556 :/favicon.ico
+
+2017-10-11 16:30:22_0.64360900 1507710622 :/standard/list_data
+
+2017-10-11 16:30:22_0.95318500 1507710622 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:30:23_0.15815500 1507710623 :/favicon.ico
+
+2017-10-11 16:30:24_0.49218400 1507710624 :/standard/list_data
+
+2017-10-11 16:30:24_0.79831200 1507710624 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:30:24_0.98183200 1507710624 :/favicon.ico
+
+2017-10-11 16:30:26_0.63967900 1507710626 :/standard/list_data
+
+2017-10-11 16:30:26_0.93572600 1507710626 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:30:27_0.19118100 1507710627 :/favicon.ico
+
+2017-10-11 16:30:42_0.02127200 1507710642 :/standard/export_dictionary
+
+2017-10-11 16:30:42_0.40515000 1507710642 :/Standard/ajaxGetExportDictionary
+
+2017-10-11 16:30:42_0.60969400 1507710642 :/favicon.ico
+
+2017-10-11 16:30:50_0.00183000 1507710650 :/Standard/ajaxExportDictionarySubmit
+
+2017-10-11 16:30:52_0.55207700 1507710652 :/standard/import_data
+
+2017-10-11 16:30:52_0.98498500 1507710652 :/Standard/ajaxGetExportDictionary
+
+2017-10-11 16:30:53_0.18720300 1507710653 :/favicon.ico
+
+2017-10-11 16:30:55_0.91643700 1507710655 :/standard/list_data
+
+2017-10-11 16:30:56_0.24173500 1507710656 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:30:56_0.44572800 1507710656 :/favicon.ico
+
+2017-10-11 16:32:07_0.49651800 1507710727 :/standard/list_data
+
+2017-10-11 16:32:07_0.86108200 1507710727 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:32:08_0.06394100 1507710728 :/favicon.ico
+
+2017-10-11 16:32:09_0.22825200 1507710729 :/standard/list_data
+
+2017-10-11 16:32:09_0.52995800 1507710729 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:32:09_0.71952400 1507710729 :/favicon.ico
+
+2017-10-11 16:32:10_0.66153900 1507710730 :/standard/list_data
+
+2017-10-11 16:32:10_0.93877900 1507710730 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:32:11_0.13939400 1507710731 :/favicon.ico
+
+2017-10-11 16:34:00_0.61046900 1507710840 :/standard/list_data
+
+2017-10-11 16:34:00_0.92839500 1507710840 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:34:01_0.12449600 1507710841 :/favicon.ico
+
+2017-10-11 16:34:01_0.94996400 1507710841 :/standard/list_data
+
+2017-10-11 16:34:02_0.25135800 1507710842 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:34:02_0.44980200 1507710842 :/favicon.ico
+
+2017-10-11 16:34:03_0.19854600 1507710843 :/standard/list_data
+
+2017-10-11 16:34:03_0.48715000 1507710843 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:34:03_0.69463100 1507710843 :/favicon.ico
+
+2017-10-11 16:34:48_0.80092800 1507710888 :/standard/list_data
+
+2017-10-11 16:34:49_0.10790000 1507710889 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:34:49_0.30559300 1507710889 :/favicon.ico
+
+2017-10-11 16:34:50_0.35614800 1507710890 :/standard/list_data
+
+2017-10-11 16:34:50_0.65727600 1507710890 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:34:50_0.84248000 1507710890 :/favicon.ico
+
+2017-10-11 16:34:51_0.92156600 1507710891 :/standard/list_data
+
+2017-10-11 16:34:52_0.20464100 1507710892 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:34:52_0.40853800 1507710892 :/favicon.ico
+
+2017-10-11 16:34:53_0.49121700 1507710893 :/standard/list_data
+
+2017-10-11 16:34:53_0.77305000 1507710893 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:34:53_0.97380500 1507710893 :/favicon.ico
+
+2017-10-11 16:34:56_0.06892200 1507710896 :/standard/list_data
+
+2017-10-11 16:34:56_0.46346000 1507710896 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:34:56_0.66711300 1507710896 :/favicon.ico
+
+2017-10-11 16:35:32_0.70918000 1507710932 :/standard/list_data
+
+2017-10-11 16:35:33_0.05475900 1507710933 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:35:33_0.25625000 1507710933 :/favicon.ico
+
+2017-10-11 16:36:17_0.17363900 1507710977 :/standard/list_data
+
+2017-10-11 16:36:17_0.50114700 1507710977 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:36:17_0.70142100 1507710977 :/favicon.ico
+
+2017-10-11 16:36:19_0.04485100 1507710979 :/standard/list_data
+
+2017-10-11 16:36:19_0.35970800 1507710979 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:36:19_0.56942500 1507710979 :/favicon.ico
+
+2017-10-11 16:36:20_0.96400200 1507710980 :/standard/list_data
+
+2017-10-11 16:36:21_0.25085400 1507710981 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:36:21_0.44878800 1507710981 :/favicon.ico
+
+2017-10-11 16:36:40_0.17212200 1507711000 :/standard/list_data
+
+2017-10-11 16:36:40_0.57229500 1507711000 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:36:40_0.76961400 1507711000 :/favicon.ico
+
+2017-10-11 16:36:41_0.12632800 1507711001 :/standard/list_data
+
+2017-10-11 16:36:41_0.44159400 1507711001 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:36:41_0.64312100 1507711001 :/favicon.ico
+
+2017-10-11 16:36:41_0.98004700 1507711001 :/standard/list_data
+
+2017-10-11 16:36:42_0.34931200 1507711002 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:36:42_0.57318400 1507711002 :/favicon.ico
+
+2017-10-11 16:36:42_0.85934600 1507711002 :/standard/list_data
+
+2017-10-11 16:36:43_0.16236400 1507711003 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:36:43_0.35601700 1507711003 :/favicon.ico
+
+2017-10-11 16:36:43_0.68396400 1507711003 :/standard/list_data
+
+2017-10-11 16:36:43_0.98521700 1507711003 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:36:44_0.16332300 1507711004 :/favicon.ico
+
+2017-10-11 16:36:44_0.52128200 1507711004 :/standard/list_data
+
+2017-10-11 16:36:44_0.89066800 1507711004 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:36:45_0.12505700 1507711005 :/favicon.ico
+
+2017-10-11 16:36:45_0.49942600 1507711005 :/standard/list_data
+
+2017-10-11 16:36:45_0.78306400 1507711005 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:36:45_0.97046200 1507711005 :/favicon.ico
+
+2017-10-11 16:36:46_0.34810400 1507711006 :/standard/list_data
+
+2017-10-11 16:36:46_0.63255000 1507711006 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:36:46_0.80733500 1507711006 :/favicon.ico
+
+2017-10-11 16:36:53_0.14735100 1507711013 :/standard/list_data
+
+2017-10-11 16:36:53_0.51019200 1507711013 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:36:53_0.69434200 1507711013 :/favicon.ico
+
+2017-10-11 16:36:54_0.37204800 1507711014 :/standard/list_data
+
+2017-10-11 16:36:54_0.67046400 1507711014 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:36:54_0.84824200 1507711014 :/favicon.ico
+
+2017-10-11 16:36:55_0.24424100 1507711015 :/standard/list_data
+
+2017-10-11 16:36:55_0.58009900 1507711015 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:36:55_0.76027400 1507711015 :/favicon.ico
+
+2017-10-11 16:36:56_0.11112200 1507711016 :/standard/list_data
+
+2017-10-11 16:36:56_0.44764800 1507711016 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:36:56_0.66600700 1507711016 :/favicon.ico
+
+2017-10-11 16:37:05_0.51381900 1507711025 :/standard/list_data
+
+2017-10-11 16:37:05_0.88423800 1507711025 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:37:06_0.08823600 1507711026 :/favicon.ico
+
+2017-10-11 16:37:06_0.97875900 1507711026 :/standard/list_data
+
+2017-10-11 16:37:07_0.33569300 1507711027 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:37:07_0.52728300 1507711027 :/favicon.ico
+
+2017-10-11 16:37:09_0.46676000 1507711029 :/standard/list_data
+
+2017-10-11 16:37:09_0.80527500 1507711029 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:37:10_0.00955000 1507711030 :/favicon.ico
+
+2017-10-11 16:37:48_0.27588600 1507711068 :/standard/list_data
+
+2017-10-11 16:37:48_0.66850400 1507711068 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:37:48_0.91867000 1507711068 :/favicon.ico
+
+2017-10-11 16:37:49_0.27437000 1507711069 :/standard/list_data
+
+2017-10-11 16:37:49_0.59917500 1507711069 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:37:49_0.80123200 1507711069 :/favicon.ico
+
+2017-10-11 16:37:50_0.12867600 1507711070 :/standard/list_data
+
+2017-10-11 16:37:50_0.51048900 1507711070 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:37:50_0.70277100 1507711070 :/favicon.ico
+
+2017-10-11 16:37:51_0.09023900 1507711071 :/standard/list_data
+
+2017-10-11 16:37:51_0.42863400 1507711071 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:37:51_0.76710300 1507711071 :/favicon.ico
+
+2017-10-11 16:38:52_0.20789200 1507711132 :/standard/list_data
+
+2017-10-11 16:38:52_0.53017500 1507711132 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:38:52_0.73281300 1507711132 :/favicon.ico
+
+2017-10-11 16:38:53_0.07338900 1507711133 :/standard/list_data
+
+2017-10-11 16:38:53_0.43458700 1507711133 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:38:53_0.63805100 1507711133 :/favicon.ico
+
+2017-10-11 16:38:53_0.95953000 1507711133 :/standard/list_data
+
+2017-10-11 16:38:54_0.32789500 1507711134 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:38:54_0.52469300 1507711134 :/favicon.ico
+
+2017-10-11 16:39:11_0.73107100 1507711151 :/standard/list_data
+
+2017-10-11 16:39:12_0.10376000 1507711152 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:39:12_0.30829700 1507711152 :/favicon.ico
+
+2017-10-11 16:39:15_0.37259200 1507711155 :/standard/list_data
+
+2017-10-11 16:39:15_0.73890800 1507711155 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:39:15_0.95521300 1507711155 :/favicon.ico
+
+2017-10-11 16:39:23_0.14412200 1507711163 :/standard/list_data
+
+2017-10-11 16:39:23_0.49843900 1507711163 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:39:23_0.70060400 1507711163 :/favicon.ico
+
+2017-10-11 16:39:24_0.19043100 1507711164 :/standard/list_data
+
+2017-10-11 16:39:24_0.49671000 1507711164 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:39:24_0.69628300 1507711164 :/favicon.ico
+
+2017-10-11 16:39:25_0.04063700 1507711165 :/standard/list_data
+
+2017-10-11 16:39:25_0.38656800 1507711165 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:39:25_0.57064100 1507711165 :/favicon.ico
+
+2017-10-11 16:39:25_0.84773700 1507711165 :/standard/list_data
+
+2017-10-11 16:39:26_0.19878200 1507711166 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:39:26_0.41137600 1507711166 :/favicon.ico
+
+2017-10-11 16:39:26_0.69631100 1507711166 :/standard/list_data
+
+2017-10-11 16:39:27_0.02483800 1507711167 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:39:27_0.20238800 1507711167 :/favicon.ico
+
+2017-10-11 16:39:51_0.63494300 1507711191 :/standard/list_data
+
+2017-10-11 16:39:52_0.00092000 1507711192 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:39:52_0.20852000 1507711192 :/favicon.ico
+
+2017-10-11 16:39:53_0.06387200 1507711193 :/standard/list_data
+
+2017-10-11 16:39:53_0.43314700 1507711193 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:39:53_0.63077800 1507711193 :/favicon.ico
+
+2017-10-11 16:39:55_0.76397600 1507711195 :/standard/list_data
+
+2017-10-11 16:39:56_0.13223500 1507711196 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:39:56_0.41787500 1507711196 :/favicon.ico
+
+2017-10-11 16:40:04_0.26387600 1507711204 :/standard/list_data
+
+2017-10-11 16:40:04_0.63515700 1507711204 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:40:04_0.85314200 1507711204 :/favicon.ico
+
+2017-10-11 16:40:06_0.17584000 1507711206 :/standard/list_data
+
+2017-10-11 16:40:06_0.54107200 1507711206 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:40:06_0.73974100 1507711206 :/favicon.ico
+
+2017-10-11 16:40:07_0.59853600 1507711207 :/standard/list_data
+
+2017-10-11 16:40:07_0.93667700 1507711207 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:40:08_0.14818300 1507711208 :/favicon.ico
+
+2017-10-11 16:40:08_0.49684000 1507711208 :/standard/list_data
+
+2017-10-11 16:40:08_0.84272600 1507711208 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:40:09_0.05208100 1507711209 :/favicon.ico
+
+2017-10-11 16:40:13_0.79113300 1507711213 :/standard/list_data
+
+2017-10-11 16:40:14_0.15012800 1507711214 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:40:14_0.33941000 1507711214 :/favicon.ico
+
+2017-10-11 16:40:15_0.02551100 1507711215 :/standard/list_data
+
+2017-10-11 16:40:15_0.37620700 1507711215 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:40:15_0.55633700 1507711215 :/favicon.ico
+
+2017-10-11 16:40:17_0.06761700 1507711217 :/standard/list_data
+
+2017-10-11 16:40:17_0.42315800 1507711217 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:40:17_0.63138500 1507711217 :/favicon.ico
+
+2017-10-11 16:40:44_0.18182200 1507711244 :/standard/list_data
+
+2017-10-11 16:40:44_0.50088300 1507711244 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:40:44_0.69717800 1507711244 :/favicon.ico
+
+2017-10-11 16:40:45_0.60299500 1507711245 :/standard/list_data
+
+2017-10-11 16:40:45_0.96584100 1507711245 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:40:46_0.16523900 1507711246 :/favicon.ico
+
+2017-10-11 16:40:47_0.15363300 1507711247 :/standard/list_data
+
+2017-10-11 16:40:47_0.49325200 1507711247 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:40:47_0.69413900 1507711247 :/favicon.ico
+
+2017-10-11 16:41:30_0.68700500 1507711290 :/standard/list_data
+
+2017-10-11 16:41:31_0.07387600 1507711291 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:41:31_0.29394100 1507711291 :/favicon.ico
+
+2017-10-11 16:41:32_0.18683000 1507711292 :/standard/list_data
+
+2017-10-11 16:41:32_0.55150300 1507711292 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:41:32_0.75206300 1507711292 :/favicon.ico
+
+2017-10-11 16:41:33_0.44913500 1507711293 :/standard/list_data
+
+2017-10-11 16:41:33_0.78160400 1507711293 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:41:33_0.98932900 1507711293 :/favicon.ico
+
+2017-10-11 16:42:24_0.51754400 1507711344 :/standard/list_data
+
+2017-10-11 16:42:24_0.90086800 1507711344 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:42:25_0.10755500 1507711345 :/favicon.ico
+
+2017-10-11 16:42:25_0.76373400 1507711345 :/standard/list_data
+
+2017-10-11 16:42:26_0.12940300 1507711346 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:42:26_0.32868400 1507711346 :/favicon.ico
+
+2017-10-11 16:42:27_0.22523600 1507711347 :/standard/list_data
+
+2017-10-11 16:42:27_0.50990100 1507711347 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:42:27_0.71566900 1507711347 :/favicon.ico
+
+2017-10-11 16:42:28_0.14813600 1507711348 :/standard/list_data
+
+2017-10-11 16:42:28_0.47946600 1507711348 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:42:28_0.68255300 1507711348 :/favicon.ico
+
+2017-10-11 16:42:29_0.49325700 1507711349 :/standard/list_data
+
+2017-10-11 16:42:29_0.81928000 1507711349 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:42:30_0.00079000 1507711350 :/favicon.ico
+
+2017-10-11 16:45:04_0.37637200 1507711504 :/standard/list_data
+
+2017-10-11 16:45:04_0.76674300 1507711504 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:45:05_0.05995400 1507711505 :/favicon.ico
+
+2017-10-11 16:45:06_0.34039700 1507711506 :/standard/list_data
+
+2017-10-11 16:45:06_0.70522000 1507711506 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:45:06_0.91671900 1507711506 :/favicon.ico
+
+2017-10-11 16:45:08_0.15802400 1507711508 :/standard/list_data
+
+2017-10-11 16:45:08_0.49343100 1507711508 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:45:08_0.69141200 1507711508 :/favicon.ico
+
+2017-10-11 16:46:21_0.48956100 1507711581 :/standard/list_data
+
+2017-10-11 16:46:21_0.85815900 1507711581 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:46:22_0.07260400 1507711582 :/favicon.ico
+
+2017-10-11 16:46:22_0.50603500 1507711582 :/standard/list_data
+
+2017-10-11 16:46:22_0.86499800 1507711582 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:46:23_0.07292800 1507711583 :/favicon.ico
+
+2017-10-11 16:46:24_0.45936500 1507711584 :/standard/list_data
+
+2017-10-11 16:46:24_0.74515200 1507711584 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:46:24_0.98822500 1507711584 :/favicon.ico
+
+2017-10-11 16:46:25_0.39422400 1507711585 :/standard/list_data
+
+2017-10-11 16:46:25_0.79678100 1507711585 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:46:26_0.04010500 1507711586 :/favicon.ico
+
+2017-10-11 16:46:26_0.45222000 1507711586 :/standard/list_data
+
+2017-10-11 16:46:26_0.74658400 1507711586 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:46:26_0.99802000 1507711586 :/favicon.ico
+
+2017-10-11 16:46:42_0.21084200 1507711602 :/standard/list_data
+
+2017-10-11 16:46:42_0.52225000 1507711602 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:46:42_0.74998700 1507711602 :/favicon.ico
+
+2017-10-11 16:47:08_0.34564200 1507711628 :/standard/list_data
+
+2017-10-11 16:47:08_0.66946800 1507711628 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:47:08_0.89570000 1507711628 :/favicon.ico
+
+2017-10-11 16:47:09_0.36840400 1507711629 :/standard/list_data
+
+2017-10-11 16:47:09_0.67381900 1507711629 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:47:09_0.89255800 1507711629 :/favicon.ico
+
+2017-10-11 16:47:10_0.76260500 1507711630 :/standard/list_data
+
+2017-10-11 16:47:11_0.06223000 1507711631 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:47:11_0.29014500 1507711631 :/favicon.ico
+
+2017-10-11 16:47:12_0.38580800 1507711632 :/standard/list_data
+
+2017-10-11 16:47:12_0.67251800 1507711632 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:47:12_0.88494900 1507711632 :/favicon.ico
+
+2017-10-11 16:47:14_0.29006900 1507711634 :/standard/list_data
+
+2017-10-11 16:47:14_0.56930900 1507711634 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:47:14_0.77812900 1507711634 :/favicon.ico
+
+2017-10-11 16:49:43_0.15557000 1507711783 :/standard/list_data
+
+2017-10-11 16:49:43_0.48032400 1507711783 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:49:43_0.70636000 1507711783 :/favicon.ico
+
+2017-10-11 16:49:45_0.42256800 1507711785 :/standard/list_data
+
+2017-10-11 16:49:45_0.78387500 1507711785 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:49:45_0.99494400 1507711785 :/favicon.ico
+
+2017-10-11 16:49:47_0.55303700 1507711787 :/standard/list_data
+
+2017-10-11 16:49:47_0.84438900 1507711787 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:49:48_0.04946000 1507711788 :/favicon.ico
+
+2017-10-11 16:49:56_0.70278700 1507711796 :/standard/list_data
+
+2017-10-11 16:49:57_0.00862500 1507711797 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:49:57_0.19161900 1507711797 :/favicon.ico
+
+2017-10-11 16:49:57_0.64651400 1507711797 :/standard/list_data
+
+2017-10-11 16:49:57_0.98218900 1507711797 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:49:58_0.19084100 1507711798 :/favicon.ico
+
+2017-10-11 16:49:58_0.53700100 1507711798 :/standard/list_data
+
+2017-10-11 16:49:58_0.84583900 1507711798 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:49:59_0.02623600 1507711799 :/favicon.ico
+
+2017-10-11 16:50:00_0.14696200 1507711800 :/standard/list_data
+
+2017-10-11 16:50:00_0.43738400 1507711800 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:50:00_0.61393400 1507711800 :/favicon.ico
+
+2017-10-11 16:50:01_0.07581000 1507711801 :/standard/list_data
+
+2017-10-11 16:50:01_0.37286000 1507711801 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:50:01_0.55243800 1507711801 :/favicon.ico
+
+2017-10-11 16:50:02_0.64008800 1507711802 :/standard/list_data
+
+2017-10-11 16:50:02_0.92795500 1507711802 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:50:03_0.10855800 1507711803 :/favicon.ico
+
+2017-10-11 16:50:05_0.40196800 1507711805 :/standard/list_data
+
+2017-10-11 16:50:05_0.72852400 1507711805 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:50:05_0.93030700 1507711805 :/favicon.ico
+
+2017-10-11 16:50:15_0.29027000 1507711815 :/standard/list_data
+
+2017-10-11 16:50:15_0.59583600 1507711815 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:50:15_0.77624800 1507711815 :/favicon.ico
+
+2017-10-11 16:50:16_0.20265600 1507711816 :/standard/list_data
+
+2017-10-11 16:50:16_0.50546900 1507711816 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:50:16_0.68287700 1507711816 :/favicon.ico
+
+2017-10-11 16:50:18_0.08433500 1507711818 :/standard/list_data
+
+2017-10-11 16:50:18_0.36957500 1507711818 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:50:18_0.56913800 1507711818 :/favicon.ico
+
+2017-10-11 16:50:39_0.07771100 1507711839 :/standard/list_data
+
+2017-10-11 16:50:39_0.40395800 1507711839 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:50:39_0.61724100 1507711839 :/favicon.ico
+
+2017-10-11 16:50:40_0.10553100 1507711840 :/standard/list_data
+
+2017-10-11 16:50:40_0.41168800 1507711840 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:50:40_0.63478100 1507711840 :/favicon.ico
+
+2017-10-11 16:50:43_0.74544700 1507711843 :/standard/list_data
+
+2017-10-11 16:50:44_0.03665000 1507711844 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:50:44_0.26624600 1507711844 :/favicon.ico
+
+2017-10-11 16:50:46_0.56887500 1507711846 :/standard/list_data
+
+2017-10-11 16:50:46_0.86370000 1507711846 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:50:47_0.06952600 1507711847 :/favicon.ico
+
+2017-10-11 16:50:49_0.26352200 1507711849 :/standard/list_data
+
+2017-10-11 16:50:49_0.54794800 1507711849 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:50:49_0.77801000 1507711849 :/favicon.ico
+
+2017-10-11 16:50:56_0.98912800 1507711856 :/standard/list_data
+
+2017-10-11 16:50:57_0.29621500 1507711857 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:50:57_0.51141500 1507711857 :/favicon.ico
+
+2017-10-11 16:50:59_0.76673400 1507711859 :/standard/list_data
+
+2017-10-11 16:51:00_0.06118600 1507711860 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:51:00_0.28330000 1507711860 :/favicon.ico
+
+2017-10-11 16:51:11_0.08564700 1507711871 :/standard/list_data
+
+2017-10-11 16:51:11_0.37814000 1507711871 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:51:11_0.58561200 1507711871 :/favicon.ico
+
+2017-10-11 16:51:12_0.20654900 1507711872 :/standard/list_data
+
+2017-10-11 16:51:12_0.50034900 1507711872 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:51:12_0.70664000 1507711872 :/favicon.ico
+
+2017-10-11 16:51:15_0.34224200 1507711875 :/standard/list_data
+
+2017-10-11 16:51:15_0.61989400 1507711875 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:51:15_0.84302400 1507711875 :/favicon.ico
+
+2017-10-11 16:53:21_0.20877400 1507712001 :/standard/list_data
+
+2017-10-11 16:53:21_0.52490400 1507712001 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:53:21_0.74527600 1507712001 :/favicon.ico
+
+2017-10-11 16:53:22_0.70355200 1507712002 :/standard/list_data
+
+2017-10-11 16:53:23_0.00427100 1507712003 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:53:23_0.21893700 1507712003 :/favicon.ico
+
+2017-10-11 16:53:23_0.45696900 1507712003 :/standard/list_data
+
+2017-10-11 16:53:23_0.77308800 1507712003 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:53:24_0.00078100 1507712004 :/favicon.ico
+
+2017-10-11 16:53:25_0.12026500 1507712005 :/standard/list_data
+
+2017-10-11 16:53:25_0.40198700 1507712005 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:53:25_0.61032600 1507712005 :/favicon.ico
+
+2017-10-11 16:53:26_0.47884700 1507712006 :/standard/list_data
+
+2017-10-11 16:53:26_0.76138300 1507712006 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:53:26_0.97319500 1507712006 :/favicon.ico
+
+2017-10-11 16:53:27_0.79749500 1507712007 :/standard/list_data
+
+2017-10-11 16:53:28_0.08295700 1507712008 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:53:28_0.29214800 1507712008 :/favicon.ico
+
+2017-10-11 16:53:28_0.96000300 1507712008 :/standard/list_data
+
+2017-10-11 16:53:29_0.23987000 1507712009 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:53:29_0.43689900 1507712009 :/favicon.ico
+
+2017-10-11 16:53:30_0.51003500 1507712010 :/standard/list_data
+
+2017-10-11 16:53:30_0.78431800 1507712010 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:53:30_0.99050900 1507712010 :/favicon.ico
+
+2017-10-11 16:53:31_0.73357800 1507712011 :/standard/list_data
+
+2017-10-11 16:53:32_0.02587900 1507712012 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:53:32_0.22799100 1507712012 :/favicon.ico
+
+2017-10-11 16:53:32_0.76785600 1507712012 :/standard/list_data
+
+2017-10-11 16:53:33_0.05284900 1507712013 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:53:33_0.26011100 1507712013 :/favicon.ico
+
+2017-10-11 16:53:33_0.98271300 1507712013 :/standard/list_data
+
+2017-10-11 16:53:34_0.27217100 1507712014 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:53:34_0.47458700 1507712014 :/favicon.ico
+
+2017-10-11 16:53:35_0.26284200 1507712015 :/standard/list_data
+
+2017-10-11 16:53:35_0.54584600 1507712015 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 16:53:35_0.75845300 1507712015 :/favicon.ico
+
+2017-10-11 17:00:23_0.03153700 1507712423 :/standard/list_data
+
+2017-10-11 17:00:23_0.33865200 1507712423 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 17:00:23_0.56842100 1507712423 :/favicon.ico
+
+2017-10-11 17:00:39_0.80135500 1507712439 :/standard/list_data
+
+2017-10-11 17:00:40_0.11405900 1507712440 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 17:00:40_0.33837500 1507712440 :/favicon.ico
+
+2017-10-11 17:00:40_0.70852300 1507712440 :/standard/list_data
+
+2017-10-11 17:00:41_0.02249200 1507712441 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 17:00:41_0.23730500 1507712441 :/favicon.ico
+
+2017-10-11 17:00:43_0.41253800 1507712443 :/standard/list_data
+
+2017-10-11 17:00:43_0.69904800 1507712443 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 17:00:43_0.93401800 1507712443 :/favicon.ico
+
+2017-10-11 17:00:44_0.33860300 1507712444 :/standard/list_data
+
+2017-10-11 17:00:44_0.61764700 1507712444 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 17:00:44_0.84221600 1507712444 :/favicon.ico
+
+2017-10-11 17:00:45_0.67318600 1507712445 :/standard/list_data
+
+2017-10-11 17:00:45_0.95726600 1507712445 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 17:00:46_0.15944300 1507712446 :/favicon.ico
+
+2017-10-11 17:00:47_0.19322200 1507712447 :/standard/list_data
+
+2017-10-11 17:00:47_0.47545300 1507712447 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 17:00:47_0.67989400 1507712447 :/favicon.ico
+
+2017-10-11 17:01:44_0.11299600 1507712504 :/standard/list_data
+
+2017-10-11 17:01:44_0.42575900 1507712504 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 17:01:44_0.66899600 1507712504 :/favicon.ico
+
+2017-10-11 17:01:48_0.93161500 1507712508 :/standard/import_data
+
+2017-10-11 17:01:49_0.31637200 1507712509 :/Standard/ajaxGetExportDictionary
+
+2017-10-11 17:01:49_0.51369300 1507712509 :/favicon.ico
+
+2017-10-11 17:02:00_0.25992100 1507712520 :/standard/list_data
+
+2017-10-11 17:02:00_0.65565800 1507712520 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 17:02:00_0.89118700 1507712520 :/favicon.ico
+
+2017-10-11 17:05:06_0.96620800 1507712706 :/standard/list_data
+
+2017-10-11 17:05:07_0.33434200 1507712707 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 17:05:07_0.57166200 1507712707 :/favicon.ico
+
+2017-10-11 17:05:08_0.56460700 1507712708 :/standard/list_data
+
+2017-10-11 17:05:08_0.88217200 1507712708 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 17:05:09_0.11235600 1507712709 :/favicon.ico
+
+2017-10-11 17:05:09_0.86657200 1507712709 :/standard/list_data
+
+2017-10-11 17:05:10_0.15465600 1507712710 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 17:05:10_0.40330000 1507712710 :/favicon.ico
+
+2017-10-11 17:05:11_0.13360800 1507712711 :/standard/list_data
+
+2017-10-11 17:05:11_0.42077900 1507712711 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 17:05:11_0.63428700 1507712711 :/favicon.ico
+
+2017-10-11 17:05:12_0.53235500 1507712712 :/standard/list_data
+
+2017-10-11 17:05:12_0.81651800 1507712712 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 17:05:13_0.02584000 1507712713 :/favicon.ico
+
+2017-10-11 17:05:16_0.33313000 1507712716 :/standard/list_data
+
+2017-10-11 17:05:16_0.64889200 1507712716 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 17:05:16_0.88682000 1507712716 :/favicon.ico
+
+2017-10-11 17:05:23_0.69505300 1507712723 :/standard/list_data
+
+2017-10-11 17:05:24_0.06470900 1507712724 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 17:05:24_0.32781600 1507712724 :/favicon.ico
+
+2017-10-11 17:05:40_0.09059500 1507712740 :/standard/import_data
+
+2017-10-11 17:05:40_0.54985400 1507712740 :/Standard/ajaxGetExportDictionary
+
+2017-10-11 17:05:40_0.74145300 1507712740 :/favicon.ico
+
+2017-10-11 17:06:47_0.82535000 1507712807 :/standard/import_data
+
+2017-10-11 17:06:48_0.26397600 1507712808 :/Standard/ajaxGetExportDictionary
+
+2017-10-11 17:06:48_0.46459400 1507712808 :/favicon.ico
+
+2017-10-11 17:06:49_0.43766700 1507712809 :/standard/edit_data
+
+2017-10-11 17:06:49_0.65712200 1507712809 :/favicon.ico
+
+2017-10-11 17:06:51_0.34725500 1507712811 :/standard/import_data
+
+2017-10-11 17:06:51_0.85386800 1507712811 :/Standard/ajaxGetExportDictionary
+
+2017-10-11 17:06:52_0.07759200 1507712812 :/favicon.ico
+
+2017-10-11 17:06:55_0.16718700 1507712815 :/standard/list_data
+
+2017-10-11 17:06:55_0.55367400 1507712815 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 17:06:55_0.77704500 1507712815 :/favicon.ico
+
+2017-10-11 17:11:11_0.06915300 1507713071 :/standard/list_data
+
+2017-10-11 17:11:11_0.45068000 1507713071 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 17:11:11_0.70363800 1507713071 :/favicon.ico
+
+2017-10-11 17:11:13_0.74270900 1507713073 :/standard/list_data
+
+2017-10-11 17:11:14_0.11075900 1507713074 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 17:11:14_0.34804300 1507713074 :/favicon.ico
+
+2017-10-11 17:11:15_0.27635000 1507713075 :/standard/list_data
+
+2017-10-11 17:11:15_0.62356800 1507713075 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 17:11:15_0.86754900 1507713075 :/favicon.ico
+
+2017-10-11 17:11:16_0.66054300 1507713076 :/standard/list_data
+
+2017-10-11 17:11:17_0.00078100 1507713077 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 17:11:17_0.23691100 1507713077 :/favicon.ico
+
+2017-10-11 17:11:18_0.24366300 1507713078 :/standard/list_data
+
+2017-10-11 17:11:18_0.58165300 1507713078 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 17:11:18_0.81718500 1507713078 :/favicon.ico
+
+2017-10-11 17:11:19_0.96166500 1507713079 :/standard/list_data
+
+2017-10-11 17:11:20_0.31200700 1507713080 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 17:11:20_0.55083100 1507713080 :/favicon.ico
+
+2017-10-11 17:11:24_0.37025100 1507713084 :/standard/list_data
+
+2017-10-11 17:11:24_0.73463800 1507713084 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 17:11:24_0.97421100 1507713084 :/favicon.ico
+
+2017-10-11 17:11:47_0.02819100 1507713107 :/standard/list_data
+
+2017-10-11 17:11:47_0.40285200 1507713107 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 17:11:47_0.64247900 1507713107 :/favicon.ico
+
+2017-10-11 17:11:49_0.89513600 1507713109 :/standard/list_data
+
+2017-10-11 17:11:50_0.21856900 1507713110 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 17:11:50_0.45645200 1507713110 :/favicon.ico
+
+2017-10-11 17:11:53_0.34150000 1507713113 :/standard/list_data
+
+2017-10-11 17:11:53_0.70921500 1507713113 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 17:11:53_0.97182200 1507713113 :/favicon.ico
+
+2017-10-11 17:12:11_0.58311000 1507713131 :/standard/list_data
+
+2017-10-11 17:12:11_0.95639600 1507713131 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 17:12:12_0.21694600 1507713132 :/favicon.ico
+
+2017-10-11 17:12:14_0.43094600 1507713134 :/standard/list_data
+
+2017-10-11 17:12:14_0.78423300 1507713134 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 17:12:15_0.02761300 1507713135 :/favicon.ico
+
+2017-10-11 17:12:16_0.66720900 1507713136 :/standard/list_data
+
+2017-10-11 17:12:17_0.02076700 1507713137 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 17:12:17_0.26176700 1507713137 :/favicon.ico
+
+2017-10-11 17:12:42_0.59779700 1507713162 :/standard/list_data
+
+2017-10-11 17:12:42_0.97295700 1507713162 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 17:12:43_0.22004700 1507713163 :/favicon.ico
+
+2017-10-11 17:12:43_0.55720000 1507713163 :/standard/list_data
+
+2017-10-11 17:12:43_0.92843000 1507713163 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 17:12:44_0.18135200 1507713164 :/favicon.ico
+
+2017-10-11 17:12:44_0.53275500 1507713164 :/standard/list_data
+
+2017-10-11 17:12:44_0.89813900 1507713164 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 17:12:45_0.14218500 1507713165 :/favicon.ico
+
+2017-10-11 17:12:46_0.14312000 1507713166 :/standard/list_data
+
+2017-10-11 17:12:46_0.48324200 1507713166 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 17:12:46_0.72762600 1507713166 :/favicon.ico
+
+2017-10-11 17:12:55_0.38177200 1507713175 :/standard/list_data
+
+2017-10-11 17:12:55_0.73718600 1507713175 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 17:12:55_0.95739700 1507713175 :/favicon.ico
+
+2017-10-11 17:12:56_0.38191600 1507713176 :/standard/list_data
+
+2017-10-11 17:12:56_0.69288300 1507713176 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 17:12:56_0.92998900 1507713176 :/favicon.ico
+
+2017-10-11 17:12:57_0.78072700 1507713177 :/standard/list_data
+
+2017-10-11 17:12:58_0.08080500 1507713178 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 17:12:58_0.28575300 1507713178 :/favicon.ico
+
+2017-10-11 17:12:59_0.49533600 1507713179 :/standard/list_data
+
+2017-10-11 17:12:59_0.82822700 1507713179 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 17:13:00_0.06390700 1507713180 :/favicon.ico
+
+2017-10-11 17:14:17_0.96387500 1507713257 :/standard/list_data
+
+2017-10-11 17:14:18_0.32616500 1507713258 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 17:14:18_0.56375400 1507713258 :/favicon.ico
+
+2017-10-11 17:18:41_0.78115100 1507713521 :/standard/list_data
+
+2017-10-11 17:18:42_0.15464400 1507713522 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 17:18:42_0.38511500 1507713522 :/favicon.ico
+
+2017-10-11 17:18:46_0.74891700 1507713526 :/standard/list_data
+
+2017-10-11 17:18:47_0.11748700 1507713527 :/Standard/ajaxImportData?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 17:18:47_0.37543600 1507713527 :/favicon.ico
+
+2017-10-11 17:21:28_0.22848900 1507713688 :/standard/list_data
+
+2017-10-11 17:21:28_0.57624700 1507713688 :/Standard/ajaxImportData?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 17:21:28_0.88104800 1507713688 :/favicon.ico
+
+2017-10-11 17:21:32_0.70484700 1507713692 :/standard/list_data
+
+2017-10-11 17:21:33_0.01431400 1507713693 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 17:21:33_0.23597900 1507713693 :/favicon.ico
+
+2017-10-11 17:24:38_0.88597600 1507713878 :/standard/list_data
+
+2017-10-11 17:24:39_0.19698000 1507713879 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 17:24:39_0.42839700 1507713879 :/favicon.ico
+
+2017-10-11 17:24:40_0.78484900 1507713880 :/standard/list_data
+
+2017-10-11 17:24:41_0.08244400 1507713881 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 17:24:41_0.30765200 1507713881 :/favicon.ico
+
+2017-10-11 17:24:44_0.20008900 1507713884 :/standard/list_data
+
+2017-10-11 17:24:44_0.57319600 1507713884 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 17:24:44_0.85419500 1507713884 :/favicon.ico
+
+2017-10-11 17:25:27_0.76864700 1507713927 :/standard/list_data
+
+2017-10-11 17:25:28_0.08637100 1507713928 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 17:25:28_0.31646600 1507713928 :/favicon.ico
+
+2017-10-11 17:25:30_0.91348300 1507713930 :/standard/list_data
+
+2017-10-11 17:25:31_0.23516900 1507713931 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 17:25:31_0.48815700 1507713931 :/favicon.ico
+
+2017-10-11 17:26:22_0.24651300 1507713982 :/standard/list_data
+
+2017-10-11 17:26:22_0.55259900 1507713982 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 17:26:22_0.76548600 1507713982 :/favicon.ico
+
+2017-10-11 17:26:24_0.15012900 1507713984 :/standard/list_data
+
+2017-10-11 17:26:24_0.45686100 1507713984 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 17:26:24_0.67638500 1507713984 :/favicon.ico
+
+2017-10-11 17:26:27_0.16175200 1507713987 :/standard/list_data
+
+2017-10-11 17:26:27_0.43712100 1507713987 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 17:26:27_0.66527700 1507713987 :/favicon.ico
+
+2017-10-11 17:43:17_0.19889500 1507714997 :/standard/list_data
+
+2017-10-11 17:43:17_0.55826300 1507714997 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 17:43:17_0.86967800 1507714997 :/favicon.ico
+
+2017-10-11 17:43:20_0.04500600 1507715000 :/standard/list_data
+
+2017-10-11 17:43:20_0.35609300 1507715000 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 17:43:20_0.58975000 1507715000 :/favicon.ico
+
+2017-10-11 17:43:34_0.31198200 1507715014 :/standard/list_data
+
+2017-10-11 17:43:34_0.62437900 1507715014 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 17:43:34_0.86626300 1507715014 :/favicon.ico
+
+2017-10-11 17:43:43_0.77555200 1507715023 :/standard/list_data
+
+2017-10-11 17:43:44_0.09553000 1507715024 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 17:43:44_0.34124000 1507715024 :/favicon.ico
+
+2017-10-11 17:44:59_0.54911100 1507715099 :/standard/list_data
+
+2017-10-11 17:44:59_0.91145800 1507715099 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 17:45:00_0.14605300 1507715100 :/favicon.ico
+
+2017-10-11 17:45:08_0.67965900 1507715108 :/standard/list_data
+
+2017-10-11 17:45:08_0.99173600 1507715108 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 17:45:09_0.24582000 1507715109 :/favicon.ico
+
+2017-10-11 17:46:18_0.01312800 1507715178 :/standard/list_data
+
+2017-10-11 17:46:18_0.33579100 1507715178 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 17:46:18_0.57162100 1507715178 :/favicon.ico
+
+2017-10-11 17:47:05_0.57213200 1507715225 :/standard/list_data
+
+2017-10-11 17:47:05_0.88663900 1507715225 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 17:47:06_0.12342500 1507715226 :/favicon.ico
+
+2017-10-11 17:47:41_0.01364400 1507715261 :/standard/list_data
+
+2017-10-11 17:47:41_0.31901400 1507715261 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 17:47:41_0.55064200 1507715261 :/favicon.ico
+
+2017-10-11 17:48:11_0.67806200 1507715291 :/standard/list_data
+
+2017-10-11 17:48:11_0.98870700 1507715291 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 17:48:12_0.22051300 1507715292 :/favicon.ico
+
+2017-10-11 17:56:05_0.28823900 1507715765 :/standard/list_data
+
+2017-10-11 17:56:05_0.58647700 1507715765 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 17:56:05_0.89380300 1507715765 :/favicon.ico
+
+2017-10-11 17:56:07_0.05328500 1507715767 :/standard/list_data
+
+2017-10-11 17:56:07_0.34453500 1507715767 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 17:56:07_0.56883900 1507715767 :/favicon.ico
+
+2017-10-11 17:56:48_0.36236200 1507715808 :/standard/list_data
+
+2017-10-11 17:56:48_0.69662000 1507715808 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 17:56:48_0.94876700 1507715808 :/favicon.ico
+
+2017-10-11 17:56:50_0.21083500 1507715810 :/standard/list_data
+
+2017-10-11 17:56:50_0.51915000 1507715810 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 17:56:50_0.75359300 1507715810 :/favicon.ico
+
+2017-10-11 17:56:56_0.76746200 1507715816 :/standard/list_data
+
+2017-10-11 17:56:57_0.05381600 1507715817 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 17:56:57_0.28526700 1507715817 :/favicon.ico
+
+2017-10-11 17:57:08_0.93742500 1507715828 :/standard/list_data
+
+2017-10-11 17:57:09_0.27187400 1507715829 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 17:57:09_0.52525200 1507715829 :/favicon.ico
+
+2017-10-11 17:57:31_0.25444600 1507715851 :/standard/list_data
+
+2017-10-11 17:57:31_0.55434300 1507715851 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 17:57:31_0.77622200 1507715851 :/favicon.ico
+
+2017-10-11 17:57:53_0.86456600 1507715873 :/standard/list_data
+
+2017-10-11 17:57:54_0.17461200 1507715874 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 17:57:54_0.41280300 1507715874 :/favicon.ico
+
+2017-10-11 17:58:17_0.07501000 1507715897 :/standard/list_data
+
+2017-10-11 17:58:17_0.38262400 1507715897 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 17:58:17_0.61870100 1507715897 :/favicon.ico
+
+2017-10-11 17:59:36_0.34486900 1507715976 :/standard/list_data
+
+2017-10-11 17:59:36_0.65479700 1507715976 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 17:59:36_0.88537300 1507715976 :/favicon.ico
+
+2017-10-11 17:59:42_0.75408700 1507715982 :/standard/list_data
+
+2017-10-11 17:59:43_0.05696700 1507715983 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 17:59:43_0.27526700 1507715983 :/favicon.ico
+
+2017-10-11 17:59:44_0.44796300 1507715984 :/standard/list_data
+
+2017-10-11 17:59:44_0.73964200 1507715984 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 17:59:44_0.96557400 1507715984 :/favicon.ico
+
+2017-10-11 17:59:45_0.74126600 1507715985 :/standard/list_data
+
+2017-10-11 17:59:46_0.02631100 1507715986 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 17:59:46_0.27315500 1507715986 :/favicon.ico
+
+2017-10-11 18:00:47_0.36976600 1507716047 :/standard/list_data
+
+2017-10-11 18:00:47_0.67624900 1507716047 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 18:00:47_0.91890900 1507716047 :/favicon.ico
+
+2017-10-11 18:00:55_0.35274000 1507716055 :/standard/list_data
+
+2017-10-11 18:00:55_0.65473400 1507716055 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 18:00:55_0.88660200 1507716055 :/favicon.ico
+
+2017-10-11 18:08:59_0.37630400 1507716539 :/standard/list_data
+
+2017-10-11 18:08:59_0.69123800 1507716539 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 18:08:59_0.94514500 1507716539 :/favicon.ico
+
+2017-10-11 18:09:02_0.40898600 1507716542 :/standard/report_department
+
+2017-10-11 18:09:02_0.75161100 1507716542 :/Standard/ajaxGetReportDepartment
+
+2017-10-11 18:09:02_0.91563500 1507716542 :/favicon.ico
+
+2017-10-11 18:09:05_0.16579500 1507716545 :/standard/import_data
+
+2017-10-11 18:09:05_0.53363700 1507716545 :/Standard/ajaxGetExportDictionary
+
+2017-10-11 18:09:05_0.73929900 1507716545 :/favicon.ico
+
+2017-10-11 18:09:07_0.92867200 1507716547 :/standard/export_dictionary
+
+2017-10-11 18:09:08_0.31416600 1507716548 :/Standard/ajaxGetExportDictionary
+
+2017-10-11 18:09:08_0.47320800 1507716548 :/favicon.ico
+
+2017-10-11 18:09:11_0.00313700 1507716551 :/standard/export_dictionary
+
+2017-10-11 18:09:11_0.34211800 1507716551 :/Standard/ajaxGetExportDictionary
+
+2017-10-11 18:09:11_0.49650100 1507716551 :/favicon.ico
+
+2017-10-11 18:10:15_0.31517000 1507716615 :/standard/dictionaries
+
+2017-10-11 18:10:15_0.64194100 1507716615 :/Standard/ajaxDictionaryList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 18:10:15_0.85507000 1507716615 :/favicon.ico
+
+2017-10-11 18:10:17_0.23886600 1507716617 :/favicon.ico
+
+2017-10-11 18:10:19_0.17163900 1507716619 :/standard/import_data
+
+2017-10-11 18:10:19_0.55550200 1507716619 :/Standard/ajaxGetExportDictionary
+
+2017-10-11 18:10:19_0.76043300 1507716619 :/favicon.ico
+
+2017-10-11 18:10:21_0.53536500 1507716621 :/standard/import_data
+
+2017-10-11 18:10:21_0.94599300 1507716621 :/Standard/ajaxGetExportDictionary
+
+2017-10-11 18:10:22_0.16560700 1507716622 :/favicon.ico
+
+2017-10-11 18:10:54_0.16870800 1507716654 :/Standard/ajaxUploadData
+
+2017-10-11 18:11:28_0.48111000 1507716688 :/standard/list_data
+
+2017-10-11 18:11:28_0.85019200 1507716688 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 18:11:29_0.09101000 1507716689 :/favicon.ico
+
+2017-10-11 18:11:32_0.52867700 1507716692 :/standard/list_data
+
+2017-10-11 18:11:32_0.82268900 1507716692 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 18:11:33_0.05304600 1507716693 :/favicon.ico
+
+2017-10-11 18:20:29_0.00019000 1507717229 :/standard/report_indicators
+
+2017-10-11 18:20:29_0.32009400 1507717229 :/Standard/ajaxGetReportIndicators?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 18:20:29_0.33594700 1507717229 :/Standard/ajaxDictionaryGetAllChild?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 18:20:29_0.54327500 1507717229 :/favicon.ico
+
+2017-10-11 18:20:31_0.22177400 1507717231 :/Standard/ajaxIndicatorsChildList/section/9?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 18:25:02_0.76754400 1507717502 :/favicon.ico
+
+2017-10-11 18:25:04_0.77582300 1507717504 :/standard/import_data
+
+2017-10-11 18:25:05_0.17593400 1507717505 :/Standard/ajaxGetExportDictionary
+
+2017-10-11 18:25:05_0.44452100 1507717505 :/favicon.ico
+
+2017-10-11 18:25:06_0.08350400 1507717506 :/standard/list_data
+
+2017-10-11 18:25:06_0.40992800 1507717506 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 18:25:06_0.64017300 1507717506 :/favicon.ico
+
+2017-10-11 18:28:08_0.53653200 1507717688 :/standard/list_data
+
+2017-10-11 18:28:08_0.86225400 1507717688 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 18:28:09_0.10768200 1507717689 :/favicon.ico
+
+2017-10-11 18:28:11_0.71491900 1507717691 :/standard/list_data
+
+2017-10-11 18:28:12_0.01533700 1507717692 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 18:28:12_0.24829100 1507717692 :/favicon.ico
+
+2017-10-11 18:30:13_0.49000700 1507717813 :/standard/list_data
+
+2017-10-11 18:30:13_0.81388900 1507717813 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 18:30:14_0.06845800 1507717814 :/favicon.ico
+
+2017-10-11 18:30:17_0.53041700 1507717817 :/standard/list_data
+
+2017-10-11 18:30:17_0.85283300 1507717817 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 18:30:18_0.11024700 1507717818 :/favicon.ico
+
+2017-10-11 18:31:16_0.56342300 1507717876 :/standard/list_data
+
+2017-10-11 18:31:16_0.86989700 1507717876 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 18:31:17_0.11164900 1507717877 :/favicon.ico
+
+2017-10-11 19:22:22_0.49679200 1507720942 :/favicon.ico
+
+2017-10-11 19:22:42_0.51864800 1507720962 :/standard/list_data
+
+2017-10-11 19:22:42_0.88099600 1507720962 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 19:22:43_0.14959400 1507720963 :/favicon.ico
+
+2017-10-11 19:22:45_0.21840600 1507720965 :/standard/list_data
+
+2017-10-11 19:22:45_0.62867500 1507720965 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 19:22:45_0.87556600 1507720965 :/favicon.ico
+
+2017-10-11 19:24:58_0.87564100 1507721098 :/standard/list_data
+
+2017-10-11 19:24:59_0.17814000 1507721099 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 19:24:59_0.42486700 1507721099 :/favicon.ico
+
+2017-10-11 19:27:41_0.23647100 1507721261 :/standard/list_data
+
+2017-10-11 19:27:41_0.58295200 1507721261 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 19:27:41_0.83847000 1507721261 :/favicon.ico
+
+2017-10-11 19:29:18_0.38930800 1507721358 :/standard/list_data
+
+2017-10-11 19:29:18_0.68629200 1507721358 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 19:29:18_0.94121000 1507721358 :/favicon.ico
+
+2017-10-11 19:29:21_0.12256400 1507721361 :/standard/list_data
+
+2017-10-11 19:29:21_0.42180000 1507721361 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 19:29:21_0.65947600 1507721361 :/favicon.ico
+
+2017-10-11 19:30:09_0.12150500 1507721409 :/standard/list_data
+
+2017-10-11 19:30:09_0.42597200 1507721409 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 19:30:09_0.65591800 1507721409 :/favicon.ico
+
+2017-10-11 19:30:12_0.93529300 1507721412 :/standard/list_data
+
+2017-10-11 19:30:13_0.22800100 1507721413 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 19:30:13_0.46279500 1507721413 :/favicon.ico
+
+2017-10-11 19:30:16_0.23332800 1507721416 :/standard/list_data
+
+2017-10-11 19:30:16_0.52298100 1507721416 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 19:30:16_0.78537400 1507721416 :/favicon.ico
+
+2017-10-11 19:31:10_0.69751100 1507721470 :/standard/list_data
+
+2017-10-11 19:31:11_0.04701600 1507721471 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 19:31:11_0.29560600 1507721471 :/favicon.ico
+
+2017-10-11 19:31:12_0.81521300 1507721472 :/standard/list_data
+
+2017-10-11 19:31:13_0.12549900 1507721473 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 19:31:13_0.37439100 1507721473 :/favicon.ico
+
+2017-10-11 19:31:30_0.36697800 1507721490 :/standard/list_data
+
+2017-10-11 19:31:30_0.69634500 1507721490 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 19:31:30_0.96108200 1507721490 :/favicon.ico
+
+2017-10-11 19:31:32_0.47626100 1507721492 :/standard/list_data
+
+2017-10-11 19:31:32_0.76199400 1507721492 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 19:31:33_0.00521800 1507721493 :/favicon.ico
+
+2017-10-11 19:31:33_0.90314000 1507721493 :/standard/list_data
+
+2017-10-11 19:31:34_0.19512000 1507721494 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 19:31:34_0.43831200 1507721494 :/favicon.ico
+
+2017-10-11 19:31:57_0.81419600 1507721517 :/standard/list_data
+
+2017-10-11 19:31:58_0.12321000 1507721518 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 19:31:58_0.36931700 1507721518 :/favicon.ico
+
+2017-10-11 19:35:13_0.91140800 1507721713 :/standard/list_data
+
+2017-10-11 19:35:14_0.21162600 1507721714 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 19:35:14_0.45921200 1507721714 :/favicon.ico
+
+2017-10-11 19:35:42_0.95526900 1507721742 :/standard/list_data
+
+2017-10-11 19:35:43_0.25781500 1507721743 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 19:35:43_0.50594700 1507721743 :/favicon.ico
+
+2017-10-11 19:36:11_0.53950300 1507721771 :/standard/list_data
+
+2017-10-11 19:36:11_0.84170100 1507721771 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 19:36:12_0.08742700 1507721772 :/favicon.ico
+
+2017-10-11 19:36:14_0.82643800 1507721774 :/standard/list_data
+
+2017-10-11 19:36:15_0.10957800 1507721775 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 19:36:15_0.34696300 1507721775 :/favicon.ico
+
+2017-10-11 19:40:26_0.56993800 1507722026 :/standard/list_data
+
+2017-10-11 19:40:26_0.97481500 1507722026 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 19:40:27_0.24429600 1507722027 :/favicon.ico
+
+2017-10-11 19:40:29_0.04274100 1507722029 :/standard/list_data
+
+2017-10-11 19:40:29_0.34806700 1507722029 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 19:40:29_0.60268600 1507722029 :/favicon.ico
+
+2017-10-11 19:40:30_0.93510400 1507722030 :/standard/list_data
+
+2017-10-11 19:40:31_0.22672500 1507722031 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 19:40:31_0.48032300 1507722031 :/favicon.ico
+
+2017-10-11 19:40:32_0.68749100 1507722032 :/standard/list_data
+
+2017-10-11 19:40:33_0.03313900 1507722033 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 19:40:33_0.28641200 1507722033 :/favicon.ico
+
+2017-10-11 19:40:35_0.52668200 1507722035 :/standard/list_data
+
+2017-10-11 19:40:35_0.93133000 1507722035 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 19:40:36_0.20499800 1507722036 :/favicon.ico
+
+2017-10-11 19:40:55_0.46263500 1507722055 :/standard/list_data
+
+2017-10-11 19:40:55_0.79571800 1507722055 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 19:40:56_0.05875900 1507722056 :/favicon.ico
+
+2017-10-11 19:40:58_0.48067200 1507722058 :/standard/list_data
+
+2017-10-11 19:40:58_0.78999700 1507722058 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 19:40:59_0.04431800 1507722059 :/favicon.ico
+
+2017-10-11 19:41:14_0.95250700 1507722074 :/standard/list_data
+
+2017-10-11 19:41:15_0.27011700 1507722075 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 19:41:15_0.53153300 1507722075 :/favicon.ico
+
+2017-10-11 19:41:55_0.86268300 1507722115 :/standard/list_data
+
+2017-10-11 19:41:56_0.19436400 1507722116 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 19:41:56_0.46567900 1507722116 :/favicon.ico
+
+2017-10-11 19:41:57_0.54009800 1507722117 :/standard/list_data
+
+2017-10-11 19:41:57_0.86655900 1507722117 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 19:41:58_0.12502700 1507722118 :/favicon.ico
+
+2017-10-11 19:41:59_0.35331800 1507722119 :/standard/list_data
+
+2017-10-11 19:41:59_0.65743700 1507722119 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 19:41:59_0.91704800 1507722119 :/favicon.ico
+
+2017-10-11 19:42:24_0.99512100 1507722144 :/standard/list_data
+
+2017-10-11 19:42:25_0.37035100 1507722145 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 19:42:25_0.85822600 1507722145 :/favicon.ico
+
+2017-10-11 19:42:28_0.16559100 1507722148 :/standard/list_data
+
+2017-10-11 19:42:28_0.47954900 1507722148 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 19:42:28_0.72844300 1507722148 :/favicon.ico
+
+2017-10-11 19:43:12_0.21574200 1507722192 :/standard/list_data
+
+2017-10-11 19:43:12_0.53755500 1507722192 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 19:43:12_0.78462500 1507722192 :/favicon.ico
+
+2017-10-11 19:43:43_0.48486000 1507722223 :/standard/list_data
+
+2017-10-11 19:43:43_0.84680500 1507722223 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 19:43:44_0.19658900 1507722224 :/favicon.ico
+
+2017-10-11 19:44:54_0.85315600 1507722294 :/standard/list_data
+
+2017-10-11 19:44:55_0.21549900 1507722295 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 19:44:55_0.48476900 1507722295 :/favicon.ico
+
+2017-10-11 19:47:58_0.21307300 1507722478 :/standard/import_data
+
+2017-10-11 19:47:58_0.77617600 1507722478 :/Standard/ajaxGetExportDictionary
+
+2017-10-11 19:47:59_0.06571200 1507722479 :/favicon.ico
+
+2017-10-11 19:48:00_0.44513900 1507722480 :/standard/edit_data
+
+2017-10-11 19:48:00_0.66480400 1507722480 :/favicon.ico
+
+2017-10-11 19:48:49_0.96349900 1507722529 :/standard/import_data
+
+2017-10-11 19:48:50_0.51711100 1507722530 :/Standard/ajaxGetExportDictionary
+
+2017-10-11 19:48:50_0.80265100 1507722530 :/favicon.ico
+
+2017-10-11 19:48:52_0.07939700 1507722532 :/standard/list_data
+
+2017-10-11 19:48:52_0.47595000 1507722532 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 19:48:52_0.73948000 1507722532 :/favicon.ico
+
+2017-10-11 19:49:49_0.87064400 1507722589 :/standard/list_data
+
+2017-10-11 19:49:50_0.26180600 1507722590 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 19:49:50_0.54033500 1507722590 :/favicon.ico
+
+2017-10-11 19:52:45_0.15090800 1507722765 :/standard/list_data
+
+2017-10-11 19:52:45_0.52677600 1507722765 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 19:52:45_0.75506300 1507722765 :/favicon.ico
+
+2017-10-11 19:52:46_0.67822700 1507722766 :/standard/list_data
+
+2017-10-11 19:52:47_0.02207700 1507722767 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 19:52:47_0.24737100 1507722767 :/favicon.ico
+
+2017-10-11 19:52:56_0.71508000 1507722776 :/standard/list_data
+
+2017-10-11 19:52:57_0.06370200 1507722777 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 19:52:57_0.26580200 1507722777 :/favicon.ico
+
+2017-10-11 19:52:58_0.47907700 1507722778 :/standard/list_data
+
+2017-10-11 19:52:58_0.81316100 1507722778 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 19:52:59_0.03832000 1507722779 :/favicon.ico
+
+2017-10-11 19:53:00_0.81671700 1507722780 :/standard/list_data
+
+2017-10-11 19:53:01_0.14395200 1507722781 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 19:53:01_0.39442200 1507722781 :/favicon.ico
+
+2017-10-11 19:53:09_0.30006100 1507722789 :/standard/list_data
+
+2017-10-11 19:53:09_0.54867200 1507722789 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 19:53:09_0.73805900 1507722789 :/favicon.ico
+
+2017-10-11 19:53:13_0.83240800 1507722793 :/Standard/ajaxImportDataList/report_time/2017-10?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 19:53:18_0.67090900 1507722798 :/Standard/ajaxImportDataList/report_time/2017-09?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 19:53:32_0.56247900 1507722812 :/Standard/ajaxImportDataList/report_time/2017-08?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 19:53:38_0.33622400 1507722818 :/Standard/ajaxImportDataList/report_time/2017-10?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 19:53:41_0.66946600 1507722821 :/standard/list_data
+
+2017-10-11 19:53:41_0.98577700 1507722821 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 19:53:42_0.25221400 1507722822 :/favicon.ico
+
+2017-10-11 19:53:48_0.64786900 1507722828 :/Standard/ajaxImportDataList/report_time/2017-06?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 19:53:51_0.87921900 1507722831 :/Standard/ajaxImportDataList/report_time/2017-10?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 19:55:18_0.81546900 1507722918 :/Standard/ajaxImportDataList/report_time/2017-10?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 19:55:21_0.56114300 1507722921 :/Standard/ajaxImportDataList/report_time/2017-10?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 19:55:23_0.11471200 1507722923 :/Standard/ajaxImportDataList/report_time/2017-10?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 19:57:47_0.12771200 1507723067 :/standard/list_data
+
+2017-10-11 19:57:47_0.50710400 1507723067 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 19:57:47_0.76579600 1507723067 :/favicon.ico
+
+2017-10-11 19:57:49_0.09037400 1507723069 :/standard/list_data
+
+2017-10-11 19:57:49_0.43759200 1507723069 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 19:57:49_0.69810200 1507723069 :/favicon.ico
+
+2017-10-11 19:57:50_0.74649000 1507723070 :/standard/list_data
+
+2017-10-11 19:57:51_0.07235400 1507723071 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 19:57:51_0.33641200 1507723071 :/favicon.ico
+
+2017-10-11 19:57:59_0.44042400 1507723079 :/Standard/ajaxImportDataList/report_time/201710?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 19:58:27_0.18874000 1507723107 :/Standard/ajaxImportDataList/report_time/201710?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 19:58:29_0.20632900 1507723109 :/standard/list_data
+
+2017-10-11 19:58:29_0.55272900 1507723109 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 19:58:29_0.80339100 1507723109 :/favicon.ico
+
+2017-10-11 19:58:38_0.37475800 1507723118 :/Standard/ajaxImportDataList/report_time/201709?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 19:58:41_0.02378600 1507723121 :/Standard/ajaxImportDataList/report_time/201710?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 19:58:52_0.55801000 1507723132 :/Standard/ajaxImportDataList/report_time/201710?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 19:58:55_0.10839100 1507723135 :/Standard/ajaxImportDataList/report_time/201710?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 19:58:58_0.56679100 1507723138 :/Standard/ajaxImportDataList/report_time/201709?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 19:59:00_0.83425600 1507723140 :/Standard/ajaxImportDataList/report_time/201710?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 19:59:10_0.81803100 1507723150 :/Standard/ajaxImportDataList/report_time/201707?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 19:59:13_0.77127000 1507723153 :/Standard/ajaxImportDataList/report_time/201710?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 20:00:26_0.66715000 1507723226 :/standard/list_data
+
+2017-10-11 20:00:27_0.05208900 1507723227 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 20:00:27_0.32451600 1507723227 :/favicon.ico
+
+2017-10-11 20:00:52_0.06025700 1507723252 :/standard/list_data
+
+2017-10-11 20:00:52_0.42085700 1507723252 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 20:00:52_0.66698800 1507723252 :/favicon.ico
+
+2017-10-11 20:01:01_0.95808700 1507723261 :/standard/list_data
+
+2017-10-11 20:01:02_0.30812400 1507723262 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 20:01:02_0.56085600 1507723262 :/favicon.ico
+
+2017-10-11 20:01:09_0.76964500 1507723269 :/Standard/ajaxImportDataList/report_time/2017-08?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 20:01:12_0.78692300 1507723272 :/Standard/ajaxImportDataList/report_time/2017-10?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 20:02:51_0.03472600 1507723371 :/standard/list_data
+
+2017-10-11 20:02:51_0.41336300 1507723371 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 20:02:51_0.67979800 1507723371 :/favicon.ico
+
+2017-10-11 20:02:56_0.80551100 1507723376 :/Standard/ajaxImportDataList/report_time/2017-07?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 20:02:57_0.86634900 1507723377 :/Standard/ajaxImportDataList/report_time/2017-10?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 20:03:50_0.42333700 1507723430 :/standard/list_data
+
+2017-10-11 20:03:50_0.79383900 1507723430 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 20:03:51_0.04818700 1507723431 :/favicon.ico
+
+2017-10-11 20:04:57_0.51551900 1507723497 :/standard/list_data
+
+2017-10-11 20:04:57_0.87210500 1507723497 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 20:04:58_0.11298600 1507723498 :/favicon.ico
+
+2017-10-11 20:05:02_0.61654400 1507723502 :/standard/list_data
+
+2017-10-11 20:05:02_0.96659800 1507723502 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 20:05:03_0.23580900 1507723503 :/favicon.ico
+
+2017-10-11 20:05:35_0.71382500 1507723535 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2017-07
+
+2017-10-11 20:05:37_0.40968300 1507723537 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2017-10
+
+2017-10-11 20:05:50_0.71173800 1507723550 :/standard/list_data
+
+2017-10-11 20:05:51_0.08779100 1507723551 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 20:05:51_0.34590100 1507723551 :/favicon.ico
+
+2017-10-11 20:05:54_0.86962300 1507723554 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2017-08
+
+2017-10-11 20:05:58_0.65242500 1507723558 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2017-10
+
+2017-10-11 20:06:00_0.30390700 1507723560 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2017-10
+
+2017-10-11 20:06:08_0.08126100 1507723568 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2017-08
+
+2017-10-11 20:06:10_0.50085900 1507723570 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2017-10
+
+2017-10-11 20:06:15_0.53057500 1507723575 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2017-09
+
+2017-10-11 20:06:19_0.91160000 1507723579 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2017-10
+
+2017-10-11 20:06:24_0.26926500 1507723584 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2017-09
+
+2017-10-11 20:06:47_0.07067400 1507723607 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2017-10
+
+2017-10-11 20:06:55_0.97224000 1507723615 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2017-09
+
+2017-10-11 20:06:58_0.30997100 1507723618 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2017-10
+
+2017-10-11 20:07:05_0.02508700 1507723625 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2017-09
+
+2017-10-11 20:07:07_0.57342400 1507723627 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2017-10
+
+2017-10-11 20:07:35_0.96505200 1507723655 :/standard/list_data
+
+2017-10-11 20:07:36_0.32506500 1507723656 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 20:07:36_0.57964000 1507723656 :/favicon.ico
+
+2017-10-11 20:07:40_0.24519800 1507723660 :/standard/list_data
+
+2017-10-11 20:07:40_0.57392500 1507723660 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 20:07:40_0.81845800 1507723660 :/favicon.ico
+
+2017-10-11 20:07:43_0.10720200 1507723663 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2017-10
+
+2017-10-11 20:07:46_0.12221200 1507723666 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2017-08
+
+2017-10-11 20:07:46_0.71217000 1507723666 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2017-10
+
+2017-10-11 20:07:51_0.77141600 1507723671 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2017-10
+
+2017-10-11 20:07:52_0.31569400 1507723672 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2017-10
+
+2017-10-11 20:07:55_0.09182500 1507723675 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2017-08
+
+2017-10-11 20:07:59_0.87822600 1507723679 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2017-10
+
+2017-10-11 20:08:06_0.41908000 1507723686 :/standard/list_data
+
+2017-10-11 20:08:06_0.74872400 1507723686 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 20:08:06_0.99286500 1507723686 :/favicon.ico
+
+2017-10-11 20:08:08_0.11592600 1507723688 :/standard/list_data
+
+2017-10-11 20:08:08_0.43652900 1507723688 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 20:08:08_0.67004400 1507723688 :/favicon.ico
+
+2017-10-11 20:08:10_0.59427400 1507723690 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2017-10
+
+2017-10-11 20:08:13_0.92907400 1507723693 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2017-07
+
+2017-10-11 20:08:17_0.24119800 1507723697 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2017-10
+
+2017-10-11 20:08:26_0.15014300 1507723706 :/standard/list_data
+
+2017-10-11 20:08:26_0.49333900 1507723706 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 20:08:26_0.74704400 1507723706 :/favicon.ico
+
+2017-10-11 20:08:28_0.24208700 1507723708 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2017-10
+
+2017-10-11 20:08:28_0.82740600 1507723708 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2017-10
+
+2017-10-11 20:08:32_0.85342700 1507723712 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2017-08
+
+2017-10-11 20:08:33_0.70016900 1507723713 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2017-10
+
+2017-10-11 20:08:35_0.60489200 1507723715 :/standard/list_data
+
+2017-10-11 20:08:35_0.90979600 1507723715 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 20:08:36_0.16422500 1507723716 :/favicon.ico
+
+2017-10-11 20:08:36_0.64823600 1507723716 :/standard/list_data
+
+2017-10-11 20:08:36_0.96943300 1507723716 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 20:08:37_0.21928600 1507723717 :/favicon.ico
+
+2017-10-11 20:09:10_0.03590500 1507723750 :/standard/list_data
+
+2017-10-11 20:09:10_0.39596100 1507723750 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 20:09:10_0.65848800 1507723750 :/favicon.ico
+
+2017-10-11 20:09:11_0.39269800 1507723751 :/standard/list_data
+
+2017-10-11 20:09:11_0.71274000 1507723751 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 20:09:11_0.96225900 1507723751 :/favicon.ico
+
+2017-10-11 20:11:10_0.09596700 1507723870 :/standard/list_data
+
+2017-10-11 20:11:10_0.47574700 1507723870 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 20:11:10_0.74340100 1507723870 :/favicon.ico
+
+2017-10-11 20:11:11_0.22344200 1507723871 :/standard/list_data
+
+2017-10-11 20:11:11_0.53831900 1507723871 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 20:11:11_0.80503800 1507723871 :/favicon.ico
+
+2017-10-11 20:11:12_0.15185200 1507723872 :/standard/list_data
+
+2017-10-11 20:11:12_0.48502100 1507723872 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 20:11:12_0.76439200 1507723872 :/favicon.ico
+
+2017-10-11 20:11:13_0.20599600 1507723873 :/standard/list_data
+
+2017-10-11 20:11:13_0.52853900 1507723873 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 20:11:13_0.79627600 1507723873 :/favicon.ico
+
+2017-10-11 20:11:29_0.57209100 1507723889 :/standard/report_department
+
+2017-10-11 20:11:30_0.38515800 1507723890 :/Standard/ajaxGetReportDepartment
+
+2017-10-11 20:11:30_0.74237600 1507723890 :/favicon.ico
+
+2017-10-11 20:11:33_0.42542600 1507723893 :/standard/report_indicators
+
+2017-10-11 20:11:34_0.12314100 1507723894 :/Standard/ajaxGetReportIndicators?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 20:11:34_0.15349400 1507723894 :/Standard/ajaxDictionaryGetAllChild?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 20:11:34_0.62943900 1507723894 :/favicon.ico
+
+2017-10-11 20:11:40_0.26202900 1507723900 :/standard/report_indicators
+
+2017-10-11 20:11:40_0.93763800 1507723900 :/Standard/ajaxGetReportIndicators?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 20:11:40_0.96570900 1507723900 :/Standard/ajaxDictionaryGetAllChild?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 20:11:41_0.43031800 1507723901 :/favicon.ico
+
+2017-10-11 20:11:44_0.00464500 1507723904 :/standard/import_data
+
+2017-10-11 20:11:44_0.90418100 1507723904 :/Standard/ajaxGetExportDictionary
+
+2017-10-11 20:11:45_0.34634900 1507723905 :/favicon.ico
+
+2017-10-11 20:11:56_0.82980400 1507723916 :/favicon.ico
+
+2017-10-11 20:11:59_0.55584500 1507723919 :/favicon.ico
+
+2017-10-11 20:12:02_0.41673000 1507723922 :/standard/list_data
+
+2017-10-11 20:12:03_0.17306700 1507723923 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 20:12:03_0.71299700 1507723923 :/favicon.ico
+
+2017-10-11 20:12:04_0.77468400 1507723924 :/standard/list_data
+
+2017-10-11 20:12:05_0.47472900 1507723925 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 20:12:06_0.01217000 1507723926 :/favicon.ico
+
+2017-10-11 20:13:34_0.01430300 1507724014 :/standard/list_data
+
+2017-10-11 20:13:34_0.76950700 1507724014 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 20:13:35_0.32204600 1507724015 :/favicon.ico
+
+2017-10-11 20:13:36_0.19299200 1507724016 :/standard/list_data
+
+2017-10-11 20:13:37_0.02987100 1507724017 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 20:13:37_0.74557400 1507724017 :/favicon.ico
+
+2017-10-11 20:13:38_0.81270200 1507724018 :/standard/list_data
+
+2017-10-11 20:13:39_0.50974800 1507724019 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 20:13:40_0.07761700 1507724020 :/favicon.ico
+
+2017-10-11 20:13:43_0.49185500 1507724023 :/standard/list_data
+
+2017-10-11 20:13:44_0.22974700 1507724024 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 20:13:44_0.80870800 1507724024 :/favicon.ico
+
+2017-10-11 20:15:25_0.38258600 1507724125 :/standard/list_data
+
+2017-10-11 20:15:26_0.18518600 1507724126 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 20:15:26_0.82520900 1507724126 :/favicon.ico
+
+2017-10-11 20:15:28_0.19320900 1507724128 :/standard/list_data
+
+2017-10-11 20:15:28_0.92214600 1507724128 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 20:15:29_0.47583500 1507724129 :/favicon.ico
+
+2017-10-11 20:15:32_0.21327000 1507724132 :/standard/list_data
+
+2017-10-11 20:15:32_0.96861200 1507724132 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 20:15:33_0.64099600 1507724133 :/favicon.ico
+
+2017-10-11 20:15:34_0.40665200 1507724134 :/standard/list_data
+
+2017-10-11 20:15:35_0.17218000 1507724135 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 20:15:35_0.76420200 1507724135 :/favicon.ico
+
+2017-10-11 20:16:09_0.01024700 1507724169 :/standard/list_data
+
+2017-10-11 20:16:09_0.76146000 1507724169 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 20:16:10_0.33162700 1507724170 :/favicon.ico
+
+2017-10-11 20:16:51_0.76310500 1507724211 :/standard/list_data
+
+2017-10-11 20:16:52_0.56223900 1507724212 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 20:16:53_0.15281900 1507724213 :/favicon.ico
+
+2017-10-11 20:16:53_0.34354700 1507724213 :/standard/list_data
+
+2017-10-11 20:16:54_0.06420100 1507724214 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 20:16:54_0.57345800 1507724214 :/standard/list_data
+
+2017-10-11 20:16:55_0.29997900 1507724215 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 20:16:55_0.89347000 1507724215 :/favicon.ico
+
+2017-10-11 20:17:40_0.57734000 1507724260 :/standard/list_data
+
+2017-10-11 20:17:41_0.29410500 1507724261 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 20:17:41_0.97673600 1507724261 :/favicon.ico
+
+2017-10-11 20:17:48_0.20738900 1507724268 :/standard/list_data
+
+2017-10-11 20:17:48_0.89490700 1507724268 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 20:17:49_0.44267600 1507724269 :/favicon.ico
+
+2017-10-11 20:18:26_0.48238200 1507724306 :/standard/list_data
+
+2017-10-11 20:18:27_0.27010100 1507724307 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 20:18:27_0.73493600 1507724307 :/favicon.ico
+
+2017-10-11 20:18:28_0.83234500 1507724308 :/standard/list_data
+
+2017-10-11 20:18:29_0.49185600 1507724309 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 20:18:29_0.92365200 1507724309 :/favicon.ico
+
+2017-10-11 20:18:30_0.40277000 1507724310 :/standard/list_data
+
+2017-10-11 20:18:31_0.00933900 1507724311 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 20:18:31_0.42829900 1507724311 :/favicon.ico
+
+2017-10-11 20:18:31_0.84655000 1507724311 :/standard/list_data
+
+2017-10-11 20:18:32_0.51351700 1507724312 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 20:18:32_0.90371900 1507724312 :/favicon.ico
+
+2017-10-11 20:18:37_0.74471700 1507724317 :/standard/list_data
+
+2017-10-11 20:18:38_0.33496500 1507724318 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 20:18:38_0.68327700 1507724318 :/favicon.ico
+
+2017-10-11 20:18:39_0.14112700 1507724319 :/standard/list_data
+
+2017-10-11 20:18:39_0.69385800 1507724319 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 20:18:40_0.15743000 1507724320 :/favicon.ico
+
+2017-10-11 20:18:42_0.76563400 1507724322 :/standard/list_data
+
+2017-10-11 20:18:43_0.42007200 1507724323 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 20:18:43_0.81571800 1507724323 :/favicon.ico
+
+2017-10-11 20:18:45_0.15381700 1507724325 :/standard/list_data
+
+2017-10-11 20:18:45_0.76310200 1507724325 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 20:18:46_0.12171000 1507724326 :/favicon.ico
+
+2017-10-11 20:19:19_0.72637100 1507724359 :/standard/list_data
+
+2017-10-11 20:19:20_0.35337000 1507724360 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 20:19:20_0.73603700 1507724360 :/favicon.ico
+
+2017-10-11 20:19:20_0.97132600 1507724360 :/standard/list_data
+
+2017-10-11 20:19:21_0.56089400 1507724361 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 20:19:21_0.91289400 1507724361 :/favicon.ico
+
+2017-10-11 20:19:22_0.13091500 1507724362 :/standard/list_data
+
+2017-10-11 20:19:22_0.69448600 1507724362 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 20:19:23_0.15008600 1507724363 :/favicon.ico
+
+2017-10-11 20:19:27_0.47658600 1507724367 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2017-09-12
+
+2017-10-11 20:19:28_0.88900900 1507724368 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2017-09-12
+
+2017-10-11 20:20:13_0.25212700 1507724413 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2017-10-11
+
+2017-10-11 20:20:16_0.49900200 1507724416 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2017-10-11
+
+2017-10-11 20:21:50_0.38044200 1507724510 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2017-10-10
+
+2017-10-11 20:21:52_0.11101900 1507724512 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2017-10-10
+
+2017-10-11 20:22:08_0.63163000 1507724528 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2017-10-09
+
+2017-10-11 20:22:10_0.30035100 1507724530 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2017-10-09
+
+2017-10-11 20:22:37_0.62626100 1507724557 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2017-10-09
+
+2017-10-11 20:22:50_0.89812200 1507724570 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2017-10-09
+
+2017-10-11 20:23:09_0.58005800 1507724589 :/standard/list_data
+
+2017-10-11 20:23:10_0.68085200 1507724590 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 20:23:12_0.02586300 1507724592 :/favicon.ico
+
+2017-10-11 20:23:14_0.90128800 1507724594 :/standard/list_data
+
+2017-10-11 20:23:15_0.71860400 1507724595 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 20:23:17_0.29887900 1507724597 :/favicon.ico
+
+2017-10-11 20:23:17_0.95502300 1507724597 :/standard/list_data
+
+2017-10-11 20:23:19_0.48204700 1507724599 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 20:23:20_0.71719300 1507724600 :/favicon.ico
+
+2017-10-11 20:23:22_0.29252500 1507724602 :/standard/list_data
+
+2017-10-11 20:23:23_0.44484300 1507724603 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 20:23:24_0.65155200 1507724604 :/favicon.ico
+
+2017-10-11 20:23:32_0.43141300 1507724612 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2017-08-08
+
+2017-10-11 20:23:34_0.27973700 1507724614 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2017-08-03
+
+2017-10-11 20:23:35_0.27341100 1507724615 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2017-08-03
+
+2017-10-11 20:23:47_0.74482900 1507724627 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2017-08-03
+
+2017-10-11 20:23:47_0.84130700 1507724627 :/system/
+
+2017-10-11 20:23:49_0.27086000 1507724629 :/system/account/list
+
+2017-10-11 20:23:50_0.36514400 1507724630 :/system/ajaxAccountGetList?sort=sort_weight&order=desc
+
+2017-10-11 20:23:51_0.21152800 1507724631 :/favicon.ico
+
+2017-10-11 20:23:51_0.89350500 1507724631 :/standard/list_data
+
+2017-10-11 20:23:53_0.31352200 1507724633 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 20:23:54_0.47347800 1507724634 :/favicon.ico
+
+2017-10-11 20:23:59_0.68726400 1507724639 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2017-08-03
+
+2017-10-11 20:24:07_0.95861800 1507724647 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2017-10-11
+
+2017-10-11 20:24:10_0.48971500 1507724650 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2017-10-11
+
+2017-10-11 20:24:12_0.83738000 1507724652 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2017-10-02
+
+2017-10-11 20:24:13_0.41231900 1507724653 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2017-10-02
+
+2017-10-11 20:24:17_0.72234500 1507724657 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2017-10-03
+
+2017-10-11 20:24:18_0.05562800 1507724658 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2017-10-03
+
+2017-10-11 20:24:24_0.43580200 1507724664 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2017-10-03
+
+2017-10-11 20:24:26_0.25430100 1507724666 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2017-10-03
+
+2017-10-11 21:28:11_0.98849000 1507728491 :/favicon.ico
+
+2017-10-11 21:28:13_0.13756000 1507728493 :/standard/list_data
+
+2017-10-11 21:28:13_0.60447600 1507728493 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 21:28:13_0.91804500 1507728493 :/favicon.ico
+
+2017-10-11 21:28:19_0.54697100 1507728499 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2017-10-10
+
+2017-10-11 21:28:21_0.99387600 1507728501 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2017-10-03
+
+2017-10-11 21:28:23_0.46439600 1507728503 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2017-10-04
+
+2017-10-11 21:28:26_0.63114400 1507728506 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2017-08-09
+
+2017-10-11 21:28:30_0.19638500 1507728510 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2017-08-09
+
+2017-10-11 21:29:46_0.06826700 1507728586 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2017-09-15
+
+2017-10-11 21:29:52_0.22851800 1507728592 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2017-09-15
+
+2017-10-11 21:29:54_0.60084100 1507728594 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2017-09-15
+
+2017-10-11 21:32:48_0.18528000 1507728768 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2017-09-15
+
+2017-10-11 21:32:54_0.09032900 1507728774 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2017-09-15
+
+2017-10-11 21:33:31_0.55777700 1507728811 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2017-09-15
+
+2017-10-11 21:34:28_0.88932700 1507728868 :/standard/list_data
+
+2017-10-11 21:34:29_0.24111500 1507728869 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 21:34:29_0.50218100 1507728869 :/favicon.ico
+
+2017-10-11 21:34:31_0.87877200 1507728871 :/standard/list_data
+
+2017-10-11 21:34:32_0.22883600 1507728872 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 21:34:32_0.44293800 1507728872 :/favicon.ico
+
+2017-10-11 21:34:35_0.99776800 1507728875 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2017-10-11
+
+2017-10-11 21:43:23_0.29466100 1507729403 :/standard/list_data
+
+2017-10-11 21:43:23_0.74012000 1507729403 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 21:43:24_0.07457500 1507729404 :/favicon.ico
+
+2017-10-11 21:43:25_0.09534000 1507729405 :/standard/list_data
+
+2017-10-11 21:43:25_0.51899100 1507729405 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 21:43:25_0.78276500 1507729405 :/favicon.ico
+
+2017-10-11 21:43:28_0.05070600 1507729408 :/standard/list_data
+
+2017-10-11 21:43:28_0.42177100 1507729408 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 21:43:28_0.65033800 1507729408 :/favicon.ico
+
+2017-10-11 21:43:34_0.90645500 1507729414 :/standard/list_data
+
+2017-10-11 21:43:35_0.23227800 1507729415 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 21:43:35_0.45948300 1507729415 :/favicon.ico
+
+2017-10-11 21:46:04_0.32449100 1507729564 :/standard/list_data
+
+2017-10-11 21:46:04_0.88083700 1507729564 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 21:46:05_0.19917600 1507729565 :/favicon.ico
+
+2017-10-11 21:46:10_0.61388500 1507729570 :/standard/import_data
+
+2017-10-11 21:46:10_0.90835400 1507729570 :/Standard/ajaxGetExportDictionary
+
+2017-10-11 21:46:11_0.01903100 1507729571 :/favicon.ico
+
+2017-10-11 21:48:03_0.37707300 1507729683 :/standard/list_data
+
+2017-10-11 21:48:03_0.80280700 1507729683 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 21:48:04_0.03655700 1507729684 :/favicon.ico
+
+2017-10-11 21:48:06_0.72421900 1507729686 :/standard/list_data
+
+2017-10-11 21:48:07_0.12372000 1507729687 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 21:48:07_0.38287600 1507729687 :/favicon.ico
+
+2017-10-11 21:48:26_0.64216100 1507729706 :/standard/list_data
+
+2017-10-11 21:48:27_0.00409000 1507729707 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 21:48:27_0.24889600 1507729707 :/favicon.ico
+
+2017-10-11 21:48:32_0.91266600 1507729712 :/standard/list_data
+
+2017-10-11 21:48:33_0.27099600 1507729713 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 21:48:33_0.51819900 1507729713 :/favicon.ico
+
+2017-10-11 21:50:02_0.30820800 1507729802 :/standard/list_data
+
+2017-10-11 21:50:02_0.65673900 1507729802 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 21:50:02_0.89361400 1507729802 :/favicon.ico
+
+2017-10-11 21:50:04_0.94332900 1507729804 :/standard/list_data
+
+2017-10-11 21:50:05_0.31476600 1507729805 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 21:50:05_0.55861100 1507729805 :/favicon.ico
+
+2017-10-11 21:50:08_0.59201900 1507729808 :/standard/list_data
+
+2017-10-11 21:50:09_0.01935700 1507729809 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 21:50:09_0.27341000 1507729809 :/favicon.ico
+
+2017-10-11 21:50:33_0.31325800 1507729833 :/standard/list_data
+
+2017-10-11 21:50:33_0.64334100 1507729833 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 21:50:33_0.87573500 1507729833 :/favicon.ico
+
+2017-10-11 21:52:05_0.46148200 1507729925 :/standard/list_data
+
+2017-10-11 21:52:05_0.77927400 1507729925 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 21:52:05_0.97312400 1507729925 :/favicon.ico
+
+2017-10-11 21:52:13_0.31416600 1507729933 :/standard/list_data
+
+2017-10-11 21:52:13_0.62148500 1507729933 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 21:52:13_0.81154700 1507729933 :/favicon.ico
+
+2017-10-11 21:52:20_0.87268200 1507729940 :/standard/list_data
+
+2017-10-11 21:52:21_0.17922300 1507729941 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 21:52:21_0.40661400 1507729941 :/favicon.ico
+
+2017-10-11 21:52:34_0.08262600 1507729954 :/standard/list_data
+
+2017-10-11 21:52:34_0.38753500 1507729954 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 21:52:34_0.58513100 1507729954 :/favicon.ico
+
+2017-10-11 21:52:36_0.09633400 1507729956 :/standard/list_data
+
+2017-10-11 21:52:36_0.40404900 1507729956 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 21:52:36_0.61989800 1507729956 :/favicon.ico
+
+2017-10-11 21:53:08_0.27572600 1507729988 :/standard/list_data
+
+2017-10-11 21:53:08_0.60564300 1507729988 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 21:53:08_0.83461400 1507729988 :/favicon.ico
+
+2017-10-11 21:54:49_0.80593800 1507730089 :/standard/list_data
+
+2017-10-11 21:54:50_0.15414900 1507730090 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 21:54:50_0.39562200 1507730090 :/favicon.ico
+
+2017-10-11 21:54:50_0.78973300 1507730090 :/standard/list_data
+
+2017-10-11 21:54:51_0.08660700 1507730091 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 21:54:51_0.29094700 1507730091 :/favicon.ico
+
+2017-10-11 21:55:52_0.92993900 1507730152 :/standard/list_data
+
+2017-10-11 21:55:53_0.27416300 1507730153 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 21:55:53_0.47379000 1507730153 :/favicon.ico
+
+2017-10-11 21:55:56_0.24805100 1507730156 :/standard/list_data
+
+2017-10-11 21:55:56_0.53848200 1507730156 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 21:55:56_0.72714900 1507730156 :/favicon.ico
+
+2017-10-11 21:55:58_0.20192600 1507730158 :/standard/list_data
+
+2017-10-11 21:55:58_0.47612300 1507730158 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 21:55:58_0.70046800 1507730158 :/favicon.ico
+
+2017-10-11 21:56:04_0.67618200 1507730164 :/standard/list_data
+
+2017-10-11 21:56:04_0.96695200 1507730164 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 21:56:05_0.16478700 1507730165 :/favicon.ico
+
+2017-10-11 21:56:11_0.63208400 1507730171 :/standard/list_data
+
+2017-10-11 21:56:11_0.92809000 1507730171 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 21:56:12_0.11537300 1507730172 :/favicon.ico
+
+2017-10-11 21:56:53_0.12106300 1507730213 :/standard/list_data
+
+2017-10-11 21:56:53_0.47300700 1507730213 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 21:56:53_0.67762200 1507730213 :/favicon.ico
+
+2017-10-11 21:56:54_0.57789000 1507730214 :/standard/list_data
+
+2017-10-11 21:56:54_0.88120800 1507730214 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 21:56:55_0.09105700 1507730215 :/favicon.ico
+
+2017-10-11 21:56:57_0.56248900 1507730217 :/standard/list_data
+
+2017-10-11 21:56:57_0.86088700 1507730217 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 21:56:58_0.07715000 1507730218 :/favicon.ico
+
+2017-10-11 21:57:25_0.43504200 1507730245 :/standard/list_data
+
+2017-10-11 21:57:25_0.73510100 1507730245 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 21:57:25_0.93685500 1507730245 :/favicon.ico
+
+2017-10-11 21:57:27_0.90361000 1507730247 :/standard/list_data
+
+2017-10-11 21:57:28_0.19134500 1507730248 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 21:57:28_0.38392500 1507730248 :/favicon.ico
+
+2017-10-11 21:57:42_0.29766500 1507730262 :/standard/list_data
+
+2017-10-11 21:57:42_0.60592400 1507730262 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 21:57:42_0.80375900 1507730262 :/favicon.ico
+
+2017-10-11 21:57:43_0.15834500 1507730263 :/standard/list_data
+
+2017-10-11 21:57:43_0.46870700 1507730263 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 21:57:43_0.66662400 1507730263 :/favicon.ico
+
+2017-10-11 21:57:55_0.83970200 1507730275 :/abnormal/piping
+
+2017-10-11 21:57:56_0.18305200 1507730276 :/Abnormal/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 21:57:56_0.49673800 1507730276 :/favicon.ico
+
+2017-10-11 22:02:26_0.74880400 1507730546 :/abnormal/piping
+
+2017-10-11 22:02:27_0.07595900 1507730547 :/Abnormal/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 22:02:27_0.39418200 1507730547 :/favicon.ico
+
+2017-10-11 22:02:34_0.28586300 1507730554 :/standard/import_data
+
+2017-10-11 22:02:34_0.69626800 1507730554 :/Standard/ajaxGetExportDictionary
+
+2017-10-11 22:02:34_0.87843200 1507730554 :/favicon.ico
+
+2017-10-11 22:02:36_0.90424100 1507730556 :/standard/list_data
+
+2017-10-11 22:02:37_0.22361000 1507730557 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:02:37_0.42560800 1507730557 :/favicon.ico
+
+2017-10-11 22:03:46_0.20561000 1507730626 :/standard/list_data
+
+2017-10-11 22:03:46_0.56167400 1507730626 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:03:46_0.79083400 1507730626 :/favicon.ico
+
+2017-10-11 22:04:16_0.52901800 1507730656 :/standard/list_data
+
+2017-10-11 22:04:16_0.89186000 1507730656 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:04:17_0.09740500 1507730657 :/favicon.ico
+
+2017-10-11 22:04:20_0.50882700 1507730660 :/standard/list_data
+
+2017-10-11 22:04:20_0.83654600 1507730660 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:04:21_0.04750800 1507730661 :/favicon.ico
+
+2017-10-11 22:05:35_0.11029800 1507730735 :/standard/list_data
+
+2017-10-11 22:05:35_0.45978100 1507730735 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:05:35_0.67745800 1507730735 :/favicon.ico
+
+2017-10-11 22:06:25_0.37012800 1507730785 :/standard/list_data
+
+2017-10-11 22:06:25_0.68580100 1507730785 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:06:25_0.89448500 1507730785 :/favicon.ico
+
+2017-10-11 22:06:27_0.63244800 1507730787 :/standard/list_data
+
+2017-10-11 22:06:27_0.91879300 1507730787 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:06:28_0.12338600 1507730788 :/favicon.ico
+
+2017-10-11 22:06:38_0.19248500 1507730798 :/standard/list_data
+
+2017-10-11 22:06:38_0.48496200 1507730798 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:06:38_0.68847600 1507730798 :/favicon.ico
+
+2017-10-11 22:06:40_0.12143800 1507730800 :/standard/list_data
+
+2017-10-11 22:06:40_0.40966200 1507730800 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:06:40_0.60102200 1507730800 :/favicon.ico
+
+2017-10-11 22:06:50_0.20120700 1507730810 :/standard/list_data
+
+2017-10-11 22:06:50_0.50264500 1507730810 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:06:50_0.70264900 1507730810 :/favicon.ico
+
+2017-10-11 22:07:17_0.51979600 1507730837 :/standard/list_data
+
+2017-10-11 22:07:17_0.82910200 1507730837 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:07:18_0.04199500 1507730838 :/favicon.ico
+
+2017-10-11 22:07:24_0.87792400 1507730844 :/standard/list_data
+
+2017-10-11 22:07:25_0.18424000 1507730845 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:07:25_0.38016900 1507730845 :/favicon.ico
+
+2017-10-11 22:07:34_0.01394200 1507730854 :/standard/list_data
+
+2017-10-11 22:07:34_0.31419900 1507730854 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:07:34_0.51914600 1507730854 :/favicon.ico
+
+2017-10-11 22:07:51_0.16768000 1507730871 :/standard/list_data
+
+2017-10-11 22:07:51_0.47731200 1507730871 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:07:51_0.66701000 1507730871 :/favicon.ico
+
+2017-10-11 22:07:53_0.05050200 1507730873 :/standard/list_data
+
+2017-10-11 22:07:53_0.33932100 1507730873 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:07:53_0.53703300 1507730873 :/favicon.ico
+
+2017-10-11 22:07:58_0.83931900 1507730878 :/standard/list_data
+
+2017-10-11 22:07:59_0.12855000 1507730879 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:07:59_0.33250400 1507730879 :/favicon.ico
+
+2017-10-11 22:08:06_0.01359100 1507730886 :/standard/list_data
+
+2017-10-11 22:08:06_0.30911200 1507730886 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:08:06_0.51260300 1507730886 :/favicon.ico
+
+2017-10-11 22:08:10_0.94234800 1507730890 :/standard/list_data
+
+2017-10-11 22:08:11_0.24362700 1507730891 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:08:11_0.42913100 1507730891 :/favicon.ico
+
+2017-10-11 22:08:20_0.46934000 1507730900 :/standard/list_data
+
+2017-10-11 22:08:20_0.81872000 1507730900 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:08:21_0.05267900 1507730901 :/favicon.ico
+
+2017-10-11 22:08:45_0.49572400 1507730925 :/standard/list_data
+
+2017-10-11 22:08:45_0.80016900 1507730925 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:08:46_0.18827100 1507730926 :/favicon.ico
+
+2017-10-11 22:09:29_0.64444600 1507730969 :/standard/list_data
+
+2017-10-11 22:09:29_0.96363200 1507730969 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:09:30_0.16121500 1507730970 :/favicon.ico
+
+2017-10-11 22:09:35_0.31826500 1507730975 :/standard/list_data
+
+2017-10-11 22:09:35_0.62320800 1507730975 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:09:35_0.82553600 1507730975 :/favicon.ico
+
+2017-10-11 22:09:38_0.17951400 1507730978 :/standard/list_data
+
+2017-10-11 22:09:38_0.46011800 1507730978 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:09:38_0.65888800 1507730978 :/favicon.ico
+
+2017-10-11 22:09:40_0.05959300 1507730980 :/standard/list_data
+
+2017-10-11 22:09:40_0.34440700 1507730980 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:09:40_0.53562800 1507730980 :/favicon.ico
+
+2017-10-11 22:09:42_0.25918600 1507730982 :/standard/list_data
+
+2017-10-11 22:09:42_0.53913300 1507730982 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:09:42_0.72166700 1507730982 :/favicon.ico
+
+2017-10-11 22:12:30_0.12909200 1507731150 :/standard/list_data
+
+2017-10-11 22:12:30_0.58356000 1507731150 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:12:30_0.79726200 1507731150 :/favicon.ico
+
+2017-10-11 22:12:32_0.82681700 1507731152 :/standard/list_data
+
+2017-10-11 22:12:33_0.12220300 1507731153 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:12:33_0.33603100 1507731153 :/favicon.ico
+
+2017-10-11 22:12:48_0.86138400 1507731168 :/standard/list_data
+
+2017-10-11 22:12:49_0.16066900 1507731169 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:12:49_0.36251600 1507731169 :/favicon.ico
+
+2017-10-11 22:12:51_0.77347100 1507731171 :/standard/list_data
+
+2017-10-11 22:12:52_0.04949400 1507731172 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:12:52_0.24789800 1507731172 :/favicon.ico
+
+2017-10-11 22:12:57_0.64093300 1507731177 :/standard/list_data
+
+2017-10-11 22:12:57_0.93575500 1507731177 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:12:58_0.13808400 1507731178 :/favicon.ico
+
+2017-10-11 22:13:10_0.08308100 1507731190 :/standard/list_data
+
+2017-10-11 22:13:10_0.36901700 1507731190 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:13:10_0.56723600 1507731190 :/favicon.ico
+
+2017-10-11 22:13:11_0.04735500 1507731191 :/standard/list_data
+
+2017-10-11 22:13:11_0.34232100 1507731191 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:13:11_0.54635400 1507731191 :/favicon.ico
+
+2017-10-11 22:13:12_0.62905200 1507731192 :/standard/list_data
+
+2017-10-11 22:13:12_0.91276500 1507731192 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:13:13_0.11764600 1507731193 :/favicon.ico
+
+2017-10-11 22:13:14_0.18035100 1507731194 :/standard/list_data
+
+2017-10-11 22:13:14_0.44813100 1507731194 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:13:14_0.62186800 1507731194 :/favicon.ico
+
+2017-10-11 22:14:05_0.84762700 1507731245 :/standard/list_data
+
+2017-10-11 22:14:06_0.20491500 1507731246 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:14:06_0.41726800 1507731246 :/favicon.ico
+
+2017-10-11 22:14:09_0.22451200 1507731249 :/standard/list_data
+
+2017-10-11 22:14:09_0.52285400 1507731249 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:14:09_0.73269200 1507731249 :/favicon.ico
+
+2017-10-11 22:14:28_0.72145600 1507731268 :/standard/list_data
+
+2017-10-11 22:14:29_0.03501100 1507731269 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:14:29_0.23384200 1507731269 :/favicon.ico
+
+2017-10-11 22:14:59_0.72467000 1507731299 :/standard/list_data
+
+2017-10-11 22:15:00_0.03229900 1507731300 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:15:00_0.23619400 1507731300 :/favicon.ico
+
+2017-10-11 22:18:36_0.75206000 1507731516 :/standard/list_data
+
+2017-10-11 22:18:37_0.14748700 1507731517 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:18:37_0.38472500 1507731517 :/favicon.ico
+
+2017-10-11 22:18:40_0.01680700 1507731520 :/standard/list_data
+
+2017-10-11 22:18:40_0.34475400 1507731520 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:18:40_0.62110000 1507731520 :/favicon.ico
+
+2017-10-11 22:20:28_0.95893600 1507731628 :/standard/list_data
+
+2017-10-11 22:20:29_0.28956000 1507731629 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:20:29_0.51936600 1507731629 :/favicon.ico
+
+2017-10-11 22:20:31_0.79217600 1507731631 :/standard/list_data
+
+2017-10-11 22:20:32_0.12756700 1507731632 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:20:32_0.34183200 1507731632 :/favicon.ico
+
+2017-10-11 22:20:57_0.38629900 1507731657 :/standard/list_data
+
+2017-10-11 22:20:57_0.76396000 1507731657 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:20:58_0.01590800 1507731658 :/favicon.ico
+
+2017-10-11 22:21:28_0.92435100 1507731688 :/standard/list_data
+
+2017-10-11 22:21:29_0.24618000 1507731689 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:21:29_0.47437500 1507731689 :/favicon.ico
+
+2017-10-11 22:21:54_0.91219900 1507731714 :/standard/list_data
+
+2017-10-11 22:21:55_0.27412600 1507731715 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:21:55_0.50522500 1507731715 :/favicon.ico
+
+2017-10-11 22:22:04_0.00426000 1507731724 :/standard/list_data
+
+2017-10-11 22:22:04_0.40783500 1507731724 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:22:04_0.65125800 1507731724 :/favicon.ico
+
+2017-10-11 22:22:14_0.13427200 1507731734 :/standard/list_data
+
+2017-10-11 22:22:14_0.49566300 1507731734 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:22:14_0.74308700 1507731734 :/favicon.ico
+
+2017-10-11 22:22:15_0.02537500 1507731735 :/standard/list_data
+
+2017-10-11 22:22:15_0.33405900 1507731735 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:22:15_0.54943200 1507731735 :/favicon.ico
+
+2017-10-11 22:22:16_0.77753500 1507731736 :/standard/list_data
+
+2017-10-11 22:22:17_0.08216200 1507731737 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:22:17_0.28087200 1507731737 :/favicon.ico
+
+2017-10-11 22:22:37_0.01706700 1507731757 :/standard/list_data
+
+2017-10-11 22:22:37_0.35818300 1507731757 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:22:37_0.57794700 1507731757 :/favicon.ico
+
+2017-10-11 22:22:38_0.61981100 1507731758 :/standard/list_data
+
+2017-10-11 22:22:38_0.93674400 1507731758 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:22:39_0.13789400 1507731759 :/favicon.ico
+
+2017-10-11 22:22:47_0.93815500 1507731767 :/standard/list_data
+
+2017-10-11 22:22:48_0.33684500 1507731768 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:22:48_0.57510900 1507731768 :/favicon.ico
+
+2017-10-11 22:22:49_0.01598300 1507731769 :/standard/list_data
+
+2017-10-11 22:22:49_0.39156200 1507731769 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:22:49_0.60030500 1507731769 :/favicon.ico
+
+2017-10-11 22:23:14_0.06746700 1507731794 :/standard/list_data
+
+2017-10-11 22:23:14_0.40031400 1507731794 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:23:14_0.61568500 1507731794 :/favicon.ico
+
+2017-10-11 22:23:16_0.46028600 1507731796 :/standard/list_data
+
+2017-10-11 22:23:16_0.76591800 1507731796 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:23:16_0.96417600 1507731796 :/favicon.ico
+
+2017-10-11 22:23:46_0.90702600 1507731826 :/standard/list_data
+
+2017-10-11 22:23:47_0.27996000 1507731827 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:23:47_0.51609500 1507731827 :/favicon.ico
+
+2017-10-11 22:23:47_0.81609800 1507731827 :/standard/list_data
+
+2017-10-11 22:23:48_0.15019900 1507731828 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:23:48_0.36632400 1507731828 :/favicon.ico
+
+2017-10-11 22:23:52_0.38506000 1507731832 :/standard/list_data
+
+2017-10-11 22:23:52_0.69650800 1507731832 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:23:52_0.89667200 1507731832 :/favicon.ico
+
+2017-10-11 22:24:33_0.26092500 1507731873 :/standard/list_data
+
+2017-10-11 22:24:33_0.62833600 1507731873 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:24:33_0.87588500 1507731873 :/favicon.ico
+
+2017-10-11 22:24:36_0.65011900 1507731876 :/standard/list_data
+
+2017-10-11 22:24:36_0.98176800 1507731876 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:24:37_0.18982600 1507731877 :/favicon.ico
+
+2017-10-11 22:26:46_0.58374200 1507732006 :/standard/list_data
+
+2017-10-11 22:26:46_0.96170700 1507732006 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:26:47_0.19348300 1507732007 :/favicon.ico
+
+2017-10-11 22:27:26_0.16499000 1507732046 :/standard/list_data
+
+2017-10-11 22:27:26_0.48486400 1507732046 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:27:26_0.69438400 1507732046 :/favicon.ico
+
+2017-10-11 22:27:28_0.43555000 1507732048 :/standard/list_data
+
+2017-10-11 22:27:28_0.75062300 1507732048 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:27:28_0.97136300 1507732048 :/favicon.ico
+
+2017-10-11 22:27:31_0.81781000 1507732051 :/standard/list_data
+
+2017-10-11 22:27:32_0.12044800 1507732052 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:27:32_0.32113800 1507732052 :/favicon.ico
+
+2017-10-11 22:29:07_0.01863100 1507732147 :/standard/list_data
+
+2017-10-11 22:29:07_0.33788300 1507732147 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:29:07_0.56107100 1507732147 :/favicon.ico
+
+2017-10-11 22:29:08_0.63942100 1507732148 :/standard/list_data
+
+2017-10-11 22:29:08_0.95158300 1507732148 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:29:09_0.14362600 1507732149 :/favicon.ico
+
+2017-10-11 22:29:10_0.13898400 1507732150 :/standard/list_data
+
+2017-10-11 22:29:10_0.43285600 1507732150 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:29:10_0.64374600 1507732150 :/favicon.ico
+
+2017-10-11 22:29:11_0.52742000 1507732151 :/standard/list_data
+
+2017-10-11 22:29:11_0.88586400 1507732151 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:29:12_0.08775200 1507732152 :/favicon.ico
+
+2017-10-11 22:33:17_0.63139400 1507732397 :/standard/list_data
+
+2017-10-11 22:33:17_0.97020800 1507732397 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:33:18_0.19021700 1507732398 :/favicon.ico
+
+2017-10-11 22:33:18_0.80666000 1507732398 :/standard/list_data
+
+2017-10-11 22:33:19_0.13870900 1507732399 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:33:19_0.35523700 1507732399 :/favicon.ico
+
+2017-10-11 22:34:11_0.49867600 1507732451 :/standard/list_data
+
+2017-10-11 22:34:11_0.84665100 1507732451 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:34:12_0.07965100 1507732452 :/favicon.ico
+
+2017-10-11 22:34:16_0.70636900 1507732456 :/standard/list_data
+
+2017-10-11 22:34:17_0.00863600 1507732457 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:34:17_0.22088800 1507732457 :/favicon.ico
+
+2017-10-11 22:34:45_0.15237900 1507732485 :/standard/list_data
+
+2017-10-11 22:34:45_0.46030700 1507732485 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:34:45_0.69233000 1507732485 :/favicon.ico
+
+2017-10-11 22:34:48_0.85714700 1507732488 :/standard/list_data
+
+2017-10-11 22:34:49_0.18766000 1507732489 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:34:49_0.41122200 1507732489 :/favicon.ico
+
+2017-10-11 22:34:58_0.04262300 1507732498 :/standard/list_data
+
+2017-10-11 22:34:58_0.36974400 1507732498 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:34:58_0.58320200 1507732498 :/favicon.ico
+
+2017-10-11 22:35:29_0.96539500 1507732529 :/standard/list_data
+
+2017-10-11 22:35:30_0.28290900 1507732530 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:35:30_0.48709600 1507732530 :/favicon.ico
+
+2017-10-11 22:35:31_0.21989900 1507732531 :/standard/list_data
+
+2017-10-11 22:35:31_0.55544500 1507732531 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:35:31_0.75490600 1507732531 :/favicon.ico
+
+2017-10-11 22:35:32_0.95666900 1507732532 :/standard/list_data
+
+2017-10-11 22:35:33_0.26227300 1507732533 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:35:33_0.45750700 1507732533 :/favicon.ico
+
+2017-10-11 22:35:35_0.15315500 1507732535 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2015-03
+
+2017-10-11 22:35:36_0.63708300 1507732536 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2015-07
+
+2017-10-11 22:35:51_0.76368000 1507732551 :/standard/list_data
+
+2017-10-11 22:35:52_0.08701800 1507732552 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:35:52_0.28430900 1507732552 :/favicon.ico
+
+2017-10-11 22:35:54_0.60706800 1507732554 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2015-02
+
+2017-10-11 22:35:55_0.98810700 1507732555 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2015-07
+
+2017-10-11 22:39:03_0.93497500 1507732743 :/standard/list_data
+
+2017-10-11 22:39:04_0.27099400 1507732744 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:39:04_0.48481900 1507732744 :/favicon.ico
+
+2017-10-11 22:39:06_0.76035500 1507732746 :/standard/list_data
+
+2017-10-11 22:39:07_0.06437200 1507732747 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:39:07_0.27403200 1507732747 :/favicon.ico
+
+2017-10-11 22:39:37_0.34041100 1507732777 :/standard/list_data
+
+2017-10-11 22:39:37_0.69413400 1507732777 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:39:37_0.92205600 1507732777 :/favicon.ico
+
+2017-10-11 22:40:09_0.51775800 1507732809 :/standard/list_data
+
+2017-10-11 22:40:09_0.89216700 1507732809 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:40:10_0.12034300 1507732810 :/favicon.ico
+
+2017-10-11 22:40:12_0.97073100 1507732812 :/standard/list_data
+
+2017-10-11 22:40:13_0.27500200 1507732813 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:40:13_0.48960400 1507732813 :/favicon.ico
+
+2017-10-11 22:40:50_0.21700000 1507732850 :/standard/list_data
+
+2017-10-11 22:40:50_0.57834400 1507732850 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:40:50_0.80482000 1507732850 :/favicon.ico
+
+2017-10-11 22:41:03_0.48836800 1507732863 :/standard/list_data
+
+2017-10-11 22:41:03_0.84430300 1507732863 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:41:04_0.05959800 1507732864 :/favicon.ico
+
+2017-10-11 22:41:43_0.55709700 1507732903 :/standard/list_data
+
+2017-10-11 22:41:43_0.89472800 1507732903 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:41:44_0.12311700 1507732904 :/favicon.ico
+
+2017-10-11 22:41:59_0.68818800 1507732919 :/standard/list_data
+
+2017-10-11 22:42:00_0.03885500 1507732920 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:42:00_0.24798600 1507732920 :/favicon.ico
+
+2017-10-11 22:42:06_0.00955100 1507732926 :/standard/list_data
+
+2017-10-11 22:42:06_0.33714100 1507732926 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:42:06_0.55304900 1507732926 :/favicon.ico
+
+2017-10-11 22:42:57_0.14761500 1507732977 :/standard/list_data
+
+2017-10-11 22:42:57_0.54710900 1507732977 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:42:57_0.77785500 1507732977 :/favicon.ico
+
+2017-10-11 22:44:01_0.46031100 1507733041 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2007-06
+
+2017-10-11 22:44:06_0.91975800 1507733046 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2017-10
+
+2017-10-11 22:47:33_0.75234600 1507733253 :/standard/list_data
+
+2017-10-11 22:47:34_0.10579000 1507733254 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:47:34_0.31766700 1507733254 :/favicon.ico
+
+2017-10-11 22:47:35_0.30247400 1507733255 :/standard/list_data
+
+2017-10-11 22:47:35_0.64367900 1507733255 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:47:35_0.85782900 1507733255 :/favicon.ico
+
+2017-10-11 22:47:37_0.86373000 1507733257 :/standard/list_data
+
+2017-10-11 22:47:38_0.19505700 1507733258 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:47:38_0.41999700 1507733258 :/favicon.ico
+
+2017-10-11 22:50:09_0.22907500 1507733409 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2017-07
+
+2017-10-11 22:50:13_0.16821300 1507733413 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2017-10
+
+2017-10-11 22:50:14_0.45921500 1507733414 :/standard/list_data
+
+2017-10-11 22:50:14_0.81569200 1507733414 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:50:15_0.03130700 1507733415 :/favicon.ico
+
+2017-10-11 22:50:42_0.26296700 1507733442 :/standard/list_data
+
+2017-10-11 22:50:42_0.60924400 1507733442 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:50:42_0.83385000 1507733442 :/favicon.ico
+
+2017-10-11 22:50:44_0.85876600 1507733444 :/standard/list_data
+
+2017-10-11 22:50:45_0.17293800 1507733445 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:50:45_0.37946900 1507733445 :/favicon.ico
+
+2017-10-11 22:50:46_0.26348600 1507733446 :/standard/list_data
+
+2017-10-11 22:50:46_0.56869600 1507733446 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:50:46_0.77300100 1507733446 :/favicon.ico
+
+2017-10-11 22:52:30_0.05014100 1507733550 :/standard/list_data
+
+2017-10-11 22:52:30_0.38731900 1507733550 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:52:30_0.59366900 1507733550 :/favicon.ico
+
+2017-10-11 22:53:43_0.32054400 1507733623 :/standard/list_data
+
+2017-10-11 22:53:43_0.64096100 1507733623 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:53:43_0.86848400 1507733623 :/favicon.ico
+
+2017-10-11 22:53:44_0.66855500 1507733624 :/standard/list_data
+
+2017-10-11 22:53:44_0.97963100 1507733624 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:53:45_0.20468100 1507733625 :/favicon.ico
+
+2017-10-11 22:53:48_0.40914200 1507733628 :/standard/list_data
+
+2017-10-11 22:53:48_0.75745500 1507733628 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:53:48_0.99638800 1507733628 :/favicon.ico
+
+2017-10-11 22:54:12_0.20897700 1507733652 :/standard/list_data
+
+2017-10-11 22:54:12_0.53387000 1507733652 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:54:12_0.78860500 1507733652 :/favicon.ico
+
+2017-10-11 22:54:36_0.38690500 1507733676 :/standard/list_data
+
+2017-10-11 22:54:36_0.72926200 1507733676 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:54:37_0.01821300 1507733677 :/favicon.ico
+
+2017-10-11 22:54:37_0.41821800 1507733677 :/standard/list_data
+
+2017-10-11 22:54:37_0.75058500 1507733677 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:54:37_0.98348500 1507733677 :/favicon.ico
+
+2017-10-11 22:54:39_0.41088100 1507733679 :/standard/list_data
+
+2017-10-11 22:54:39_0.78328700 1507733679 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:54:39_0.99421300 1507733679 :/favicon.ico
+
+2017-10-11 22:54:58_0.26243200 1507733698 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2017-03
+
+2017-10-11 22:55:23_0.84440300 1507733723 :/standard/list_data
+
+2017-10-11 22:55:24_0.15965700 1507733724 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:55:24_0.39666700 1507733724 :/favicon.ico
+
+2017-10-11 22:55:35_0.00147400 1507733735 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2017-10
+
+2017-10-11 22:56:03_0.09291600 1507733763 :/standard/list_data
+
+2017-10-11 22:56:03_0.43457400 1507733763 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:56:03_0.66041900 1507733763 :/favicon.ico
+
+2017-10-11 22:56:17_0.01807800 1507733777 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2017-07
+
+2017-10-11 22:56:18_0.88132200 1507733778 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2017-10
+
+2017-10-11 22:59:02_0.81425200 1507733942 :/standard/list_data
+
+2017-10-11 22:59:03_0.17061600 1507733943 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:59:03_0.37783600 1507733943 :/favicon.ico
+
+2017-10-11 22:59:06_0.47060500 1507733946 :/standard/list_data
+
+2017-10-11 22:59:06_0.77851000 1507733946 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:59:06_0.98517600 1507733946 :/favicon.ico
+
+2017-10-11 22:59:17_0.37907500 1507733957 :/standard/list_data
+
+2017-10-11 22:59:17_0.76360000 1507733957 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:59:17_0.98811300 1507733957 :/favicon.ico
+
+2017-10-11 22:59:19_0.09623500 1507733959 :/standard/list_data
+
+2017-10-11 22:59:19_0.43051700 1507733959 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:59:19_0.66432800 1507733959 :/favicon.ico
+
+2017-10-11 22:59:27_0.86112800 1507733967 :/standard/list_data
+
+2017-10-11 22:59:28_0.21362800 1507733968 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:59:28_0.44272800 1507733968 :/favicon.ico
+
+2017-10-11 22:59:31_0.00567100 1507733971 :/standard/list_data
+
+2017-10-11 22:59:31_0.32304100 1507733971 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 22:59:31_0.54748200 1507733971 :/favicon.ico
+
+2017-10-11 23:00:53_0.41912600 1507734053 :/standard/list_data
+
+2017-10-11 23:00:53_0.76512800 1507734053 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:00:54_0.00449600 1507734054 :/favicon.ico
+
+2017-10-11 23:00:59_0.06615300 1507734059 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2010-10
+
+2017-10-11 23:02:15_0.53380900 1507734135 :/standard/list_data
+
+2017-10-11 23:02:15_0.87395000 1507734135 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:02:16_0.11672600 1507734136 :/favicon.ico
+
+2017-10-11 23:02:23_0.59570700 1507734143 :/standard/list_data
+
+2017-10-11 23:02:23_0.98109600 1507734143 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:02:24_0.20746700 1507734144 :/favicon.ico
+
+2017-10-11 23:03:16_0.16083300 1507734196 :/standard/list_data
+
+2017-10-11 23:03:16_0.52994600 1507734196 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:03:16_0.74582000 1507734196 :/favicon.ico
+
+2017-10-11 23:03:19_0.52808500 1507734199 :/standard/list_data
+
+2017-10-11 23:03:19_0.84121300 1507734199 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:03:20_0.06054300 1507734200 :/favicon.ico
+
+2017-10-11 23:03:21_0.81938900 1507734201 :/standard/list_data
+
+2017-10-11 23:03:22_0.12683400 1507734202 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:03:22_0.35470600 1507734202 :/favicon.ico
+
+2017-10-11 23:03:24_0.92220700 1507734204 :/standard/list_data
+
+2017-10-11 23:03:25_0.25859800 1507734205 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:03:25_0.51076100 1507734205 :/favicon.ico
+
+2017-10-11 23:03:54_0.11956200 1507734234 :/standard/list_data
+
+2017-10-11 23:03:54_0.47053100 1507734234 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:03:54_0.68163100 1507734234 :/favicon.ico
+
+2017-10-11 23:04:42_0.03554900 1507734282 :/standard/list_data
+
+2017-10-11 23:04:42_0.41525900 1507734282 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:04:42_0.65814700 1507734282 :/favicon.ico
+
+2017-10-11 23:04:44_0.71114900 1507734284 :/standard/list_data
+
+2017-10-11 23:04:45_0.03358800 1507734285 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:04:45_0.25369300 1507734285 :/favicon.ico
+
+2017-10-11 23:04:46_0.57745900 1507734286 :/standard/list_data
+
+2017-10-11 23:04:46_0.88429900 1507734286 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:04:47_0.11912400 1507734287 :/favicon.ico
+
+2017-10-11 23:05:44_0.00839300 1507734344 :/standard/list_data
+
+2017-10-11 23:05:44_0.34971800 1507734344 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:05:44_0.59386900 1507734344 :/favicon.ico
+
+2017-10-11 23:05:45_0.67280300 1507734345 :/standard/list_data
+
+2017-10-11 23:05:46_0.05623200 1507734346 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:05:46_0.28923400 1507734346 :/favicon.ico
+
+2017-10-11 23:05:56_0.75982800 1507734356 :/standard/list_data
+
+2017-10-11 23:05:57_0.09052800 1507734357 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:05:57_0.30739000 1507734357 :/favicon.ico
+
+2017-10-11 23:06:04_0.85712000 1507734364 :/standard/list_data
+
+2017-10-11 23:06:05_0.19585500 1507734365 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:06:05_0.41625600 1507734365 :/favicon.ico
+
+2017-10-11 23:07:53_0.80294000 1507734473 :/standard/list_data
+
+2017-10-11 23:07:54_0.18665800 1507734474 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:07:54_0.41957800 1507734474 :/favicon.ico
+
+2017-10-11 23:08:17_0.91365300 1507734497 :/standard/list_data
+
+2017-10-11 23:08:18_0.26083800 1507734498 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:08:18_0.48231200 1507734498 :/favicon.ico
+
+2017-10-11 23:08:19_0.77050800 1507734499 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2017-07
+
+2017-10-11 23:08:38_0.36459600 1507734518 :/standard/list_data
+
+2017-10-11 23:08:38_0.69898700 1507734518 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:08:38_0.92395700 1507734518 :/favicon.ico
+
+2017-10-11 23:08:40_0.07456300 1507734520 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2017-07
+
+2017-10-11 23:08:44_0.09272200 1507734524 :/standard/list_data
+
+2017-10-11 23:08:44_0.40832600 1507734524 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:08:44_0.61270700 1507734524 :/favicon.ico
+
+2017-10-11 23:08:45_0.03783300 1507734525 :/standard/list_data
+
+2017-10-11 23:08:45_0.35402300 1507734525 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:08:45_0.57703200 1507734525 :/favicon.ico
+
+2017-10-11 23:09:10_0.18886200 1507734550 :/standard/list_data
+
+2017-10-11 23:09:10_0.58179000 1507734550 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:09:10_0.80093900 1507734550 :/favicon.ico
+
+2017-10-11 23:09:14_0.74031900 1507734554 :/standard/list_data
+
+2017-10-11 23:09:15_0.06086200 1507734555 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:09:15_0.26601600 1507734555 :/favicon.ico
+
+2017-10-11 23:09:26_0.72876100 1507734566 :/standard/list_data
+
+2017-10-11 23:09:27_0.06663400 1507734567 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:09:27_0.29163800 1507734567 :/favicon.ico
+
+2017-10-11 23:09:31_0.46691500 1507734571 :/standard/list_data
+
+2017-10-11 23:09:31_0.79124200 1507734571 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:09:32_0.01675200 1507734572 :/favicon.ico
+
+2017-10-11 23:09:36_0.02881800 1507734576 :/standard/list_data
+
+2017-10-11 23:09:36_0.34273400 1507734576 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:09:36_0.55349600 1507734576 :/favicon.ico
+
+2017-10-11 23:10:01_0.46942200 1507734601 :/standard/list_data
+
+2017-10-11 23:10:01_0.81961100 1507734601 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:10:02_0.04778800 1507734602 :/favicon.ico
+
+2017-10-11 23:10:05_0.95347300 1507734605 :/standard/list_data
+
+2017-10-11 23:10:06_0.27077700 1507734606 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:10:06_0.46697300 1507734606 :/favicon.ico
+
+2017-10-11 23:11:49_0.75954900 1507734709 :/standard/list_data
+
+2017-10-11 23:11:50_0.16265100 1507734710 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:11:50_0.38187300 1507734710 :/favicon.ico
+
+2017-10-11 23:13:07_0.65564400 1507734787 :/standard/list_data
+
+2017-10-11 23:13:07_0.99153900 1507734787 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:13:08_0.20567400 1507734788 :/favicon.ico
+
+2017-10-11 23:13:11_0.33150700 1507734791 :/standard/list_data
+
+2017-10-11 23:13:11_0.63498200 1507734791 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:13:11_0.83908700 1507734791 :/favicon.ico
+
+2017-10-11 23:13:12_0.32043700 1507734792 :/standard/list_data
+
+2017-10-11 23:13:12_0.63233800 1507734792 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:13:12_0.83407800 1507734792 :/favicon.ico
+
+2017-10-11 23:13:17_0.43231500 1507734797 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2020-06
+
+2017-10-11 23:14:25_0.84027500 1507734865 :/standard/list_data
+
+2017-10-11 23:14:26_0.17731100 1507734866 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:14:26_0.38344400 1507734866 :/favicon.ico
+
+2017-10-11 23:14:27_0.56261300 1507734867 :/standard/list_data
+
+2017-10-11 23:14:27_0.87555300 1507734867 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:14:28_0.08596700 1507734868 :/favicon.ico
+
+2017-10-11 23:14:28_0.65659800 1507734868 :/standard/list_data
+
+2017-10-11 23:14:28_0.97117900 1507734868 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:14:29_0.18947800 1507734869 :/favicon.ico
+
+2017-10-11 23:14:29_0.73555200 1507734869 :/standard/list_data
+
+2017-10-11 23:14:30_0.03418300 1507734870 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:14:30_0.23343800 1507734870 :/favicon.ico
+
+2017-10-11 23:14:36_0.98947700 1507734876 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2014-02
+
+2017-10-11 23:15:30_0.56201800 1507734930 :/standard/list_data
+
+2017-10-11 23:15:30_0.87176300 1507734930 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:15:31_0.06620100 1507734931 :/favicon.ico
+
+2017-10-11 23:15:31_0.51174900 1507734931 :/standard/list_data
+
+2017-10-11 23:15:31_0.82234000 1507734931 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:15:32_0.01781400 1507734932 :/favicon.ico
+
+2017-10-11 23:15:32_0.36011400 1507734932 :/standard/list_data
+
+2017-10-11 23:15:32_0.67032300 1507734932 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:15:32_0.86392000 1507734932 :/favicon.ico
+
+2017-10-11 23:15:33_0.15917900 1507734933 :/standard/list_data
+
+2017-10-11 23:15:33_0.51712400 1507734933 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:15:33_0.71341300 1507734933 :/favicon.ico
+
+2017-10-11 23:15:34_0.92314000 1507734934 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2017-04
+
+2017-10-11 23:17:02_0.85167100 1507735022 :/standard/list_data
+
+2017-10-11 23:17:03_0.18370300 1507735023 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:17:03_0.38276500 1507735023 :/favicon.ico
+
+2017-10-11 23:17:04_0.53825700 1507735024 :/standard/list_data
+
+2017-10-11 23:17:04_0.84910400 1507735024 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:17:05_0.04978400 1507735025 :/favicon.ico
+
+2017-10-11 23:17:05_0.52303700 1507735025 :/standard/list_data
+
+2017-10-11 23:17:05_0.84285500 1507735025 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:17:06_0.03155900 1507735026 :/favicon.ico
+
+2017-10-11 23:17:10_0.35276700 1507735030 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2016-07
+
+2017-10-11 23:18:26_0.46382300 1507735106 :/standard/list_data
+
+2017-10-11 23:18:26_0.79148200 1507735106 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:18:26_0.99157200 1507735106 :/favicon.ico
+
+2017-10-11 23:18:28_0.01390500 1507735108 :/standard/list_data
+
+2017-10-11 23:18:28_0.32503400 1507735108 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:18:28_0.51477700 1507735108 :/favicon.ico
+
+2017-10-11 23:18:29_0.09786500 1507735109 :/standard/list_data
+
+2017-10-11 23:18:29_0.39158200 1507735109 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:18:29_0.58935500 1507735109 :/favicon.ico
+
+2017-10-11 23:18:33_0.95245800 1507735113 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2020-11
+
+2017-10-11 23:18:43_0.22812100 1507735123 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2025-07
+
+2017-10-11 23:18:50_0.32000500 1507735130 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2026-11
+
+2017-10-11 23:19:32_0.73486700 1507735172 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2021-10
+
+2017-10-11 23:19:36_0.84765100 1507735176 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2021-10
+
+2017-10-11 23:19:41_0.83177000 1507735181 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2017-11
+
+2017-10-11 23:19:45_0.90763900 1507735185 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2022-07
+
+2017-10-11 23:19:56_0.13550100 1507735196 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2027-11
+
+2017-10-11 23:20:00_0.47293700 1507735200 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2032-11
+
+2017-10-11 23:20:05_0.28404800 1507735205 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2037-11
+
+2017-10-11 23:20:06_0.60031500 1507735206 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2032-11
+
+2017-10-11 23:20:07_0.86748700 1507735207 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2027-11
+
+2017-10-11 23:20:11_0.17195400 1507735211 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2032-11
+
+2017-10-11 23:20:14_0.55341100 1507735214 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2037-11
+
+2017-10-11 23:20:17_0.73739900 1507735217 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2042-07
+
+2017-10-11 23:20:19_0.34404700 1507735219 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2037-12
+
+2017-10-11 23:20:22_0.82201400 1507735222 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2042-07
+
+2017-10-11 23:20:24_0.70874900 1507735224 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2037-07
+
+2017-10-11 23:20:27_0.91848100 1507735227 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2042-03
+
+2017-10-11 23:20:32_0.97476800 1507735232 :/standard/list_data
+
+2017-10-11 23:20:33_0.32245700 1507735233 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:20:33_0.53672000 1507735233 :/favicon.ico
+
+2017-10-11 23:22:09_0.79009000 1507735329 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2016-10
+
+2017-10-11 23:22:11_0.65436300 1507735331 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0&report_time=2017-09
+
+2017-10-11 23:22:21_0.50108900 1507735341 :/favicon.ico
+
+2017-10-11 23:22:22_0.70955100 1507735342 :/standard/import_data
+
+2017-10-11 23:22:23_0.01818400 1507735343 :/Standard/ajaxGetExportDictionary
+
+2017-10-11 23:22:23_0.16744800 1507735343 :/favicon.ico
+
+2017-10-11 23:22:24_0.33151400 1507735344 :/standard/edit_data
+
+2017-10-11 23:22:24_0.41913700 1507735344 :/favicon.ico
+
+2017-10-11 23:23:51_0.16045000 1507735431 :/standard/edit_data
+
+2017-10-11 23:23:51_0.39360100 1507735431 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:23:51_0.56522300 1507735431 :/favicon.ico
+
+2017-10-11 23:23:53_0.54869900 1507735433 :/standard/edit_data
+
+2017-10-11 23:23:53_0.73670000 1507735433 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:23:53_0.79126100 1507735433 :/favicon.ico
+
+2017-10-11 23:24:37_0.23454700 1507735477 :/standard/edit_data
+
+2017-10-11 23:24:37_0.44711100 1507735477 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:24:37_0.60437100 1507735477 :/favicon.ico
+
+2017-10-11 23:24:38_0.71390200 1507735478 :/standard/edit_data
+
+2017-10-11 23:24:38_0.84830000 1507735478 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:24:38_0.93410600 1507735478 :/favicon.ico
+
+2017-10-11 23:24:40_0.84429700 1507735480 :/standard/edit_data
+
+2017-10-11 23:24:40_0.96400900 1507735480 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:24:41_0.06173200 1507735481 :/favicon.ico
+
+2017-10-11 23:25:18_0.58087400 1507735518 :/standard/edit_data
+
+2017-10-11 23:25:18_0.79874600 1507735518 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:25:18_0.97222100 1507735518 :/favicon.ico
+
+2017-10-11 23:27:45_0.73206200 1507735665 :/standard/edit_data
+
+2017-10-11 23:27:45_0.95177000 1507735665 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:27:46_0.11601300 1507735666 :/favicon.ico
+
+2017-10-11 23:27:46_0.62435400 1507735666 :/standard/edit_data
+
+2017-10-11 23:27:46_0.76500100 1507735666 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:27:46_0.85190300 1507735666 :/favicon.ico
+
+2017-10-11 23:27:47_0.39171400 1507735667 :/standard/edit_data
+
+2017-10-11 23:27:47_0.51760600 1507735667 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:27:47_0.60773400 1507735667 :/favicon.ico
+
+2017-10-11 23:27:48_0.11802500 1507735668 :/standard/edit_data
+
+2017-10-11 23:27:48_0.23192600 1507735668 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:27:48_0.32265200 1507735668 :/favicon.ico
+
+2017-10-11 23:28:04_0.86823100 1507735684 :/standard/edit_data
+
+2017-10-11 23:28:05_0.09336100 1507735685 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:28:05_0.23885200 1507735685 :/favicon.ico
+
+2017-10-11 23:28:05_0.86424600 1507735685 :/standard/edit_data
+
+2017-10-11 23:28:05_0.99219700 1507735685 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:28:06_0.07798900 1507735686 :/favicon.ico
+
+2017-10-11 23:28:06_0.52820900 1507735686 :/standard/edit_data
+
+2017-10-11 23:28:06_0.65331700 1507735686 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:28:06_0.74218300 1507735686 :/favicon.ico
+
+2017-10-11 23:28:07_0.20742800 1507735687 :/standard/edit_data
+
+2017-10-11 23:28:07_0.32833400 1507735687 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:28:07_0.42500800 1507735687 :/favicon.ico
+
+2017-10-11 23:28:10_0.27521300 1507735690 :/standard/edit_data
+
+2017-10-11 23:28:10_0.55796000 1507735690 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:28:10_0.73827600 1507735690 :/favicon.ico
+
+2017-10-11 23:28:11_0.32887800 1507735691 :/standard/edit_data
+
+2017-10-11 23:28:11_0.62173400 1507735691 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:28:11_0.82194300 1507735691 :/favicon.ico
+
+2017-10-11 23:28:12_0.20773600 1507735692 :/standard/edit_data
+
+2017-10-11 23:28:12_0.49940900 1507735692 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:28:12_0.72952800 1507735692 :/favicon.ico
+
+2017-10-11 23:28:14_0.19983400 1507735694 :/standard/edit_data
+
+2017-10-11 23:28:14_0.48545500 1507735694 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:28:14_0.67003500 1507735694 :/favicon.ico
+
+2017-10-11 23:28:17_0.09979500 1507735697 :/standard/edit_data
+
+2017-10-11 23:28:17_0.44856200 1507735697 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:28:17_0.64792300 1507735697 :/favicon.ico
+
+2017-10-11 23:28:41_0.00870600 1507735721 :/standard/edit_data
+
+2017-10-11 23:28:41_0.32274000 1507735721 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:28:41_0.51655600 1507735721 :/favicon.ico
+
+2017-10-11 23:28:42_0.14943400 1507735722 :/standard/edit_data
+
+2017-10-11 23:28:42_0.44443800 1507735722 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:28:42_0.63264900 1507735722 :/favicon.ico
+
+2017-10-11 23:28:43_0.05192500 1507735723 :/standard/edit_data
+
+2017-10-11 23:28:43_0.35079800 1507735723 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:28:43_0.54178100 1507735723 :/favicon.ico
+
+2017-10-11 23:28:43_0.88535800 1507735723 :/standard/edit_data
+
+2017-10-11 23:28:44_0.19187500 1507735724 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:28:44_0.40337600 1507735724 :/favicon.ico
+
+2017-10-11 23:28:44_0.71757300 1507735724 :/standard/edit_data
+
+2017-10-11 23:28:45_0.00269100 1507735725 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:28:45_0.17684300 1507735725 :/favicon.ico
+
+2017-10-11 23:28:45_0.57416300 1507735725 :/standard/edit_data
+
+2017-10-11 23:28:45_0.91328100 1507735725 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:28:46_0.10856700 1507735726 :/favicon.ico
+
+2017-10-11 23:28:46_0.45316300 1507735726 :/standard/edit_data
+
+2017-10-11 23:28:46_0.74044900 1507735726 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:28:46_0.91565400 1507735726 :/favicon.ico
+
+2017-10-11 23:28:47_0.43795800 1507735727 :/standard/edit_data
+
+2017-10-11 23:28:47_0.71191600 1507735727 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:28:47_0.88393900 1507735727 :/favicon.ico
+
+2017-10-11 23:29:26_0.36705900 1507735766 :/standard/edit_data
+
+2017-10-11 23:29:26_0.72792700 1507735766 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:29:26_0.92935400 1507735766 :/favicon.ico
+
+2017-10-11 23:29:29_0.01845400 1507735769 :/standard/edit_data
+
+2017-10-11 23:29:29_0.36058300 1507735769 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:29:29_0.55641800 1507735769 :/favicon.ico
+
+2017-10-11 23:29:32_0.01026700 1507735772 :/standard/edit_data
+
+2017-10-11 23:29:32_0.32906500 1507735772 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:29:32_0.53838400 1507735772 :/favicon.ico
+
+2017-10-11 23:29:55_0.01935500 1507735795 :/standard/edit_data
+
+2017-10-11 23:29:55_0.35298400 1507735795 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:29:55_0.55655800 1507735795 :/favicon.ico
+
+2017-10-11 23:29:56_0.71337800 1507735796 :/standard/edit_data
+
+2017-10-11 23:29:57_0.02304800 1507735797 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:29:57_0.22210200 1507735797 :/favicon.ico
+
+2017-10-11 23:29:58_0.69246800 1507735798 :/standard/edit_data
+
+2017-10-11 23:29:58_0.98003500 1507735798 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:29:59_0.17376100 1507735799 :/favicon.ico
+
+2017-10-11 23:30:00_0.65710900 1507735800 :/standard/edit_data
+
+2017-10-11 23:30:01_0.01774200 1507735801 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:30:01_0.21506900 1507735801 :/favicon.ico
+
+2017-10-11 23:30:02_0.11068300 1507735802 :/standard/edit_data
+
+2017-10-11 23:30:02_0.45268600 1507735802 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:30:02_0.64086700 1507735802 :/favicon.ico
+
+2017-10-11 23:30:21_0.87321700 1507735821 :/standard/edit_data
+
+2017-10-11 23:30:22_0.25001900 1507735822 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:30:22_0.45219600 1507735822 :/favicon.ico
+
+2017-10-11 23:30:23_0.44458300 1507735823 :/standard/edit_data
+
+2017-10-11 23:30:23_0.75637300 1507735823 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:30:23_0.95975600 1507735823 :/favicon.ico
+
+2017-10-11 23:30:24_0.74680600 1507735824 :/standard/edit_data
+
+2017-10-11 23:30:25_0.03258900 1507735825 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:30:25_0.24668400 1507735825 :/favicon.ico
+
+2017-10-11 23:30:28_0.19781700 1507735828 :/standard/edit_data
+
+2017-10-11 23:30:28_0.50868000 1507735828 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:30:28_0.71588100 1507735828 :/favicon.ico
+
+2017-10-11 23:31:15_0.81080400 1507735875 :/standard/edit_data
+
+2017-10-11 23:31:16_0.15617400 1507735876 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:31:16_0.35954600 1507735876 :/favicon.ico
+
+2017-10-11 23:31:16_0.68207500 1507735876 :/standard/edit_data
+
+2017-10-11 23:31:17_0.02863700 1507735877 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:31:17_0.23162700 1507735877 :/favicon.ico
+
+2017-10-11 23:31:17_0.47954900 1507735877 :/standard/edit_data
+
+2017-10-11 23:31:17_0.78427100 1507735877 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:31:17_0.99029200 1507735877 :/favicon.ico
+
+2017-10-11 23:31:18_0.14590400 1507735878 :/standard/edit_data
+
+2017-10-11 23:31:18_0.47354900 1507735878 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:31:18_0.64287900 1507735878 :/standard/edit_data
+
+2017-10-11 23:31:18_0.99556300 1507735878 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:31:19_0.18309400 1507735879 :/favicon.ico
+
+2017-10-11 23:31:53_0.52916200 1507735913 :/standard/edit_data
+
+2017-10-11 23:31:53_0.88767800 1507735913 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:31:54_0.09942400 1507735914 :/favicon.ico
+
+2017-10-11 23:31:54_0.48960500 1507735914 :/standard/edit_data
+
+2017-10-11 23:31:54_0.80021000 1507735914 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:31:54_0.99524300 1507735914 :/favicon.ico
+
+2017-10-11 23:31:55_0.18904200 1507735915 :/standard/edit_data
+
+2017-10-11 23:31:55_0.49230300 1507735915 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:31:55_0.68654700 1507735915 :/favicon.ico
+
+2017-10-11 23:31:55_0.90802800 1507735915 :/standard/edit_data
+
+2017-10-11 23:31:56_0.20454400 1507735916 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:31:56_0.39894200 1507735916 :/favicon.ico
+
+2017-10-11 23:31:56_0.76746300 1507735916 :/standard/edit_data
+
+2017-10-11 23:31:57_0.06177300 1507735917 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:31:57_0.24107100 1507735917 :/favicon.ico
+
+2017-10-11 23:31:57_0.42551200 1507735917 :/standard/edit_data
+
+2017-10-11 23:31:57_0.82628300 1507735917 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:31:58_0.04201700 1507735918 :/favicon.ico
+
+2017-10-11 23:32:00_0.38507000 1507735920 :/standard/import_data
+
+2017-10-11 23:32:00_0.78823000 1507735920 :/Standard/ajaxGetExportDictionary
+
+2017-10-11 23:32:00_0.95458400 1507735920 :/favicon.ico
+
+2017-10-11 23:32:02_0.01411200 1507735922 :/standard/list_data
+
+2017-10-11 23:32:02_0.39189500 1507735922 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:32:02_0.58132500 1507735922 :/favicon.ico
+
+2017-10-11 23:32:04_0.00766000 1507735924 :/standard/irrelevant
+
+2017-10-11 23:32:04_0.29488100 1507735924 :/Standard/ajaxDictionaryGetAllChild?sort=id&order=desc&limit=10&offset=0
+
+2017-10-11 23:32:04_0.46486100 1507735924 :/favicon.ico
+
+2017-10-11 23:32:06_0.61894900 1507735926 :/standard/import_data
+
+2017-10-11 23:32:07_0.02463000 1507735927 :/Standard/ajaxGetExportDictionary
+
+2017-10-11 23:32:07_0.18721000 1507735927 :/favicon.ico
+
+2017-10-11 23:32:08_0.28215400 1507735928 :/standard/edit_data
+
+2017-10-11 23:32:08_0.59199200 1507735928 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:32:08_0.77738500 1507735928 :/favicon.ico
+
+2017-10-11 23:32:14_0.47643700 1507735934 :/standard/edit_data
+
+2017-10-11 23:32:14_0.79011500 1507735934 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:32:14_0.97285300 1507735934 :/favicon.ico
+
+2017-10-11 23:32:34_0.34391900 1507735954 :/standard/edit_data
+
+2017-10-11 23:32:34_0.68280200 1507735954 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:32:34_0.88872800 1507735954 :/favicon.ico
+
+2017-10-11 23:32:36_0.13525500 1507735956 :/standard/edit_data
+
+2017-10-11 23:32:36_0.42623700 1507735956 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:32:36_0.63169300 1507735956 :/favicon.ico
+
+2017-10-11 23:33:51_0.12551300 1507736031 :/standard/edit_data
+
+2017-10-11 23:33:51_0.52262400 1507736031 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:33:51_0.74685700 1507736031 :/favicon.ico
+
+2017-10-11 23:33:54_0.00267100 1507736034 :/standard/edit_data
+
+2017-10-11 23:33:54_0.35974300 1507736034 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:33:54_0.57332700 1507736034 :/favicon.ico
+
+2017-10-11 23:34:07_0.52799100 1507736047 :/standard/edit_data
+
+2017-10-11 23:34:07_0.90297200 1507736047 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:34:08_0.13828200 1507736048 :/favicon.ico
+
+2017-10-11 23:34:28_0.48511600 1507736068 :/standard/edit_data
+
+2017-10-11 23:34:28_0.87011600 1507736068 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:34:29_0.09620200 1507736069 :/favicon.ico
+
+2017-10-11 23:34:32_0.43648300 1507736072 :/standard/edit_data
+
+2017-10-11 23:34:32_0.80447900 1507736072 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:34:33_0.02760900 1507736073 :/favicon.ico
+
+2017-10-11 23:34:45_0.79867000 1507736085 :/standard/edit_data
+
+2017-10-11 23:34:46_0.16408900 1507736086 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:34:46_0.37077100 1507736086 :/favicon.ico
+
+2017-10-11 23:34:47_0.38706500 1507736087 :/standard/edit_data
+
+2017-10-11 23:34:47_0.68770100 1507736087 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:34:47_0.88621900 1507736087 :/favicon.ico
+
+2017-10-11 23:34:49_0.33203400 1507736089 :/standard/edit_data
+
+2017-10-11 23:34:49_0.67186800 1507736089 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:34:49_0.87018100 1507736089 :/favicon.ico
+
+2017-10-11 23:34:52_0.77031500 1507736092 :/standard/edit_data
+
+2017-10-11 23:34:53_0.13575000 1507736093 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:34:53_0.33553800 1507736093 :/favicon.ico
+
+2017-10-11 23:35:36_0.89266400 1507736136 :/standard/edit_data
+
+2017-10-11 23:35:37_0.29146400 1507736137 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:35:37_0.53073800 1507736137 :/favicon.ico
+
+2017-10-11 23:35:39_0.05500200 1507736139 :/standard/edit_data
+
+2017-10-11 23:35:39_0.39458500 1507736139 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:35:39_0.60446500 1507736139 :/favicon.ico
+
+2017-10-11 23:36:15_0.48503800 1507736175 :/standard/edit_data
+
+2017-10-11 23:36:15_0.88052700 1507736175 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:36:16_0.10695900 1507736176 :/favicon.ico
+
+2017-10-11 23:36:17_0.33518500 1507736177 :/standard/edit_data
+
+2017-10-11 23:36:17_0.64789500 1507736177 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:36:17_0.85002100 1507736177 :/favicon.ico
+
+2017-10-11 23:36:20_0.25538400 1507736180 :/standard/edit_data
+
+2017-10-11 23:36:20_0.57207500 1507736180 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:36:20_0.78433000 1507736180 :/favicon.ico
+
+2017-10-11 23:36:34_0.22304100 1507736194 :/standard/edit_data
+
+2017-10-11 23:36:34_0.54212500 1507736194 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:36:34_0.73766100 1507736194 :/favicon.ico
+
+2017-10-11 23:36:35_0.42177900 1507736195 :/standard/edit_data
+
+2017-10-11 23:36:35_0.78032600 1507736195 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:36:35_0.98208500 1507736195 :/favicon.ico
+
+2017-10-11 23:36:37_0.05661400 1507736197 :/standard/edit_data
+
+2017-10-11 23:36:37_0.35167300 1507736197 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:36:37_0.53953500 1507736197 :/favicon.ico
+
+2017-10-11 23:37:21_0.98943300 1507736241 :/standard/edit_data
+
+2017-10-11 23:37:22_0.35720400 1507736242 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:37:22_0.56858000 1507736242 :/favicon.ico
+
+2017-10-11 23:37:23_0.06932700 1507736243 :/standard/edit_data
+
+2017-10-11 23:37:23_0.37715800 1507736243 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:37:23_0.57320900 1507736243 :/favicon.ico
+
+2017-10-11 23:37:24_0.09958100 1507736244 :/standard/edit_data
+
+2017-10-11 23:37:24_0.38631700 1507736244 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:37:24_0.62958200 1507736244 :/favicon.ico
+
+2017-10-11 23:37:25_0.07019800 1507736245 :/standard/edit_data
+
+2017-10-11 23:37:25_0.43549900 1507736245 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:37:25_0.63107700 1507736245 :/favicon.ico
+
+2017-10-11 23:37:26_0.09370200 1507736246 :/standard/edit_data
+
+2017-10-11 23:37:26_0.39789600 1507736246 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:37:26_0.59618200 1507736246 :/favicon.ico
+
+2017-10-11 23:37:27_0.07615900 1507736247 :/standard/edit_data
+
+2017-10-11 23:37:27_0.36658100 1507736247 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:37:27_0.54666200 1507736247 :/favicon.ico
+
+2017-10-11 23:42:03_0.17139000 1507736523 :/standard/edit_data
+
+2017-10-11 23:42:03_0.54775900 1507736523 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:42:03_0.75658600 1507736523 :/favicon.ico
+
+2017-10-11 23:42:06_0.57182000 1507736526 :/standard/edit_data
+
+2017-10-11 23:42:06_0.94679400 1507736526 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:42:07_0.16815800 1507736527 :/favicon.ico
+
+2017-10-11 23:42:08_0.30440100 1507736528 :/standard/edit_data
+
+2017-10-11 23:42:08_0.59040300 1507736528 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:42:08_0.79042100 1507736528 :/favicon.ico
+
+2017-10-11 23:42:39_0.64500800 1507736559 :/standard/edit_data
+
+2017-10-11 23:42:40_0.00503200 1507736560 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:42:40_0.21353200 1507736560 :/favicon.ico
+
+2017-10-11 23:42:40_0.85944300 1507736560 :/standard/edit_data
+
+2017-10-11 23:42:41_0.20704800 1507736561 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:42:41_0.41260700 1507736561 :/favicon.ico
+
+2017-10-11 23:42:41_0.90637900 1507736561 :/standard/edit_data
+
+2017-10-11 23:42:42_0.20795600 1507736562 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:42:42_0.41517200 1507736562 :/favicon.ico
+
+2017-10-11 23:42:44_0.46019700 1507736564 :/standard/edit_data
+
+2017-10-11 23:42:44_0.74519500 1507736564 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:42:44_0.93748600 1507736564 :/favicon.ico
+
+2017-10-11 23:43:31_0.04256300 1507736611 :/standard/edit_data
+
+2017-10-11 23:43:31_0.40925900 1507736611 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:43:31_0.61764800 1507736611 :/favicon.ico
+
+2017-10-11 23:43:32_0.73774000 1507736612 :/standard/edit_data
+
+2017-10-11 23:43:33_0.04678700 1507736613 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:43:33_0.24255500 1507736613 :/favicon.ico
+
+2017-10-11 23:43:34_0.37927400 1507736614 :/standard/edit_data
+
+2017-10-11 23:43:34_0.71879200 1507736614 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:43:34_0.96088500 1507736614 :/favicon.ico
+
+2017-10-11 23:44:04_0.57049300 1507736644 :/standard/edit_data
+
+2017-10-11 23:44:04_0.94974500 1507736644 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:44:05_0.16210700 1507736645 :/favicon.ico
+
+2017-10-11 23:44:05_0.68168500 1507736645 :/standard/edit_data
+
+2017-10-11 23:44:05_0.98774200 1507736645 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:44:06_0.17481000 1507736646 :/favicon.ico
+
+2017-10-11 23:44:06_0.78545400 1507736646 :/standard/edit_data
+
+2017-10-11 23:44:07_0.07193500 1507736647 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:44:07_0.27262000 1507736647 :/favicon.ico
+
+2017-10-11 23:44:07_0.96117900 1507736647 :/standard/edit_data
+
+2017-10-11 23:44:08_0.24052100 1507736648 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:44:08_0.43698100 1507736648 :/favicon.ico
+
+2017-10-11 23:44:26_0.33998300 1507736666 :/standard/edit_data
+
+2017-10-11 23:44:26_0.63185900 1507736666 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:44:26_0.82343300 1507736666 :/favicon.ico
+
+2017-10-11 23:45:05_0.16068200 1507736705 :/standard/edit_data
+
+2017-10-11 23:45:05_0.55871200 1507736705 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:45:05_0.79997700 1507736705 :/favicon.ico
+
+2017-10-11 23:45:07_0.29444800 1507736707 :/standard/edit_data
+
+2017-10-11 23:45:07_0.65519000 1507736707 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:45:07_0.86127500 1507736707 :/favicon.ico
+
+2017-10-11 23:45:09_0.90663800 1507736709 :/standard/edit_data
+
+2017-10-11 23:45:10_0.26924900 1507736710 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:45:10_0.49250600 1507736710 :/favicon.ico
+
+2017-10-11 23:45:47_0.94211800 1507736747 :/standard/dictionaries
+
+2017-10-11 23:45:48_0.41304800 1507736748 :/Standard/ajaxDictionaryList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:45:48_0.62249700 1507736748 :/favicon.ico
+
+2017-10-11 23:46:21_0.68825500 1507736781 :/standard/edit_data
+
+2017-10-11 23:46:22_0.04375700 1507736782 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:46:22_0.25501300 1507736782 :/favicon.ico
+
+2017-10-11 23:46:24_0.85143400 1507736784 :/standard/edit_data
+
+2017-10-11 23:46:25_0.21414700 1507736785 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:46:25_0.43417500 1507736785 :/favicon.ico
+
+2017-10-11 23:46:30_0.17968400 1507736790 :/standard/edit_data
+
+2017-10-11 23:46:30_0.49284100 1507736790 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:46:30_0.71699300 1507736790 :/favicon.ico
+
+2017-10-11 23:46:35_0.31984200 1507736795 :/standard/edit_data
+
+2017-10-11 23:46:35_0.67268800 1507736795 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:46:35_0.88344600 1507736795 :/favicon.ico
+
+2017-10-11 23:48:03_0.45772100 1507736883 :/standard/edit_data
+
+2017-10-11 23:48:03_0.85245700 1507736883 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:48:04_0.07435400 1507736884 :/favicon.ico
+
+2017-10-11 23:48:05_0.85567600 1507736885 :/standard/edit_data
+
+2017-10-11 23:48:06_0.21093300 1507736886 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:48:06_0.42326700 1507736886 :/favicon.ico
+
+2017-10-11 23:48:12_0.46591200 1507736892 :/standard/edit_data
+
+2017-10-11 23:48:12_0.83242100 1507736892 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:48:13_0.05165400 1507736893 :/favicon.ico
+
+2017-10-11 23:48:35_0.91562900 1507736915 :/standard/edit_data
+
+2017-10-11 23:48:36_0.28501800 1507736916 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:48:36_0.49023800 1507736916 :/favicon.ico
+
+2017-10-11 23:49:02_0.51019700 1507736942 :/standard/edit_data
+
+2017-10-11 23:49:02_0.87654400 1507736942 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:49:03_0.08644300 1507736943 :/favicon.ico
+
+2017-10-11 23:49:05_0.24258000 1507736945 :/standard/edit_data
+
+2017-10-11 23:49:05_0.59164900 1507736945 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:49:05_0.80930600 1507736945 :/favicon.ico
+
+2017-10-11 23:49:07_0.39529500 1507736947 :/standard/edit_data
+
+2017-10-11 23:49:07_0.67580800 1507736947 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:49:07_0.87207900 1507736947 :/favicon.ico
+
+2017-10-11 23:49:10_0.79761500 1507736950 :/standard/edit_data
+
+2017-10-11 23:49:11_0.16501700 1507736951 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:49:11_0.38658200 1507736951 :/favicon.ico
+
+2017-10-11 23:49:12_0.72835500 1507736952 :/standard/edit_data
+
+2017-10-11 23:49:13_0.01798900 1507736953 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:49:13_0.18947400 1507736953 :/favicon.ico
+
+2017-10-11 23:49:13_0.75974600 1507736953 :/standard/edit_data
+
+2017-10-11 23:49:14_0.09134900 1507736954 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:49:14_0.27583300 1507736954 :/favicon.ico
+
+2017-10-11 23:49:14_0.79200800 1507736954 :/standard/edit_data
+
+2017-10-11 23:49:15_0.07550200 1507736955 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:49:15_0.24689700 1507736955 :/favicon.ico
+
+2017-10-11 23:49:15_0.80061600 1507736955 :/standard/edit_data
+
+2017-10-11 23:49:16_0.08338300 1507736956 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:49:16_0.25591200 1507736956 :/favicon.ico
+
+2017-10-11 23:49:17_0.16849700 1507736957 :/standard/edit_data
+
+2017-10-11 23:49:17_0.44088800 1507736957 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:49:17_0.61885100 1507736957 :/favicon.ico
+
+2017-10-11 23:50:25_0.01487400 1507737025 :/standard/edit_data
+
+2017-10-11 23:50:25_0.41292000 1507737025 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:50:25_0.64293200 1507737025 :/favicon.ico
+
+2017-10-11 23:50:28_0.28305700 1507737028 :/standard/edit_data
+
+2017-10-11 23:50:28_0.65023800 1507737028 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:50:28_0.87217900 1507737028 :/favicon.ico
+
+2017-10-11 23:50:56_0.78163100 1507737056 :/standard/edit_data
+
+2017-10-11 23:50:57_0.14152800 1507737057 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:50:57_0.34734500 1507737057 :/favicon.ico
+
+2017-10-11 23:50:57_0.98016100 1507737057 :/standard/edit_data
+
+2017-10-11 23:50:58_0.33396800 1507737058 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:50:58_0.53076100 1507737058 :/favicon.ico
+
+2017-10-11 23:50:58_0.83750600 1507737058 :/standard/edit_data
+
+2017-10-11 23:50:59_0.14417600 1507737059 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:50:59_0.33454800 1507737059 :/favicon.ico
+
+2017-10-11 23:50:59_0.73281000 1507737059 :/standard/edit_data
+
+2017-10-11 23:51:00_0.01788800 1507737060 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:51:00_0.23697700 1507737060 :/favicon.ico
+
+2017-10-11 23:51:02_0.58155900 1507737062 :/standard/edit_data
+
+2017-10-11 23:51:02_0.94028800 1507737062 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:51:03_0.13645000 1507737063 :/favicon.ico
+
+2017-10-11 23:51:33_0.52847900 1507737093 :/standard/edit_data
+
+2017-10-11 23:51:33_0.83766300 1507737093 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:51:34_0.03474600 1507737094 :/favicon.ico
+
+2017-10-11 23:51:34_0.73171500 1507737094 :/standard/edit_data
+
+2017-10-11 23:51:35_0.09640400 1507737095 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:51:35_0.29229700 1507737095 :/favicon.ico
+
+2017-10-11 23:51:35_0.64318400 1507737095 :/standard/edit_data
+
+2017-10-11 23:51:35_0.94013700 1507737095 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:51:36_0.13038400 1507737096 :/favicon.ico
+
+2017-10-11 23:51:36_0.54511200 1507737096 :/standard/edit_data
+
+2017-10-11 23:51:36_0.89263400 1507737096 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:51:37_0.08820400 1507737097 :/favicon.ico
+
+2017-10-11 23:52:08_0.65857600 1507737128 :/standard/edit_data
+
+2017-10-11 23:52:09_0.00597400 1507737129 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:52:09_0.21676100 1507737129 :/favicon.ico
+
+2017-10-11 23:52:09_0.69702600 1507737129 :/standard/edit_data
+
+2017-10-11 23:52:10_0.04369700 1507737130 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:52:10_0.24396700 1507737130 :/favicon.ico
+
+2017-10-11 23:52:10_0.61691000 1507737130 :/standard/edit_data
+
+2017-10-11 23:52:10_0.91246600 1507737130 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:52:11_0.10454800 1507737131 :/favicon.ico
+
+2017-10-11 23:52:11_0.51395200 1507737131 :/standard/edit_data
+
+2017-10-11 23:52:11_0.80519300 1507737131 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:52:12_0.00327900 1507737132 :/favicon.ico
+
+2017-10-11 23:52:13_0.60144100 1507737133 :/standard/edit_data
+
+2017-10-11 23:52:13_0.88304600 1507737133 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:52:14_0.06491200 1507737134 :/favicon.ico
+
+2017-10-11 23:52:30_0.62424800 1507737150 :/standard/edit_data
+
+2017-10-11 23:52:30_0.99152600 1507737150 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:52:31_0.19345400 1507737151 :/favicon.ico
+
+2017-10-11 23:53:59_0.29931300 1507737239 :/standard/edit_data
+
+2017-10-11 23:53:59_0.69997500 1507737239 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:53:59_0.92953100 1507737239 :/favicon.ico
+
+2017-10-11 23:54:02_0.57867100 1507737242 :/standard/edit_data
+
+2017-10-11 23:54:02_0.96236400 1507737242 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:54:03_0.19966400 1507737243 :/favicon.ico
+
+2017-10-11 23:57:41_0.79222200 1507737461 :/standard/edit_data
+
+2017-10-11 23:57:42_0.16572800 1507737462 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:57:42_0.35351300 1507737462 :/favicon.ico
+
+2017-10-11 23:57:48_0.70942100 1507737468 :/standard/edit_data
+
+2017-10-11 23:57:49_0.02486000 1507737469 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:57:49_0.20331000 1507737469 :/favicon.ico
+
+2017-10-11 23:58:12_0.12771900 1507737492 :/standard/list_data
+
+2017-10-11 23:58:12_0.42191100 1507737492 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:58:12_0.60847100 1507737492 :/favicon.ico
+
+2017-10-11 23:58:14_0.04695600 1507737494 :/standard/list_data
+
+2017-10-11 23:58:14_0.34079900 1507737494 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:58:14_0.52271500 1507737494 :/favicon.ico
+
+2017-10-11 23:58:32_0.90185900 1507737512 :/standard/list_data
+
+2017-10-11 23:58:33_0.20360300 1507737513 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-11 23:58:33_0.40038200 1507737513 :/favicon.ico
+
+2017-10-11 23:58:38_0.64812200 1507737518 :/standard/import_data
+
+2017-10-11 23:58:39_0.02509300 1507737519 :/Standard/ajaxGetExportDictionary
+
+2017-10-11 23:58:39_0.21448600 1507737519 :/favicon.ico
+
+2017-10-11 23:59:07_0.16176000 1507737547 :/standard/import_data
+
+2017-10-11 23:59:07_0.61233300 1507737547 :/Standard/ajaxGetExportDictionary
+
+2017-10-11 23:59:07_0.79716000 1507737547 :/favicon.ico
+

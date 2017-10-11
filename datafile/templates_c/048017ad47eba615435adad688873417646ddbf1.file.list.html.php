@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2017-10-10 02:51:24
+<?php /* Smarty version Smarty-3.1.13, created on 2017-10-11 11:58:28
          compiled from "/private/var/www/yl/application/views/admin/system/account/list.html" */ ?>
 <?php /*%%SmartyHeaderCode:58503236959d8d8510e6626-72003089%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '048017ad47eba615435adad688873417646ddbf1' => 
     array (
       0 => '/private/var/www/yl/application/views/admin/system/account/list.html',
-      1 => 1507574990,
+      1 => 1507693403,
       2 => 'file',
     ),
   ),
@@ -165,35 +165,35 @@ window.operateEvents = {
     },
     'click .remove': function (e, value, row, index) {
     	Modal.confirm(
-				  {
-				    msg: "是否删除？",
-				    title: "删除"
-				  })
-				  .on( function (e) {
-				    	if(e) {
-				    		$.ajax({
-				    	        url:'/system/ajaxAccountDelete',
-				    	        type:'post',
-				    			dataType : 'json',
-				    			data : encodeURI('id=' + row.id),
-				    			async: false,
-				    			success:function(data){
-				    	        	if(data['result_code'] == 0) {
-				    	        		Calert("删除成功!");
-				    	        		refresh();
-				    	        		$('#accountForm')[0].reset();
-				    				} else {
-				    					Calert(data['info']);
-				    					return false;
-				    				}
-				    	        },
-				    	        error:function(){
+			{
+			  msg: "是否删除？",
+			  title: "删除"
+			})
+			.on( function (e) {
+			 	if(e) {
+			 		$.ajax({
+			 	        url:'/system/ajaxAccountDelete',
+			 	        type:'post',
+			 			dataType : 'json',
+			 			data : encodeURI('id=' + row.id),
+			 			async: false,
+			 			success:function(data){
+		    	        	if(data['result_code'] == 0) {
+		    	        		Calert("删除成功!");
+		    	        		refresh();
+		    	        		$('#accountForm')[0].reset();
+		    				} else {
+		    					Calert(data['info']);
+		    					return false;
+		    				}
+		    	        },
+		    	        error:function(){
 
-				    	        }
+		    	        }
 
-				    	     });
-				    	}
-				  });
+		    	     });
+		    	}
+		  });
     }
 };
 
@@ -218,7 +218,7 @@ function opUpdate(row) {
         success:function(data){
         	$('#account_id').val(data['id']);
         	$('#username').val(data['username']);
-        	$('#password').val('******');
+        	$('#password').val('');
         	$('#email').val(data['email']);
         	$('#status').val(data['status']);
         	if(data['avatar'] == ''){

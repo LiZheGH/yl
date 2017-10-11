@@ -53,4 +53,16 @@ class ImportData extends BaseModel{
 		}
 		return self::$instance;
 	}
+	public function getListByReportTime($report_time){
+	   $sql = "SELECT * FROM ".$this->table." WHERE 1=1";
+	   if ($report_time)
+	       $sql .= " AND `report_time` >= '".$report_time."-01' AND `report_time` <= '".$report_time."-".CommonFuncs::getMonthDateNum($report_time)."'";
+	   return $this->db->getAll($sql);
+	}
+	public function getListByYearReportTime($report_time){
+	    $sql = "SELECT * FROM ".$this->table." WHERE 1=1";
+	    if ($report_time)
+	        $sql .= " AND `report_time` >= '".$report_time."-01-01' AND `report_time` <= '".$report_time."-12-31'";
+	    return $this->db->getAll($sql);
+	}
 }

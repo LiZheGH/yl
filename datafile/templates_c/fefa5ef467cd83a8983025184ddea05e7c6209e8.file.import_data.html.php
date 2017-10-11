@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2017-10-11 08:49:04
+<?php /* Smarty version Smarty-3.1.13, created on 2017-10-11 21:46:10
          compiled from "/private/var/www/yl/application/views/admin/standard/import_data.html" */ ?>
 <?php /*%%SmartyHeaderCode:76854796059dc928c1c8776-47427842%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'fefa5ef467cd83a8983025184ddea05e7c6209e8' => 
     array (
       0 => '/private/var/www/yl/application/views/admin/standard/import_data.html',
-      1 => 1507682943,
+      1 => 1507728822,
       2 => 'file',
     ),
   ),
@@ -182,6 +182,7 @@ $(function(){
 	$(".datetimepicker1").datetimepicker({
 		format:'Y-m-d',
 		timepicker:false,
+		daypicker:false,
 		maxDate:true,
 		formatDate:'Y-m-d',
 	});
