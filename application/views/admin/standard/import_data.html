@@ -18,7 +18,7 @@ var myDate = new Date();
 				<div class="modal-body">
 					<div class="form-group">
 		            	<label class="col-sm-2 control-label"><font color="red">*</font>必须选择上报日期</label>
-						<div class="col-sm-9">
+						<div class="col-sm-3">
 			                <div class="input-group date">
 			                    <input type="text" id="report_time" name="report_time" placeholder="上报日期" class="form-control datetimepicker1" />
 			                    <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span>
@@ -133,8 +133,8 @@ $(function(){
 	$(".datetimepicker1").datetimepicker({
 		format:'Y-m-d',
 		timepicker:false,
+		maxDate:true,
 		formatDate:'Y-m-d',
-		step:10,
 	});
 	//全选
 	$(".checkall").change(function(){

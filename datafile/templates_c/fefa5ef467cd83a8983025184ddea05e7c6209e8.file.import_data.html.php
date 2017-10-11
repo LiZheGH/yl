@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2017-10-11 06:44:56
+<?php /* Smarty version Smarty-3.1.13, created on 2017-10-11 08:49:04
          compiled from "/private/var/www/yl/application/views/admin/standard/import_data.html" */ ?>
 <?php /*%%SmartyHeaderCode:76854796059dc928c1c8776-47427842%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'fefa5ef467cd83a8983025184ddea05e7c6209e8' => 
     array (
       0 => '/private/var/www/yl/application/views/admin/standard/import_data.html',
-      1 => 1507675493,
+      1 => 1507682943,
       2 => 'file',
     ),
   ),
@@ -49,7 +49,7 @@ var myDate = new Date();
 				<div class="modal-body">
 					<div class="form-group">
 		            	<label class="col-sm-2 control-label"><font color="red">*</font>必须选择上报日期</label>
-						<div class="col-sm-9">
+						<div class="col-sm-3">
 			                <div class="input-group date">
 			                    <input type="text" id="report_time" name="report_time" placeholder="上报日期" class="form-control datetimepicker1" />
 			                    <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span>
@@ -182,8 +182,8 @@ $(function(){
 	$(".datetimepicker1").datetimepicker({
 		format:'Y-m-d',
 		timepicker:false,
+		maxDate:true,
 		formatDate:'Y-m-d',
-		step:10,
 	});
 	//全选
 	$(".checkall").change(function(){
