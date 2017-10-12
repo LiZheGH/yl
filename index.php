@@ -1,5 +1,4 @@
 <?php
-echo 1;exit;
 ini_set("include_path", "./include");
 require_once 'lib/Init.php';
 require_once 'lib/Application.php';
