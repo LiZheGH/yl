@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2017-10-12 14:25:12
+<?php /* Smarty version Smarty-3.1.13, created on 2017-10-12 16:34:29
          compiled from "/private/var/www/yl/application/views/admin/system/role/list.html" */ ?>
 <?php /*%%SmartyHeaderCode:203795743959dbc473dbc645-98316014%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'aff54977ac896378c17af164f20b2157753784d2' => 
     array (
       0 => '/private/var/www/yl/application/views/admin/system/role/list.html',
-      1 => 1507575036,
+      1 => 1507797266,
       2 => 'file',
     ),
   ),
@@ -87,8 +87,8 @@ $_smarty_tpl->tpl_vars['power']->_loop = true;
 ?>
 	                        	<label class="checkbox-inline">
 								<input id="power<?php echo $_smarty_tpl->tpl_vars['power']->value['id'];?>
-" class="power_ids" name="power_ids" type="checkbox" value="<?php echo $_smarty_tpl->tpl_vars['power']->value['id'];?>
-" <?php if ($_smarty_tpl->tpl_vars['power']->value['uri']=='/welcome/'){?>checked="checked" disabled="disabled"<?php }?>>
+" name="power_ids" type="checkbox" value="<?php echo $_smarty_tpl->tpl_vars['power']->value['id'];?>
+" <?php if ($_smarty_tpl->tpl_vars['power']->value['uri']=='/welcome/'){?> checked disabled<?php }else{ ?>class="power_ids"<?php }?>>
 								<?php echo $_smarty_tpl->tpl_vars['power']->value['power_name'];?>
 
 								</label>

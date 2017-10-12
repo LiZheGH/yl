@@ -53,7 +53,7 @@
                         <div class="" id="powers">
                         	{foreach from=$power_list item=power}
 	                        	<label class="checkbox-inline">
-								<input id="power{$power.id}" class="power_ids" name="power_ids" type="checkbox" value="{$power.id}" {if $power.uri == '/welcome/'}checked="checked" disabled="disabled"{/if}>
+								<input id="power{$power.id}" name="power_ids" type="checkbox" value="{$power.id}" {if $power.uri == '/welcome/'} checked disabled{else}class="power_ids"{/if}>
 								{$power.power_name}
 								</label>
                         	{/foreach}

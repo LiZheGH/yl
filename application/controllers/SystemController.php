@@ -331,16 +331,11 @@ class SystemController extends WebBaseController {
 			$page = 1;
 		$rows = 15;
 		$data_list = $this->systemAccount->getPageData ( $page, $rows );
-		/* foreach($data_list as $k => $v){
-		    $role = $this->systemRoleUser->getByAccountId($v['id']);
-		    $role_ids = '';
-		    foreach($role as $key => $value){
-		        $role_ids = $role_ids . $value['id'] .",";
-		    }
-		    if(!empty($role_ids)){
-		        $data_list[$k]['role_ids'] = rtrim($role_ids,',');
-		    }
-		} */
+		foreach($data_list as $k => $v){
+		   if ($v['username'] == 'admin' && $this->curUser['username'] != 'admin'){
+		       unset($data_list[$k]);
+		   }
+		}
 		$result ['total_page'] = ceil ( $this->systemAccount->getCount () / $rows );
 		$result ['cur_page'] = $page;
 		$result ['data'] = $data_list;

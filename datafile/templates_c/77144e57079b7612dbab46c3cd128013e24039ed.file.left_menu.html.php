@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2017-10-12 14:30:13
+<?php /* Smarty version Smarty-3.1.13, created on 2017-10-12 16:02:29
          compiled from "/private/var/www/yl/application/views/admin/common/left_menu.html" */ ?>
 <?php /*%%SmartyHeaderCode:186008652059d49e312ae7e4-62552054%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '77144e57079b7612dbab46c3cd128013e24039ed' => 
     array (
       0 => '/private/var/www/yl/application/views/admin/common/left_menu.html',
-      1 => 1507789802,
+      1 => 1507795321,
       2 => 'file',
     ),
   ),
@@ -77,6 +77,24 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 		</ul>
 	   </li>
 	   <?php }?>
+      <?php if ($_smarty_tpl->tpl_vars['cUser']->value['is_admin']||in_array('/examine/',$_smarty_tpl->tpl_vars['power']->value)){?>
+      <li>
+      	<a href="javascript:;">
+      		<i class="glyphicon glyphicon-list-alt"></i>
+      		<span class="title">异常事件审核</span>
+      		<span class="selected"></span>
+      		<span class="arrow"></span>
+		</a>
+		<ul class="sub-menu">
+			<li><a href="/examine/piping">管路事件报告</a></li>
+			<li><a href="/examine/medicine">给药错误报告</a></li>
+			<li><a href="/examine/stab">锐器刺伤报告</a></li>
+			<li><a href="/examine/pressure">压疮事件报告</a></li>
+			<li><a href="/examine/fall">跌倒坠床报告</a></li>
+			<li><a href="/examine/other">其他事件报告</a></li>
+		</ul>
+	   </li>
+	   <?php }?>
 	   <?php if ($_smarty_tpl->tpl_vars['cUser']->value['is_admin']||in_array('/standard/',$_smarty_tpl->tpl_vars['power']->value)){?>
 	   <li>
 	   	    <a href="javascript:;">
@@ -86,7 +104,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 		  	  	<span class="arrow"></span>
 		    </a>
 			<ul class="sub-menu">
-				<li><a href="#">各科质量数据上报</a></li>
+				<!-- <li><a href="#">各科质量数据上报</a></li> -->
 				<li><a href="/standard/list_data">历史上报查看</a></li>
 				<li><a href="/standard/import_data">导入数据</a></li>
 				<li><a href="/standard/edit_data">修改数据</a></li>

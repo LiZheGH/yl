@@ -51,6 +51,24 @@
 		</ul>
 	   </li>
 	   {/if}
+      {if $cUser['is_admin'] || in_array('/examine/',$power)}
+      <li>
+      	<a href="javascript:;">
+      		<i class="glyphicon glyphicon-list-alt"></i>
+      		<span class="title">异常事件审核</span>
+      		<span class="selected"></span>
+      		<span class="arrow"></span>
+		</a>
+		<ul class="sub-menu">
+			<li><a href="/examine/piping">管路事件报告</a></li>
+			<li><a href="/examine/medicine">给药错误报告</a></li>
+			<li><a href="/examine/stab">锐器刺伤报告</a></li>
+			<li><a href="/examine/pressure">压疮事件报告</a></li>
+			<li><a href="/examine/fall">跌倒坠床报告</a></li>
+			<li><a href="/examine/other">其他事件报告</a></li>
+		</ul>
+	   </li>
+	   {/if}
 	   {if $cUser['is_admin'] || in_array('/standard/',$power)}
 	   <li>
 	   	    <a href="javascript:;">
@@ -60,7 +78,7 @@
 		  	  	<span class="arrow"></span>
 		    </a>
 			<ul class="sub-menu">
-				<li><a href="#">各科质量数据上报</a></li>
+				<!-- <li><a href="#">各科质量数据上报</a></li> -->
 				<li><a href="/standard/list_data">历史上报查看</a></li>
 				<li><a href="/standard/import_data">导入数据</a></li>
 				<li><a href="/standard/edit_data">修改数据</a></li>

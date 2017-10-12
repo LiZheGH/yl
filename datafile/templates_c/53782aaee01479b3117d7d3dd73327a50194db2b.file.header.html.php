@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2017-10-11 22:33:19
+<?php /* Smarty version Smarty-3.1.13, created on 2017-10-12 16:16:06
          compiled from "/private/var/www/yl/application/views/admin/common/header.html" */ ?>
 <?php /*%%SmartyHeaderCode:195751315359d49db8736087-39869799%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '53782aaee01479b3117d7d3dd73327a50194db2b' => 
     array (
       0 => '/private/var/www/yl/application/views/admin/common/header.html',
-      1 => 1507732292,
+      1 => 1507796160,
       2 => 'file',
     ),
   ),
@@ -36,6 +36,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta content="width=device-width, initial-scale=1" name="viewport"/>
 <meta content="" name="description"/>
+<link rel="shortcut icon" type="image/x-icon" href="/public/img/icon.png" />
 
 <link href="/public/drp/assets/global/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
 <link href="/public/drp/assets/global/plugins/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css"/>
@@ -260,7 +261,9 @@ $(function () {
   <!-- BEGIN HEADER INNER -->
   <div class="page-header-inner">
     <!-- BEGIN LOGO -->
-    <div class="page-logo"> <a href="/system/" style="line-height:45px;font-size:20px;color:white;"> 中美医疗集团<!-- <img src="/public/drp/assets/admin/layout/img/logo.png" alt="logo" class="logo-default"/> --> </a>
+    <div class="page-logo">
+    	<img src="/public/img/icon.png" alt="logo" class="logo-default" style="width: 30px;float: left;margin: 7px 0 0 0;"/>
+    	<a href="/system/" style="line-height:45px;font-size:20px;color:white;">中美医疗集团</a>
       <div class="menu-toggler sidebar-toggler hide">
         <!-- DOC: Remove the above "hide" to enable the sidebar toggler button on header -->
       </div>
