@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2017-10-12 19:03:37
+<?php /* Smarty version Smarty-3.1.13, created on 2017-10-12 20:23:42
          compiled from "/private/var/www/yl/application/views/admin/welcome/index.html" */ ?>
 <?php /*%%SmartyHeaderCode:55763088059d9cbac8e4f43-03723517%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'f18408a18b69faf98131d4bf3c552b401d3f37f4' => 
     array (
       0 => '/private/var/www/yl/application/views/admin/welcome/index.html',
-      1 => 1507806209,
+      1 => 1507811020,
       2 => 'file',
     ),
   ),
@@ -70,7 +70,7 @@ particlesJS("particles-js", {
       }
     },
     "color": {
-      "value": ["#e40045", "#58636d"]
+      "value": ["#F00", "#FFF"]
     },
     "shape": {
       "type": "polygon",

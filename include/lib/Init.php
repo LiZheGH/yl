@@ -8,22 +8,24 @@ ini_set ( 'date.timezone', 'Asia/Shanghai' );
 
 
 if(isset($_SERVER['HTTP_HOST'])) {
-    if ($_SERVER['HTTP_HOST'] == 'www.codeboxs.com'){
-        //正式环境
-        define ( 'DOMAIN', 'www.codeboxs.com' );
-        define ( 'DB_USERNAME', 'default' );
+    if ($_SERVER['HTTP_HOST'] == 'www.yl.com'){
+        //测试环境
+        define ( 'DOMAIN', 'www.yl.com' );
+        define ( 'DB_USERNAME', 'root' );
         define ( 'DB_PASSWORD', '123abc!@#' );
         define ( 'DB_DBNAME', 'yl' );
+        define ( 'DB_SERVERNAME', '127.0.0.1' );
     } else {
         //正式环境
         define ( 'DOMAIN', 'www.yl.com' );
         define ( 'DB_USERNAME', 'default' );
         define ( 'DB_PASSWORD', '123abc!@#' );
         define ( 'DB_DBNAME', 'yl' );
+        define ( 'DB_SERVERNAME', '123.56.44.151' );
     }
 
 }
-define ( 'DB_SERVERNAME', '123.56.44.151' );
+
 
 define ( 'SYSTEM_PATH', dirname ( __FILE__ ) );
 define ( 'BASE_DIR', substr ( SYSTEM_PATH, 0, - 11 ) );

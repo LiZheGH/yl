@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2017-10-08 03:10:29
+<?php /* Smarty version Smarty-3.1.13, created on 2017-10-12 20:48:00
          compiled from "/private/var/www/yl/application/views/admin/login.html" */ ?>
 <?php /*%%SmartyHeaderCode:112588008759d926a54dcd03-56952445%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'd42146956ed3efd253723d531e7086b759120567' => 
     array (
       0 => '/private/var/www/yl/application/views/admin/login.html',
-      1 => 1506346392,
+      1 => 1507812461,
       2 => 'file',
     ),
   ),
@@ -15,9 +15,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
-  'has_nocache_code' => false,
   'version' => 'Smarty-3.1.13',
   'unifunc' => 'content_59d926a54fa444_89508811',
+  'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_59d926a54fa444_89508811')) {function content_59d926a54fa444_89508811($_smarty_tpl) {?><!DOCTYPE html>
 <!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
@@ -143,12 +143,12 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 </head>
 <!-- END HEAD -->
 <!-- BEGIN BODY -->
-<body class="login">
+<body class="login" style="overflow: hidden;">
 <!-- BEGIN LOGO -->
-<div class="logo">
-	<a href="#" style="font-size:24px;color:white;">
+<div class="logo" style="position: absolute;left: 50%; margin-left: -183px;">
+	<b style="font-size:24px;color:white;">
 		中美医疗集团不良事件上报系统
-	</a>
+	</b>
 </div>
 <!-- END LOGO -->
 <!-- BEGIN SIDEBAR TOGGLER BUTTON -->
@@ -156,7 +156,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 </div>
 <!-- END SIDEBAR TOGGLER BUTTON -->
 <!-- BEGIN LOGIN -->
-<div class="content">
+<div class="content" style="position: absolute;left: 50%;top: 225px;margin-left: -230px;">
 	<!-- BEGIN LOGIN FORM -->
 	<form class="login-form" action="/admin/index" method="post">
 		<div id="topInfo" class="alert alert-info">
@@ -203,7 +203,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 </div>
 <!-- END LOGIN -->
 <!-- BEGIN COPYRIGHT -->
-<div class="copyright">
+<div class="copyright" style="position: absolute;bottom: 0; width: 100%; background: #000;">
 	 2017 &copy; 中美医疗集团不良事件上报系统
 </div>
 <!-- END COPYRIGHT -->
@@ -227,6 +227,145 @@ jQuery(document).ready(function() {
     );
 });
 </script>
+</head>
+
+<body>
+<script src="/public/js/three.min.js"></script>
+<script src="/public/js/TweenMax.min.js"></script>
+<canvas></canvas>
+<script>
+console.clear();
+
+var ww = window.innerWidth,
+  wh = window.innerHeight;
+
+var renderer = new THREE.WebGLRenderer({
+  canvas: document.querySelector("canvas"),
+  antialias: true
+});
+renderer.setSize(ww, wh);
+renderer.setClearColor(0x000000);
+
+var scene = new THREE.Scene();
+scene.fog = new THREE.Fog(0x000000, 100, 160);
+
+var camera = new THREE.PerspectiveCamera(45, ww / wh, 0.1, 1000);
+camera.position.y = 30;
+camera.position.z = 100;
+TweenMax.to(camera.position, 6, {
+  z: 50,
+  y: 80,
+  yoyo:true,
+  ease: Power1.easeInOut,
+  repeatDelay: 0.5,
+  repeat: -1
+});
+
+
+var container = new THREE.Object3D();
+scene.add(container);
+
+TweenMax.to(container.rotation, 48, {
+  y:Math.PI*2,
+  ease:Power0.easeNone
+});
+
+var loader = new THREE.TextureLoader();
+loader.crossOrigin = 'Anonymous';
+/* Options */
+var dots, plane;
+var width = 150,
+    height = 150;
+var center = new THREE.Vector3(0, 0, 0);
+var maxDistance = new THREE.Vector3(width*0.5, height*0.5).distanceTo(center);
+
+function createDots() {
+  var geom = new THREE.Geometry();
+
+  var planeGeom = new THREE.PlaneGeometry( width * 2, height *2, width, height );
+  var m = new THREE.Matrix4();
+  m.makeRotationX(-Math.PI*0.5);
+  planeGeom.applyMatrix(m);
+  for(var i=0;i<planeGeom.vertices.length;i++){
+    var vector = planeGeom.vertices[i];
+    vector.dist = vector.distanceTo(center);
+    vector.ratio = (maxDistance - vector.dist) / (maxDistance * 0.9);
+  }
+  var planeMat = new THREE.MeshBasicMaterial( {color: 0x000000, side: THREE.DoubleSide} );
+  plane = new THREE.Mesh( planeGeom, planeMat );
+  container.add( plane );
+
+  for(var x=(-width*0.5);x<width*0.5;x++){
+    for(var z=(-height*0.5);z<height*0.5;z++){
+      var vector = new THREE.Vector3(x * 1.2, 0, z * 1.2);
+      vector.dist = vector.distanceTo(center);
+      vector.ratio = (maxDistance - vector.dist) / (maxDistance * 0.9);
+      geom.vertices.push(vector);
+    }
+  }
+  var mat = new THREE.PointsMaterial({
+    color:0xffffff,
+    map: loader.load('/public/img/dotTexture.png'),
+    transparent: true,
+    alphaTest: 0.4
+  });
+  dots = new THREE.Points(geom, mat);
+  container.add(dots);
+}
+
+var ease = {
+  hole: 0,
+  depth: 0
+};
+TweenMax.to(ease, 6, {
+  hole: 2,
+  depth: 1.5,
+  yoyo: true,
+  ease: Power1.easeInOut,
+  repeatDelay: 0.5,
+  repeat: -1
+});
+function render(a){
+
+  requestAnimationFrame(render);
+
+  for(var i=0;i<dots.geometry.vertices.length;i++){
+    var vector = dots.geometry.vertices[i];
+    ratioA = (vector.ratio * ease.depth) + ease.hole;
+    ratioA*= vector.ratio * vector.ratio * vector.ratio * vector.ratio;
+    vector.y = ratioA * -150;
+    vector.y = Math.max(vector.y, -100);
+    vector.y += Math.sin(-(vector.dist*0.4) + (a * 0.004));
+  }
+  for(var i=0;i<plane.geometry.vertices.length;i++){
+    var vector = plane.geometry.vertices[i];
+    ratioA = (vector.ratio * ease.depth) + ease.hole;
+    ratioA*= vector.ratio * vector.ratio * vector.ratio * vector.ratio;
+    vector.y = ratioA * -150;
+    vector.y = Math.max(vector.y, -100);
+    vector.y += Math.sin(-(vector.dist*0.4) + (a * 0.004));
+  }
+
+  dots.geometry.verticesNeedUpdate = true;
+  plane.geometry.verticesNeedUpdate = true;
+
+  camera.lookAt(new THREE.Vector3(0, -20, 0));
+
+  renderer.render(scene, camera);
+}
+createDots();
+requestAnimationFrame(render);
+
+window.addEventListener("resize", onResize);
+
+function onResize() {
+  ww = window.innerWidth;
+  wh = window.innerHeight;
+  camera.aspect = ww / wh;
+  camera.updateProjectionMatrix();
+  renderer.setSize(ww, wh);
+}</script>
+
 <!-- END JAVASCRIPTS -->
 </body>
 <!-- END BODY -->
