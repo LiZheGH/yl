@@ -17,7 +17,7 @@ if(isset($_SERVER['HTTP_HOST'])) {
     } else {
         //正式环境
         define ( 'DOMAIN', 'www.yl.com' );
-        define ( 'DB_USERNAME', 'root' );
+        define ( 'DB_USERNAME', 'default' );
         define ( 'DB_PASSWORD', '123abc!@#' );
         define ( 'DB_DBNAME', 'yl' );
     }
