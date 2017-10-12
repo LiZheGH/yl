@@ -23,7 +23,7 @@ if(isset($_SERVER['HTTP_HOST'])) {
     }
 
 }
-define ( 'DB_SERVERNAME', '127.0.0.1' );
+define ( 'DB_SERVERNAME', '123.56.44.151' );
 
 define ( 'SYSTEM_PATH', dirname ( __FILE__ ) );
 define ( 'BASE_DIR', substr ( SYSTEM_PATH, 0, - 11 ) );
