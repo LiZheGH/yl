@@ -221,7 +221,7 @@ class WebBaseController {
 	        //                echo $uri;
 	        //                var_dump($account_power_list);exit();
 	        if( !in_array($uri,$account_power_list) ) {
-	            $_SESSION['system_account'] = array();
+	            //$_SESSION['system_account'] = array();
 	            header("Content-type:text/html;charset=utf-8");
 	            echo '<script>alert("没有权限！");window.location.href="/system/";</script>';
 	            exit();
