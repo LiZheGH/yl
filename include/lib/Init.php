@@ -8,9 +8,9 @@ ini_set ( 'date.timezone', 'Asia/Shanghai' );
 
 
 if(isset($_SERVER['HTTP_HOST'])) {
-    if ($_SERVER['HTTP_HOST'] == 'yl.codeboxs.com'){
+    if ($_SERVER['HTTP_HOST'] == 'www.codeboxs.com'){
         //正式环境
-        define ( 'DOMAIN', 'yl.codeboxs.com' );
+        define ( 'DOMAIN', 'www.codeboxs.com' );
         define ( 'DB_USERNAME', 'default' );
         define ( 'DB_PASSWORD', '123abc!@#' );
         define ( 'DB_DBNAME', 'yl' );

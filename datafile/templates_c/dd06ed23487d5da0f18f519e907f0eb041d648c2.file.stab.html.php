@@ -1,22 +1,20 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2017-10-12 19:18:46
-         compiled from "/private/var/www/yl/application/views/admin/abnormal/medicine.html" */ ?>
-<?php /*%%SmartyHeaderCode:33758065759d49f2b7379d2-87797236%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /* Smarty version Smarty-3.1.13, created on 2017-10-12 19:15:58
+         compiled from "/private/var/www/yl/application/views/admin/examine/stab.html" */ ?>
+<?php /*%%SmartyHeaderCode:181309570759df4eee573de4-33893617%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
-    '4f8856861199e3886959fc531a9c127e2444c3b8' => 
+    'dd06ed23487d5da0f18f519e907f0eb041d648c2' => 
     array (
-      0 => '/private/var/www/yl/application/views/admin/abnormal/medicine.html',
-      1 => 1507574702,
+      0 => '/private/var/www/yl/application/views/admin/examine/stab.html',
+      1 => 1507795615,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '33758065759d49f2b7379d2-87797236',
+  'nocache_hash' => '181309570759df4eee573de4-33893617',
   'function' => 
   array (
   ),
-  'version' => 'Smarty-3.1.13',
-  'unifunc' => 'content_59d49f2b7882b6_35954042',
   'variables' => 
   array (
     'VIEW_DIR' => 0,
@@ -25,8 +23,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'section' => 0,
   ),
   'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.13',
+  'unifunc' => 'content_59df4eee5bee46_47272926',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_59d49f2b7882b6_35954042')) {function content_59d49f2b7882b6_35954042($_smarty_tpl) {?><?php echo $_smarty_tpl->getSubTemplate (((string)$_smarty_tpl->tpl_vars['VIEW_DIR']->value)."common/header.html", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
+<?php if ($_valid && !is_callable('content_59df4eee5bee46_47272926')) {function content_59df4eee5bee46_47272926($_smarty_tpl) {?><?php echo $_smarty_tpl->getSubTemplate (((string)$_smarty_tpl->tpl_vars['VIEW_DIR']->value)."common/header.html", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
 
 <body class="page-header-fixed page-quick-sidebar-over-content">
 	<div class="page-container">
@@ -36,13 +36,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 	<div class="modal fade" id="portlet-config" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"></div>
       <div class="portlet box blue-madison">
         <div class="portlet-title">
-          <div class="caption"> <i class="fa fa-globe"></i>异常事件上报-给药错误报告</div>
+          <div class="caption"> <i class="fa fa-globe"></i>异常事件审核-锐器刺伤报告</div>
         </div>
         <div class="portlet-body">
         	<div id="toolbar1" style="margin-bottom:0px;">
 				<button class="btn btn-primary btn-sm" onClick="showModal();">&nbsp;&nbsp;新增&nbsp;&nbsp;</button>
 		   	</div>
-		   <table id="tableId" data-url="/Abnormal/ajaxMedicineList" data-sort-name="id" data-sort-order="desc" data-toggle="table"
+		   <table id="tableId" data-url="/Examine/ajaxStabList" data-sort-name="id" data-sort-order="desc" data-toggle="table"
 		   		data-click-to-select="true"  data-pagination="true"  data-show-refresh="true" data-show-columns="true" data-search="true" data-toolbar="#toolbar1">
 				<thead>
 					<tr>
@@ -122,209 +122,231 @@ $_smarty_tpl->tpl_vars['section']->_loop = true;
 						<label class="col-sm-2 control-label">事发环节</label>
 						<div class="col-sm-9 controls" style="line-height: 40px;">
 							<label class="radio" style="float:left;margin-left: 20px;">
-								<input type="radio" class="form-control" name="incident_link" value="开具">开具→</label>
+								<input type="radio" class="form-control" name="incident_link" value="注射">注射</label>
 	                    	<label class="radio" style="float:left;margin-left: 40px;">
-	                    		<input type="radio" class="form-control" name="incident_link" value="转录">转录→</label>
+	                    		<input type="radio" class="form-control" name="incident_link" value="手术">手术</label>
 	                    	<label class="radio" style="float:left;margin-left: 40px;">
-	                    		<input type="radio" class="form-control" name="incident_link" value="发药">发药→</label>
+	                    		<input type="radio" class="form-control" name="incident_link" value="配药">配药</label>
 	                    	<label class="radio" style="float:left;margin-left: 40px;">
-	                    		<input type="radio" class="form-control" name="incident_link" value="配药">配药→</label>
+	                    		<input type="radio" class="form-control" name="incident_link" value="采血">采血</label>
 	                    	<label class="radio" style="float:left;margin-left: 40px;">
-	                    		<input type="radio" class="form-control" name="incident_link" value="给药">给药</label>
+	                    		<input type="radio" class="form-control" name="incident_link" value="清理器械">清理器械</label>
+	                    	<label class="radio" style="float:left;margin-left: 40px;">
+	                    		<input type="radio" class="form-control" name="incident_link" value="处理锐器物">处理锐器物</label>
+	                    	<label class="radio" style="float:left;margin-left: 40px;">
+	                    		<input type="radio" class="form-control" name="incident_link" value="其它">其它</label>
 	                    </div>
 					</div>
 					<div class="form-group">
-						<label class="col-sm-2 control-label">发生问题药品名称</label>
-						<div class="col-sm-9">
-	                    	<input type="text"  class="form-control" name="drug_name" placeholder="发生问题药品名称">
+						<label class="col-sm-2 control-label">事发地点</label>
+						<div class="col-sm-9 controls" style="line-height: 40px;">
+							<label class="radio" style="float:left;margin-left: 20px;">
+								<input type="radio" class="form-control" name="incident_location" value="病房">病房</label>
+	                    	<label class="radio" style="float:left;margin-left: 40px;">
+	                    		<input type="radio" class="form-control" name="incident_location" value="门诊">门诊</label>
+	                    	<label class="radio" style="float:left;margin-left: 40px;">
+	                    		<input type="radio" class="form-control" name="incident_location" value="急诊">急诊</label>
+	                    	<label class="radio" style="float:left;margin-left: 40px;">
+	                    		<input type="radio" class="form-control" name="incident_location" value="ICU">ICU</label>
+	                    	<label class="radio" style="float:left;margin-left: 40px;">
+	                    		<input type="radio" class="form-control" name="incident_location" value="手术室">手术室</label>
+	                    	<label class="radio" style="float:left;margin-left: 40px;">
+	                    		<input type="radio" class="form-control" name="incident_location" value="产房">产房</label>
+	                    	<label class="radio" style="float:left;margin-left: 40px;">
+	                    		<input type="radio" class="form-control" name="incident_location" value="血库">血库</label>
+	                    	<label class="radio" style="float:left;margin-left: 40px;">
+	                    		<input type="radio" class="form-control" name="incident_location" value="供应室">供应室</label>
 	                    </div>
 					</div>
 					<div class="form-group">
-						<label class="col-sm-2 control-label">事发处置用药<br>药物名称</label>
-						<div class="col-sm-9">
-	                    	<input type="text"  class="form-control" name="disposal_drug_name" placeholder="事发处置用药|药物名称">
+						<label class="col-sm-2 control-label">受伤程度</label>
+						<div class="col-sm-9 controls" style="line-height: 40px;">
+							<label class="radio" style="float:left;margin-left: 20px;">
+								<input type="radio" class="form-control" name="degree_injury" value="轻度">轻度(表皮刺伤 未出血或滴出血)</label>
+	                    	<label class="radio" style="float:left;margin-left: 40px;">
+	                    		<input type="radio" class="form-control" name="degree_injury" value="轻度">轻度(皮肤刺伤 有出血)</label>
+	                    	<label class="radio" style="float:left;margin-left: 40px;">
+	                    		<input type="radio" class="form-control" name="degree_injury" value="轻度">轻度(深层刺伤 大量出血)</label>
 	                    </div>
 					</div>
 					<div class="form-group">
-						<label class="col-sm-2 control-label">事发处置检查<br>检查项目</label>
-						<div class="col-sm-9">
-	                    	<input type="text"  class="form-control" name="disposal_check_items" placeholder="事发处置检查|检查项目">
+						<label class="col-sm-2 control-label">锐器种类</label>
+						<div class="col-sm-9 controls" style="line-height: 40px;">
+							<label class="radio" style="float:left;margin-left: 20px;">
+								<input type="radio" class="form-control" name="stab_type" value="刀片">刀片</label>
+	                    	<label class="radio" style="float:left;margin-left: 40px;">
+	                    		<input type="radio" class="form-control" name=stab_type value="安瓿">安瓿</label>
+	                    	<label class="radio" style="float:left;margin-left: 40px;">
+	                    		<input type="radio" class="form-control" name="stab_type" value="针头">针头</label>
+	                    	<label class="radio" style="float:left;margin-left: 40px;">
+	                    		<input type="radio" class="form-control" name="stab_type" value="缝合针">缝合针</label>
+	                    	<label class="radio" style="float:left;margin-left: 40px;">
+	                    		<input type="radio" class="form-control" name="stab_type" value="口腔探针">口腔探针</label>
+	                    	<label class="radio" style="float:left;margin-left: 40px;">
+	                    		<input type="radio" class="form-control" name="stab_type" value="玻片">玻片</label>
+	                    	<label class="radio" style="float:left;margin-left: 40px;">
+	                    		<input type="radio" class="form-control" name="stab_type" value="剪刀">剪刀</label>
+	                    	<label class="radio" style="float:left;margin-left: 40px;">
+	                    		<input type="radio" class="form-control" name="stab_type" value="其它">其它</label>
+	                    </div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-2 control-label">锐器目的</label>
+						<div class="col-sm-9 controls" style="line-height: 40px;">
+							<label class="radio" style="float:left;margin-left: 20px;">
+								<input type="radio" class="form-control" name="stab_objective" value="皮下注射">皮下注射</label>
+	                    	<label class="radio" style="float:left;margin-left: 40px;">
+	                    		<input type="radio" class="form-control" name="stab_objective" value="静脉输液">静脉输液</label>
+	                    	<label class="radio" style="float:left;margin-left: 40px;">
+	                    		<input type="radio" class="form-control" name="stab_objective" value="放置动静脉导管">放置动静脉导管</label>
+	                    	<label class="radio" style="float:left;margin-left: 40px;">
+	                    		<input type="radio" class="form-control" name="stab_objective" value="抽取血液/体液">抽取血液/体液</label>
+	                    	<label class="radio" style="float:left;margin-left: 40px;">
+	                    		<input type="radio" class="form-control" name="stab_objective" value="缝合">缝合</label>
+	                    	<label class="radio" style="float:left;margin-left: 40px;">
+	                    		<input type="radio" class="form-control" name="stab_objective" value="切开">切开</label>
+	                    	<label class="radio" style="float:left;margin-left: 40px;">
+	                    		<input type="radio" class="form-control" name="stab_objective" value="其它">其它</label>
+	                    </div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-2 control-label">血液检查</label>
+						<div class="col-sm-9 controls" style="line-height: 40px;">
+							<label class="radio" style="float:left;margin-left: 20px;">
+								<input type="radio" class="form-control" name="blood_test" value="未做">未做</label>
+	                    	<label class="radio" style="float:left;margin-left: 40px;">
+	                    		<input type="radio" class="form-control" name="blood_test" value="HBV(+)">HBV(+)</label>
+	                    	<label class="radio" style="float:left;margin-left: 40px;">
+	                    		<input type="radio" class="form-control" name="blood_test" value="HBV(-)">HBV(-)</label>
+	                    	<label class="radio" style="float:left;margin-left: 40px;">
+	                    		<input type="radio" class="form-control" name="blood_test" value="HCV(+)">HCV(+)</label>
+	                    	<label class="radio" style="float:left;margin-left: 40px;">
+	                    		<input type="radio" class="form-control" name="blood_test" value="HCV(-)">HCV(-)</label>
+	                    	<label class="radio" style="float:left;margin-left: 40px;">
+	                    		<input type="radio" class="form-control" name="blood_test" value="HIV(+)">HIV(+)</label>
+	                    	<label class="radio" style="float:left;margin-left: 40px;">
+	                    		<input type="radio" class="form-control" name="blood_test" value="HIV(-)">HIV(-)</label>
+	                    </div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-2 control-label">伤害来源</label>
+						<div class="col-sm-9 controls" style="line-height: 40px;">
+							<label class="radio" style="float:left;margin-left: 20px;">
+								<input type="radio" class="form-control" name="hurt_from" value="自身">自身</label>
+	                    	<label class="radio" style="float:left;margin-left: 40px;">
+	                    		<input type="radio" class="form-control" name="hurt_from" value="自身">自身</label>
+	                    	<label class="radio" style="float:left;margin-left: 40px;">
+	                    		<input type="radio" class="form-control" name="hurt_from" value="家属">家属</label>
+	                    	<label class="radio" style="float:left;margin-left: 40px;">
+	                    		<input type="radio" class="form-control" name="hurt_from" value="其它">其它</label>
+	                    </div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-2 control-label">伤者类别</label>
+						<div class="col-sm-9 controls" style="line-height: 40px;">
+							<label class="radio" style="float:left;margin-left: 20px;">
+								<input type="radio" class="form-control" name="casualty_category" value="护士">护士</label>
+	                    	<label class="radio" style="float:left;margin-left: 40px;">
+	                    		<input type="radio" class="form-control" name="casualty_category" value="医生">医生</label>
+	                    	<label class="radio" style="float:left;margin-left: 40px;">
+	                    		<input type="radio" class="form-control" name="casualty_category" value="技师">技师</label>
+	                    	<label class="radio" style="float:left;margin-left: 40px;">
+	                    		<input type="radio" class="form-control" name="casualty_category" value="工人">工人</label>
+	                    	<label class="radio" style="float:left;margin-left: 40px;">
+	                    		<input type="radio" class="form-control" name="casualty_category" value="进修生/实习生">进修生/实习生</label>
+	                    	<label class="radio" style="float:left;margin-left: 40px;">
+	                    		<input type="radio" class="form-control" name="casualty_category" value="病人">病人</label>
+	                    </div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-2 control-label">是否被血污染</label>
+						<div class="col-sm-9 controls" style="line-height: 40px;">
+							<label class="radio" style="float:left;margin-left: 20px;">
+								<input type="radio" class="form-control" name="blood_contaminated" value="是">是</label>
+	                    	<label class="radio" style="float:left;margin-left: 40px;">
+	                    		<input type="radio" class="form-control" name="blood_contaminated" value="否">否</label>
+	                    	<label class="radio" style="float:left;margin-left: 40px;">
+	                    		<input type="radio" class="form-control" name="blood_contaminated" value="不知道">不知道</label>
+	                    </div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-2 control-label">是否穿透手套</label>
+						<div class="col-sm-9 controls" style="line-height: 40px;">
+							<label class="radio" style="float:left;margin-left: 20px;">
+								<input type="radio" class="form-control" name="is_gloves" value="是">是</label>
+	                    	<label class="radio" style="float:left;margin-left: 40px;">
+	                    		<input type="radio" class="form-control" name="is_gloves" value="否">否</label>
+	                    	<label class="radio" style="float:left;margin-left: 40px;">
+	                    		<input type="radio" class="form-control" name="is_gloves" value="未戴手套">未戴手套</label>
+	                    </div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-2 control-label">是否接种乙肝疫苗</label>
+						<div class="col-sm-9 controls" style="line-height: 40px;">
+	                    	<label class="radio" style="float:left;margin-left: 20px;">
+	                    		<input type="radio" class="form-control" name="is_hepatitis" value="否">否</label>
+							<label class="radio" style="float:left;margin-left: 40px;">
+								<input type="radio" class="form-control" name="is_hepatitis" value="是大于等于5年">是(≤5年)</label>
+	                    	<label class="radio" style="float:left;margin-left: 40px;">
+	                    		<input type="radio" class="form-control" name="is_hepatitis" value="是大于5年">是(>5年)</label>
+	                    	<label class="radio" style="float:left;margin-left: 40px;">
+	                    		<input type="radio" class="form-control" name="is_hepatitis" value="是大于10年">是(>10年)</label>
+	                    </div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-2 control-label">是否正确操作</label>
+						<div class="col-sm-9 controls" style="line-height: 40px;">
+							<label class="radio" style="float:left;margin-left: 20px;">
+								<input type="radio" class="form-control" name="correct_operation" value="是">是</label>
+	                    	<label class="radio" style="float:left;margin-left: 40px;">
+	                    		<input type="radio" class="form-control" name="correct_operation" value="否">否</label>
+	                    	<label class="radio" style="float:left;margin-left: 40px;">
+	                    		<input type="radio" class="form-control" name="correct_operation" value="不知道">不知道</label>
+	                    </div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-2 control-label">是否立即通知</label>
+						<div class="col-sm-9 controls" style="line-height: 40px;">
+	                    	<label class="checkbox" style="float:left;margin-left: 20px;">
+	                    		<input type="checkbox" class="form-control notified_immediately" name="notified_immediately[]" value="上级主管">上级主管</label>
+	                    	<label class="checkbox" style="float:left;margin-left: 30px;">
+	                    		<input type="checkbox" class="form-control notified_immediately" name="notified_immediately[]" value="院感办">院感办</label>
+	                    	<label class="checkbox" style="float:left;margin-left: 30px;">
+	                    		<input type="checkbox" class="form-control notified_immediately" name="notified_immediately[]" value="病人家属">病人家属</label>
+	                    	<label class="checkbox" style="float:left;margin-left: 30px;">
+	                    		<input type="checkbox" class="form-control notified_immediately" name="notified_immediately[]" value="其它">其它</label>
+	                    </div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-2 control-label">病人源情况</label>
+						<div class="col-sm-9 controls" style="line-height: 40px;">
+	                    	<label class="checkbox" style="float:left;margin-left: 20px;">
+	                    		<input type="checkbox" class="form-control patient_origin" name="patient_origin[]" value="不清楚">不清楚</label>
+	                    	<label class="checkbox" style="float:left;margin-left: 30px;">
+	                    		<input type="checkbox" class="form-control patient_origin" name="patient_origin[]" value="HBV(+)">HBV(+)</label>
+	                    	<label class="checkbox" style="float:left;margin-left: 30px;">
+	                    		<input type="checkbox" class="form-control patient_origin" name="patient_origin[]" value="HBV(-)">HBV(-)</label>
+	                    	<label class="checkbox" style="float:left;margin-left: 30px;">
+	                    		<input type="checkbox" class="form-control patient_origin" name="patient_origin[]" value="HCV(+)">HCV(+)</label>
+	                    	<label class="checkbox" style="float:left;margin-left: 30px;">
+	                    		<input type="checkbox" class="form-control patient_origin" name="patient_origin[]" value="HCV(-)">HCV(-)</label>
+	                    	<label class="checkbox" style="float:left;margin-left: 30px;">
+	                    		<input type="checkbox" class="form-control patient_origin" name="patient_origin[]" value="HIV(+)">HIV(+)</label>
+	                    	<label class="checkbox" style="float:left;margin-left: 30px;">
+	                    		<input type="checkbox" class="form-control patient_origin" name="patient_origin[]" value="HIV(-)">HIV(-)</label>
 	                    </div>
 					</div>
 					<div class="form-group">
 						<label class="col-sm-2 control-label">处置方式</label>
 						<div class="col-sm-9 controls" style="line-height: 40px;">
 	                    	<label class="checkbox" style="float:left;margin-left: 20px;">
-	                    		<input type="checkbox" class="form-control disposal_methods" name="disposal_methods[]" value="立即停止">立即停止</label>
+	                    		<input type="checkbox" class="form-control disposal_methods" name="disposal_methods[]" value="挤出受损部位血液→">挤出受损部位血液→</label>
 	                    	<label class="checkbox" style="float:left;margin-left: 30px;">
-	                    		<input type="checkbox" class="form-control disposal_methods" name="disposal_methods[]" value="观察病情">观察病情</label>
+	                    		<input type="checkbox" class="form-control disposal_methods" name="disposal_methods[]" value="用流动水冲洗→">用流动水冲洗→</label>
 	                    	<label class="checkbox" style="float:left;margin-left: 30px;">
-	                    		<input type="checkbox" class="form-control disposal_methods" name="disposal_methods[]" value="记录病情">记录病情</label>
+	                    		<input type="checkbox" class="form-control disposal_methods" name="disposal_methods[]" value="用肥皂洗手→">用肥皂洗手→</label>
 	                    	<label class="checkbox" style="float:left;margin-left: 30px;">
-	                    		<input type="checkbox" class="form-control disposal_methods" name="disposal_methods[]" value="抢救">抢救</label>
-	                    </div>
-					</div>
-					<div class="form-group">
-						<label class="col-sm-2 control-label">是否服药</label>
-						<div class="col-sm-9 controls" style="line-height: 40px;">
-							<label class="radio" style="float:left;margin-left: 20px;">
-								<input type="radio" class="form-control" name="is_take_drug" value="药品已服用">药品已服用</label>
-	                    	<label class="radio" style="float:left;margin-left: 40px;">
-	                    		<input type="radio" class="form-control" name="is_take_drug" value="药品未服用">药品未服用</label>
-	                    	<label class="radio" style="float:left;margin-left: 40px;">
-	                    		<input type="radio" class="form-control" name="is_take_drug" value="不确定">不确定</label>
-	                    </div>
-					</div>
-					<div class="form-group">
-						<label class="col-sm-2 control-label">患者诊断</label>
-						<div class="col-sm-9">
-	                    	<input type="text"  class="form-control" name="patient_diagnosis" placeholder="患者诊断">
-	                    </div>
-					</div>
-					<div class="form-group">
-						<label class="col-sm-2 control-label">错误的病人或药品</label>
-						<div class="col-sm-9 controls" style="line-height: 40px;">
-							<label class="radio" style="float:left;margin-left: 20px;">
-								<input type="radio" class="form-control" name="error_drug" value="名称相似">名称相似</label>
-	                    	<label class="radio" style="float:left;margin-left: 40px;">
-	                    		<input type="radio" class="form-control" name="error_drug" value="包装相似">包装相似</label>
-	                    	<label class="radio" style="float:left;margin-left: 40px;">
-	                    		<input type="radio" class="form-control" name="error_drug" value="违反禁忌症">违反禁忌症</label>
-	                    	<label class="radio" style="float:left;margin-left: 40px;">
-	                    		<input type="radio" class="form-control" name="error_drug" value="违反配伍禁忌">违反配伍禁忌</label>
-	                    	<label class="radio" style="float:left;margin-left: 40px;">
-	                    		<input type="radio" class="form-control" name="error_drug" value="病人的错误服用">病人的错误服用</label>
-	                    	<label class="radio" style="float:left;margin-left: 40px;">
-	                    		<input type="radio" class="form-control" name="error_drug" value="其他">其他</label>
-	                    </div>
-					</div>
-					<div class="form-group">
-						<label class="col-sm-2 control-label">用药反应</label>
-						<div class="col-sm-9 controls" style="line-height: 40px;">
-							<label class="radio" style="float:left;margin-left: 20px;">
-								<input type="radio" class="form-control" name="medication_response" value="无">无</label>
-	                    	<label class="radio" style="float:left;margin-left: 40px;">
-	                    		<input type="radio" class="form-control" name="medication_response" value="轻度反应">轻度反应未给予处理 观察病情</label>
-	                    	<label class="radio" style="float:left;margin-left: 40px;">
-	                    		<input type="radio" class="form-control" name="medication_response" value="一般反应">一般反应 给予用药等措施</label>
-	                    	<label class="radio" style="float:left;margin-left: 40px;">
-	                    		<input type="radio" class="form-control" name="medication_response" value="严重反应">严重反应 采取抢救等措施 患者恢复</label>
-	                    	<label class="radio" style="float:left;margin-left: 18px;">
-	                    		<input type="radio" class="form-control" name="medication_response" value="残疾或死亡">严重反应 导致患者残疾或死亡</label>
-	                    </div>
-					</div>
-					<div class="form-group">
-						<label class="col-sm-2 control-label">事发通知</label>
-						<div class="col-sm-9 controls" style="line-height: 40px;">
-	                    	<label class="checkbox" style="float:left;margin-left: 20px;">
-	                    		<input type="checkbox" class="form-control notice_of_incident" name="notice_of_incident[]" value="主任">主任</label>
-	                    	<label class="checkbox" style="float:left;margin-left: 30px;">
-	                    		<input type="checkbox" class="form-control notice_of_incident" name="notice_of_incident[]" value="医师">医师</label>
-	                    	<label class="checkbox" style="float:left;margin-left: 30px;">
-	                    		<input type="checkbox" class="form-control notice_of_incident" name="notice_of_incident[]" value="药师">药师</label>
-	                    	<label class="checkbox" style="float:left;margin-left: 30px;">
-	                    		<input type="checkbox" class="form-control notice_of_incident" name="notice_of_incident[]" value="护士长">护士长</label>
-	                    	<label class="checkbox" style="float:left;margin-left: 30px;">
-	                    		<input type="checkbox" class="form-control notice_of_incident" name="notice_of_incident[]" value="护士">护士</label>
-	                    	<label class="checkbox" style="float:left;margin-left: 30px;">
-	                    		<input type="checkbox" class="form-control notice_of_incident" name="notice_of_incident[]" value="护理部">护理部</label>
-	                    	<label class="checkbox" style="float:left;margin-left: 30px;">
-	                    		<input type="checkbox" class="form-control notice_of_incident" name="notice_of_incident[]" value="家属">家属</label>
-	                    	<label class="checkbox" style="float:left;margin-left: 30px;">
-	                    		<input type="checkbox" class="form-control notice_of_incident" name="notice_of_incident[]" value="患者">患者</label>
-	                    </div>
-					</div>
-					<div class="form-group">
-						<label class="col-sm-2 control-label">正确药品</label>
-						<div class="col-sm-9">
-	                    	<input type="text"  class="form-control" name="correct_medicines" placeholder="正确药品">
-	                    </div>
-					</div>
-					<div class="form-group">
-						<label class="col-sm-2 control-label">错误药品</label>
-						<div class="col-sm-9">
-	                    	<input type="text"  class="form-control" name="wrong_drugs" placeholder="错误药品">
-	                    </div>
-					</div>
-					<div class="form-group">
-						<label class="col-sm-2 control-label">正确剂量</label>
-						<div class="col-sm-9">
-	                    	<input type="text"  class="form-control" name="correct_dose" placeholder="正确剂量">
-	                    </div>
-					</div>
-					<div class="form-group">
-						<label class="col-sm-2 control-label">错误剂量</label>
-						<div class="col-sm-9">
-	                    	<input type="text"  class="form-control" name="wrong_dose" placeholder="错误剂量">
-	                    </div>
-					</div>
-					<div class="form-group">
-						<label class="col-sm-2 control-label">正确时间</label>
-						<div class="col-sm-9">
-	                    	<input type="text"  class="form-control" name="correct_time" placeholder="正确时间">
-	                    </div>
-					</div>
-					<div class="form-group">
-						<label class="col-sm-2 control-label">错误时间</label>
-						<div class="col-sm-9">
-	                    	<input type="text"  class="form-control" name="wrong_time" placeholder="错误时间">
-	                    </div>
-					</div>
-					<div class="form-group">
-						<label class="col-sm-2 control-label">正确途径</label>
-						<div class="col-sm-9">
-	                    	<input type="text"  class="form-control" name="right_way" placeholder="正确途径">
-	                    </div>
-					</div>
-					<div class="form-group">
-						<label class="col-sm-2 control-label">错误途径</label>
-						<div class="col-sm-9">
-	                    	<input type="text"  class="form-control" name="wrong_way" placeholder="错误途径">
-	                    </div>
-					</div>
-					<div class="form-group">
-						<label class="col-sm-2 control-label">谁发现的</label>
-						<div class="col-sm-9 controls" style="line-height: 40px;">
-	                    	<label class="checkbox" style="float:left;margin-left: 30px;">
-	                    		<input type="checkbox" class="form-control who_found" name="who_found[]" value="医师">医师</label>
-	                    	<label class="checkbox" style="float:left;margin-left: 30px;">
-	                    		<input type="checkbox" class="form-control who_found" name="who_found[]" value="护士">护士</label>
-	                    	<label class="checkbox" style="float:left;margin-left: 30px;">
-	                    		<input type="checkbox" class="form-control who_found" name="who_found[]" value="药师">药师</label>
-	                    	<label class="checkbox" style="float:left;margin-left: 30px;">
-	                    		<input type="checkbox" class="form-control who_found" name="who_found[]" value="其他">其他</label>
-	                    </div>
-					</div>
-					<div class="form-group">
-						<label class="col-sm-2 control-label">谁的错误</label>
-						<div class="col-sm-9 controls" style="line-height: 40px;">
-	                    	<label class="checkbox" style="float:left;margin-left: 30px;">
-	                    		<input type="checkbox" class="form-control whose_mistake" name="whose_mistake[]" value="医师">医师</label>
-	                    	<label class="checkbox" style="float:left;margin-left: 30px;">
-	                    		<input type="checkbox" class="form-control whose_mistake" name="whose_mistake[]" value="护士">护士</label>
-	                    	<label class="checkbox" style="float:left;margin-left: 30px;">
-	                    		<input type="checkbox" class="form-control whose_mistake" name="whose_mistake[]" value="药师">药师</label>
-	                    	<label class="checkbox" style="float:left;margin-left: 30px;">
-	                    		<input type="checkbox" class="form-control whose_mistake" name="whose_mistake[]" value="其他">其他</label>
-	                    </div>
-					</div>
-					<div class="form-group">
-						<label class="col-sm-2 control-label">患者科室</label>
-						<div class="col-sm-9">
-							<select  class="form-control" id="patient_section" name="patient_section">
-	                    			<option value="0">--请选择--</option>
-	                    		<?php  $_smarty_tpl->tpl_vars['section'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['section']->_loop = false;
- $_smarty_tpl->tpl_vars['section_id'] = new Smarty_Variable;
- $_from = $_smarty_tpl->tpl_vars['sectionList']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
-foreach ($_from as $_smarty_tpl->tpl_vars['section']->key => $_smarty_tpl->tpl_vars['section']->value){
-$_smarty_tpl->tpl_vars['section']->_loop = true;
- $_smarty_tpl->tpl_vars['section_id']->value = $_smarty_tpl->tpl_vars['section']->key;
-?>
-	                    			<option value="<?php echo $_smarty_tpl->tpl_vars['section_id']->value;?>
-"><?php echo $_smarty_tpl->tpl_vars['section']->value;?>
-</option>
-	                    		<?php } ?>
-	                    	</select>
+	                    		<input type="checkbox" class="form-control disposal_methods" name="disposal_methods[]" value="碘酒酒精消毒">碘酒酒精消毒</label>
 	                    </div>
 					</div>
 					<div class="form-group">
@@ -355,55 +377,9 @@ $_smarty_tpl->tpl_vars['section']->_loop = true;
 	                    </div>
 					</div>
 					<div class="form-group">
-						<label class="col-sm-2 control-label">患者类别</label>
-						<div class="col-sm-9 controls" style="line-height: 40px;">
-							<label class="radio" style="float:left;margin-left: 20px;">
-								<input type="radio" class="form-control" name="patient_type" value="住院患者">住院患者</label>
-	                    	<label class="radio" style="float:left;margin-left: 40px;">
-	                    		<input type="radio" class="form-control" name="patient_type" value="急诊患者">急诊患者</label>
-	                    	<label class="radio" style="float:left;margin-left: 40px;">
-	                    		<input type="radio" class="form-control" name="patient_type" value="门诊患者">门诊患者</label>
-	                    	<label class="radio" style="float:left;margin-left: 40px;">
-	                    		<input type="radio" class="form-control" name="patient_type" value="其它顾客">其它顾客</label>
-	                    </div>
-					</div>
-					<div class="form-group">
-						<label class="col-sm-2 control-label">患者反应</label>
-						<div class="col-sm-9 controls" style="line-height: 40px;">
-	                    	<label class="radio" style="float:left;margin-left: 20px;">
-	                    		<input type="radio" class="form-control" name="patient_response" value="无">无</label>
-	                    	<label class="radio" style="float:left;margin-left: 40px;">
-	                    		<input type="radio" class="form-control" name="patient_response" value="声称向上级反映">声称向上级反映</label>
-	                    	<label class="radio" style="float:left;margin-left: 40px;">
-	                    		<input type="radio" class="form-control" name="patient_response" value="声称要诉讼">声称要诉讼</label>
-	                    	<label class="radio" style="float:left;margin-left: 40px;">
-	                    		<input type="radio" class="form-control" name="patient_response" value="不知道">不知道</label>
-	                    	<label class="radio" style="float:left;margin-left: 40px;">
-	                    		<input type="radio" class="form-control" name="patient_response" value="其它">其它</label>
-	                    </div>
-					</div>
-					<div class="form-group">
-						<label class="col-sm-2 control-label">当事人职称</label>
+						<label class="col-sm-2 control-label">被刺伤者工龄</label>
 						<div class="col-sm-9">
-	                    	<input type="text"  class="form-control" name="party_title" placeholder="当事人职称">
-	                    </div>
-					</div>
-					<div class="form-group">
-						<label class="col-sm-2 control-label">当事人姓名</label>
-						<div class="col-sm-9">
-	                    	<input type="text"  class="form-control" name="party_name" placeholder="当事人姓名">
-	                    </div>
-					</div>
-					<div class="form-group">
-						<label class="col-sm-2 control-label">当事人工龄</label>
-						<div class="col-sm-9">
-	                    	<input type="text"  class="form-control" name="working_years" placeholder="当事人工龄">
-	                    </div>
-					</div>
-					<div class="form-group">
-						<label class="col-sm-2 control-label">当事人班次</label>
-						<div class="col-sm-9">
-	                    	<input type="text"  class="form-control" name="shift" placeholder="当事人班次">
+	                    	<input type="text"  class="form-control" name="working_years" placeholder="被刺伤者工龄">
 	                    </div>
 					</div>
 					<div class="form-group">
@@ -523,7 +499,7 @@ $_smarty_tpl->tpl_vars['section']->_loop = true;
 				</div>
 				<div class="modal-footer">
 					<input type="hidden" value="" id="analysis_id" name="analysis_id" />
-					<input name="type" type="hidden" value="medicine" />
+					<input name="type" type="hidden" value="stab" />
 					<a href="#" class="btn btn-default" data-dismiss="modal">取消</a>
 					<button class="btn btn-primary" id="analysisSubmit">提交</button>
 				</div>
@@ -613,7 +589,7 @@ $_smarty_tpl->tpl_vars['section']->_loop = true;
 				</div>
 				<div class="modal-footer">
 					<input type="hidden" value="" name="evaluation_id" id="evaluation_id" />
-					<input name="type" type="hidden" value="medicine" />
+					<input name="type" type="hidden" value="stab" />
 					<a href="#" class="btn btn-default" data-dismiss="modal">取消</a>
 					<button class="btn btn-primary" id="evaluationSubmit">提交</button>
 				</div>
@@ -628,9 +604,9 @@ $(function(){
 	$("#modalSubmit").click(function(){
         var validateForm = function(){
         	var inputArr = ['event_time','report_name','event_type','patient','anamnesis_num',
-        	                'patient_age','shift','party_name','party_title','working_years'];
+        	                'patient_age','working_years'];
         	var textArr = ['事发时间','上报人姓名','事件类型','患者姓名','患者病例号',
-        	                '患者年龄','当事人班次','当事人姓名','当事人职称','当事人工龄'];
+        	                '患者年龄','被刺伤者工龄'];
         	for(var i=0;i< inputArr.length;i++){
         		var val = $("input[name='"+inputArr[i]+"']").val();
         		if(val == 0 || val == ''){
@@ -659,11 +635,11 @@ $(function(){
 			}
         };
         var options= {
-                url : "/Abnormal/ajaxMedicineAddOrUpdate",
+                url : "/Examine/ajaxStabAddOrUpdate",
                 dataType:  'json',//数据类型
                 beforeSubmit: validateForm,
                 success : showResponse,
-                resetForm : true,//数据返回后，是否清除表单内容
+                resetForm : false,//数据返回后，是否清除表单内容
         };
         $("#oneForm").ajaxForm(options);
 	});
@@ -714,7 +690,7 @@ $(function(){
 			}
         };
         var options= {
-                url : "/Abnormal/ajaxAnalysisSubmit",
+                url : "/Examine/ajaxAnalysisSubmit",
                 dataType:  'json',//数据类型
                 beforeSubmit: validateForm,
                 success : showResponse,
@@ -751,7 +727,7 @@ $(function(){
 			}
         };
         var options= {
-                url : "/Abnormal/ajaxEvaluationSubmit",
+                url : "/Examine/ajaxEvaluationSubmit",
                 dataType:  'json',//数据类型
                 beforeSubmit: validateForm,
                 success : showResponse,
@@ -797,7 +773,7 @@ window.operateEvents = {
 		}).on( function (e) {
 			if(e) {
 				$.ajax({
-	    	        url:'/Abnormal/ajaxMedicineDelete',
+	    	        url:'/Examine/ajaxStabDelete',
 	    	        type:'post',
 	    			dataType : 'json',
 	    			data : encodeURI('id=' + row.id),
@@ -827,7 +803,7 @@ window.operateEvents = {
 
 function refresh(){
 	$('#tableId').bootstrapTable('refresh', {
-        url: '/Abnormal/ajaxMedicineList'
+        url: '/Examine/ajaxStabList'
     });
 }
 function showModal() {
@@ -840,10 +816,7 @@ function opUpdate(row){
     $('#modalTitle').html('修改');
 	$('#oneForm')[0].reset();
 	$('#id').val(row.id);
-	var inputArr = ['event_time','event_type','drug_name','disposal_drug_name','disposal_check_items',
-	                'patient_diagnosis','correct_medicines','wrong_drugs','correct_dose','wrong_dose',
-	                'correct_time','wrong_time','right_way','wrong_way','patient','anamnesis_num',
-	                'patient_age','party_title','party_name','working_years','shift','report_time','report_name'];
+	var inputArr = ['event_time','event_type','patient','anamnesis_num','patient_age','working_years','report_time','report_name'];
 	for(var i=0;i< inputArr.length;i++){
 		$("input[name='"+inputArr[i]+"']").val(row[inputArr[i]]);
 	}
@@ -851,12 +824,12 @@ function opUpdate(row){
 	for(var i=0;i< idArr.length;i++){
 		$("#"+idArr[i]+"").val(row[idArr[i]]);
 	}
-	var radioArr = ['incident_link','is_take_drug','error_drug','medication_response',
-	                'patient_gender','patient_type','patient_response'];
+	var radioArr = ['incident_link','incident_location','degree_injury','stab_type','stab_objective','blood_test','hurt_from',
+	                'casualty_category','blood_contaminated','is_gloves','is_hepatitis','correct_operation','patient_gender'];
 	for(var i=0;i< radioArr.length;i++){
 		$("input[name='"+radioArr[i]+"'][value='"+row[radioArr[i]]+"']").prop("checked",true);
 	}
-	var checkArr = ['disposal_methods','notice_of_incident','who_found','whose_mistake'];
+	var checkArr = ['notified_immediately','patient_origin','disposal_methods'];
 	for(var i=0;i< checkArr.length;i++){
 		if(row[checkArr[i]]){
 			var vals = row[checkArr[i]].split(",");
@@ -870,8 +843,8 @@ function opUpdate(row){
 function analysis(row){
 	$("#analysis_id").val(row.id);
 	$.post(
-		"/Abnormal/ajaxGetOneAnalysis",
-		{"a_id":row.id,"type":"medicine"},
+		"/Examine/ajaxGetOneAnalysis",
+		{"a_id":row.id,"type":"stab"},
 		function(data){
 			if(data.success){
 				var info = data.data;
@@ -893,8 +866,8 @@ function analysis(row){
 function evaluation(row){
 	$("#evaluation_id").val(row.id);
 	$.post(
-		"/Abnormal/ajaxGetOneEvaluation",
-		{"a_id":row.id,"type":"medicine"},
+		"/Examine/ajaxGetOneEvaluation",
+		{"a_id":row.id,"type":"stab"},
 		function(data){
 			if(data.success){
 				var info = data.data;

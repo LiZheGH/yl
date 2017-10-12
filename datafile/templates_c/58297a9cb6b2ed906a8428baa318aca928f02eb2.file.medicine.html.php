@@ -1,22 +1,20 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2017-10-12 19:18:46
-         compiled from "/private/var/www/yl/application/views/admin/abnormal/medicine.html" */ ?>
-<?php /*%%SmartyHeaderCode:33758065759d49f2b7379d2-87797236%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /* Smarty version Smarty-3.1.13, created on 2017-10-12 19:15:57
+         compiled from "/private/var/www/yl/application/views/admin/examine/medicine.html" */ ?>
+<?php /*%%SmartyHeaderCode:22016440359df4eed84c225-55031462%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
-    '4f8856861199e3886959fc531a9c127e2444c3b8' => 
+    '58297a9cb6b2ed906a8428baa318aca928f02eb2' => 
     array (
-      0 => '/private/var/www/yl/application/views/admin/abnormal/medicine.html',
-      1 => 1507574702,
+      0 => '/private/var/www/yl/application/views/admin/examine/medicine.html',
+      1 => 1507795655,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '33758065759d49f2b7379d2-87797236',
+  'nocache_hash' => '22016440359df4eed84c225-55031462',
   'function' => 
   array (
   ),
-  'version' => 'Smarty-3.1.13',
-  'unifunc' => 'content_59d49f2b7882b6_35954042',
   'variables' => 
   array (
     'VIEW_DIR' => 0,
@@ -25,8 +23,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'section' => 0,
   ),
   'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.13',
+  'unifunc' => 'content_59df4eed89f2a5_43851155',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_59d49f2b7882b6_35954042')) {function content_59d49f2b7882b6_35954042($_smarty_tpl) {?><?php echo $_smarty_tpl->getSubTemplate (((string)$_smarty_tpl->tpl_vars['VIEW_DIR']->value)."common/header.html", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
+<?php if ($_valid && !is_callable('content_59df4eed89f2a5_43851155')) {function content_59df4eed89f2a5_43851155($_smarty_tpl) {?><?php echo $_smarty_tpl->getSubTemplate (((string)$_smarty_tpl->tpl_vars['VIEW_DIR']->value)."common/header.html", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
 
 <body class="page-header-fixed page-quick-sidebar-over-content">
 	<div class="page-container">
@@ -36,13 +36,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 	<div class="modal fade" id="portlet-config" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"></div>
       <div class="portlet box blue-madison">
         <div class="portlet-title">
-          <div class="caption"> <i class="fa fa-globe"></i>异常事件上报-给药错误报告</div>
+          <div class="caption"> <i class="fa fa-globe"></i>异常事件审核-给药错误报告</div>
         </div>
         <div class="portlet-body">
         	<div id="toolbar1" style="margin-bottom:0px;">
 				<button class="btn btn-primary btn-sm" onClick="showModal();">&nbsp;&nbsp;新增&nbsp;&nbsp;</button>
 		   	</div>
-		   <table id="tableId" data-url="/Abnormal/ajaxMedicineList" data-sort-name="id" data-sort-order="desc" data-toggle="table"
+		   <table id="tableId" data-url="/Examine/ajaxMedicineList" data-sort-name="id" data-sort-order="desc" data-toggle="table"
 		   		data-click-to-select="true"  data-pagination="true"  data-show-refresh="true" data-show-columns="true" data-search="true" data-toolbar="#toolbar1">
 				<thead>
 					<tr>
@@ -659,7 +659,7 @@ $(function(){
 			}
         };
         var options= {
-                url : "/Abnormal/ajaxMedicineAddOrUpdate",
+                url : "/Examine/ajaxMedicineAddOrUpdate",
                 dataType:  'json',//数据类型
                 beforeSubmit: validateForm,
                 success : showResponse,
@@ -714,7 +714,7 @@ $(function(){
 			}
         };
         var options= {
-                url : "/Abnormal/ajaxAnalysisSubmit",
+                url : "/Examine/ajaxAnalysisSubmit",
                 dataType:  'json',//数据类型
                 beforeSubmit: validateForm,
                 success : showResponse,
@@ -751,7 +751,7 @@ $(function(){
 			}
         };
         var options= {
-                url : "/Abnormal/ajaxEvaluationSubmit",
+                url : "/Examine/ajaxEvaluationSubmit",
                 dataType:  'json',//数据类型
                 beforeSubmit: validateForm,
                 success : showResponse,
@@ -797,7 +797,7 @@ window.operateEvents = {
 		}).on( function (e) {
 			if(e) {
 				$.ajax({
-	    	        url:'/Abnormal/ajaxMedicineDelete',
+	    	        url:'/Examine/ajaxMedicineDelete',
 	    	        type:'post',
 	    			dataType : 'json',
 	    			data : encodeURI('id=' + row.id),
@@ -827,7 +827,7 @@ window.operateEvents = {
 
 function refresh(){
 	$('#tableId').bootstrapTable('refresh', {
-        url: '/Abnormal/ajaxMedicineList'
+        url: '/Examine/ajaxMedicineList'
     });
 }
 function showModal() {
@@ -870,7 +870,7 @@ function opUpdate(row){
 function analysis(row){
 	$("#analysis_id").val(row.id);
 	$.post(
-		"/Abnormal/ajaxGetOneAnalysis",
+		"/Examine/ajaxGetOneAnalysis",
 		{"a_id":row.id,"type":"medicine"},
 		function(data){
 			if(data.success){
@@ -893,7 +893,7 @@ function analysis(row){
 function evaluation(row){
 	$("#evaluation_id").val(row.id);
 	$.post(
-		"/Abnormal/ajaxGetOneEvaluation",
+		"/Examine/ajaxGetOneEvaluation",
 		{"a_id":row.id,"type":"medicine"},
 		function(data){
 			if(data.success){

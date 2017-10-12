@@ -6,7 +6,7 @@ require_once 'lib/CommonFuncs.php';
  *
  * @author llx
  */
-class AbnormalController extends WebBaseController {
+class ExamineController extends WebBaseController {
 
 	/**
 	 *
