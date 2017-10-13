@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2017-10-13 09:49:27
+<?php /* Smarty version Smarty-3.1.13, created on 2017-10-13 11:55:19
          compiled from "/private/var/www/yl/application/views/admin/abnormal/piping.html" */ ?>
 <?php /*%%SmartyHeaderCode:62692051859d49f062e8ad1-78998675%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '67be42490c09c1673850753fd33ce827330f9d33' => 
     array (
       0 => '/private/var/www/yl/application/views/admin/abnormal/piping.html',
-      1 => 1507859355,
+      1 => 1507860812,
       2 => 'file',
     ),
   ),
@@ -862,7 +862,7 @@ function opUpdate(row){
 		$(".modal-body").find("input").prop("disabled",true);
 		$(".modal-body").find("textarea").prop("disabled",true);
 		$(".modal-body").find("select").prop("disabled",true);
-		if(row != 4){
+		if(row.status != 4){
 			$('#modalTitle').html('<font color="red">审核中禁止修改</font>');
 		} else {
 			$('#modalTitle').html('<font color="green">已通过禁止修改</font>');

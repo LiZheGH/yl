@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2017-10-13 08:09:52
+<?php /* Smarty version Smarty-3.1.13, created on 2017-10-13 11:55:30
          compiled from "/private/var/www/yl/application/views/admin/examine/piping.html" */ ?>
 <?php /*%%SmartyHeaderCode:32692155559df22827926a8-32872943%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'e2b31e570ab632f600aa3792acdc9841b73f117d' => 
     array (
       0 => '/private/var/www/yl/application/views/admin/examine/piping.html',
-      1 => 1507853390,
+      1 => 1507866913,
       2 => 'file',
     ),
   ),
@@ -440,8 +440,8 @@ $_smarty_tpl->tpl_vars['section']->_loop = true;
 					<input id="id" name="id" value="0" type="hidden" />
 					<input id="is_adopt" name="is_adopt" value="1" type="hidden" />
 					<a href="#" class="btn btn-default" data-dismiss="modal">取消</a>
-					<button class="btn btn-primary" id="reject">驳回</button>
-					<button class="btn btn-primary" id="modalSubmit">提交审核</button>
+					<button class="btn btn-primary" id="reject" style="background:red;">不予通过</button>
+					<button class="btn btn-primary" id="modalSubmit">审核通过</button>
 				</div>
             </form>
 		</div>

@@ -192,7 +192,6 @@ class SystemController extends WebBaseController {
 		$level = $this->__getParam('level');
 		if ($level)
 		    $account['level'] = $level;
-        var_dump($account);exit;
 		$s_account = $this->systemAccount->getByUserName ( $username );
 		$avatar = $this->__getParam('avatar');
         if($avatar){
@@ -237,7 +236,6 @@ class SystemController extends WebBaseController {
 					'info' => '用户名或密码不能为空'
 			);
 		}
-		exit;
 		$this->__displayOutput ( $result );
 	}
 	public function ajaxAccountUpdateAction() {
