@@ -11,6 +11,8 @@
         <div class="portlet-body">
         	<div id="toolbar1" style="margin-bottom:0px;">
 				<button class="btn btn-primary btn-sm" onClick="showModal();">&nbsp;&nbsp;新增&nbsp;&nbsp;</button>
+				<button class="btn btn-primary btn-sm" onClick="examine();">&nbsp;&nbsp;上报&nbsp;&nbsp;</button>
+				<button class="btn btn-primary btn-sm" onClick="downExcel();">&nbsp;&nbsp;下载Excel&nbsp;&nbsp;</button>
 		   	</div>
 		   <table id="tableId" data-url="/Abnormal/ajaxPressureList" data-sort-name="id" data-sort-order="desc" data-toggle="table"
 		   		data-click-to-select="true"  data-pagination="true"  data-show-refresh="true" data-show-columns="true" data-search="true" data-toolbar="#toolbar1">
@@ -61,7 +63,7 @@
 						<label class="col-sm-2 control-label">事发科室</label>
 						<div class="col-sm-9">
 							<select  class="form-control" id="event_section" name="event_section">
-	                    			<option value="0">--请选择--</option>
+                    			<option value="0">--请选择--</option>
 	                    		{foreach from=$sectionList item=section key=section_id}
 	                    			<option value="{$section_id}">{$section}</option>
 	                    		{/foreach}
@@ -741,9 +743,13 @@ $(function(){
 	});
 });
 function showStatus(value,row,index){
-	if(row.status == 1){
-		return '<font color="green"></font>';
-	}else{
+	if(row.status == -1){
+		return '<font color="red">被驳回</font>';
+	}else if(row.status == 0){
+		return '待上报';
+	}else if(row.status == 4){
+		return '<font color="green">审核通过</font>';
+	} else {
 		return '待审核';
 	}
 }
@@ -844,6 +850,21 @@ function opUpdate(row){
 			}
 		}
 	}
+	if(row.status > 0 ){
+		$(".modal-body").find("input").prop("disabled",true);
+		$(".modal-body").find("textarea").prop("disabled",true);
+		$(".modal-body").find("select").prop("disabled",true);
+		if(row.status != 4){
+			$('#modalTitle').html('<font color="red">审核中禁止修改</font>');
+		} else {
+			$('#modalTitle').html('<font color="green">已通过禁止修改</font>');
+		}
+	} else {
+		$('#modalTitle').html('修改');
+		$(".modal-body").find("input").prop("disabled",false);
+		$(".modal-body").find("textarea").prop("disabled",false);
+		$(".modal-body").find("select").prop("disabled",false);
+	}
     $('#myModal').modal('show').find(".modal-dialog").addClass("modal-lg");
 }
 function analysis(row){
@@ -892,6 +913,48 @@ function evaluation(row){
 		},"json"
 	);
 	$('#evaluationModal').modal('show').find(".modal-dialog").addClass("modal-lg");
+}
+function examine(){
+	var TableData = $('#tableId').bootstrapTable('getSelections');
+	var ids = '';
+	for(var i in TableData){
+		if(ids)
+			ids += ","+TableData[i].id;
+		else
+			ids = TableData[i].id;
+	}
+	if(!ids || ids == ''){
+		Calert("请至少选择一条记录");
+		return false;
+	} else {
+		$.post(
+			'/Abnormal/ajaxAbnormalExamine',
+			{
+				'ids':ids,
+				'type':'pressure'
+			},
+			function(data){
+				Calert(data.msg);
+				refresh();
+			},"json"
+		);
+	}
+}
+function downExcel(){
+	var TableData = $('#tableId').bootstrapTable('getSelections');
+	var ids = '';
+	for(var i in TableData){
+		if(ids)
+			ids += ","+TableData[i].id;
+		else
+			ids = TableData[i].id;
+	}
+	if(!ids || ids == ''){
+		Calert("请至少选择一条记录");
+		return false;
+	} else {
+		window.location.href = '/Abnormal/ajaxAbnormalDownExcel/type/pressure/ids/'+ids;
+	}
 }
 </script>
 {/literal}

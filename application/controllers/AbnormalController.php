@@ -557,7 +557,7 @@ class AbnormalController extends WebBaseController {
     //导出Excel
     public function ajaxAbnormalDownExcelAction(){
         set_time_limit(0);
-        $type = intval($this->__getParam('type'));
+        $type = trim($this->__getParam('type'));
         switch ($type){
             case 'piping':
                 $obj = $this->abnormalPiping;
@@ -640,7 +640,7 @@ class AbnormalController extends WebBaseController {
     }
     //上报
     public function ajaxAbnormalExamineAction(){
-        $type = intval($this->__getParam('type'));
+        $type = trim($this->__getParam('type'));
         switch ($type){
             case 'piping':
                 $obj = $this->abnormalPiping;

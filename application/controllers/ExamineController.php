@@ -66,12 +66,12 @@ class ExamineController extends WebBaseController {
 		$this->__checkAdminUserLogin();
 		$this->smarty->assign('sectionList',$this->section->getKeyNameInfo());
 	}
-	//事件上报-管路 列表
+	//事件审核-管路 列表
     public function ajaxPipingListAction(){
         $level = $this->curUser['level']-1;
         $this->__displayOutput($this->abnormalPiping->getListByUserLevel($level));
     }
-    //事件上报-管路 添加/更新 提交
+    //事件审核-管路 审核提交
     public function ajaxPipingAddOrUpdateAction(){
         $data = array(
             'id'                => intval($this->__getParam('id')),
@@ -95,63 +95,24 @@ class ExamineController extends WebBaseController {
         else
             $this->__ajaxReturn(false,'失败');
     }
-    //事件上报-给药 列表
+    //事件审核-给药 列表
     public function ajaxMedicineListAction(){
-        $uid = $this->curUser['id'];
-        $this->__displayOutput($this->abnormalMedicine->getListByUserId($uid));
+        $level = $this->curUser['level']-1;
+        $this->__displayOutput($this->abnormalMedicine->getListByUserLevel($level));
     }
-    //事件上报-给药 添加/更新 提交
+    //事件审核-给药 审核提交
     public function ajaxMedicineAddOrUpdateAction(){
         $data = array(
-            'id'                    => intval($this->__getParam('id')),
-            'cdate'                 => date('Y-m-d H:i:s'),
-            'uid'                   => $this->curUser['id'],
-            'status'                => 0,
-            'event_time'            => $this->__getParam('event_time'),
-            'event_section'         => $this->__getParam('event_section'),
-            'event_type'            => $this->__getParam('event_type'),
-            'incident'              => $this->__getParam('incident'),
-            'incident_link'         => $this->__getParam('incident_link'),
-            'drug_name'             => $this->__getParam('drug_name'),
-            'disposal_drug_name'    => $this->__getParam('disposal_drug_name'),
-            'disposal_check_items'  => $this->__getParam('disposal_check_items'),
-            'disposal_methods'      => empty($_POST['disposal_methods']) ?
-                                        '':implode(',', $_POST['disposal_methods']),
-            'is_take_drug'          => $this->__getParam('is_take_drug'),
-            'patient_diagnosis'     => $this->__getParam('patient_diagnosis'),
-            'error_drug'            => $this->__getParam('error_drug'),
-            'medication_response'   => $this->__getParam('medication_response'),
-            'notice_of_incident'    => empty($_POST['notice_of_incident']) ?
-                                        '':implode(',', $_POST['notice_of_incident']),
-            'correct_medicines'     => $this->__getParam('correct_medicines'),
-            'wrong_drugs'           => $this->__getParam('wrong_drugs'),
-            'correct_dose'          => $this->__getParam('correct_dose'),
-            'wrong_dose'            => $this->__getParam('wrong_dose'),
-            'correct_time'          => $this->__getParam('correct_time'),
-            'wrong_time'            => $this->__getParam('wrong_time'),
-            'right_way'             => $this->__getParam('right_way'),
-            'wrong_way'             => $this->__getParam('wrong_way'),
-            'who_found'             => empty($_POST['who_found']) ?
-                                        '':implode(',', $_POST['who_found']),
-            'whose_mistake'         => empty($_POST['whose_mistake']) ?
-                                        '':implode(',', $_POST['whose_mistake']),
-            'patient_section'       => $this->__getParam('patient_section'),
-            'patient'               => $this->__getParam('patient'),
-            'patient_gender'        => $this->__getParam('patient_gender'),
-            'anamnesis_num'         => $this->__getParam('anamnesis_num'),
-            'patient_age'           => $this->__getParam('patient_age'),
-            'patient_type'          => $this->__getParam('patient_type'),
-            'patient_response'      => $this->__getParam('patient_response'),
-            'party_name'            => $this->__getParam('party_name'),
-            'party_title'           => $this->__getParam('party_title'),
-            'working_years'         => $this->__getParam('working_years'),
-            'shift'                 => $this->__getParam('shift'),
-            'report_time'           => $this->__getParam('report_time'),
-            'report_section'        => $this->__getParam('report_section'),
-            'report_name'           => $this->__getParam('report_name'),
+            'id'                => intval($this->__getParam('id')),
+            'examine_date'      => date('Y-m-d H:i:s'),
+            'examine_info'      => $this->__getParam('examine_info'),
+            'examine_id'        => $this->curUser['id']
         );
-        if (empty($data['report_time']))
-            $data['report_time'] = date('Y-m-d H:i:s');
+        if (intval($this->__getParam('is_adopt')) == 1){
+            $data['status'] = $this->curUser['level'];
+        } else {
+            $data['status'] = -1;
+        }
         if ($data['id'] > 0)
             $res = $this->abnormalMedicine->update($data);
         else{
@@ -163,51 +124,24 @@ class ExamineController extends WebBaseController {
         else
             $this->__ajaxReturn(false,'失败');
     }
-    //事件上报-锐器 列表
+    //事件审核-锐器 列表
     public function ajaxStabListAction(){
-        $uid = $this->curUser['id'];
-        $this->__displayOutput($this->abnormalStab->getListByUserId($uid));
+        $level = $this->curUser['level']-1;
+        $this->__displayOutput($this->abnormalStab->getListByUserLevel($level));
     }
-    //事件上报-锐器 添加/更新 提交
+    //事件审核-锐器 审核提交
     public function ajaxStabAddOrUpdateAction(){
         $data = array(
-            'id'                    => intval($this->__getParam('id')),
-            'cdate'                 => date('Y-m-d H:i:s'),
-            'uid'                   => $this->curUser['id'],
-            'status'                => 0,
-            'event_time'            => $this->__getParam('event_time'),
-            'event_section'         => $this->__getParam('event_section'),
-            'event_type'            => $this->__getParam('event_type'),
-            'incident'              => $this->__getParam('incident'),
-            'incident_link'         => $this->__getParam('incident_link'),
-            'incident_location'     => $this->__getParam('incident_location'),
-            'degree_injury'         => $this->__getParam('degree_injury'),
-            'stab_type'             => $this->__getParam('stab_type'),
-            'stab_objective'        => $this->__getParam('stab_objective'),
-            'blood_test'            => $_POST['blood_test'],
-            'hurt_from'             => $this->__getParam('hurt_from'),
-            'casualty_category'     => $this->__getParam('casualty_category'),
-            'blood_contaminated'    => $this->__getParam('blood_contaminated'),
-            'is_gloves'             => $this->__getParam('is_gloves'),
-            'is_hepatitis'          => $this->__getParam('is_hepatitis'),
-            'correct_operation'     => $this->__getParam('correct_operation'),
-            'notified_immediately'  => empty($_POST['notified_immediately']) ?
-                                        '':implode(',', $_POST['notified_immediately']),
-            'patient_origin'        => empty($_POST['patient_origin']) ?
-                                        '':implode(',', $_POST['patient_origin']),
-            'disposal_methods'      => empty($_POST['disposal_methods']) ?
-                                        '':implode(',', $_POST['disposal_methods']),
-            'patient'               => $this->__getParam('patient'),
-            'patient_gender'        => $this->__getParam('patient_gender'),
-            'anamnesis_num'         => $this->__getParam('anamnesis_num'),
-            'patient_age'           => $this->__getParam('patient_age'),
-            'working_years'         => $this->__getParam('working_years'),
-            'report_time'           => $this->__getParam('report_time'),
-            'report_section'        => $this->__getParam('report_section'),
-            'report_name'           => $this->__getParam('report_name'),
+            'id'                => intval($this->__getParam('id')),
+            'examine_date'      => date('Y-m-d H:i:s'),
+            'examine_info'      => $this->__getParam('examine_info'),
+            'examine_id'        => $this->curUser['id']
         );
-        if (empty($data['report_time']))
-            $data['report_time'] = date('Y-m-d H:i:s');
+        if (intval($this->__getParam('is_adopt')) == 1){
+            $data['status'] = $this->curUser['level'];
+        } else {
+            $data['status'] = -1;
+        }
         if ($data['id'] > 0)
             $res = $this->abnormalStab->update($data);
         else{
@@ -219,50 +153,24 @@ class ExamineController extends WebBaseController {
         else
             $this->__ajaxReturn(false,'失败');
     }
-    //事件上报-压疮 列表
+    //事件审核-压疮 列表
     public function ajaxPressureListAction(){
-        $uid = $this->curUser['id'];
-        $this->__displayOutput($this->abnormalPressure->getListByUserId($uid));
+        $level = $this->curUser['level']-1;
+        $this->__displayOutput($this->abnormalPressure->getListByUserLevel($level));
     }
-    //事件上报-压疮 添加/更新 提交
+    //事件审核-压疮 审核提交
     public function ajaxPressureAddOrUpdateAction(){
         $data = array(
-            'id'                    => intval($this->__getParam('id')),
-            'cdate'                 => date('Y-m-d H:i:s'),
-            'uid'                   => $this->curUser['id'],
-            'status'                => 0,
-            'event_time'            => $this->__getParam('event_time'),
-            'event_section'         => $this->__getParam('event_section'),
-            'event_type'            => $this->__getParam('event_type'),
-            'incident'              => $this->__getParam('incident'),
-            'incident_disposal'     => empty($_POST['incident_disposal']) ?
-                                        '':implode(',', $_POST['incident_disposal']),
-            'pre_incident_state'    => $this->__getParam('pre_incident_state'),
-            'functional_impairment' => $this->__getParam('functional_impairment'),
-            'pressure_origin'       => $this->__getParam('pressure_origin'),
-            'pressure_location'     => empty($_POST['pressure_location']) ?
-                                        '':implode(',', $_POST['pressure_location']),
-            'pressure_area'         => $this->__getParam('pressure_area'),
-            'pressure_level'        => $this->__getParam('pressure_level'),
-            'patient_diagnosis'     => $this->__getParam('patient_diagnosis'),
-            'notice_of_incident'    => empty($_POST['notice_of_incident']) ?
-                                        '':implode(',', $_POST['notice_of_incident']),
-            'patient_section'       => $this->__getParam('patient_section'),
-            'patient'               => $this->__getParam('patient'),
-            'patient_gender'        => $this->__getParam('patient_gender'),
-            'anamnesis_num'         => $this->__getParam('anamnesis_num'),
-            'patient_age'           => $this->__getParam('patient_age'),
-            'patient_type'          => $this->__getParam('patient_type'),
-            'patient_position'      => $this->__getParam('patient_position'),
-            'medical_category'      => $this->__getParam('medical_category'),
-            'patient_edu'           => $this->__getParam('patient_edu'),
-            'patient_response'      => $this->__getParam('patient_response'),
-            'report_time'           => $this->__getParam('report_time'),
-            'report_section'        => $this->__getParam('report_section'),
-            'report_name'           => $this->__getParam('report_name'),
+            'id'                => intval($this->__getParam('id')),
+            'examine_date'      => date('Y-m-d H:i:s'),
+            'examine_info'      => $this->__getParam('examine_info'),
+            'examine_id'        => $this->curUser['id']
         );
-        if (empty($data['report_time']))
-            $data['report_time'] = date('Y-m-d H:i:s');
+        if (intval($this->__getParam('is_adopt')) == 1){
+            $data['status'] = $this->curUser['level'];
+        } else {
+            $data['status'] = -1;
+        }
         if ($data['id'] > 0)
             $res = $this->abnormalPressure->update($data);
         else{
@@ -274,57 +182,24 @@ class ExamineController extends WebBaseController {
         else
             $this->__ajaxReturn(false,'失败');
     }
-    //事件上报-坠床 列表
+    //事件审核-坠床 列表
     public function ajaxFallListAction(){
-        $uid = $this->curUser['id'];
-        $this->__displayOutput($this->abnormalFall->getListByUserId($uid));
+        $level = $this->curUser['level']-1;
+        $this->__displayOutput($this->abnormalFall->getListByUserLevel($level));
     }
-    //事件上报-坠床 添加/更新 提交
+    //事件审核-坠床 审核提交
     public function ajaxFallAddOrUpdateAction(){
         $data = array(
-            'id'                    => intval($this->__getParam('id')),
-            'cdate'                 => date('Y-m-d H:i:s'),
-            'uid'                   => $this->curUser['id'],
-            'status'                => 0,
-            'event_time'            => $this->__getParam('event_time'),
-            'event_section'         => $this->__getParam('event_section'),
-            'event_type'            => $this->__getParam('event_type'),
-            'incident'              => $this->__getParam('incident'),
-            'incident_link'         => $this->__getParam('incident_link'),
-            'incident_location'     => $this->__getParam('incident_location'),
-            'incident_disposal'     => empty($_POST['incident_disposal']) ?
-                                        '':implode(',', $_POST['incident_disposal']),
-            'pre_incident_state'    => $this->__getParam('pre_incident_state'),
-            'functional_impairment' => $this->__getParam('functional_impairment'),
-            'pre_patient_state'     => $this->__getParam('pre_patient_state'),
-            'after_patient_state'   => $this->__getParam('after_patient_state'),
-
-            'injury_classification' => $this->__getParam('injury_classification'),
-            'patient_diagnosis'     => $this->__getParam('patient_diagnosis'),
-            'notice_of_incident'    => empty($_POST['notice_of_incident']) ?
-                                        '':implode(',', $_POST['notice_of_incident']),
-            'patient_section'       => $this->__getParam('patient_section'),
-            'patient'               => $this->__getParam('patient'),
-            'patient_gender'        => $this->__getParam('patient_gender'),
-            'anamnesis_num'         => $this->__getParam('anamnesis_num'),
-            'patient_age'           => $this->__getParam('patient_age'),
-            'patient_type'          => $this->__getParam('patient_type'),
-            'patient_position'      => $this->__getParam('patient_position'),
-            'medical_category'      => $this->__getParam('medical_category'),
-            'patient_edu'           => $this->__getParam('patient_edu'),
-            'governance_capability' => $this->__getParam('governance_capability'),
-            'escort'                => $this->__getParam('escort'),
-            'patient_response'      => $this->__getParam('patient_response'),
-            'party_name'            => $this->__getParam('party_name'),
-            'party_title'           => $this->__getParam('party_title'),
-            'working_years'         => $this->__getParam('working_years'),
-            'shift'                 => $this->__getParam('shift'),
-            'report_time'           => $this->__getParam('report_time'),
-            'report_section'        => $this->__getParam('report_section'),
-            'report_name'           => $this->__getParam('report_name'),
+            'id'                => intval($this->__getParam('id')),
+            'examine_date'      => date('Y-m-d H:i:s'),
+            'examine_info'      => $this->__getParam('examine_info'),
+            'examine_id'        => $this->curUser['id']
         );
-        if (empty($data['report_time']))
-            $data['report_time'] = date('Y-m-d H:i:s');
+        if (intval($this->__getParam('is_adopt')) == 1){
+            $data['status'] = $this->curUser['level'];
+        } else {
+            $data['status'] = -1;
+        }
         if ($data['id'] > 0)
             $res = $this->abnormalFall->update($data);
         else{
@@ -336,56 +211,24 @@ class ExamineController extends WebBaseController {
         else
             $this->__ajaxReturn(false,'失败');
     }
-    //事件上报-其他 列表
+    //事件审核-其他 列表
     public function ajaxOtherListAction(){
-        $uid = $this->curUser['id'];
-        $this->__displayOutput($this->abnormalOther->getListByUserId($uid));
+        $level = $this->curUser['level']-1;
+        $this->__displayOutput($this->abnormalOther->getListByUserLevel($level));
     }
-    //事件上报-其他 添加/更新 提交
+    //事件审核-其他 审核提交
     public function ajaxOtherAddOrUpdateAction(){
         $data = array(
-            'id'                    => intval($this->__getParam('id')),
-            'cdate'                 => date('Y-m-d H:i:s'),
-            'uid'                   => $this->curUser['id'],
-            'status'                => 0,
-            'event_time'            => $this->__getParam('event_time'),
-            'event_section'         => $this->__getParam('event_section'),
-            'event_type'            => $this->__getParam('event_type'),
-            'incident'              => $this->__getParam('incident'),
-            'incident_link'         => $this->__getParam('incident_link'),
-            'incident_location'     => $this->__getParam('incident_location'),
-            'incident_disposal'     => empty($_POST['incident_disposal']) ?
-                                        '':implode(',', $_POST['incident_disposal']),
-            'pre_incident_state'    => $this->__getParam('pre_incident_state'),
-            'functional_impairment' => $this->__getParam('functional_impairment'),
-            'pre_patient_state'     => $this->__getParam('pre_patient_state'),
-            'after_patient_state'   => $this->__getParam('after_patient_state'),
-            'patient_diagnosis'     => $this->__getParam('patient_diagnosis'),
-            'notice_of_incident'    => empty($_POST['notice_of_incident']) ?
-                                        '':implode(',', $_POST['notice_of_incident']),
-            'infected_type'         => $this->__getParam('infected_type'),
-            'blood_type'            => $this->__getParam('blood_type'),
-            'anaesthesia_type'      => $this->__getParam('anaesthesia_type'),
-            'medical_type'          => $this->__getParam('medical_type'),
-            'equipment_type'        => $this->__getParam('equipment_type'),
-            'alert_type'            => $this->__getParam('alert_type'),
-            'who_found'             => $this->__getParam('who_found'),
-            'whose_mistake'         => $this->__getParam('whose_mistake'),
-            'patient_section'       => $this->__getParam('patient_section'),
-            'patient'               => $this->__getParam('patient'),
-            'patient_gender'        => $this->__getParam('patient_gender'),
-            'anamnesis_num'         => $this->__getParam('anamnesis_num'),
-            'patient_age'           => $this->__getParam('patient_age'),
-            'patient_type'          => $this->__getParam('patient_type'),
-            'patient_position'      => $this->__getParam('patient_position'),
-            'medical_category'      => $this->__getParam('medical_category'),
-            'patient_response'      => $this->__getParam('patient_response'),
-            'report_time'           => $this->__getParam('report_time'),
-            'report_section'        => $this->__getParam('report_section'),
-            'report_name'           => $this->__getParam('report_name'),
+            'id'                => intval($this->__getParam('id')),
+            'examine_date'      => date('Y-m-d H:i:s'),
+            'examine_info'      => $this->__getParam('examine_info'),
+            'examine_id'        => $this->curUser['id']
         );
-        if (empty($data['report_time']))
-            $data['report_time'] = date('Y-m-d H:i:s');
+        if (intval($this->__getParam('is_adopt')) == 1){
+            $data['status'] = $this->curUser['level'];
+        } else {
+            $data['status'] = -1;
+        }
         if ($data['id'] > 0)
             $res = $this->abnormalOther->update($data);
         else{
@@ -397,14 +240,14 @@ class ExamineController extends WebBaseController {
         else
             $this->__ajaxReturn(false,'失败');
     }
-    //事件上报 分析 获取信息
+    //事件审核 分析 获取信息
     public function ajaxGetOneAnalysisAction(){
         $a_id = $this->__getParam('a_id');
         $type = $this->__getParam('type');
         $analysisInfo = $this->analysis->getOneByAidAndType($a_id,$type);
         $this->__ajaxReturn(!empty($analysisInfo),'ok',$analysisInfo);
     }
-    //事件上报 分析提交
+    //事件审核 分析提交
     public function ajaxAnalysisSubmitAction(){
         $data = array(
             'a_id'          => $this->__getParam('analysis_id'),
@@ -437,14 +280,14 @@ class ExamineController extends WebBaseController {
         else
             $this->__ajaxReturn(false,'失败');
     }
-    //事件上报 分析 获取信息
+    //事件审核 分析 获取信息
     public function ajaxGetOneEvaluationAction(){
         $a_id = $this->__getParam('a_id');
         $type = $this->__getParam('type');
         $evaluationInfo = $this->evaluation->getOneByAidAndType($a_id,$type);
         $this->__ajaxReturn(!empty($evaluationInfo),'ok',$evaluationInfo);
     }
-    //事件上报 评估提交
+    //事件审核 评估提交
     public function ajaxEvaluationSubmitAction(){
         $data = array(
             'a_id'          => $this->__getParam('evaluation_id'),

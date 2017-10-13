@@ -567,12 +567,12 @@
 {literal}
 <script type="text/javascript">
 $(function(){
-	//驳回
+	//不予通过
 	$("#reject").click(function(){
 		$("#is_adopt").val(0);
 		$("#modalSubmit").click();
 	});
-	//审核提交
+	//审核通过
 	$("#modalSubmit").click(function(){
         var validateForm = function(){
         	var inputArr = ['event_time','report_name','event_type','patient','anamnesis_num',
