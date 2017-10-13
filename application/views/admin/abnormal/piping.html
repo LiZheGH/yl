@@ -808,7 +808,7 @@ function opUpdate(row){
 		$(".modal-body").find("input").prop("disabled",true);
 		$(".modal-body").find("textarea").prop("disabled",true);
 		$(".modal-body").find("select").prop("disabled",true);
-		if(row != 4){
+		if(row.status != 4){
 			$('#modalTitle').html('<font color="red">审核中禁止修改</font>');
 		} else {
 			$('#modalTitle').html('<font color="green">已通过禁止修改</font>');
