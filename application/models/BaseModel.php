@@ -87,6 +87,9 @@ class BaseModel {
 	public function update($data) {
 		return $this->db->update($this->table, $data, 'id=' . $data['id']);
 	}
+	public function updateByWhere($data,$where) {
+		return $this->db->update($this->table, $data,$where);
+	}
 	public function delete($id) {
 	    return $this->db->delete($this->table, 'id=' . $id);
 	}

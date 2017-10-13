@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2017-10-10 23:22:54
+<?php /* Smarty version Smarty-3.1.13, created on 2017-10-13 08:31:57
          compiled from "/private/var/www/yl/application/views/admin/standard/report_department.html" */ ?>
 <?php /*%%SmartyHeaderCode:29708829959db33dc695952-40609852%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '5a3617d44d6dd1716cd4ee9f4a3c6de10e1888b5' => 
     array (
       0 => '/private/var/www/yl/application/views/admin/standard/report_department.html',
-      1 => 1507648971,
+      1 => 1507809768,
       2 => 'file',
     ),
   ),
@@ -56,7 +56,7 @@ foreach ($_from as $_smarty_tpl->tpl_vars['section']->key => $_smarty_tpl->tpl_v
 $_smarty_tpl->tpl_vars['section']->_loop = true;
  $_smarty_tpl->tpl_vars['section_id']->value = $_smarty_tpl->tpl_vars['section']->key;
 ?>
-							<label class="checkbox" style="float:left;width:15%;">
+							<label class="checkbox" style="float:left;width:16%;">
 								<input type="checkbox" class="form-control section" name="section[<?php echo $_smarty_tpl->tpl_vars['section_id']->value;?>
 ]" style="float:left;" value="<?php echo $_smarty_tpl->tpl_vars['section_id']->value;?>
 ">

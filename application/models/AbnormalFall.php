@@ -54,9 +54,8 @@ class AbnormalFall extends BaseModel{
 		return self::$instance;
 	}
 
-
-	public function getListByUserId($uid) {
-		return $this->db->fetAll($this->table, '*', "uid='" . $uid . "' AND `status`=1");
+    public function getListByUserId($uid) {
+		return $this->db->getAll("SELECT * FROM ".$this->table." WHERE `uid`='{$uid}'");
 	}
 	public function getKeyInfo(){
 	    $data = $this->getAll();

@@ -53,6 +53,7 @@ class AbnormalController extends WebBaseController {
 	 * @var Evaluation
 	 */
 	protected $evaluation;
+	private $sectionList;
 	/**
 	 * Construct
 	 */
@@ -64,7 +65,8 @@ class AbnormalController extends WebBaseController {
 		$this->__initSystemAccountInfo ();
 		$this->smarty->assign ( 'curUser', $this->curUser );
 		$this->__checkAdminUserLogin();
-		$this->smarty->assign('sectionList',$this->section->getKeyNameInfo());
+		$this->sectionList = $this->section->getKeyNameInfo();
+		$this->smarty->assign('sectionList',$this->sectionList);
 	}
 	//事件上报-管路 列表
     public function ajaxPipingListAction(){
@@ -547,6 +549,138 @@ class AbnormalController extends WebBaseController {
             $data['id'] = $evaluationInfo['id'];
             $res = $this->evaluation->update($data);
         }
+        if ($res)
+            $this->__ajaxReturn(true,'成功');
+        else
+            $this->__ajaxReturn(false,'失败');
+    }
+    //导出Excel
+    public function ajaxAbnormalDownExcelAction(){
+        set_time_limit(0);
+        $type = intval($this->__getParam('type'));
+        switch ($type){
+            case 'piping':
+                $obj = $this->abnormalPiping;
+                $name = '管路事件报告';
+                break;
+            case 'medicine':
+                $name = '给药错误报告';
+                $obj = $this->abnormalMedicine;
+                break;
+            case 'stab':
+                $obj = $this->abnormalStab;
+                $name = '锐器刺伤报告';
+                break;
+            case 'pressure':
+                $name = '压疮事件报告';
+                $obj = $this->abnormalPressure;
+                break;
+            case 'fall':
+                $obj = $this->abnormalFall;
+                $name = '跌倒坠床报告';
+                break;
+            case 'other':
+                $obj = $this->abnormalOther;
+                $name = '其他事件报告';
+                break;
+            default:
+                $_SESSION = array();
+                header('Location: /');
+                exit();
+        }
+        $listInfo = $obj->getListByIds($this->__getParam('ids'));
+        $data = array();
+        $i = 2;
+        $statusArr = array(
+            '0' => '被驳回',
+            '1' => '待上报',
+            '2' => '待审核',
+            '3' => '待审核',
+            '4' => '待审核',
+            '5' => '已通过'
+        );
+        foreach ($listInfo as $value){
+            $data[$i++] = array(
+                'A' => $value['id'],
+                'B' => $value['report_name'],
+                'C' => $value['event_type'],
+                'D' => $value['report_time'],
+                'E' => $value['event_time'],
+                'F' => $value['patient'],
+                'G' => $value['anamnesis_num'],
+                'H' => $this->sectionList[$value['report_section']],
+                'I' => $statusArr[$value['status']+1]
+            );
+        }
+        $fileName = "上报模板.xlsx";
+        require_once 'lib/PHPExcel.php';
+        require_once 'lib/PHPExcel/IOFactory.php';
+        require_once 'lib/PHPExcel/Reader/Excel2007.php';
+        ini_set("memory_limit","512M");
+        header('Content-Type: application/vnd.ms-excel');
+        // 创建PHPExcel对象
+        $objPHPExcel = new PHPExcel();
+        $objReader = PHPExcel_IOFactory::createReader('Excel2007');
+        $objPHPExcel = $objReader->load(BASE_DIR . "public/temp/" . $fileName);
+        // 循环设置特殊值
+        $objActSheet = $objPHPExcel->getActiveSheet();
+        foreach ($data as $key => $line) {
+            foreach ($line as $k => $v) {
+                $objActSheet->setCellValue($k . $key, $v);
+            }
+        }
+        // 重命名表
+        $fileName = iconv("utf-8", "gb2312",$name."(".date('Y-m-d H:i').").xlsx");
+        header('Content-Type: application/vnd.ms-excel');
+        header("Content-Disposition: attachment;filename=\"$fileName\"");
+        header('Cache-Control: max-age=0');
+        $objWriter = \PHPExcel_IOFactory::createWriter($objPHPExcel, 'Excel2007');
+        $objWriter->save('php://output'); // 文件通过浏览器下载
+        exit();
+    }
+    //上报
+    public function ajaxAbnormalExamineAction(){
+        $type = intval($this->__getParam('type'));
+        switch ($type){
+            case 'piping':
+                $obj = $this->abnormalPiping;
+                break;
+            case 'medicine':
+                $obj = $this->abnormalMedicine;
+                break;
+            case 'stab':
+                $obj = $this->abnormalStab;
+                break;
+            case 'pressure':
+                $obj = $this->abnormalPressure;
+                break;
+            case 'fall':
+                $obj = $this->abnormalFall;
+                break;
+            case 'other':
+                $obj = $this->abnormalOther;
+                break;
+            default:
+                $_SESSION = array();
+                header('Location: /');
+                exit();
+        }
+        $listInfo = $obj->getListByIds($this->__getParam('ids'));
+        $idsArr = array();
+        foreach ($listInfo as $key => $value){
+            if (!in_array($value['status'],array(-1,0))){
+                unset($listInfo[$key]);
+            } else {
+                $idsArr[] = $value['id'];
+            }
+        }
+        if (empty($idsArr))
+            $this->__ajaxReturn(false,'没有需要上报的数据！');
+        $updateData = array(
+            'status' => 1
+        );
+        $idStr = implode(",",$idsArr);
+        $res = $obj->updateByWhere($updateData," `id` IN ({$idStr})");
         if ($res)
             $this->__ajaxReturn(true,'成功');
         else

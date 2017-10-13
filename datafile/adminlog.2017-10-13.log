@@ -1,0 +1,4312 @@
+2017-10-13 07:00:51_0.46275500 1507849251 :/abnormal/piping
+
+2017-10-13 07:00:51_0.72807200 1507849251 :/Abnormal/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 07:00:52_0.06485400 1507849252 :/favicon.ico
+
+2017-10-13 07:00:54_0.65337000 1507849254 :/abnormal/piping
+
+2017-10-13 07:00:54_0.77733300 1507849254 :/Abnormal/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 07:00:54_0.92186600 1507849254 :/favicon.ico
+
+2017-10-13 07:00:57_0.29235100 1507849257 :/abnormal/piping
+
+2017-10-13 07:00:57_0.40648400 1507849257 :/Abnormal/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 07:00:59_0.49453400 1507849259 :/abnormal/piping
+
+2017-10-13 07:00:59_0.61305100 1507849259 :/Abnormal/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 07:01:00_0.27809900 1507849260 :/abnormal/piping
+
+2017-10-13 07:01:00_0.39178800 1507849260 :/Abnormal/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 07:01:00_0.92826700 1507849260 :/abnormal/piping
+
+2017-10-13 07:01:01_0.04824900 1507849261 :/Abnormal/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 07:01:59_0.84532700 1507849319 :/examine/piping
+
+2017-10-13 07:02:00_0.07681800 1507849320 :/Examine/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 07:02:55_0.28842100 1507849375 :/examine/piping
+
+2017-10-13 07:02:55_0.51167100 1507849375 :/Examine/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 07:04:58_0.00328100 1507849498 :/examine/piping
+
+2017-10-13 07:04:58_0.32351300 1507849498 :/Examine/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 07:05:04_0.65086600 1507849504 :/examine/piping
+
+2017-10-13 07:05:04_0.94170000 1507849504 :/Examine/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 07:06:55_0.47422600 1507849615 :/system/account/list
+
+2017-10-13 07:06:55_0.79994800 1507849615 :/system/ajaxAccountGetList?sort=sort_weight&order=desc
+
+2017-10-13 07:06:57_0.22028200 1507849617 :/system/ajaxAccountGetOne
+
+2017-10-13 07:07:06_0.62178600 1507849626 :/system/ajaxAccountGetOne
+
+2017-10-13 07:07:12_0.91402500 1507849632 :/system/ajaxAccountGetOne
+
+2017-10-13 07:07:15_0.79525200 1507849635 :/system/role/list
+
+2017-10-13 07:07:16_0.09031300 1507849636 :/system/ajaxRoleGetList?sort=sort_weight&order=desc
+
+2017-10-13 07:07:17_0.57373700 1507849637 :/system/ajaxGetPower
+
+2017-10-13 07:07:23_0.71138200 1507849643 :/system/ajaxGetPower
+
+2017-10-13 07:07:25_0.50208100 1507849645 :/system/ajaxRoleUpdate
+
+2017-10-13 07:07:25_0.51225200 1507849645 :/system/ajaxRoleGetList?sort=sort_weight&order=desc
+
+2017-10-13 07:07:27_0.72212800 1507849647 :/system/logout
+
+2017-10-13 07:07:27_0.72750600 1507849647 :/system/
+
+2017-10-13 07:07:27_0.74997900 1507849647 :/system/captcha
+
+2017-10-13 07:07:28_0.19996600 1507849648 :/favicon.ico
+
+2017-10-13 07:07:32_0.07293700 1507849652 :/system/ajaxLogin
+
+2017-10-13 07:07:32_0.12055900 1507849652 :/welcome/index
+
+2017-10-13 07:07:32_0.18853300 1507849652 :/welcome/%3Cbr%20/%3E%3Cfont%20size='1'%3E%3Ctable%20class='xdebug-error%20xe-notice'%20dir='ltr'%20border='1'%20cellspacing='0'%20cellpadding='1'%3E%3Ctr%3E%3Cth%20align='left'%20bgcolor='
+
+2017-10-13 07:07:34_0.61796700 1507849654 :/welcome/index
+
+2017-10-13 07:07:34_0.66446200 1507849654 :/welcome/%3Cbr%20/%3E%3Cfont%20size='1'%3E%3Ctable%20class='xdebug-error%20xe-notice'%20dir='ltr'%20border='1'%20cellspacing='0'%20cellpadding='1'%3E%3Ctr%3E%3Cth%20align='left'%20bgcolor='
+
+2017-10-13 07:07:37_0.65305100 1507849657 :/welcome/index
+
+2017-10-13 07:07:37_0.69393100 1507849657 :/welcome/%3Cbr%20/%3E%3Cfont%20size='1'%3E%3Ctable%20class='xdebug-error%20xe-notice'%20dir='ltr'%20border='1'%20cellspacing='0'%20cellpadding='1'%3E%3Ctr%3E%3Cth%20align='left'%20bgcolor='
+
+2017-10-13 07:07:42_0.02577900 1507849662 :/welcome/index
+
+2017-10-13 07:07:42_0.25838000 1507849662 :/welcome/%3Cbr%20/%3E%3Cfont%20size='1'%3E%3Ctable%20class='xdebug-error%20xe-notice'%20dir='ltr'%20border='1'%20cellspacing='0'%20cellpadding='1'%3E%3Ctr%3E%3Cth%20align='left'%20bgcolor='
+
+2017-10-13 07:07:44_0.12846900 1507849664 :/welcome/index
+
+2017-10-13 07:07:44_0.16793100 1507849664 :/welcome/%3Cbr%20/%3E%3Cfont%20size='1'%3E%3Ctable%20class='xdebug-error%20xe-notice'%20dir='ltr'%20border='1'%20cellspacing='0'%20cellpadding='1'%3E%3Ctr%3E%3Cth%20align='left'%20bgcolor='
+
+2017-10-13 07:08:11_0.05124800 1507849691 :/welcome/index
+
+2017-10-13 07:08:11_0.09000700 1507849691 :/welcome/%3Cbr%20/%3E%3Cfont%20size='1'%3E%3Ctable%20class='xdebug-error%20xe-notice'%20dir='ltr'%20border='1'%20cellspacing='0'%20cellpadding='1'%3E%3Ctr%3E%3Cth%20align='left'%20bgcolor='
+
+2017-10-13 07:08:12_0.31473400 1507849692 :/welcome/index
+
+2017-10-13 07:08:12_0.36241300 1507849692 :/welcome/%3Cbr%20/%3E%3Cfont%20size='1'%3E%3Ctable%20class='xdebug-error%20xe-notice'%20dir='ltr'%20border='1'%20cellspacing='0'%20cellpadding='1'%3E%3Ctr%3E%3Cth%20align='left'%20bgcolor='
+
+2017-10-13 07:08:13_0.07694600 1507849693 :/welcome/index
+
+2017-10-13 07:08:13_0.12799900 1507849693 :/welcome/%3Cbr%20/%3E%3Cfont%20size='1'%3E%3Ctable%20class='xdebug-error%20xe-notice'%20dir='ltr'%20border='1'%20cellspacing='0'%20cellpadding='1'%3E%3Ctr%3E%3Cth%20align='left'%20bgcolor='
+
+2017-10-13 07:08:14_0.38674000 1507849694 :/welcome/index
+
+2017-10-13 07:08:14_0.42961100 1507849694 :/welcome/%3Cbr%20/%3E%3Cfont%20size='1'%3E%3Ctable%20class='xdebug-error%20xe-notice'%20dir='ltr'%20border='1'%20cellspacing='0'%20cellpadding='1'%3E%3Ctr%3E%3Cth%20align='left'%20bgcolor='
+
+2017-10-13 07:08:16_0.40914900 1507849696 :/welcome/index
+
+2017-10-13 07:08:16_0.53884300 1507849696 :/welcome/%3Cbr%20/%3E%3Cfont%20size='1'%3E%3Ctable%20class='xdebug-error%20xe-notice'%20dir='ltr'%20border='1'%20cellspacing='0'%20cellpadding='1'%3E%3Ctr%3E%3Cth%20align='left'%20bgcolor='
+
+2017-10-13 07:08:17_0.91365000 1507849697 :/system/logout
+
+2017-10-13 07:08:17_0.91722000 1507849697 :/system/
+
+2017-10-13 07:08:17_0.97929800 1507849697 :/system/captcha
+
+2017-10-13 07:08:18_0.43221500 1507849698 :/favicon.ico
+
+2017-10-13 07:08:23_0.11168300 1507849703 :/system/ajaxLogin
+
+2017-10-13 07:08:23_0.13036900 1507849703 :/system/captcha?0.8289495595707743
+
+2017-10-13 07:08:30_0.31641500 1507849710 :/system/ajaxLogin
+
+2017-10-13 07:08:30_0.36390400 1507849710 :/welcome/index
+
+2017-10-13 07:08:30_0.36636500 1507849710 request_uri:/welcome/
+
+2017-10-13 07:08:30_0.36644100 1507849710 list:["\/system\/","\/base\/","\/abnormal\/","\/welcome\/","\/standard\/","\/examine\/"]
+
+2017-10-13 07:08:33_0.66577300 1507849713 :/welcome/index
+
+2017-10-13 07:08:33_0.66798500 1507849713 request_uri:/welcome/
+
+2017-10-13 07:08:33_0.66806200 1507849713 list:["\/system\/","\/base\/","\/abnormal\/","\/welcome\/","\/standard\/","\/examine\/"]
+
+2017-10-13 07:08:37_0.70053100 1507849717 :/system/account/list
+
+2017-10-13 07:08:37_0.70275500 1507849717 request_uri:/system/
+
+2017-10-13 07:08:37_0.70282200 1507849717 list:["\/system\/","\/base\/","\/abnormal\/","\/welcome\/","\/standard\/","\/examine\/"]
+
+2017-10-13 07:08:37_0.99851100 1507849717 :/system/ajaxAccountGetList?sort=sort_weight&order=desc
+
+2017-10-13 07:08:38_0.00162900 1507849718 request_uri:/system/
+
+2017-10-13 07:08:38_0.00174200 1507849718 list:["\/system\/","\/base\/","\/abnormal\/","\/welcome\/","\/standard\/","\/examine\/"]
+
+2017-10-13 07:08:40_0.02854200 1507849720 :/system/role/list
+
+2017-10-13 07:08:40_0.03065800 1507849720 request_uri:/system/
+
+2017-10-13 07:08:40_0.03073100 1507849720 list:["\/system\/","\/base\/","\/abnormal\/","\/welcome\/","\/standard\/","\/examine\/"]
+
+2017-10-13 07:08:40_0.30900300 1507849720 :/system/ajaxRoleGetList?sort=sort_weight&order=desc
+
+2017-10-13 07:08:40_0.31107400 1507849720 request_uri:/system/
+
+2017-10-13 07:08:40_0.31115200 1507849720 list:["\/system\/","\/base\/","\/abnormal\/","\/welcome\/","\/standard\/","\/examine\/"]
+
+2017-10-13 07:08:43_0.18453100 1507849723 :/system/ajaxGetPower
+
+2017-10-13 07:08:43_0.18679400 1507849723 request_uri:/system/
+
+2017-10-13 07:08:43_0.18686500 1507849723 list:["\/system\/","\/base\/","\/abnormal\/","\/welcome\/","\/standard\/","\/examine\/"]
+
+2017-10-13 07:08:46_0.25152000 1507849726 :/system/ajaxGetPower
+
+2017-10-13 07:08:46_0.25398500 1507849726 request_uri:/system/
+
+2017-10-13 07:08:46_0.25407100 1507849726 list:["\/system\/","\/base\/","\/abnormal\/","\/welcome\/","\/standard\/","\/examine\/"]
+
+2017-10-13 07:08:53_0.16523000 1507849733 :/system/ajaxRoleUpdate
+
+2017-10-13 07:08:53_0.16761700 1507849733 request_uri:/system/
+
+2017-10-13 07:08:53_0.16769200 1507849733 list:["\/system\/","\/base\/","\/abnormal\/","\/welcome\/","\/standard\/","\/examine\/"]
+
+2017-10-13 07:08:53_0.17684500 1507849733 :/system/ajaxRoleGetList?sort=sort_weight&order=desc
+
+2017-10-13 07:08:53_0.17896000 1507849733 request_uri:/system/
+
+2017-10-13 07:08:53_0.17911200 1507849733 list:["\/system\/","\/base\/","\/abnormal\/","\/welcome\/","\/standard\/","\/examine\/"]
+
+2017-10-13 07:08:56_0.04534200 1507849736 :/system/power/list
+
+2017-10-13 07:08:56_0.04748600 1507849736 request_uri:/system/
+
+2017-10-13 07:08:56_0.04757100 1507849736 list:["\/system\/","\/base\/","\/abnormal\/","\/welcome\/","\/standard\/","\/examine\/"]
+
+2017-10-13 07:08:56_0.39480800 1507849736 :/system/ajaxPowerGetList?sort=sort_weight&order=desc
+
+2017-10-13 07:08:56_0.39686100 1507849736 request_uri:/system/
+
+2017-10-13 07:08:56_0.39701300 1507849736 list:["\/system\/","\/base\/","\/abnormal\/","\/welcome\/","\/standard\/","\/examine\/"]
+
+2017-10-13 07:09:06_0.54445700 1507849746 :/base/section
+
+2017-10-13 07:09:06_0.55293300 1507849746 request_uri:/base/
+
+2017-10-13 07:09:06_0.55889700 1507849746 list:["\/system\/","\/base\/","\/abnormal\/","\/welcome\/","\/standard\/","\/examine\/"]
+
+2017-10-13 07:09:06_0.56673800 1507849746 request_uri:/base/
+
+2017-10-13 07:09:06_0.56685500 1507849746 list:["\/system\/","\/base\/","\/abnormal\/","\/welcome\/","\/standard\/","\/examine\/"]
+
+2017-10-13 07:09:06_0.85995900 1507849746 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 07:09:06_0.86218900 1507849746 request_uri:/base/
+
+2017-10-13 07:09:06_0.86227200 1507849746 list:["\/system\/","\/base\/","\/abnormal\/","\/welcome\/","\/standard\/","\/examine\/"]
+
+2017-10-13 07:09:08_0.37724000 1507849748 :/welcome/index
+
+2017-10-13 07:09:08_0.37924300 1507849748 request_uri:/welcome/
+
+2017-10-13 07:09:08_0.37931000 1507849748 list:["\/system\/","\/base\/","\/abnormal\/","\/welcome\/","\/standard\/","\/examine\/"]
+
+2017-10-13 07:09:11_0.83326300 1507849751 :/system/account/list
+
+2017-10-13 07:09:11_0.83568300 1507849751 request_uri:/system/
+
+2017-10-13 07:09:11_0.83580200 1507849751 list:["\/system\/","\/base\/","\/abnormal\/","\/welcome\/","\/standard\/","\/examine\/"]
+
+2017-10-13 07:09:12_0.14032200 1507849752 :/system/ajaxAccountGetList?sort=sort_weight&order=desc
+
+2017-10-13 07:09:12_0.14231000 1507849752 request_uri:/system/
+
+2017-10-13 07:09:12_0.14238400 1507849752 list:["\/system\/","\/base\/","\/abnormal\/","\/welcome\/","\/standard\/","\/examine\/"]
+
+2017-10-13 07:09:20_0.84701100 1507849760 :/system/ajaxAccountGetOne
+
+2017-10-13 07:09:20_0.84913600 1507849760 request_uri:/system/
+
+2017-10-13 07:09:20_0.84919700 1507849760 list:["\/system\/","\/base\/","\/abnormal\/","\/welcome\/","\/standard\/","\/examine\/"]
+
+2017-10-13 07:09:48_0.46270700 1507849788 :/system/role/list
+
+2017-10-13 07:09:48_0.46490500 1507849788 request_uri:/system/
+
+2017-10-13 07:09:48_0.46497500 1507849788 list:["\/system\/","\/base\/","\/abnormal\/","\/welcome\/","\/standard\/","\/examine\/"]
+
+2017-10-13 07:09:48_0.76167600 1507849788 :/system/ajaxRoleGetList?sort=sort_weight&order=desc
+
+2017-10-13 07:09:48_0.76430500 1507849788 request_uri:/system/
+
+2017-10-13 07:09:48_0.76439000 1507849788 list:["\/system\/","\/base\/","\/abnormal\/","\/welcome\/","\/standard\/","\/examine\/"]
+
+2017-10-13 07:09:52_0.13397200 1507849792 :/system/ajaxGetPower
+
+2017-10-13 07:09:52_0.13643000 1507849792 request_uri:/system/
+
+2017-10-13 07:09:52_0.13650400 1507849792 list:["\/system\/","\/base\/","\/abnormal\/","\/welcome\/","\/standard\/","\/examine\/"]
+
+2017-10-13 07:10:13_0.68747300 1507849813 :/system/ajaxRoleUpdate
+
+2017-10-13 07:10:13_0.68979600 1507849813 request_uri:/system/
+
+2017-10-13 07:10:13_0.68986200 1507849813 list:["\/system\/","\/base\/","\/abnormal\/","\/welcome\/","\/standard\/","\/examine\/"]
+
+2017-10-13 07:10:13_0.69831500 1507849813 :/system/ajaxRoleGetList?sort=sort_weight&order=desc
+
+2017-10-13 07:10:13_0.70036100 1507849813 request_uri:/system/
+
+2017-10-13 07:10:13_0.70049000 1507849813 list:["\/system\/","\/base\/","\/abnormal\/","\/welcome\/","\/standard\/","\/examine\/"]
+
+2017-10-13 07:10:17_0.51364700 1507849817 :/system/ajaxGetPower
+
+2017-10-13 07:10:17_0.51611100 1507849817 request_uri:/system/
+
+2017-10-13 07:10:17_0.51618600 1507849817 list:["\/system\/","\/base\/","\/abnormal\/","\/welcome\/","\/standard\/","\/examine\/"]
+
+2017-10-13 07:10:26_0.24281600 1507849826 :/system/ajaxGetPower
+
+2017-10-13 07:10:26_0.24518000 1507849826 request_uri:/system/
+
+2017-10-13 07:10:26_0.24524600 1507849826 list:["\/system\/","\/base\/","\/abnormal\/","\/welcome\/","\/standard\/","\/examine\/"]
+
+2017-10-13 07:10:32_0.88507200 1507849832 :/system/ajaxRoleUpdate
+
+2017-10-13 07:10:32_0.88751800 1507849832 request_uri:/system/
+
+2017-10-13 07:10:32_0.88760800 1507849832 list:["\/system\/","\/base\/","\/abnormal\/","\/welcome\/","\/standard\/","\/examine\/"]
+
+2017-10-13 07:10:32_0.89594900 1507849832 :/system/ajaxRoleGetList?sort=sort_weight&order=desc
+
+2017-10-13 07:10:32_0.89801000 1507849832 request_uri:/system/
+
+2017-10-13 07:10:32_0.89807600 1507849832 list:["\/system\/","\/base\/","\/abnormal\/","\/welcome\/","\/standard\/","\/examine\/"]
+
+2017-10-13 07:10:34_0.31913000 1507849834 :/system/ajaxGetPower
+
+2017-10-13 07:10:34_0.32187700 1507849834 request_uri:/system/
+
+2017-10-13 07:10:34_0.32199100 1507849834 list:["\/system\/","\/base\/","\/abnormal\/","\/welcome\/","\/standard\/","\/examine\/"]
+
+2017-10-13 07:10:40_0.69784600 1507849840 :/system/ajaxRoleUpdate
+
+2017-10-13 07:10:40_0.69999700 1507849840 request_uri:/system/
+
+2017-10-13 07:10:40_0.70006300 1507849840 list:["\/system\/","\/base\/","\/abnormal\/","\/welcome\/","\/standard\/","\/examine\/"]
+
+2017-10-13 07:10:40_0.70790000 1507849840 :/system/ajaxRoleGetList?sort=sort_weight&order=desc
+
+2017-10-13 07:10:40_0.70997800 1507849840 request_uri:/system/
+
+2017-10-13 07:10:40_0.71005100 1507849840 list:["\/system\/","\/base\/","\/abnormal\/","\/welcome\/","\/standard\/","\/examine\/"]
+
+2017-10-13 07:10:47_0.61305000 1507849847 :/system/ajaxRoleAdd
+
+2017-10-13 07:10:47_0.61546700 1507849847 request_uri:/system/
+
+2017-10-13 07:10:47_0.61554500 1507849847 list:["\/system\/","\/base\/","\/abnormal\/","\/welcome\/","\/standard\/","\/examine\/"]
+
+2017-10-13 07:10:47_0.62393800 1507849847 :/system/ajaxRoleGetList?sort=sort_weight&order=desc
+
+2017-10-13 07:10:47_0.62717800 1507849847 request_uri:/system/
+
+2017-10-13 07:10:47_0.62728800 1507849847 list:["\/system\/","\/base\/","\/abnormal\/","\/welcome\/","\/standard\/","\/examine\/"]
+
+2017-10-13 07:10:56_0.28541600 1507849856 :/system/ajaxRoleAdd
+
+2017-10-13 07:10:56_0.28757500 1507849856 request_uri:/system/
+
+2017-10-13 07:10:56_0.28764400 1507849856 list:["\/system\/","\/base\/","\/abnormal\/","\/welcome\/","\/standard\/","\/examine\/"]
+
+2017-10-13 07:10:56_0.29562500 1507849856 :/system/ajaxRoleGetList?sort=sort_weight&order=desc
+
+2017-10-13 07:10:56_0.29759300 1507849856 request_uri:/system/
+
+2017-10-13 07:10:56_0.29766800 1507849856 list:["\/system\/","\/base\/","\/abnormal\/","\/welcome\/","\/standard\/","\/examine\/"]
+
+2017-10-13 07:10:58_0.92791200 1507849858 :/system/ajaxGetPower
+
+2017-10-13 07:10:58_0.93033600 1507849858 request_uri:/system/
+
+2017-10-13 07:10:58_0.93041000 1507849858 list:["\/system\/","\/base\/","\/abnormal\/","\/welcome\/","\/standard\/","\/examine\/"]
+
+2017-10-13 07:11:17_0.43742000 1507849877 :/system/ajaxRoleUpdate
+
+2017-10-13 07:11:17_0.43993800 1507849877 request_uri:/system/
+
+2017-10-13 07:11:17_0.44003200 1507849877 list:["\/system\/","\/base\/","\/abnormal\/","\/welcome\/","\/standard\/","\/examine\/"]
+
+2017-10-13 07:11:17_0.44721000 1507849877 :/system/ajaxRoleGetList?sort=sort_weight&order=desc
+
+2017-10-13 07:11:17_0.44854400 1507849877 request_uri:/system/
+
+2017-10-13 07:11:17_0.44867400 1507849877 list:["\/welcome\/","\/standard\/","\/examine\/"]
+
+2017-10-13 07:11:19_0.23712500 1507849879 :/system/ajaxGetPower
+
+2017-10-13 07:11:26_0.24904100 1507849886 :/system/ajaxRoleUpdate
+
+2017-10-13 07:11:27_0.75314000 1507849887 :/system/ajaxGetPower
+
+2017-10-13 07:11:30_0.82166200 1507849890 :/system/ajaxGetPower
+
+2017-10-13 07:11:35_0.85878900 1507849895 :/system/ajaxRoleUpdate
+
+2017-10-13 07:11:37_0.41712100 1507849897 :/system/ajaxGetPower
+
+2017-10-13 07:11:44_0.32030300 1507849904 :/system/ajaxRoleUpdate
+
+2017-10-13 07:11:45_0.99311600 1507849905 :/system/ajaxGetPower
+
+2017-10-13 07:11:58_0.81815100 1507849918 :/system/ajaxRoleUpdate
+
+2017-10-13 07:12:00_0.41598400 1507849920 :/system/role/list
+
+2017-10-13 07:12:00_0.44735100 1507849920 :/system/captcha
+
+2017-10-13 07:12:00_0.92220200 1507849920 :/favicon.ico
+
+2017-10-13 07:12:04_0.71384300 1507849924 :/system/ajaxLogin
+
+2017-10-13 07:12:04_0.73176500 1507849924 :/system/captcha?0.1693740462343798
+
+2017-10-13 07:12:04_0.95551000 1507849924 :/system/ajaxLogin
+
+2017-10-13 07:12:04_0.97457300 1507849924 :/system/captcha?0.6803139061099261
+
+2017-10-13 07:12:09_0.63180400 1507849929 :/system/ajaxLogin
+
+2017-10-13 07:12:09_0.67447400 1507849929 :/welcome/index
+
+2017-10-13 07:12:09_0.67579700 1507849929 request_uri:/welcome/
+
+2017-10-13 07:12:09_0.67695200 1507849929 list:["\/welcome\/","\/standard\/","\/examine\/"]
+
+2017-10-13 07:12:13_0.83804800 1507849933 :/system/logout
+
+2017-10-13 07:12:13_0.84164200 1507849933 :/system/
+
+2017-10-13 07:12:13_0.87766500 1507849933 :/system/captcha
+
+2017-10-13 07:12:14_0.31655300 1507849934 :/favicon.ico
+
+2017-10-13 07:12:20_0.73437800 1507849940 :/system/ajaxLogin
+
+2017-10-13 07:12:20_0.78678400 1507849940 :/welcome/index
+
+2017-10-13 07:12:23_0.31907400 1507849943 :/system/role/list
+
+2017-10-13 07:12:23_0.60802200 1507849943 :/system/ajaxRoleGetList?sort=sort_weight&order=desc
+
+2017-10-13 07:12:26_0.12509700 1507849946 :/system/ajaxGetPower
+
+2017-10-13 07:12:30_0.57950600 1507849950 :/system/ajaxGetPower
+
+2017-10-13 07:12:32_0.08157600 1507849952 :/system/ajaxGetPower
+
+2017-10-13 07:12:35_0.53865200 1507849955 :/system/ajaxGetPower
+
+2017-10-13 07:12:39_0.91749700 1507849959 :/system/ajaxRoleUpdate
+
+2017-10-13 07:12:39_0.92780400 1507849959 :/system/ajaxRoleGetList?sort=sort_weight&order=desc
+
+2017-10-13 07:12:41_0.49115800 1507849961 :/system/ajaxGetPower
+
+2017-10-13 07:12:43_0.05690200 1507849963 :/system/ajaxGetPower
+
+2017-10-13 07:12:44_0.89070000 1507849964 :/system/role/list
+
+2017-10-13 07:12:45_0.22889400 1507849965 :/system/ajaxRoleGetList?sort=sort_weight&order=desc
+
+2017-10-13 07:12:46_0.38331700 1507849966 :/system/ajaxGetPower
+
+2017-10-13 07:12:49_0.67824800 1507849969 :/system/role/list
+
+2017-10-13 07:12:50_0.04614600 1507849970 :/system/ajaxRoleGetList?sort=sort_weight&order=desc
+
+2017-10-13 07:12:51_0.13908800 1507849971 :/system/ajaxGetPower
+
+2017-10-13 07:13:02_0.18528400 1507849982 :/system/ajaxRoleUpdate
+
+2017-10-13 07:13:02_0.19509100 1507849982 :/system/ajaxRoleGetList?sort=sort_weight&order=desc
+
+2017-10-13 07:13:05_0.71505700 1507849985 :/system/role/list
+
+2017-10-13 07:13:06_0.00645900 1507849986 :/system/ajaxRoleGetList?sort=sort_weight&order=desc
+
+2017-10-13 07:13:07_0.14650600 1507849987 :/system/ajaxGetPower
+
+2017-10-13 07:13:09_0.96495300 1507849989 :/system/ajaxGetPower
+
+2017-10-13 07:13:12_0.49882000 1507849992 :/system/ajaxGetPower
+
+2017-10-13 07:13:14_0.38841700 1507849994 :/system/ajaxGetPower
+
+2017-10-13 07:13:22_0.98536800 1507850002 :/system/ajaxGetPower
+
+2017-10-13 07:13:32_0.45571800 1507850012 :/system/ajaxRoleUpdate
+
+2017-10-13 07:13:32_0.46459200 1507850012 :/system/ajaxRoleGetList?sort=sort_weight&order=desc
+
+2017-10-13 07:13:34_0.76270900 1507850014 :/system/role/list
+
+2017-10-13 07:13:35_0.11161600 1507850015 :/system/ajaxRoleGetList?sort=sort_weight&order=desc
+
+2017-10-13 07:13:36_0.41872900 1507850016 :/system/ajaxGetPower
+
+2017-10-13 07:13:38_0.64874500 1507850018 :/system/ajaxGetPower
+
+2017-10-13 07:13:41_0.97461200 1507850021 :/system/ajaxGetPower
+
+2017-10-13 07:13:45_0.01068300 1507850025 :/system/ajaxGetPower
+
+2017-10-13 07:13:47_0.74989400 1507850027 :/system/power/list
+
+2017-10-13 07:13:48_0.04938900 1507850028 :/system/ajaxPowerGetList?sort=sort_weight&order=desc
+
+2017-10-13 07:13:49_0.82402500 1507850029 :/system/role/list
+
+2017-10-13 07:13:50_0.11281900 1507850030 :/system/ajaxRoleGetList?sort=sort_weight&order=desc
+
+2017-10-13 07:13:50_0.74576600 1507850030 :/system/account/list
+
+2017-10-13 07:13:51_0.02800700 1507850031 :/system/ajaxAccountGetList?sort=sort_weight&order=desc
+
+2017-10-13 07:13:56_0.34417800 1507850036 :/system/ajaxAccountGetOne
+
+2017-10-13 07:14:08_0.79276900 1507850048 :/system/ajaxAccountUpdate
+
+2017-10-13 07:14:08_0.81313500 1507850048 :/system/ajaxAccountGetList?sort=sort_weight&order=desc
+
+2017-10-13 07:14:08_0.83014500 1507850048 :/system/account/list
+
+2017-10-13 07:14:09_0.17383900 1507850049 :/system/ajaxAccountGetList?sort=sort_weight&order=desc
+
+2017-10-13 07:14:12_0.08757200 1507850052 :/system/ajaxAccountGetOne
+
+2017-10-13 07:14:14_0.99819500 1507850054 :/system/ajaxAccountGetOne
+
+2017-10-13 07:14:42_0.99366100 1507850082 :/system/ajaxAccountUpdate
+
+2017-10-13 07:14:43_0.00955200 1507850083 :/system/ajaxAccountGetList?sort=sort_weight&order=desc
+
+2017-10-13 07:14:43_0.02447400 1507850083 :/system/account/list
+
+2017-10-13 07:14:43_0.35111400 1507850083 :/system/ajaxAccountGetList?sort=sort_weight&order=desc
+
+2017-10-13 07:15:00_0.16906800 1507850100 :/system/ajaxAccountAdd
+
+2017-10-13 07:15:00_0.18463200 1507850100 :/system/ajaxAccountGetList?sort=sort_weight&order=desc
+
+2017-10-13 07:15:00_0.20042500 1507850100 :/system/account/list
+
+2017-10-13 07:15:00_0.58409400 1507850100 :/system/ajaxAccountGetList?sort=sort_weight&order=desc
+
+2017-10-13 07:15:22_0.74845200 1507850122 :/system/ajaxAccountAdd
+
+2017-10-13 07:15:22_0.76256200 1507850122 :/system/ajaxAccountGetList?sort=sort_weight&order=desc
+
+2017-10-13 07:15:22_0.77134600 1507850122 :/system/account/list
+
+2017-10-13 07:15:23_0.11668800 1507850123 :/system/ajaxAccountGetList?sort=sort_weight&order=desc
+
+2017-10-13 07:15:39_0.94587800 1507850139 :/system/ajaxAccountAdd
+
+2017-10-13 07:15:39_0.96078800 1507850139 :/system/ajaxAccountGetList?sort=sort_weight&order=desc
+
+2017-10-13 07:15:39_0.97705400 1507850139 :/system/account/list
+
+2017-10-13 07:15:40_0.37200900 1507850140 :/system/ajaxAccountGetList?sort=sort_weight&order=desc
+
+2017-10-13 07:15:43_0.72437100 1507850143 :/system/logout
+
+2017-10-13 07:15:43_0.72835500 1507850143 :/system/
+
+2017-10-13 07:15:43_0.76124700 1507850143 :/system/captcha
+
+2017-10-13 07:15:44_0.22066300 1507850144 :/favicon.ico
+
+2017-10-13 07:15:51_0.35233700 1507850151 :/system/ajaxLogin
+
+2017-10-13 07:15:51_0.39756400 1507850151 :/welcome/index
+
+2017-10-13 07:15:51_0.39900400 1507850151 request_uri:/welcome/
+
+2017-10-13 07:15:51_0.39938500 1507850151 list:["\/abnormal\/","\/welcome\/","\/examine\/"]
+
+2017-10-13 07:15:55_0.95233200 1507850155 :/examine/piping
+
+2017-10-13 07:15:55_0.95413000 1507850155 request_uri:/examine/
+
+2017-10-13 07:15:55_0.95429500 1507850155 list:["\/abnormal\/","\/welcome\/","\/examine\/"]
+
+2017-10-13 07:15:55_0.95682700 1507850155 request_uri:/examine/
+
+2017-10-13 07:15:55_0.95689400 1507850155 list:["\/abnormal\/","\/welcome\/","\/examine\/"]
+
+2017-10-13 07:15:56_0.28530100 1507850156 :/Examine/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 07:15:56_0.28675300 1507850156 request_uri:/examine/
+
+2017-10-13 07:15:56_0.28726100 1507850156 list:["\/abnormal\/","\/welcome\/","\/examine\/"]
+
+2017-10-13 07:16:00_0.93736200 1507850160 :/system/logout
+
+2017-10-13 07:16:00_0.94130000 1507850160 :/system/
+
+2017-10-13 07:16:00_0.97556600 1507850160 :/system/captcha
+
+2017-10-13 07:16:01_0.40525800 1507850161 :/favicon.ico
+
+2017-10-13 07:16:07_0.91678900 1507850167 :/system/ajaxLogin
+
+2017-10-13 07:16:07_0.96098900 1507850167 :/welcome/index
+
+2017-10-13 07:16:07_0.96304000 1507850167 request_uri:/welcome/
+
+2017-10-13 07:16:07_0.96311400 1507850167 list:["\/system\/","\/base\/","\/abnormal\/","\/welcome\/","\/standard\/","\/examine\/"]
+
+2017-10-13 07:16:10_0.36379600 1507850170 :/welcome/index
+
+2017-10-13 07:16:10_0.36587700 1507850170 request_uri:/welcome/
+
+2017-10-13 07:16:10_0.36593900 1507850170 list:["\/system\/","\/base\/","\/abnormal\/","\/welcome\/","\/standard\/","\/examine\/"]
+
+2017-10-13 07:16:16_0.66144700 1507850176 :/welcome/index
+
+2017-10-13 07:16:16_0.66362700 1507850176 request_uri:/welcome/
+
+2017-10-13 07:16:16_0.66369700 1507850176 list:["\/system\/","\/base\/","\/abnormal\/","\/welcome\/","\/standard\/","\/examine\/"]
+
+2017-10-13 07:16:18_0.62518900 1507850178 :/system/account/list
+
+2017-10-13 07:16:18_0.62808200 1507850178 request_uri:/system/
+
+2017-10-13 07:16:18_0.62816800 1507850178 list:["\/system\/","\/base\/","\/abnormal\/","\/welcome\/","\/standard\/","\/examine\/"]
+
+2017-10-13 07:16:18_0.92297900 1507850178 :/system/ajaxAccountGetList?sort=sort_weight&order=desc
+
+2017-10-13 07:16:18_0.92534400 1507850178 request_uri:/system/
+
+2017-10-13 07:16:18_0.92541900 1507850178 list:["\/system\/","\/base\/","\/abnormal\/","\/welcome\/","\/standard\/","\/examine\/"]
+
+2017-10-13 07:16:19_0.98929100 1507850179 :/system/role/list
+
+2017-10-13 07:16:19_0.99155500 1507850179 request_uri:/system/
+
+2017-10-13 07:16:19_0.99165100 1507850179 list:["\/system\/","\/base\/","\/abnormal\/","\/welcome\/","\/standard\/","\/examine\/"]
+
+2017-10-13 07:16:20_0.27087900 1507850180 :/system/ajaxRoleGetList?sort=sort_weight&order=desc
+
+2017-10-13 07:16:20_0.27307500 1507850180 request_uri:/system/
+
+2017-10-13 07:16:20_0.27315600 1507850180 list:["\/system\/","\/base\/","\/abnormal\/","\/welcome\/","\/standard\/","\/examine\/"]
+
+2017-10-13 07:16:21_0.52528100 1507850181 :/system/power/list
+
+2017-10-13 07:16:21_0.52743400 1507850181 request_uri:/system/
+
+2017-10-13 07:16:21_0.52749800 1507850181 list:["\/system\/","\/base\/","\/abnormal\/","\/welcome\/","\/standard\/","\/examine\/"]
+
+2017-10-13 07:16:21_0.80926000 1507850181 :/system/ajaxPowerGetList?sort=sort_weight&order=desc
+
+2017-10-13 07:16:21_0.81163400 1507850181 request_uri:/system/
+
+2017-10-13 07:16:21_0.81171800 1507850181 list:["\/system\/","\/base\/","\/abnormal\/","\/welcome\/","\/standard\/","\/examine\/"]
+
+2017-10-13 07:16:25_0.15626500 1507850185 :/base/section
+
+2017-10-13 07:16:25_0.15875100 1507850185 request_uri:/base/
+
+2017-10-13 07:16:25_0.15882200 1507850185 list:["\/system\/","\/base\/","\/abnormal\/","\/welcome\/","\/standard\/","\/examine\/"]
+
+2017-10-13 07:16:25_0.16096100 1507850185 request_uri:/base/
+
+2017-10-13 07:16:25_0.16102300 1507850185 list:["\/system\/","\/base\/","\/abnormal\/","\/welcome\/","\/standard\/","\/examine\/"]
+
+2017-10-13 07:16:25_0.45033100 1507850185 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 07:16:25_0.45239000 1507850185 request_uri:/base/
+
+2017-10-13 07:16:25_0.45247000 1507850185 list:["\/system\/","\/base\/","\/abnormal\/","\/welcome\/","\/standard\/","\/examine\/"]
+
+2017-10-13 07:16:36_0.00406100 1507850196 :/system/power/list
+
+2017-10-13 07:16:36_0.00710700 1507850196 request_uri:/system/
+
+2017-10-13 07:16:36_0.00719000 1507850196 list:["\/system\/","\/base\/","\/abnormal\/","\/welcome\/","\/standard\/","\/examine\/"]
+
+2017-10-13 07:16:36_0.33965700 1507850196 :/system/ajaxPowerGetList?sort=sort_weight&order=desc
+
+2017-10-13 07:16:36_0.34211500 1507850196 request_uri:/system/
+
+2017-10-13 07:16:36_0.34220400 1507850196 list:["\/system\/","\/base\/","\/abnormal\/","\/welcome\/","\/standard\/","\/examine\/"]
+
+2017-10-13 07:16:41_0.82507000 1507850201 :/system/role/list
+
+2017-10-13 07:16:41_0.82723700 1507850201 request_uri:/system/
+
+2017-10-13 07:16:41_0.82732000 1507850201 list:["\/system\/","\/base\/","\/abnormal\/","\/welcome\/","\/standard\/","\/examine\/"]
+
+2017-10-13 07:16:42_0.16243400 1507850202 :/system/ajaxRoleGetList?sort=sort_weight&order=desc
+
+2017-10-13 07:16:42_0.16443600 1507850202 request_uri:/system/
+
+2017-10-13 07:16:42_0.16458600 1507850202 list:["\/system\/","\/base\/","\/abnormal\/","\/welcome\/","\/standard\/","\/examine\/"]
+
+2017-10-13 07:16:47_0.43817800 1507850207 :/system/account/list
+
+2017-10-13 07:16:47_0.44039400 1507850207 request_uri:/system/
+
+2017-10-13 07:16:47_0.44047700 1507850207 list:["\/system\/","\/base\/","\/abnormal\/","\/welcome\/","\/standard\/","\/examine\/"]
+
+2017-10-13 07:16:47_0.77318400 1507850207 :/system/ajaxAccountGetList?sort=sort_weight&order=desc
+
+2017-10-13 07:16:47_0.77514300 1507850207 request_uri:/system/
+
+2017-10-13 07:16:47_0.77520700 1507850207 list:["\/system\/","\/base\/","\/abnormal\/","\/welcome\/","\/standard\/","\/examine\/"]
+
+2017-10-13 07:16:49_0.47002500 1507850209 :/system/ajaxAccountGetOne
+
+2017-10-13 07:16:49_0.47218100 1507850209 request_uri:/system/
+
+2017-10-13 07:16:49_0.47224700 1507850209 list:["\/system\/","\/base\/","\/abnormal\/","\/welcome\/","\/standard\/","\/examine\/"]
+
+2017-10-13 07:16:51_0.46704300 1507850211 :/system/ajaxAccountUpdate
+
+2017-10-13 07:16:51_0.46978000 1507850211 request_uri:/system/
+
+2017-10-13 07:16:51_0.46993200 1507850211 list:["\/system\/","\/base\/","\/abnormal\/","\/welcome\/","\/standard\/","\/examine\/"]
+
+2017-10-13 07:16:51_0.48497900 1507850211 :/system/ajaxAccountGetList?sort=sort_weight&order=desc
+
+2017-10-13 07:16:51_0.48697200 1507850211 request_uri:/system/
+
+2017-10-13 07:16:51_0.48704300 1507850211 list:["\/system\/","\/base\/","\/abnormal\/","\/welcome\/","\/standard\/","\/examine\/"]
+
+2017-10-13 07:16:51_0.49884900 1507850211 :/system/account/list
+
+2017-10-13 07:16:51_0.50132700 1507850211 request_uri:/system/
+
+2017-10-13 07:16:51_0.50140500 1507850211 list:["\/system\/","\/base\/","\/abnormal\/","\/welcome\/","\/standard\/","\/examine\/"]
+
+2017-10-13 07:16:51_0.81883300 1507850211 :/system/ajaxAccountGetList?sort=sort_weight&order=desc
+
+2017-10-13 07:16:51_0.82097700 1507850211 request_uri:/system/
+
+2017-10-13 07:16:51_0.82104400 1507850211 list:["\/system\/","\/base\/","\/abnormal\/","\/welcome\/","\/standard\/","\/examine\/"]
+
+2017-10-13 07:16:53_0.41542600 1507850213 :/system/ajaxAccountGetOne
+
+2017-10-13 07:16:53_0.41764400 1507850213 request_uri:/system/
+
+2017-10-13 07:16:53_0.41771000 1507850213 list:["\/system\/","\/base\/","\/abnormal\/","\/welcome\/","\/standard\/","\/examine\/"]
+
+2017-10-13 07:16:55_0.23377200 1507850215 :/system/ajaxAccountGetOne
+
+2017-10-13 07:16:55_0.23628700 1507850215 request_uri:/system/
+
+2017-10-13 07:16:55_0.23637100 1507850215 list:["\/system\/","\/base\/","\/abnormal\/","\/welcome\/","\/standard\/","\/examine\/"]
+
+2017-10-13 07:16:57_0.54066500 1507850217 :/system/role/list
+
+2017-10-13 07:16:57_0.54279800 1507850217 request_uri:/system/
+
+2017-10-13 07:16:57_0.54286000 1507850217 list:["\/system\/","\/base\/","\/abnormal\/","\/welcome\/","\/standard\/","\/examine\/"]
+
+2017-10-13 07:16:57_0.82950700 1507850217 :/system/ajaxRoleGetList?sort=sort_weight&order=desc
+
+2017-10-13 07:16:57_0.83190900 1507850217 request_uri:/system/
+
+2017-10-13 07:16:57_0.83199900 1507850217 list:["\/system\/","\/base\/","\/abnormal\/","\/welcome\/","\/standard\/","\/examine\/"]
+
+2017-10-13 07:17:00_0.43399900 1507850220 :/system/ajaxGetPower
+
+2017-10-13 07:17:00_0.43627000 1507850220 request_uri:/system/
+
+2017-10-13 07:17:00_0.43633800 1507850220 list:["\/system\/","\/base\/","\/abnormal\/","\/welcome\/","\/standard\/","\/examine\/"]
+
+2017-10-13 07:17:18_0.92472500 1507850238 :/system/ajaxRoleUpdate
+
+2017-10-13 07:17:18_0.93950400 1507850238 request_uri:/system/
+
+2017-10-13 07:17:18_0.94561900 1507850238 list:["\/system\/","\/base\/","\/abnormal\/","\/welcome\/","\/standard\/","\/examine\/"]
+
+2017-10-13 07:17:18_0.96152100 1507850238 :/system/ajaxRoleGetList?sort=sort_weight&order=desc
+
+2017-10-13 07:17:18_0.96864200 1507850238 request_uri:/system/
+
+2017-10-13 07:17:18_0.97390200 1507850238 list:["\/system\/","\/welcome\/","\/standard\/","\/examine\/"]
+
+2017-10-13 07:17:20_0.42304300 1507850240 :/system/role/list
+
+2017-10-13 07:17:20_0.42477000 1507850240 request_uri:/system/
+
+2017-10-13 07:17:20_0.42490700 1507850240 list:["\/system\/","\/welcome\/","\/standard\/","\/examine\/"]
+
+2017-10-13 07:17:20_0.77103800 1507850240 :/system/ajaxRoleGetList?sort=sort_weight&order=desc
+
+2017-10-13 07:17:20_0.77251300 1507850240 request_uri:/system/
+
+2017-10-13 07:17:20_0.77285300 1507850240 list:["\/system\/","\/welcome\/","\/standard\/","\/examine\/"]
+
+2017-10-13 07:17:25_0.89417700 1507850245 :/system/role/list
+
+2017-10-13 07:17:25_0.89599900 1507850245 request_uri:/system/
+
+2017-10-13 07:17:25_0.89606600 1507850245 list:["\/system\/","\/welcome\/","\/standard\/","\/examine\/"]
+
+2017-10-13 07:17:26_0.18493500 1507850246 :/system/ajaxRoleGetList?sort=sort_weight&order=desc
+
+2017-10-13 07:17:26_0.18678200 1507850246 request_uri:/system/
+
+2017-10-13 07:17:26_0.18685200 1507850246 list:["\/system\/","\/welcome\/","\/standard\/","\/examine\/"]
+
+2017-10-13 07:17:29_0.13745700 1507850249 :/system/ajaxGetPower
+
+2017-10-13 07:17:29_0.13927500 1507850249 request_uri:/system/
+
+2017-10-13 07:17:29_0.13934100 1507850249 list:["\/system\/","\/welcome\/","\/standard\/","\/examine\/"]
+
+2017-10-13 07:17:55_0.20126100 1507850275 :/system/ajaxRoleUpdate
+
+2017-10-13 07:17:55_0.20306800 1507850275 request_uri:/system/
+
+2017-10-13 07:17:55_0.20314200 1507850275 list:["\/system\/","\/welcome\/","\/standard\/","\/examine\/"]
+
+2017-10-13 07:17:55_0.21193100 1507850275 :/system/ajaxRoleGetList?sort=sort_weight&order=desc
+
+2017-10-13 07:17:55_0.21350200 1507850275 request_uri:/system/
+
+2017-10-13 07:17:55_0.21359200 1507850275 list:["\/system\/","\/welcome\/","\/standard\/","\/examine\/"]
+
+2017-10-13 07:17:56_0.50778100 1507850276 :/system/ajaxGetPower
+
+2017-10-13 07:17:56_0.50978900 1507850276 request_uri:/system/
+
+2017-10-13 07:17:56_0.50986400 1507850276 list:["\/system\/","\/welcome\/","\/standard\/","\/examine\/"]
+
+2017-10-13 07:18:03_0.21241700 1507850283 :/system/ajaxGetPower
+
+2017-10-13 07:18:03_0.21454600 1507850283 request_uri:/system/
+
+2017-10-13 07:18:03_0.21462300 1507850283 list:["\/system\/","\/welcome\/","\/standard\/","\/examine\/"]
+
+2017-10-13 07:18:13_0.47887700 1507850293 :/system/logout
+
+2017-10-13 07:18:13_0.48294000 1507850293 :/system/
+
+2017-10-13 07:18:13_0.50710300 1507850293 :/system/captcha
+
+2017-10-13 07:18:13_0.97520400 1507850293 :/favicon.ico
+
+2017-10-13 07:18:23_0.69643200 1507850303 :/system/ajaxLogin
+
+2017-10-13 07:18:23_0.72058500 1507850303 :/system/captcha?0.49119221599409224
+
+2017-10-13 07:18:27_0.68803300 1507850307 :/system/ajaxLogin
+
+2017-10-13 07:18:27_0.70849900 1507850307 :/system/captcha?0.3639300477317291
+
+2017-10-13 07:18:32_0.59248900 1507850312 :/system/ajaxLogin
+
+2017-10-13 07:18:32_0.65344600 1507850312 :/welcome/index
+
+2017-10-13 07:18:32_0.65539500 1507850312 request_uri:/welcome/
+
+2017-10-13 07:18:32_0.65548600 1507850312 list:["\/abnormal\/","\/welcome\/","\/examine\/"]
+
+2017-10-13 07:18:36_0.68922500 1507850316 :/examine/piping
+
+2017-10-13 07:18:36_0.69080700 1507850316 request_uri:/examine/
+
+2017-10-13 07:18:36_0.69094700 1507850316 list:["\/abnormal\/","\/welcome\/","\/examine\/"]
+
+2017-10-13 07:18:36_0.69264000 1507850316 request_uri:/examine/
+
+2017-10-13 07:18:36_0.69275100 1507850316 list:["\/abnormal\/","\/welcome\/","\/examine\/"]
+
+2017-10-13 07:18:37_0.04249300 1507850317 :/Examine/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 07:18:37_0.04378600 1507850317 request_uri:/examine/
+
+2017-10-13 07:18:37_0.04442200 1507850317 list:["\/abnormal\/","\/welcome\/","\/examine\/"]
+
+2017-10-13 07:18:40_0.19691000 1507850320 :/abnormal/piping
+
+2017-10-13 07:18:40_0.19829700 1507850320 request_uri:/abnormal/
+
+2017-10-13 07:18:40_0.19886200 1507850320 list:["\/abnormal\/","\/welcome\/","\/examine\/"]
+
+2017-10-13 07:18:40_0.20050700 1507850320 request_uri:/abnormal/
+
+2017-10-13 07:18:40_0.20063300 1507850320 list:["\/abnormal\/","\/welcome\/","\/examine\/"]
+
+2017-10-13 07:18:40_0.49835200 1507850320 :/Abnormal/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 07:18:40_0.49986300 1507850320 request_uri:/abnormal/
+
+2017-10-13 07:18:40_0.50037100 1507850320 list:["\/abnormal\/","\/welcome\/","\/examine\/"]
+
+2017-10-13 07:22:23_0.84338800 1507850543 :/system/logout
+
+2017-10-13 07:22:23_0.84752800 1507850543 :/system/
+
+2017-10-13 07:22:23_0.88209500 1507850543 :/system/captcha
+
+2017-10-13 07:22:24_0.35419900 1507850544 :/favicon.ico
+
+2017-10-13 07:22:29_0.51826900 1507850549 :/system/ajaxLogin
+
+2017-10-13 07:22:29_0.53702300 1507850549 :/system/captcha?0.0898590772002903
+
+2017-10-13 07:22:29_0.68369000 1507850549 :/system/ajaxLogin
+
+2017-10-13 07:22:29_0.70585700 1507850549 :/system/captcha?0.15354540862635324
+
+2017-10-13 07:22:34_0.30850400 1507850554 :/system/ajaxLogin
+
+2017-10-13 07:22:34_0.32784500 1507850554 :/system/captcha?0.007813429276877892
+
+2017-10-13 07:22:37_0.67782200 1507850557 :/system/ajaxLogin
+
+2017-10-13 07:22:37_0.72646900 1507850557 :/welcome/index
+
+2017-10-13 07:22:40_0.07271400 1507850560 :/system/account/list
+
+2017-10-13 07:22:40_0.38143300 1507850560 :/system/ajaxAccountGetList?sort=sort_weight&order=desc
+
+2017-10-13 07:22:45_0.19753400 1507850565 :/system/account/list
+
+2017-10-13 07:22:45_0.52355300 1507850565 :/system/ajaxAccountGetList?sort=sort_weight&order=desc
+
+2017-10-13 07:22:48_0.99585000 1507850568 :/system/role/list
+
+2017-10-13 07:22:49_0.27702600 1507850569 :/system/ajaxRoleGetList?sort=sort_weight&order=desc
+
+2017-10-13 07:22:51_0.93378300 1507850571 :/system/power/list
+
+2017-10-13 07:22:52_0.22191300 1507850572 :/system/ajaxPowerGetList?sort=sort_weight&order=desc
+
+2017-10-13 07:22:52_0.95610800 1507850572 :/system/role/list
+
+2017-10-13 07:22:53_0.23562500 1507850573 :/system/ajaxRoleGetList?sort=sort_weight&order=desc
+
+2017-10-13 07:22:55_0.09826300 1507850575 :/system/ajaxGetPower
+
+2017-10-13 07:23:04_0.92556800 1507850584 :/system/ajaxRoleUpdate
+
+2017-10-13 07:23:04_0.93480100 1507850584 :/system/ajaxRoleGetList?sort=sort_weight&order=desc
+
+2017-10-13 07:23:06_0.28294600 1507850586 :/system/ajaxGetPower
+
+2017-10-13 07:23:15_0.40777900 1507850595 :/system/ajaxRoleUpdate
+
+2017-10-13 07:23:15_0.41735900 1507850595 :/system/ajaxRoleGetList?sort=sort_weight&order=desc
+
+2017-10-13 07:23:17_0.05751000 1507850597 :/system/ajaxGetPower
+
+2017-10-13 07:23:23_0.37209500 1507850603 :/system/ajaxRoleUpdate
+
+2017-10-13 07:23:23_0.38144500 1507850603 :/system/ajaxRoleGetList?sort=sort_weight&order=desc
+
+2017-10-13 07:23:24_0.78295200 1507850604 :/system/ajaxGetPower
+
+2017-10-13 07:23:28_0.30089100 1507850608 :/system/ajaxRoleUpdate
+
+2017-10-13 07:23:28_0.30977400 1507850608 :/system/ajaxRoleGetList?sort=sort_weight&order=desc
+
+2017-10-13 07:23:29_0.85579900 1507850609 :/system/role/list
+
+2017-10-13 07:23:30_0.20666800 1507850610 :/system/ajaxRoleGetList?sort=sort_weight&order=desc
+
+2017-10-13 07:23:33_0.50768600 1507850613 :/system/logout
+
+2017-10-13 07:23:33_0.51194200 1507850613 :/system/
+
+2017-10-13 07:23:33_0.54462200 1507850613 :/system/captcha
+
+2017-10-13 07:23:34_0.00727700 1507850614 :/favicon.ico
+
+2017-10-13 07:23:50_0.14648600 1507850630 :/system/ajaxLogin
+
+2017-10-13 07:23:50_0.16641900 1507850630 :/system/captcha?0.1139383346622993
+
+2017-10-13 07:23:54_0.10867200 1507850634 :/system/ajaxLogin
+
+2017-10-13 07:23:54_0.15349300 1507850634 :/welcome/index
+
+2017-10-13 07:23:54_0.15409800 1507850634 request_uri:/welcome/
+
+2017-10-13 07:23:54_0.15530700 1507850634 list:[]
+
+2017-10-13 07:23:57_0.17578000 1507850637 :/
+
+2017-10-13 07:23:57_0.20793700 1507850637 :/system/captcha
+
+2017-10-13 07:23:57_0.79011200 1507850637 :/favicon.ico
+
+2017-10-13 07:24:02_0.57686600 1507850642 :/
+
+2017-10-13 07:24:02_0.66788500 1507850642 :/system/captcha
+
+2017-10-13 07:24:03_0.16571500 1507850643 :/favicon.ico
+
+2017-10-13 07:24:04_0.01265800 1507850644 :/
+
+2017-10-13 07:24:04_0.08750300 1507850644 :/system/captcha
+
+2017-10-13 07:24:04_0.55193700 1507850644 :/favicon.ico
+
+2017-10-13 07:24:08_0.37500200 1507850648 :/system/ajaxLogin
+
+2017-10-13 07:24:08_0.41623700 1507850648 :/welcome/index
+
+2017-10-13 07:24:12_0.90444500 1507850652 :/welcome/index
+
+2017-10-13 07:24:14_0.11844900 1507850654 :/welcome/index
+
+2017-10-13 07:24:16_0.20807800 1507850656 :/system/logout
+
+2017-10-13 07:24:16_0.21124200 1507850656 :/system/
+
+2017-10-13 07:24:16_0.25620900 1507850656 :/system/captcha
+
+2017-10-13 07:24:16_0.75804400 1507850656 :/favicon.ico
+
+2017-10-13 07:24:24_0.63813300 1507850664 :/system/ajaxLogin
+
+2017-10-13 07:24:24_0.68346200 1507850664 :/welcome/index
+
+2017-10-13 07:24:24_0.68401600 1507850664 request_uri:/welcome/
+
+2017-10-13 07:24:24_0.68540200 1507850664 list:[]
+
+2017-10-13 07:24:28_0.19231200 1507850668 :/
+
+2017-10-13 07:24:28_0.23005400 1507850668 :/system/captcha
+
+2017-10-13 07:24:28_0.79880300 1507850668 :/favicon.ico
+
+2017-10-13 07:24:33_0.20772100 1507850673 :/system/ajaxLogin
+
+2017-10-13 07:24:33_0.25853200 1507850673 :/welcome/index
+
+2017-10-13 07:24:36_0.52113400 1507850676 :/system/account/list
+
+2017-10-13 07:24:36_0.87658000 1507850676 :/system/ajaxAccountGetList?sort=sort_weight&order=desc
+
+2017-10-13 07:24:38_0.72219100 1507850678 :/system/role/list
+
+2017-10-13 07:24:39_0.05412100 1507850679 :/system/ajaxRoleGetList?sort=sort_weight&order=desc
+
+2017-10-13 07:24:42_0.88426400 1507850682 :/system/role/list
+
+2017-10-13 07:24:43_0.21747300 1507850683 :/system/ajaxRoleGetList?sort=sort_weight&order=desc
+
+2017-10-13 07:24:44_0.95112800 1507850684 :/system/role/list
+
+2017-10-13 07:24:45_0.28155000 1507850685 :/system/ajaxRoleGetList?sort=sort_weight&order=desc
+
+2017-10-13 07:24:46_0.19627100 1507850686 :/system/ajaxGetPower
+
+2017-10-13 07:24:49_0.81760400 1507850689 :/system/ajaxGetPower
+
+2017-10-13 07:24:51_0.73177200 1507850691 :/system/ajaxGetPower
+
+2017-10-13 07:24:58_0.78207700 1507850698 :/system/ajaxGetPower
+
+2017-10-13 07:25:02_0.76594100 1507850702 :/system/ajaxGetPower
+
+2017-10-13 07:25:04_0.83923400 1507850704 :/system/account/list
+
+2017-10-13 07:25:05_0.19122000 1507850705 :/system/ajaxAccountGetList?sort=sort_weight&order=desc
+
+2017-10-13 07:25:06_0.89782300 1507850706 :/system/ajaxAccountGetOne
+
+2017-10-13 07:25:09_0.65438700 1507850709 :/system/ajaxAccountUpdate
+
+2017-10-13 07:25:09_0.68426000 1507850709 :/system/ajaxAccountGetList?sort=sort_weight&order=desc
+
+2017-10-13 07:25:09_0.70075100 1507850709 :/system/account/list
+
+2017-10-13 07:25:10_0.09884600 1507850710 :/system/ajaxAccountGetList?sort=sort_weight&order=desc
+
+2017-10-13 07:25:10_0.83483900 1507850710 :/system/ajaxAccountGetOne
+
+2017-10-13 07:25:16_0.31786600 1507850716 :/system/ajaxAccountUpdate
+
+2017-10-13 07:25:16_0.33229900 1507850716 :/system/ajaxAccountGetList?sort=sort_weight&order=desc
+
+2017-10-13 07:25:16_0.34629900 1507850716 :/system/account/list
+
+2017-10-13 07:25:16_0.75059000 1507850716 :/system/ajaxAccountGetList?sort=sort_weight&order=desc
+
+2017-10-13 07:25:18_0.14804100 1507850718 :/system/ajaxAccountGetOne
+
+2017-10-13 07:25:22_0.35442500 1507850722 :/system/ajaxAccountUpdate
+
+2017-10-13 07:25:22_0.37048400 1507850722 :/system/ajaxAccountGetList?sort=sort_weight&order=desc
+
+2017-10-13 07:25:22_0.37873600 1507850722 :/system/account/list
+
+2017-10-13 07:25:22_0.69739600 1507850722 :/system/ajaxAccountGetList?sort=sort_weight&order=desc
+
+2017-10-13 07:25:23_0.90435500 1507850723 :/system/ajaxAccountGetOne
+
+2017-10-13 07:25:26_0.12001800 1507850726 :/system/ajaxAccountUpdate
+
+2017-10-13 07:25:26_0.13669900 1507850726 :/system/ajaxAccountGetList?sort=sort_weight&order=desc
+
+2017-10-13 07:25:26_0.14868800 1507850726 :/system/account/list
+
+2017-10-13 07:25:26_0.47021600 1507850726 :/system/ajaxAccountGetList?sort=sort_weight&order=desc
+
+2017-10-13 07:25:27_0.40071300 1507850727 :/system/ajaxAccountGetOne
+
+2017-10-13 07:25:34_0.90976600 1507850734 :/system/account/list
+
+2017-10-13 07:25:35_0.22473500 1507850735 :/system/ajaxAccountGetList?sort=sort_weight&order=desc
+
+2017-10-13 07:25:37_0.95484000 1507850737 :/system/logout
+
+2017-10-13 07:25:37_0.95858700 1507850737 :/system/
+
+2017-10-13 07:25:37_0.99068500 1507850737 :/system/captcha
+
+2017-10-13 07:25:38_0.44373500 1507850738 :/favicon.ico
+
+2017-10-13 07:25:43_0.19147000 1507850743 :/system/ajaxLogin
+
+2017-10-13 07:25:43_0.23847600 1507850743 :/welcome/index
+
+2017-10-13 07:25:43_0.23988900 1507850743 request_uri:/welcome/
+
+2017-10-13 07:25:43_0.24045900 1507850743 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:25:48_0.56687200 1507850748 :/abnormal/piping
+
+2017-10-13 07:25:48_0.56867800 1507850748 request_uri:/abnormal/
+
+2017-10-13 07:25:48_0.56874800 1507850748 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:25:48_0.57069400 1507850748 request_uri:/abnormal/
+
+2017-10-13 07:25:48_0.57082000 1507850748 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:25:48_0.93741600 1507850748 :/Abnormal/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 07:25:48_0.93884200 1507850748 request_uri:/abnormal/
+
+2017-10-13 07:25:48_0.93931500 1507850748 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:27:14_0.41973300 1507850834 :/abnormal/piping
+
+2017-10-13 07:27:14_0.42115000 1507850834 request_uri:/abnormal/
+
+2017-10-13 07:27:14_0.42193900 1507850834 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:27:14_0.42390400 1507850834 request_uri:/abnormal/
+
+2017-10-13 07:27:14_0.42397300 1507850834 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:27:14_0.79204100 1507850834 :/Abnormal/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 07:27:14_0.79404900 1507850834 request_uri:/abnormal/
+
+2017-10-13 07:27:14_0.79413900 1507850834 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:27:18_0.11524700 1507850838 :/abnormal/piping
+
+2017-10-13 07:27:18_0.11664000 1507850838 request_uri:/abnormal/
+
+2017-10-13 07:27:18_0.11727300 1507850838 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:27:18_0.11910300 1507850838 request_uri:/abnormal/
+
+2017-10-13 07:27:18_0.11915600 1507850838 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:27:18_0.46651400 1507850838 :/Abnormal/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 07:27:18_0.46792300 1507850838 request_uri:/abnormal/
+
+2017-10-13 07:27:18_0.46845500 1507850838 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:27:20_0.83559900 1507850840 :/abnormal/piping
+
+2017-10-13 07:27:20_0.83703800 1507850840 request_uri:/abnormal/
+
+2017-10-13 07:27:20_0.83776600 1507850840 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:27:20_0.83966600 1507850840 request_uri:/abnormal/
+
+2017-10-13 07:27:20_0.83972100 1507850840 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:27:21_0.17743400 1507850841 :/Abnormal/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 07:27:21_0.17876100 1507850841 request_uri:/abnormal/
+
+2017-10-13 07:27:21_0.17925300 1507850841 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:28:54_0.33199900 1507850934 :/abnormal/piping
+
+2017-10-13 07:28:54_0.33359700 1507850934 request_uri:/abnormal/
+
+2017-10-13 07:28:54_0.33400700 1507850934 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:28:54_0.33574000 1507850934 request_uri:/abnormal/
+
+2017-10-13 07:28:54_0.33579600 1507850934 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:28:54_0.70735700 1507850934 :/Abnormal/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 07:28:54_0.70869800 1507850934 request_uri:/abnormal/
+
+2017-10-13 07:28:54_0.70921300 1507850934 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:29:04_0.15686400 1507850944 :/Abnormal/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 07:29:04_0.16400800 1507850944 request_uri:/abnormal/
+
+2017-10-13 07:29:04_0.16937100 1507850944 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:29:04_0.55157800 1507850944 :/favicon.ico
+
+2017-10-13 07:29:04_0.55307200 1507850944 request_uri:/favicon.ico/
+
+2017-10-13 07:29:04_0.55314500 1507850944 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:29:20_0.82584600 1507850960 :/Abnormal/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 07:29:20_0.86208000 1507850960 :/system/captcha
+
+2017-10-13 07:29:21_0.27537300 1507850961 :/favicon.ico
+
+2017-10-13 07:29:27_0.13068100 1507850967 :/Abnormal/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 07:29:27_0.17646900 1507850967 :/system/captcha
+
+2017-10-13 07:29:27_0.45179100 1507850967 :/favicon.ico
+
+2017-10-13 07:29:36_0.98914000 1507850976 :/system/ajaxLogin
+
+2017-10-13 07:29:37_0.04220700 1507850977 :/welcome/index
+
+2017-10-13 07:29:37_0.04366900 1507850977 request_uri:/welcome/
+
+2017-10-13 07:29:37_0.04411500 1507850977 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:29:44_0.16601800 1507850984 :/abnormal/piping
+
+2017-10-13 07:29:44_0.16988700 1507850984 request_uri:/abnormal/
+
+2017-10-13 07:29:44_0.17000000 1507850984 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:29:44_0.17212100 1507850984 request_uri:/abnormal/
+
+2017-10-13 07:29:44_0.17218100 1507850984 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:29:44_0.39227900 1507850984 :/Abnormal/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 07:29:44_0.39373800 1507850984 request_uri:/abnormal/
+
+2017-10-13 07:29:44_0.39415000 1507850984 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:29:50_0.66952800 1507850990 :/abnormal/piping
+
+2017-10-13 07:29:50_0.67688500 1507850990 request_uri:/abnormal/
+
+2017-10-13 07:29:50_0.68274700 1507850990 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:29:50_0.69165800 1507850990 request_uri:/abnormal/
+
+2017-10-13 07:29:50_0.69177200 1507850990 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:29:51_0.00930400 1507850991 :/Abnormal/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 07:29:51_0.01067800 1507850991 request_uri:/abnormal/
+
+2017-10-13 07:29:51_0.01115200 1507850991 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:32:01_0.76893200 1507851121 :/abnormal/piping
+
+2017-10-13 07:32:01_0.78148200 1507851121 request_uri:/abnormal/
+
+2017-10-13 07:32:01_0.78719300 1507851121 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:32:01_0.79467100 1507851121 request_uri:/abnormal/
+
+2017-10-13 07:32:01_0.79477800 1507851121 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:32:02_0.11942300 1507851122 :/Abnormal/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 07:32:02_0.12116300 1507851122 request_uri:/abnormal/
+
+2017-10-13 07:32:02_0.12140200 1507851122 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:32:05_0.27313900 1507851125 :/abnormal/piping
+
+2017-10-13 07:32:05_0.27597300 1507851125 request_uri:/abnormal/
+
+2017-10-13 07:32:05_0.27609600 1507851125 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:32:05_0.27831200 1507851125 request_uri:/abnormal/
+
+2017-10-13 07:32:05_0.27843500 1507851125 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:32:05_0.58811100 1507851125 :/Abnormal/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 07:32:05_0.58967300 1507851125 request_uri:/abnormal/
+
+2017-10-13 07:32:05_0.58999200 1507851125 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:32:07_0.03140300 1507851127 :/abnormal/piping
+
+2017-10-13 07:32:07_0.03337500 1507851127 request_uri:/abnormal/
+
+2017-10-13 07:32:07_0.03345900 1507851127 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:32:07_0.03542100 1507851127 request_uri:/abnormal/
+
+2017-10-13 07:32:07_0.03560100 1507851127 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:32:07_0.33673400 1507851127 :/Abnormal/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 07:32:07_0.33811100 1507851127 request_uri:/abnormal/
+
+2017-10-13 07:32:07_0.33855800 1507851127 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:32:10_0.41925600 1507851130 :/abnormal/medicine
+
+2017-10-13 07:32:10_0.42070200 1507851130 request_uri:/abnormal/
+
+2017-10-13 07:32:10_0.42129200 1507851130 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:32:10_0.42317900 1507851130 request_uri:/abnormal/
+
+2017-10-13 07:32:10_0.42323400 1507851130 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:32:10_0.72101700 1507851130 :/Abnormal/ajaxMedicineList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 07:32:10_0.72275700 1507851130 request_uri:/abnormal/
+
+2017-10-13 07:32:10_0.72289700 1507851130 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:33:09_0.08277400 1507851189 :/abnormal/medicine
+
+2017-10-13 07:33:09_0.08471900 1507851189 request_uri:/abnormal/
+
+2017-10-13 07:33:09_0.08484100 1507851189 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:33:09_0.08711000 1507851189 request_uri:/abnormal/
+
+2017-10-13 07:33:09_0.08725900 1507851189 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:33:09_0.41636100 1507851189 :/Abnormal/ajaxMedicineList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 07:33:09_0.41784500 1507851189 request_uri:/abnormal/
+
+2017-10-13 07:33:09_0.41835400 1507851189 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:33:10_0.79306600 1507851190 :/abnormal/medicine
+
+2017-10-13 07:33:10_0.79444700 1507851190 request_uri:/abnormal/
+
+2017-10-13 07:33:10_0.79493300 1507851190 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:33:10_0.79668800 1507851190 request_uri:/abnormal/
+
+2017-10-13 07:33:10_0.79674000 1507851190 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:33:11_0.09584400 1507851191 :/Abnormal/ajaxMedicineList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 07:33:11_0.09737600 1507851191 request_uri:/abnormal/
+
+2017-10-13 07:33:11_0.09769100 1507851191 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:33:12_0.25738600 1507851192 :/abnormal/stab
+
+2017-10-13 07:33:12_0.25885200 1507851192 request_uri:/abnormal/
+
+2017-10-13 07:33:12_0.25940100 1507851192 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:33:12_0.26139100 1507851192 request_uri:/abnormal/
+
+2017-10-13 07:33:12_0.26144900 1507851192 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:33:12_0.55806000 1507851192 :/Abnormal/ajaxStabList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 07:33:12_0.55950100 1507851192 request_uri:/abnormal/
+
+2017-10-13 07:33:12_0.55987300 1507851192 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:33:13_0.84513900 1507851193 :/abnormal/pressure
+
+2017-10-13 07:33:13_0.84666200 1507851193 request_uri:/abnormal/
+
+2017-10-13 07:33:13_0.84710000 1507851193 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:33:13_0.84883400 1507851193 request_uri:/abnormal/
+
+2017-10-13 07:33:13_0.84888800 1507851193 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:33:14_0.16585600 1507851194 :/Abnormal/ajaxPressureList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 07:33:14_0.16736700 1507851194 request_uri:/abnormal/
+
+2017-10-13 07:33:14_0.16775500 1507851194 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:33:15_0.53470100 1507851195 :/abnormal/fall
+
+2017-10-13 07:33:15_0.53623600 1507851195 request_uri:/abnormal/
+
+2017-10-13 07:33:15_0.53683200 1507851195 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:33:15_0.53859800 1507851195 request_uri:/abnormal/
+
+2017-10-13 07:33:15_0.53865600 1507851195 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:33:15_0.85682600 1507851195 :/Abnormal/ajaxFallList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 07:33:15_0.85819600 1507851195 request_uri:/abnormal/
+
+2017-10-13 07:33:15_0.85871700 1507851195 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:33:16_0.69760100 1507851196 :/abnormal/other
+
+2017-10-13 07:33:16_0.69922600 1507851196 request_uri:/abnormal/
+
+2017-10-13 07:33:16_0.69954700 1507851196 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:33:16_0.70135600 1507851196 request_uri:/abnormal/
+
+2017-10-13 07:33:16_0.70141000 1507851196 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:33:17_0.01886800 1507851197 :/Abnormal/ajaxOtherList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 07:33:17_0.02140300 1507851197 request_uri:/abnormal/
+
+2017-10-13 07:33:17_0.02149800 1507851197 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:33:20_0.25163700 1507851200 :/examine/piping
+
+2017-10-13 07:33:20_0.25878600 1507851200 request_uri:/examine/
+
+2017-10-13 07:33:20_0.26471000 1507851200 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:33:20_0.27324800 1507851200 request_uri:/examine/
+
+2017-10-13 07:33:20_0.27807700 1507851200 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:33:20_0.58307400 1507851200 :/Examine/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 07:33:20_0.58443900 1507851200 request_uri:/examine/
+
+2017-10-13 07:33:20_0.58492000 1507851200 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:33:27_0.67408900 1507851207 :/examine/piping
+
+2017-10-13 07:33:27_0.67556600 1507851207 request_uri:/examine/
+
+2017-10-13 07:33:27_0.67596000 1507851207 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:33:27_0.67776900 1507851207 request_uri:/examine/
+
+2017-10-13 07:33:27_0.67782100 1507851207 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:33:27_0.97917500 1507851207 :/Examine/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 07:33:27_0.98056300 1507851207 request_uri:/examine/
+
+2017-10-13 07:33:27_0.98102100 1507851207 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:34:49_0.14256800 1507851289 :/examine/piping
+
+2017-10-13 07:34:49_0.14403600 1507851289 request_uri:/examine/
+
+2017-10-13 07:34:49_0.14450900 1507851289 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:34:49_0.14616300 1507851289 request_uri:/examine/
+
+2017-10-13 07:34:49_0.14622900 1507851289 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:34:49_0.46715300 1507851289 :/Examine/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 07:34:49_0.46897900 1507851289 request_uri:/examine/
+
+2017-10-13 07:34:49_0.46931200 1507851289 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:34:51_0.25612900 1507851291 :/examine/piping
+
+2017-10-13 07:34:51_0.25767800 1507851291 request_uri:/examine/
+
+2017-10-13 07:34:51_0.25806700 1507851291 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:34:51_0.25990900 1507851291 request_uri:/examine/
+
+2017-10-13 07:34:51_0.25997400 1507851291 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:34:51_0.55126900 1507851291 :/Examine/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 07:34:51_0.55296700 1507851291 request_uri:/examine/
+
+2017-10-13 07:34:51_0.55330900 1507851291 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:36:19_0.20925200 1507851379 :/system/logout
+
+2017-10-13 07:36:19_0.21319100 1507851379 :/system/
+
+2017-10-13 07:36:19_0.23722500 1507851379 :/system/captcha
+
+2017-10-13 07:36:19_0.75118000 1507851379 :/favicon.ico
+
+2017-10-13 07:36:24_0.02163900 1507851384 :/system/ajaxLogin
+
+2017-10-13 07:36:24_0.06965800 1507851384 :/welcome/index
+
+2017-10-13 07:36:24_0.07113100 1507851384 request_uri:/welcome/
+
+2017-10-13 07:36:24_0.07168500 1507851384 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:36:26_0.70457900 1507851386 :/examine/piping
+
+2017-10-13 07:36:26_0.70640200 1507851386 request_uri:/examine/
+
+2017-10-13 07:36:26_0.70649900 1507851386 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:36:26_0.70824400 1507851386 request_uri:/examine/
+
+2017-10-13 07:36:26_0.70830100 1507851386 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:36:27_0.01969100 1507851387 :/Examine/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 07:36:27_0.02187000 1507851387 request_uri:/examine/
+
+2017-10-13 07:36:27_0.02215600 1507851387 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:38:36_0.60691600 1507851516 :/system/logout
+
+2017-10-13 07:38:36_0.61130200 1507851516 :/system/
+
+2017-10-13 07:38:36_0.63639000 1507851516 :/system/captcha
+
+2017-10-13 07:38:37_0.12416900 1507851517 :/favicon.ico
+
+2017-10-13 07:38:40_0.82296900 1507851520 :/system/ajaxLogin
+
+2017-10-13 07:38:40_0.87535700 1507851520 :/welcome/index
+
+2017-10-13 07:38:40_0.87693400 1507851520 request_uri:/welcome/
+
+2017-10-13 07:38:40_0.87720300 1507851520 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:38:43_0.55318200 1507851523 :/examine/piping
+
+2017-10-13 07:38:43_0.55479200 1507851523 request_uri:/examine/
+
+2017-10-13 07:38:43_0.55498000 1507851523 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:38:43_0.55652200 1507851523 request_uri:/examine/
+
+2017-10-13 07:38:43_0.55658500 1507851523 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:38:43_0.87020900 1507851523 :/Examine/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 07:38:43_0.87727100 1507851523 request_uri:/examine/
+
+2017-10-13 07:38:43_0.88249300 1507851523 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:38:45_0.63851300 1507851525 :/examine/piping
+
+2017-10-13 07:38:45_0.63989900 1507851525 request_uri:/examine/
+
+2017-10-13 07:38:45_0.64054800 1507851525 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:38:45_0.64226000 1507851525 request_uri:/examine/
+
+2017-10-13 07:38:45_0.64233700 1507851525 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:38:45_0.92884700 1507851525 :/Examine/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 07:38:45_0.93122600 1507851525 request_uri:/examine/
+
+2017-10-13 07:38:45_0.93130900 1507851525 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:38:48_0.16354200 1507851528 :/examine/piping
+
+2017-10-13 07:38:48_0.16557000 1507851528 request_uri:/examine/
+
+2017-10-13 07:38:48_0.16564400 1507851528 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:38:48_0.16745700 1507851528 request_uri:/examine/
+
+2017-10-13 07:38:48_0.16754400 1507851528 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:38:48_0.46454900 1507851528 :/Examine/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 07:38:48_0.46660100 1507851528 request_uri:/examine/
+
+2017-10-13 07:38:48_0.46669800 1507851528 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:39:00_0.67604600 1507851540 :/examine/piping
+
+2017-10-13 07:39:00_0.67740100 1507851540 request_uri:/examine/
+
+2017-10-13 07:39:00_0.67791000 1507851540 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:39:00_0.67968400 1507851540 request_uri:/examine/
+
+2017-10-13 07:39:00_0.67975400 1507851540 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:39:00_0.97248200 1507851540 :/Examine/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 07:39:00_0.97375500 1507851540 request_uri:/examine/
+
+2017-10-13 07:39:00_0.97434300 1507851540 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:39:02_0.17784400 1507851542 :/examine/piping
+
+2017-10-13 07:39:02_0.17961100 1507851542 request_uri:/examine/
+
+2017-10-13 07:39:02_0.17971400 1507851542 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:39:02_0.18193000 1507851542 request_uri:/examine/
+
+2017-10-13 07:39:02_0.18209200 1507851542 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:39:02_0.47212200 1507851542 :/Examine/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 07:39:02_0.47343700 1507851542 request_uri:/examine/
+
+2017-10-13 07:39:02_0.47392800 1507851542 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:39:03_0.83712900 1507851543 :/examine/piping
+
+2017-10-13 07:39:03_0.83918800 1507851543 request_uri:/examine/
+
+2017-10-13 07:39:03_0.83925800 1507851543 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:39:03_0.84115700 1507851543 request_uri:/examine/
+
+2017-10-13 07:39:03_0.84122500 1507851543 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:39:04_0.14090500 1507851544 :/Examine/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 07:39:04_0.14224200 1507851544 request_uri:/examine/
+
+2017-10-13 07:39:04_0.14273400 1507851544 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:39:05_0.67390500 1507851545 :/examine/piping
+
+2017-10-13 07:39:05_0.67535800 1507851545 request_uri:/examine/
+
+2017-10-13 07:39:05_0.67588300 1507851545 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:39:05_0.67767100 1507851545 request_uri:/examine/
+
+2017-10-13 07:39:05_0.67773500 1507851545 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:39:05_0.97293300 1507851545 :/Examine/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 07:39:05_0.97430300 1507851545 request_uri:/examine/
+
+2017-10-13 07:39:05_0.97479700 1507851545 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:39:06_0.90650400 1507851546 :/examine/piping
+
+2017-10-13 07:39:06_0.90798100 1507851546 request_uri:/examine/
+
+2017-10-13 07:39:06_0.90850200 1507851546 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:39:06_0.91015000 1507851546 request_uri:/examine/
+
+2017-10-13 07:39:06_0.91020700 1507851546 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:39:07_0.20929200 1507851547 :/Examine/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 07:39:07_0.21069000 1507851547 request_uri:/examine/
+
+2017-10-13 07:39:07_0.21117600 1507851547 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:39:42_0.54967100 1507851582 :/examine/piping
+
+2017-10-13 07:39:42_0.55135700 1507851582 request_uri:/examine/
+
+2017-10-13 07:39:42_0.55161200 1507851582 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:39:42_0.55391800 1507851582 request_uri:/examine/
+
+2017-10-13 07:39:42_0.55412800 1507851582 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:39:42_0.86268700 1507851582 :/Examine/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 07:39:42_0.86407000 1507851582 request_uri:/examine/
+
+2017-10-13 07:39:42_0.86461200 1507851582 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:39:44_0.26179500 1507851584 :/examine/piping
+
+2017-10-13 07:39:44_0.26325300 1507851584 request_uri:/examine/
+
+2017-10-13 07:39:44_0.26378500 1507851584 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:39:44_0.26553400 1507851584 request_uri:/examine/
+
+2017-10-13 07:39:44_0.26570900 1507851584 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:39:44_0.56826900 1507851584 :/Examine/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 07:39:44_0.56992000 1507851584 request_uri:/examine/
+
+2017-10-13 07:39:44_0.57021200 1507851584 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:39:45_0.77887900 1507851585 :/examine/piping
+
+2017-10-13 07:39:45_0.78038900 1507851585 request_uri:/examine/
+
+2017-10-13 07:39:45_0.78071300 1507851585 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:39:45_0.78255900 1507851585 request_uri:/examine/
+
+2017-10-13 07:39:45_0.78262800 1507851585 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:39:46_0.07977000 1507851586 :/Examine/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 07:39:46_0.08109300 1507851586 request_uri:/examine/
+
+2017-10-13 07:39:46_0.08171200 1507851586 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:40:00_0.13682700 1507851600 :/examine/piping
+
+2017-10-13 07:40:00_0.13891300 1507851600 request_uri:/examine/
+
+2017-10-13 07:40:00_0.13908700 1507851600 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:40:00_0.14138300 1507851600 request_uri:/examine/
+
+2017-10-13 07:40:00_0.14151200 1507851600 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:40:00_0.45139000 1507851600 :/Examine/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 07:40:00_0.45280400 1507851600 request_uri:/examine/
+
+2017-10-13 07:40:00_0.45330100 1507851600 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:40:20_0.49982500 1507851620 :/examine/piping
+
+2017-10-13 07:40:20_0.50140700 1507851620 request_uri:/examine/
+
+2017-10-13 07:40:20_0.50175500 1507851620 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:40:20_0.50351900 1507851620 request_uri:/examine/
+
+2017-10-13 07:40:20_0.50357700 1507851620 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:40:20_0.81928600 1507851620 :/Examine/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 07:40:20_0.82067400 1507851620 request_uri:/examine/
+
+2017-10-13 07:40:20_0.82110000 1507851620 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:40:23_0.56346100 1507851623 :/examine/piping
+
+2017-10-13 07:40:23_0.56493200 1507851623 request_uri:/examine/
+
+2017-10-13 07:40:23_0.56544800 1507851623 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:40:23_0.56732800 1507851623 request_uri:/examine/
+
+2017-10-13 07:40:23_0.56738400 1507851623 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:40:23_0.86828700 1507851623 :/Examine/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 07:40:23_0.86961300 1507851623 request_uri:/examine/
+
+2017-10-13 07:40:23_0.87013900 1507851623 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:41:42_0.54662700 1507851702 :/examine/piping
+
+2017-10-13 07:41:42_0.54825100 1507851702 request_uri:/examine/
+
+2017-10-13 07:41:42_0.54847000 1507851702 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:41:42_0.55028300 1507851702 request_uri:/examine/
+
+2017-10-13 07:41:42_0.55034400 1507851702 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:41:42_0.89327900 1507851702 :/Examine/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 07:41:42_0.89457200 1507851702 request_uri:/examine/
+
+2017-10-13 07:41:42_0.89513100 1507851702 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:41:43_0.42173700 1507851703 :/examine/piping
+
+2017-10-13 07:41:43_0.42326100 1507851703 request_uri:/examine/
+
+2017-10-13 07:41:43_0.42362200 1507851703 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:41:43_0.42630900 1507851703 request_uri:/examine/
+
+2017-10-13 07:41:43_0.42643300 1507851703 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:41:43_0.75249000 1507851703 :/Examine/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 07:41:43_0.75504300 1507851703 request_uri:/examine/
+
+2017-10-13 07:41:43_0.75512700 1507851703 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:41:46_0.05446600 1507851706 :/examine/piping
+
+2017-10-13 07:41:46_0.05632800 1507851706 request_uri:/examine/
+
+2017-10-13 07:41:46_0.05640200 1507851706 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:41:46_0.05879500 1507851706 request_uri:/examine/
+
+2017-10-13 07:41:46_0.05886800 1507851706 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:41:46_0.39058200 1507851706 :/Examine/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 07:41:46_0.39469600 1507851706 request_uri:/examine/
+
+2017-10-13 07:41:46_0.39484200 1507851706 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:41:55_0.04137500 1507851715 :/examine/piping
+
+2017-10-13 07:41:55_0.04349900 1507851715 request_uri:/examine/
+
+2017-10-13 07:41:55_0.04362600 1507851715 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:41:55_0.04560000 1507851715 request_uri:/examine/
+
+2017-10-13 07:41:55_0.04573100 1507851715 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:41:55_0.34551900 1507851715 :/Examine/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 07:41:55_0.34713400 1507851715 request_uri:/examine/
+
+2017-10-13 07:41:55_0.34741200 1507851715 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:42:14_0.78568700 1507851734 :/examine/piping
+
+2017-10-13 07:42:14_0.78735900 1507851734 request_uri:/examine/
+
+2017-10-13 07:42:14_0.78753000 1507851734 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:42:14_0.78974600 1507851734 request_uri:/examine/
+
+2017-10-13 07:42:14_0.78992400 1507851734 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:42:15_0.11415200 1507851735 :/Examine/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 07:42:15_0.11840400 1507851735 request_uri:/examine/
+
+2017-10-13 07:42:15_0.11849800 1507851735 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:42:15_0.63383800 1507851735 :/examine/piping
+
+2017-10-13 07:42:15_0.63538600 1507851735 request_uri:/examine/
+
+2017-10-13 07:42:15_0.63576100 1507851735 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:42:15_0.63788700 1507851735 request_uri:/examine/
+
+2017-10-13 07:42:15_0.63795800 1507851735 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:42:15_0.95570100 1507851735 :/Examine/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 07:42:15_0.95757400 1507851735 request_uri:/examine/
+
+2017-10-13 07:42:15_0.95774300 1507851735 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:42:21_0.43394200 1507851741 :/examine/piping
+
+2017-10-13 07:42:21_0.43578700 1507851741 request_uri:/examine/
+
+2017-10-13 07:42:21_0.43585300 1507851741 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:42:21_0.43745800 1507851741 request_uri:/examine/
+
+2017-10-13 07:42:21_0.43755000 1507851741 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:42:21_0.73534000 1507851741 :/Examine/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 07:42:21_0.73679800 1507851741 request_uri:/examine/
+
+2017-10-13 07:42:21_0.73693100 1507851741 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:42:59_0.60230000 1507851779 :/examine/piping
+
+2017-10-13 07:42:59_0.60418000 1507851779 request_uri:/examine/
+
+2017-10-13 07:42:59_0.60432900 1507851779 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:42:59_0.60620200 1507851779 request_uri:/examine/
+
+2017-10-13 07:42:59_0.60633900 1507851779 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:42:59_0.93704100 1507851779 :/Examine/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 07:42:59_0.93872000 1507851779 request_uri:/examine/
+
+2017-10-13 07:42:59_0.93903900 1507851779 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:43:04_0.42527200 1507851784 :/examine/piping
+
+2017-10-13 07:43:04_0.42674600 1507851784 request_uri:/examine/
+
+2017-10-13 07:43:04_0.42720600 1507851784 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:43:04_0.42928400 1507851784 request_uri:/examine/
+
+2017-10-13 07:43:04_0.42939200 1507851784 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:43:04_0.74004000 1507851784 :/Examine/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 07:43:04_0.74127300 1507851784 request_uri:/examine/
+
+2017-10-13 07:43:04_0.74133800 1507851784 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:44:59_0.17618100 1507851899 :/examine/piping
+
+2017-10-13 07:44:59_0.17791400 1507851899 request_uri:/examine/
+
+2017-10-13 07:44:59_0.17803700 1507851899 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:44:59_0.17983700 1507851899 request_uri:/examine/
+
+2017-10-13 07:44:59_0.17991600 1507851899 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:44:59_0.52914700 1507851899 :/Examine/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 07:44:59_0.53064800 1507851899 request_uri:/examine/
+
+2017-10-13 07:44:59_0.53102100 1507851899 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:45:00_0.53529900 1507851900 :/examine/piping
+
+2017-10-13 07:45:00_0.53714300 1507851900 request_uri:/examine/
+
+2017-10-13 07:45:00_0.53724000 1507851900 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:45:00_0.53969000 1507851900 request_uri:/examine/
+
+2017-10-13 07:45:00_0.53981200 1507851900 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:45:00_0.86691000 1507851900 :/Examine/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 07:45:00_0.86835100 1507851900 request_uri:/examine/
+
+2017-10-13 07:45:00_0.86884500 1507851900 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:45:05_0.01186300 1507851905 :/examine/piping
+
+2017-10-13 07:45:05_0.01438300 1507851905 request_uri:/examine/
+
+2017-10-13 07:45:05_0.01445300 1507851905 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:45:05_0.01627700 1507851905 request_uri:/examine/
+
+2017-10-13 07:45:05_0.01643000 1507851905 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:45:05_0.31496900 1507851905 :/Examine/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 07:45:05_0.31630900 1507851905 request_uri:/examine/
+
+2017-10-13 07:45:05_0.31682000 1507851905 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:50:45_0.31626400 1507852245 :/examine/piping
+
+2017-10-13 07:50:45_0.31783200 1507852245 request_uri:/examine/
+
+2017-10-13 07:50:45_0.31826300 1507852245 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:50:45_0.32011700 1507852245 request_uri:/examine/
+
+2017-10-13 07:50:45_0.32017800 1507852245 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:50:45_0.68036000 1507852245 :/Examine/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 07:50:45_0.68207800 1507852245 request_uri:/examine/
+
+2017-10-13 07:50:45_0.68225200 1507852245 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:50:48_0.32688100 1507852248 :/examine/piping
+
+2017-10-13 07:50:48_0.32834900 1507852248 request_uri:/examine/
+
+2017-10-13 07:50:48_0.32893800 1507852248 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:50:48_0.33080500 1507852248 request_uri:/examine/
+
+2017-10-13 07:50:48_0.33085900 1507852248 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:50:48_0.67518900 1507852248 :/Examine/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 07:50:48_0.67661000 1507852248 request_uri:/examine/
+
+2017-10-13 07:50:48_0.67700600 1507852248 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:51:01_0.43369400 1507852261 :/abnormal/piping
+
+2017-10-13 07:51:01_0.43518200 1507852261 request_uri:/abnormal/
+
+2017-10-13 07:51:01_0.43559600 1507852261 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:51:01_0.43788800 1507852261 request_uri:/abnormal/
+
+2017-10-13 07:51:01_0.43800800 1507852261 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:51:01_0.73951200 1507852261 :/Abnormal/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 07:51:01_0.74087300 1507852261 request_uri:/abnormal/
+
+2017-10-13 07:51:01_0.74141300 1507852261 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:51:06_0.25336100 1507852266 :/examine/piping
+
+2017-10-13 07:51:06_0.25524100 1507852266 request_uri:/examine/
+
+2017-10-13 07:51:06_0.25531500 1507852266 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:51:06_0.25703800 1507852266 request_uri:/examine/
+
+2017-10-13 07:51:06_0.25710300 1507852266 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:51:06_0.55255500 1507852266 :/Examine/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 07:51:06_0.55454000 1507852266 request_uri:/examine/
+
+2017-10-13 07:51:06_0.55467300 1507852266 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:57:33_0.29686800 1507852653 :/examine/piping
+
+2017-10-13 07:57:33_0.29840800 1507852653 request_uri:/examine/
+
+2017-10-13 07:57:33_0.29886600 1507852653 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:57:33_0.30048900 1507852653 request_uri:/examine/
+
+2017-10-13 07:57:33_0.30054600 1507852653 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:57:33_0.69121300 1507852653 :/Examine/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 07:57:33_0.69267500 1507852653 request_uri:/examine/
+
+2017-10-13 07:57:33_0.69274800 1507852653 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:57:34_0.92118500 1507852654 :/examine/piping
+
+2017-10-13 07:57:34_0.92258900 1507852654 request_uri:/examine/
+
+2017-10-13 07:57:34_0.92266100 1507852654 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:57:34_0.92437900 1507852654 request_uri:/examine/
+
+2017-10-13 07:57:34_0.92445100 1507852654 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:57:35_0.25152500 1507852655 :/Examine/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 07:57:35_0.25286700 1507852655 request_uri:/examine/
+
+2017-10-13 07:57:35_0.25341800 1507852655 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:57:39_0.20877700 1507852659 :/examine/piping
+
+2017-10-13 07:57:39_0.21035900 1507852659 request_uri:/examine/
+
+2017-10-13 07:57:39_0.21060700 1507852659 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:57:39_0.21231400 1507852659 request_uri:/examine/
+
+2017-10-13 07:57:39_0.21238000 1507852659 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:57:39_0.50966400 1507852659 :/Examine/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 07:57:39_0.51172500 1507852659 request_uri:/examine/
+
+2017-10-13 07:57:39_0.51201500 1507852659 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:59:51_0.96092700 1507852791 :/examine/piping
+
+2017-10-13 07:59:51_0.96244000 1507852791 request_uri:/examine/
+
+2017-10-13 07:59:51_0.96278600 1507852791 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:59:51_0.96438800 1507852791 request_uri:/examine/
+
+2017-10-13 07:59:51_0.96444400 1507852791 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:59:52_0.29264400 1507852792 :/Examine/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 07:59:52_0.29464700 1507852792 request_uri:/examine/
+
+2017-10-13 07:59:52_0.29481400 1507852792 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:59:57_0.30565400 1507852797 :/examine/piping
+
+2017-10-13 07:59:57_0.30734100 1507852797 request_uri:/examine/
+
+2017-10-13 07:59:57_0.30750000 1507852797 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:59:57_0.30929400 1507852797 request_uri:/examine/
+
+2017-10-13 07:59:57_0.30935000 1507852797 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 07:59:57_0.65985700 1507852797 :/Examine/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 07:59:57_0.66131300 1507852797 request_uri:/examine/
+
+2017-10-13 07:59:57_0.66171600 1507852797 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 08:05:53_0.29975400 1507853153 :/examine/piping
+
+2017-10-13 08:05:53_0.30117200 1507853153 request_uri:/examine/
+
+2017-10-13 08:05:53_0.30164500 1507853153 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 08:05:53_0.30363400 1507853153 request_uri:/examine/
+
+2017-10-13 08:05:53_0.30373200 1507853153 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 08:05:53_0.64776900 1507853153 :/Examine/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 08:05:53_0.65000200 1507853153 request_uri:/examine/
+
+2017-10-13 08:05:53_0.65007700 1507853153 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 08:05:54_0.79627200 1507853154 :/examine/piping
+
+2017-10-13 08:05:54_0.79767400 1507853154 request_uri:/examine/
+
+2017-10-13 08:05:54_0.79823600 1507853154 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 08:05:54_0.80019300 1507853154 request_uri:/examine/
+
+2017-10-13 08:05:54_0.80025900 1507853154 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 08:05:55_0.12886200 1507853155 :/Examine/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 08:05:55_0.13098400 1507853155 request_uri:/examine/
+
+2017-10-13 08:05:55_0.13119000 1507853155 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 08:05:55_0.81034900 1507853155 :/examine/piping
+
+2017-10-13 08:05:55_0.81179600 1507853155 request_uri:/examine/
+
+2017-10-13 08:05:55_0.81242500 1507853155 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 08:05:55_0.81435900 1507853155 request_uri:/examine/
+
+2017-10-13 08:05:55_0.81441600 1507853155 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 08:05:56_0.13954500 1507853156 :/Examine/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 08:05:56_0.14144200 1507853156 request_uri:/examine/
+
+2017-10-13 08:05:56_0.14154600 1507853156 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 08:05:57_0.16223500 1507853157 :/examine/piping
+
+2017-10-13 08:05:57_0.16382700 1507853157 request_uri:/examine/
+
+2017-10-13 08:05:57_0.16412200 1507853157 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 08:05:57_0.16584900 1507853157 request_uri:/examine/
+
+2017-10-13 08:05:57_0.16591500 1507853157 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 08:05:57_0.46442300 1507853157 :/Examine/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 08:05:57_0.46607900 1507853157 request_uri:/examine/
+
+2017-10-13 08:05:57_0.46643700 1507853157 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 08:06:17_0.59451000 1507853177 :/Examine/ajaxPipingAddOrUpdate
+
+2017-10-13 08:06:17_0.59611500 1507853177 request_uri:/examine/
+
+2017-10-13 08:06:17_0.59641400 1507853177 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 08:06:17_0.61381200 1507853177 :/Examine/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 08:06:17_0.61562800 1507853177 request_uri:/examine/
+
+2017-10-13 08:06:17_0.61576000 1507853177 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 08:06:21_0.75766200 1507853181 :/examine/piping
+
+2017-10-13 08:06:21_0.75961900 1507853181 request_uri:/examine/
+
+2017-10-13 08:06:21_0.75975700 1507853181 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 08:06:21_0.76178600 1507853181 request_uri:/examine/
+
+2017-10-13 08:06:21_0.76188700 1507853181 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 08:06:22_0.07460500 1507853182 :/Examine/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 08:06:22_0.07642300 1507853182 request_uri:/examine/
+
+2017-10-13 08:06:22_0.07649600 1507853182 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 08:09:31_0.52383900 1507853371 :/examine/piping
+
+2017-10-13 08:09:31_0.52536400 1507853371 request_uri:/examine/
+
+2017-10-13 08:09:31_0.52570700 1507853371 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 08:09:31_0.52749200 1507853371 request_uri:/examine/
+
+2017-10-13 08:09:31_0.52756500 1507853371 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 08:09:31_0.88014600 1507853371 :/Examine/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 08:09:31_0.88167200 1507853371 request_uri:/examine/
+
+2017-10-13 08:09:31_0.88204200 1507853371 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 08:09:33_0.55192800 1507853373 :/examine/piping
+
+2017-10-13 08:09:33_0.55402400 1507853373 request_uri:/examine/
+
+2017-10-13 08:09:33_0.55419100 1507853373 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 08:09:33_0.55628100 1507853373 request_uri:/examine/
+
+2017-10-13 08:09:33_0.55635000 1507853373 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 08:09:33_0.87418100 1507853373 :/Examine/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 08:09:33_0.87555300 1507853373 request_uri:/examine/
+
+2017-10-13 08:09:33_0.87606300 1507853373 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 08:09:52_0.14428900 1507853392 :/examine/piping
+
+2017-10-13 08:09:52_0.14585000 1507853392 request_uri:/examine/
+
+2017-10-13 08:09:52_0.14610300 1507853392 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 08:09:52_0.14763900 1507853392 request_uri:/examine/
+
+2017-10-13 08:09:52_0.14769900 1507853392 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 08:09:52_0.46763900 1507853392 :/Examine/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 08:09:52_0.46943000 1507853392 request_uri:/examine/
+
+2017-10-13 08:09:52_0.46958500 1507853392 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 08:10:25_0.80712200 1507853425 :/
+
+2017-10-13 08:10:25_0.86558100 1507853425 :/system/captcha
+
+2017-10-13 08:10:26_0.22831400 1507853426 :/favicon.ico
+
+2017-10-13 08:10:36_0.55771200 1507853436 :/system/ajaxLogin
+
+2017-10-13 08:10:36_0.63920700 1507853436 :/system/captcha?0.21278027179265202
+
+2017-10-13 08:10:42_0.25217600 1507853442 :/system/ajaxLogin
+
+2017-10-13 08:10:42_0.30833100 1507853442 :/system/captcha?0.4757513874035568
+
+2017-10-13 08:10:46_0.12522700 1507853446 :/system/ajaxLogin
+
+2017-10-13 08:10:46_0.20362900 1507853446 :/system/captcha?0.9897951480162819
+
+2017-10-13 08:10:54_0.62539700 1507853454 :/system/ajaxLogin
+
+2017-10-13 08:10:54_0.74330900 1507853454 :/welcome/index
+
+2017-10-13 08:10:59_0.29141100 1507853459 :/examine/piping
+
+2017-10-13 08:10:59_0.87717300 1507853459 :/Examine/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 08:11:16_0.09522000 1507853476 :/base/section
+
+2017-10-13 08:11:16_0.47152200 1507853476 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 08:11:17_0.79603200 1507853477 :/abnormal/piping
+
+2017-10-13 08:11:18_0.29018300 1507853478 :/Abnormal/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 08:11:21_0.36294000 1507853481 :/examine/piping
+
+2017-10-13 08:11:21_0.80832500 1507853481 :/Examine/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 08:11:34_0.90690400 1507853494 :/system/account/list
+
+2017-10-13 08:11:35_0.38037300 1507853495 :/system/ajaxAccountGetList?sort=sort_weight&order=desc
+
+2017-10-13 08:11:41_0.40807100 1507853501 :/system/logout
+
+2017-10-13 08:11:41_0.41781600 1507853501 :/system/
+
+2017-10-13 08:11:41_0.47288500 1507853501 :/system/captcha
+
+2017-10-13 08:11:53_0.82232500 1507853513 :/system/ajaxLogin
+
+2017-10-13 08:11:53_0.94667800 1507853513 :/welcome/index
+
+2017-10-13 08:11:53_0.94786300 1507853513 request_uri:/welcome/
+
+2017-10-13 08:11:53_0.94851200 1507853513 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:11:57_0.12278700 1507853517 :/abnormal/piping
+
+2017-10-13 08:11:57_0.12527300 1507853517 request_uri:/abnormal/
+
+2017-10-13 08:11:57_0.12538100 1507853517 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:11:57_0.12735100 1507853517 request_uri:/abnormal/
+
+2017-10-13 08:11:57_0.12745100 1507853517 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:11:57_0.64500300 1507853517 :/Abnormal/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 08:11:57_0.64725000 1507853517 request_uri:/abnormal/
+
+2017-10-13 08:11:57_0.64743800 1507853517 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:13:01_0.19400600 1507853581 :/examine/piping
+
+2017-10-13 08:13:01_0.20148900 1507853581 request_uri:/examine/
+
+2017-10-13 08:13:01_0.20719300 1507853581 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 08:13:01_0.21027300 1507853581 request_uri:/examine/
+
+2017-10-13 08:13:01_0.21040200 1507853581 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 08:13:01_0.55260400 1507853581 :/Examine/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 08:13:01_0.55401800 1507853581 request_uri:/examine/
+
+2017-10-13 08:13:01_0.55452300 1507853581 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 08:13:05_0.55921000 1507853585 :/abnormal/piping
+
+2017-10-13 08:13:05_0.56654400 1507853585 request_uri:/abnormal/
+
+2017-10-13 08:13:05_0.57200600 1507853585 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:13:05_0.57853500 1507853585 request_uri:/abnormal/
+
+2017-10-13 08:13:05_0.57860200 1507853585 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:13:06_0.23534400 1507853586 :/Abnormal/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 08:13:06_0.23728700 1507853586 request_uri:/abnormal/
+
+2017-10-13 08:13:06_0.24307700 1507853586 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:13:07_0.21217300 1507853587 :/abnormal/piping
+
+2017-10-13 08:13:07_0.21337900 1507853587 request_uri:/abnormal/
+
+2017-10-13 08:13:07_0.21417500 1507853587 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:13:07_0.21568600 1507853587 request_uri:/abnormal/
+
+2017-10-13 08:13:07_0.21576300 1507853587 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:13:07_0.69813600 1507853587 :/Abnormal/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 08:13:07_0.69933800 1507853587 request_uri:/abnormal/
+
+2017-10-13 08:13:07_0.70009700 1507853587 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:13:08_0.85312600 1507853588 :/abnormal/piping
+
+2017-10-13 08:13:08_0.85436100 1507853588 request_uri:/abnormal/
+
+2017-10-13 08:13:08_0.85497100 1507853588 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:13:08_0.85648000 1507853588 request_uri:/abnormal/
+
+2017-10-13 08:13:08_0.85655300 1507853588 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:13:09_0.29015000 1507853589 :/Abnormal/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 08:13:09_0.29158800 1507853589 request_uri:/abnormal/
+
+2017-10-13 08:13:09_0.29201700 1507853589 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:13:32_0.10088900 1507853612 :/system/logout
+
+2017-10-13 08:13:32_0.11262200 1507853612 :/system/
+
+2017-10-13 08:13:32_0.15462600 1507853612 :/system/captcha
+
+2017-10-13 08:13:44_0.58624500 1507853624 :/system/ajaxLogin
+
+2017-10-13 08:13:44_0.71007700 1507853624 :/welcome/index
+
+2017-10-13 08:13:44_0.71223800 1507853624 request_uri:/welcome/
+
+2017-10-13 08:13:44_0.71233200 1507853624 list:["\/welcome\/","\/system\/","\/base\/","\/examine\/","\/standard\/"]
+
+2017-10-13 08:13:47_0.78233800 1507853627 :/examine/piping
+
+2017-10-13 08:13:47_0.78423200 1507853627 request_uri:/examine/
+
+2017-10-13 08:13:47_0.78430300 1507853627 list:["\/welcome\/","\/system\/","\/base\/","\/examine\/","\/standard\/"]
+
+2017-10-13 08:13:47_0.78667700 1507853627 request_uri:/examine/
+
+2017-10-13 08:13:47_0.78676600 1507853627 list:["\/welcome\/","\/system\/","\/base\/","\/examine\/","\/standard\/"]
+
+2017-10-13 08:13:48_0.31538600 1507853628 :/Examine/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 08:13:48_0.31735200 1507853628 request_uri:/examine/
+
+2017-10-13 08:13:48_0.31742300 1507853628 list:["\/welcome\/","\/system\/","\/base\/","\/examine\/","\/standard\/"]
+
+2017-10-13 08:13:58_0.70561500 1507853638 :/Examine/ajaxPipingAddOrUpdate
+
+2017-10-13 08:13:58_0.71811200 1507853638 request_uri:/examine/
+
+2017-10-13 08:13:58_0.72281000 1507853638 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 08:13:58_0.74158900 1507853638 :/Examine/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 08:13:58_0.74884800 1507853638 request_uri:/examine/
+
+2017-10-13 08:13:58_0.75347100 1507853638 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 08:14:04_0.88712100 1507853644 :/standard/list_data
+
+2017-10-13 08:14:04_0.89442900 1507853644 request_uri:/standard/
+
+2017-10-13 08:14:04_0.89450200 1507853644 list:["\/welcome\/","\/system\/","\/base\/","\/examine\/","\/standard\/"]
+
+2017-10-13 08:14:04_0.90051600 1507853644 request_uri:/standard/
+
+2017-10-13 08:14:04_0.90105500 1507853644 list:["\/welcome\/","\/system\/","\/base\/","\/examine\/","\/standard\/"]
+
+2017-10-13 08:14:05_0.34162600 1507853645 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-13 08:14:05_0.34546700 1507853645 request_uri:/standard/
+
+2017-10-13 08:14:05_0.34555000 1507853645 list:["\/welcome\/","\/system\/","\/base\/","\/examine\/","\/standard\/"]
+
+2017-10-13 08:14:07_0.23628100 1507853647 :/examine/piping
+
+2017-10-13 08:14:07_0.23808200 1507853647 request_uri:/examine/
+
+2017-10-13 08:14:07_0.23814100 1507853647 list:["\/welcome\/","\/system\/","\/base\/","\/examine\/","\/standard\/"]
+
+2017-10-13 08:14:07_0.24020300 1507853647 request_uri:/examine/
+
+2017-10-13 08:14:07_0.24027000 1507853647 list:["\/welcome\/","\/system\/","\/base\/","\/examine\/","\/standard\/"]
+
+2017-10-13 08:14:07_0.71506000 1507853647 :/Examine/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 08:14:07_0.71694000 1507853647 request_uri:/examine/
+
+2017-10-13 08:14:07_0.71700900 1507853647 list:["\/welcome\/","\/system\/","\/base\/","\/examine\/","\/standard\/"]
+
+2017-10-13 08:14:09_0.79348500 1507853649 :/examine/piping
+
+2017-10-13 08:14:09_0.79541400 1507853649 request_uri:/examine/
+
+2017-10-13 08:14:09_0.79549000 1507853649 list:["\/welcome\/","\/system\/","\/base\/","\/examine\/","\/standard\/"]
+
+2017-10-13 08:14:09_0.79762600 1507853649 request_uri:/examine/
+
+2017-10-13 08:14:09_0.79767900 1507853649 list:["\/welcome\/","\/system\/","\/base\/","\/examine\/","\/standard\/"]
+
+2017-10-13 08:14:10_0.25124900 1507853650 :/Examine/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 08:14:10_0.25329300 1507853650 request_uri:/examine/
+
+2017-10-13 08:14:10_0.25337300 1507853650 list:["\/welcome\/","\/system\/","\/base\/","\/examine\/","\/standard\/"]
+
+2017-10-13 08:14:11_0.08534000 1507853651 :/examine/piping
+
+2017-10-13 08:14:11_0.08718900 1507853651 request_uri:/examine/
+
+2017-10-13 08:14:11_0.08725100 1507853651 list:["\/welcome\/","\/system\/","\/base\/","\/examine\/","\/standard\/"]
+
+2017-10-13 08:14:11_0.08935300 1507853651 request_uri:/examine/
+
+2017-10-13 08:14:11_0.08943200 1507853651 list:["\/welcome\/","\/system\/","\/base\/","\/examine\/","\/standard\/"]
+
+2017-10-13 08:14:11_0.52726800 1507853651 :/Examine/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 08:14:11_0.53002700 1507853651 request_uri:/examine/
+
+2017-10-13 08:14:11_0.53012700 1507853651 list:["\/welcome\/","\/system\/","\/base\/","\/examine\/","\/standard\/"]
+
+2017-10-13 08:14:12_0.72060100 1507853652 :/examine/piping
+
+2017-10-13 08:14:12_0.72284200 1507853652 request_uri:/examine/
+
+2017-10-13 08:14:12_0.72296400 1507853652 list:["\/welcome\/","\/system\/","\/base\/","\/examine\/","\/standard\/"]
+
+2017-10-13 08:14:12_0.72552500 1507853652 request_uri:/examine/
+
+2017-10-13 08:14:12_0.72564000 1507853652 list:["\/welcome\/","\/system\/","\/base\/","\/examine\/","\/standard\/"]
+
+2017-10-13 08:14:13_0.19190100 1507853653 :/Examine/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 08:14:13_0.19440800 1507853653 request_uri:/examine/
+
+2017-10-13 08:14:13_0.19464400 1507853653 list:["\/welcome\/","\/system\/","\/base\/","\/examine\/","\/standard\/"]
+
+2017-10-13 08:14:14_0.51038800 1507853654 :/examine/piping
+
+2017-10-13 08:14:14_0.51236500 1507853654 request_uri:/examine/
+
+2017-10-13 08:14:14_0.51244100 1507853654 list:["\/welcome\/","\/system\/","\/base\/","\/examine\/","\/standard\/"]
+
+2017-10-13 08:14:14_0.51458400 1507853654 request_uri:/examine/
+
+2017-10-13 08:14:14_0.51463600 1507853654 list:["\/welcome\/","\/system\/","\/base\/","\/examine\/","\/standard\/"]
+
+2017-10-13 08:14:14_0.96428300 1507853654 :/Examine/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 08:14:14_0.96625700 1507853654 request_uri:/examine/
+
+2017-10-13 08:14:14_0.96633500 1507853654 list:["\/welcome\/","\/system\/","\/base\/","\/examine\/","\/standard\/"]
+
+2017-10-13 08:14:38_0.98403500 1507853678 :/examine/piping
+
+2017-10-13 08:14:38_0.98552300 1507853678 request_uri:/examine/
+
+2017-10-13 08:14:38_0.98588000 1507853678 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 08:14:38_0.98767100 1507853678 request_uri:/examine/
+
+2017-10-13 08:14:38_0.98781900 1507853678 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 08:14:39_0.32645500 1507853679 :/Examine/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 08:14:39_0.32786700 1507853679 request_uri:/examine/
+
+2017-10-13 08:14:39_0.32830200 1507853679 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 08:14:56_0.03326100 1507853696 :/examine/piping
+
+2017-10-13 08:14:56_0.04704700 1507853696 request_uri:/examine/
+
+2017-10-13 08:14:56_0.05285000 1507853696 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 08:14:56_0.05993100 1507853696 request_uri:/examine/
+
+2017-10-13 08:14:56_0.06569800 1507853696 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 08:14:56_0.41534600 1507853696 :/Examine/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 08:14:56_0.42198700 1507853696 request_uri:/examine/
+
+2017-10-13 08:14:56_0.43340500 1507853696 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 08:15:03_0.29553400 1507853703 :/Examine/ajaxPipingAddOrUpdate
+
+2017-10-13 08:15:03_0.29723900 1507853703 request_uri:/examine/
+
+2017-10-13 08:15:03_0.29749600 1507853703 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 08:15:03_0.31351900 1507853703 :/Examine/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 08:15:03_0.31536600 1507853703 request_uri:/examine/
+
+2017-10-13 08:15:03_0.31544100 1507853703 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 08:15:21_0.26120800 1507853721 :/examine/piping
+
+2017-10-13 08:15:21_0.26283700 1507853721 request_uri:/examine/
+
+2017-10-13 08:15:21_0.26305800 1507853721 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 08:15:21_0.26559700 1507853721 request_uri:/examine/
+
+2017-10-13 08:15:21_0.26577400 1507853721 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 08:15:21_0.59889200 1507853721 :/Examine/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 08:15:21_0.60622400 1507853721 request_uri:/examine/
+
+2017-10-13 08:15:21_0.61165300 1507853721 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 08:16:05_0.52145400 1507853765 :/Examine/ajaxPipingAddOrUpdate
+
+2017-10-13 08:16:05_0.52379000 1507853765 request_uri:/examine/
+
+2017-10-13 08:16:05_0.52384500 1507853765 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 08:16:05_0.54225100 1507853765 :/Examine/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 08:16:05_0.54372100 1507853765 request_uri:/examine/
+
+2017-10-13 08:16:05_0.54378600 1507853765 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 08:16:12_0.52071500 1507853772 :/examine/piping
+
+2017-10-13 08:16:12_0.52278900 1507853772 request_uri:/examine/
+
+2017-10-13 08:16:12_0.52284500 1507853772 list:["\/welcome\/","\/system\/","\/base\/","\/examine\/","\/standard\/"]
+
+2017-10-13 08:16:12_0.52500700 1507853772 request_uri:/examine/
+
+2017-10-13 08:16:12_0.52506000 1507853772 list:["\/welcome\/","\/system\/","\/base\/","\/examine\/","\/standard\/"]
+
+2017-10-13 08:16:13_0.20185500 1507853773 :/Examine/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 08:16:13_0.20398500 1507853773 request_uri:/examine/
+
+2017-10-13 08:16:13_0.20408900 1507853773 list:["\/welcome\/","\/system\/","\/base\/","\/examine\/","\/standard\/"]
+
+2017-10-13 08:16:35_0.57092000 1507853795 :/Examine/ajaxPipingAddOrUpdate
+
+2017-10-13 08:16:35_0.57897400 1507853795 request_uri:/examine/
+
+2017-10-13 08:16:35_0.58367600 1507853795 list:["\/welcome\/","\/system\/","\/base\/","\/examine\/","\/standard\/"]
+
+2017-10-13 08:16:35_0.67676300 1507853795 :/Examine/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 08:16:35_0.67859900 1507853795 request_uri:/examine/
+
+2017-10-13 08:16:35_0.67866900 1507853795 list:["\/welcome\/","\/system\/","\/base\/","\/examine\/","\/standard\/"]
+
+2017-10-13 08:16:41_0.54738800 1507853801 :/system/logout
+
+2017-10-13 08:16:41_0.55291600 1507853801 :/system/
+
+2017-10-13 08:16:41_0.58991000 1507853801 :/system/captcha
+
+2017-10-13 08:16:53_0.84941500 1507853813 :/system/ajaxLogin
+
+2017-10-13 08:16:53_0.96917600 1507853813 :/welcome/index
+
+2017-10-13 08:16:53_0.97134700 1507853813 request_uri:/welcome/
+
+2017-10-13 08:16:53_0.97142600 1507853813 list:["\/welcome\/","\/system\/","\/base\/","\/examine\/","\/standard\/"]
+
+2017-10-13 08:16:57_0.32525600 1507853817 :/examine/piping
+
+2017-10-13 08:16:57_0.32870500 1507853817 request_uri:/examine/
+
+2017-10-13 08:16:57_0.32904700 1507853817 list:["\/welcome\/","\/system\/","\/base\/","\/examine\/","\/standard\/"]
+
+2017-10-13 08:16:57_0.33277400 1507853817 request_uri:/examine/
+
+2017-10-13 08:16:57_0.33285400 1507853817 list:["\/welcome\/","\/system\/","\/base\/","\/examine\/","\/standard\/"]
+
+2017-10-13 08:16:57_0.85590300 1507853817 :/Examine/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 08:16:57_0.85780900 1507853817 request_uri:/examine/
+
+2017-10-13 08:16:57_0.85788600 1507853817 list:["\/welcome\/","\/system\/","\/base\/","\/examine\/","\/standard\/"]
+
+2017-10-13 08:17:07_0.86151400 1507853827 :/Examine/ajaxPipingAddOrUpdate
+
+2017-10-13 08:17:07_0.87111800 1507853827 request_uri:/examine/
+
+2017-10-13 08:17:07_0.87132200 1507853827 list:["\/welcome\/","\/system\/","\/base\/","\/examine\/","\/standard\/"]
+
+2017-10-13 08:17:07_0.94821200 1507853827 :/Examine/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 08:17:07_0.95024400 1507853827 request_uri:/examine/
+
+2017-10-13 08:17:07_0.95031400 1507853827 list:["\/welcome\/","\/system\/","\/base\/","\/examine\/","\/standard\/"]
+
+2017-10-13 08:17:14_0.02926700 1507853834 :/examine/piping
+
+2017-10-13 08:17:14_0.03083400 1507853834 request_uri:/examine/
+
+2017-10-13 08:17:14_0.03118000 1507853834 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 08:17:14_0.03316300 1507853834 request_uri:/examine/
+
+2017-10-13 08:17:14_0.03325200 1507853834 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 08:17:14_0.36817400 1507853834 :/Examine/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 08:17:14_0.36964400 1507853834 request_uri:/examine/
+
+2017-10-13 08:17:14_0.37000200 1507853834 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 08:17:19_0.70791900 1507853839 :/system/logout
+
+2017-10-13 08:17:19_0.72226200 1507853839 :/system/
+
+2017-10-13 08:17:19_0.76659800 1507853839 :/system/captcha
+
+2017-10-13 08:17:20_0.25318000 1507853840 :/favicon.ico
+
+2017-10-13 08:17:32_0.27831500 1507853852 :/system/ajaxLogin
+
+2017-10-13 08:17:32_0.32827100 1507853852 :/welcome/index
+
+2017-10-13 08:17:32_0.32956400 1507853852 request_uri:/welcome/
+
+2017-10-13 08:17:32_0.33029600 1507853852 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:17:35_0.33180000 1507853855 :/abnormal/piping
+
+2017-10-13 08:17:35_0.33342800 1507853855 request_uri:/abnormal/
+
+2017-10-13 08:17:35_0.33368500 1507853855 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:17:35_0.33522900 1507853855 request_uri:/abnormal/
+
+2017-10-13 08:17:35_0.33536800 1507853855 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:17:35_0.64513400 1507853855 :/Abnormal/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 08:17:35_0.64651800 1507853855 request_uri:/abnormal/
+
+2017-10-13 08:17:35_0.64697900 1507853855 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:18:07_0.44634600 1507853887 :/abnormal/piping
+
+2017-10-13 08:18:07_0.44769100 1507853887 request_uri:/abnormal/
+
+2017-10-13 08:18:07_0.44832700 1507853887 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:18:07_0.44979700 1507853887 request_uri:/abnormal/
+
+2017-10-13 08:18:07_0.44986400 1507853887 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:18:07_0.84200000 1507853887 :/Abnormal/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 08:18:07_0.84314600 1507853887 request_uri:/abnormal/
+
+2017-10-13 08:18:07_0.84391300 1507853887 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:18:09_0.23744100 1507853889 :/abnormal/piping
+
+2017-10-13 08:18:09_0.23936400 1507853889 request_uri:/abnormal/
+
+2017-10-13 08:18:09_0.23952400 1507853889 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:18:09_0.24124600 1507853889 request_uri:/abnormal/
+
+2017-10-13 08:18:09_0.24131300 1507853889 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:18:09_0.56075200 1507853889 :/Abnormal/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 08:18:09_0.56193600 1507853889 request_uri:/abnormal/
+
+2017-10-13 08:18:09_0.56265700 1507853889 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:18:10_0.12934400 1507853890 :/abnormal/piping
+
+2017-10-13 08:18:10_0.13056100 1507853890 request_uri:/abnormal/
+
+2017-10-13 08:18:10_0.13133500 1507853890 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:18:10_0.13272100 1507853890 request_uri:/abnormal/
+
+2017-10-13 08:18:10_0.13278400 1507853890 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:18:10_0.43033300 1507853890 :/Abnormal/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 08:18:10_0.43168500 1507853890 request_uri:/abnormal/
+
+2017-10-13 08:18:10_0.43223700 1507853890 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:18:15_0.99814300 1507853895 :/abnormal/piping
+
+2017-10-13 08:18:15_0.99935900 1507853895 request_uri:/abnormal/
+
+2017-10-13 08:18:15_0.99998100 1507853895 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:18:16_0.00171600 1507853896 request_uri:/abnormal/
+
+2017-10-13 08:18:16_0.00183800 1507853896 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:18:16_0.33295000 1507853896 :/Abnormal/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 08:18:16_0.33427700 1507853896 request_uri:/abnormal/
+
+2017-10-13 08:18:16_0.33481900 1507853896 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:18:16_0.86456900 1507853896 :/abnormal/piping
+
+2017-10-13 08:18:16_0.86590800 1507853896 request_uri:/abnormal/
+
+2017-10-13 08:18:16_0.86650600 1507853896 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:18:16_0.86796200 1507853896 request_uri:/abnormal/
+
+2017-10-13 08:18:16_0.86802400 1507853896 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:18:17_0.19835900 1507853897 :/Abnormal/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 08:18:17_0.19966500 1507853897 request_uri:/abnormal/
+
+2017-10-13 08:18:17_0.20022600 1507853897 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:18:17_0.50706800 1507853897 :/abnormal/piping
+
+2017-10-13 08:18:17_0.51454300 1507853897 request_uri:/abnormal/
+
+2017-10-13 08:18:17_0.52026300 1507853897 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:18:17_0.52744400 1507853897 request_uri:/abnormal/
+
+2017-10-13 08:18:17_0.52754300 1507853897 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:18:17_0.91759000 1507853897 :/Abnormal/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 08:18:17_0.91959700 1507853897 request_uri:/abnormal/
+
+2017-10-13 08:18:17_0.92010300 1507853897 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:18:18_0.60365700 1507853898 :/abnormal/piping
+
+2017-10-13 08:18:18_0.60504200 1507853898 request_uri:/abnormal/
+
+2017-10-13 08:18:18_0.60554200 1507853898 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:18:18_0.60746700 1507853898 request_uri:/abnormal/
+
+2017-10-13 08:18:18_0.60760400 1507853898 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:18:18_0.90707300 1507853898 :/Abnormal/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 08:18:18_0.90836500 1507853898 request_uri:/abnormal/
+
+2017-10-13 08:18:18_0.90895800 1507853898 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:18:19_0.51206100 1507853899 :/abnormal/piping
+
+2017-10-13 08:18:19_0.51321000 1507853899 request_uri:/abnormal/
+
+2017-10-13 08:18:19_0.51392500 1507853899 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:18:19_0.51542000 1507853899 request_uri:/abnormal/
+
+2017-10-13 08:18:19_0.51547900 1507853899 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:18:19_0.82442300 1507853899 :/Abnormal/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 08:18:19_0.82575700 1507853899 request_uri:/abnormal/
+
+2017-10-13 08:18:19_0.82646600 1507853899 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:21:19_0.76268100 1507854079 :/abnormal/piping
+
+2017-10-13 08:21:19_0.76392000 1507854079 request_uri:/abnormal/
+
+2017-10-13 08:21:19_0.76448700 1507854079 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:21:19_0.76604200 1507854079 request_uri:/abnormal/
+
+2017-10-13 08:21:19_0.76612100 1507854079 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:21:20_0.19789800 1507854080 :/Abnormal/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 08:21:20_0.19938300 1507854080 request_uri:/abnormal/
+
+2017-10-13 08:21:20_0.20014900 1507854080 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:21:23_0.45668100 1507854083 :/abnormal/piping
+
+2017-10-13 08:21:23_0.45782200 1507854083 request_uri:/abnormal/
+
+2017-10-13 08:21:23_0.45853400 1507854083 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:21:23_0.46001700 1507854083 request_uri:/abnormal/
+
+2017-10-13 08:21:23_0.46007300 1507854083 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:21:23_0.79497700 1507854083 :/Abnormal/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 08:21:23_0.79623900 1507854083 request_uri:/abnormal/
+
+2017-10-13 08:21:23_0.79692600 1507854083 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:21:32_0.13147700 1507854092 :/abnormal/piping
+
+2017-10-13 08:21:32_0.13269700 1507854092 request_uri:/abnormal/
+
+2017-10-13 08:21:32_0.13333100 1507854092 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:21:32_0.13481600 1507854092 request_uri:/abnormal/
+
+2017-10-13 08:21:32_0.13488300 1507854092 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:21:32_0.43300600 1507854092 :/Abnormal/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 08:21:32_0.43433800 1507854092 request_uri:/abnormal/
+
+2017-10-13 08:21:32_0.43497800 1507854092 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:21:35_0.76298000 1507854095 :/abnormal/piping
+
+2017-10-13 08:21:35_0.76422300 1507854095 request_uri:/abnormal/
+
+2017-10-13 08:21:35_0.76514400 1507854095 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:21:35_0.76708900 1507854095 request_uri:/abnormal/
+
+2017-10-13 08:21:35_0.76716900 1507854095 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:21:36_0.05984300 1507854096 :/Abnormal/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 08:21:36_0.06107900 1507854096 request_uri:/abnormal/
+
+2017-10-13 08:21:36_0.06176900 1507854096 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:23:43_0.99493700 1507854223 :/abnormal/piping
+
+2017-10-13 08:23:43_0.99611800 1507854223 request_uri:/abnormal/
+
+2017-10-13 08:23:43_0.99673400 1507854223 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:23:43_0.99804700 1507854223 request_uri:/abnormal/
+
+2017-10-13 08:23:43_0.99811100 1507854223 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:23:44_0.41049400 1507854224 :/Abnormal/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 08:23:44_0.41198000 1507854224 request_uri:/abnormal/
+
+2017-10-13 08:23:44_0.41239700 1507854224 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:23:48_0.68270500 1507854228 :/abnormal/piping
+
+2017-10-13 08:23:48_0.68389700 1507854228 request_uri:/abnormal/
+
+2017-10-13 08:23:48_0.68462500 1507854228 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:23:48_0.68659300 1507854228 request_uri:/abnormal/
+
+2017-10-13 08:23:48_0.68668700 1507854228 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:23:49_0.02020600 1507854229 :/Abnormal/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 08:23:49_0.02134900 1507854229 request_uri:/abnormal/
+
+2017-10-13 08:23:49_0.02201700 1507854229 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:23:51_0.03816500 1507854231 :/abnormal/piping
+
+2017-10-13 08:23:51_0.03963000 1507854231 request_uri:/abnormal/
+
+2017-10-13 08:23:51_0.04004100 1507854231 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:23:51_0.04163600 1507854231 request_uri:/abnormal/
+
+2017-10-13 08:23:51_0.04168800 1507854231 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:23:51_0.34340400 1507854231 :/Abnormal/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 08:23:51_0.34455500 1507854231 request_uri:/abnormal/
+
+2017-10-13 08:23:51_0.34533700 1507854231 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:23:53_0.20343100 1507854233 :/abnormal/piping
+
+2017-10-13 08:23:53_0.20523800 1507854233 request_uri:/abnormal/
+
+2017-10-13 08:23:53_0.20535000 1507854233 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:23:53_0.20715100 1507854233 request_uri:/abnormal/
+
+2017-10-13 08:23:53_0.20729100 1507854233 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:23:53_0.50797400 1507854233 :/Abnormal/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 08:23:53_0.50921500 1507854233 request_uri:/abnormal/
+
+2017-10-13 08:23:53_0.50983300 1507854233 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:23:55_0.16001400 1507854235 :/abnormal/piping
+
+2017-10-13 08:23:55_0.16124500 1507854235 request_uri:/abnormal/
+
+2017-10-13 08:23:55_0.16190400 1507854235 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:23:55_0.16328100 1507854235 request_uri:/abnormal/
+
+2017-10-13 08:23:55_0.16333600 1507854235 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:23:55_0.46232600 1507854235 :/Abnormal/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 08:23:55_0.46354600 1507854235 request_uri:/abnormal/
+
+2017-10-13 08:23:55_0.46428200 1507854235 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:26:32_0.74042600 1507854392 :/abnormal/piping
+
+2017-10-13 08:26:32_0.74166900 1507854392 request_uri:/abnormal/
+
+2017-10-13 08:26:32_0.74227400 1507854392 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:26:32_0.74378100 1507854392 request_uri:/abnormal/
+
+2017-10-13 08:26:32_0.74385900 1507854392 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:26:33_0.13705000 1507854393 :/Abnormal/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 08:26:33_0.13822000 1507854393 request_uri:/abnormal/
+
+2017-10-13 08:26:33_0.13889800 1507854393 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:26:33_0.84369300 1507854393 :/abnormal/piping
+
+2017-10-13 08:26:33_0.84502400 1507854393 request_uri:/abnormal/
+
+2017-10-13 08:26:33_0.84568000 1507854393 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:26:33_0.84793200 1507854393 request_uri:/abnormal/
+
+2017-10-13 08:26:33_0.84800000 1507854393 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:26:34_0.22806700 1507854394 :/Abnormal/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 08:26:34_0.22930000 1507854394 request_uri:/abnormal/
+
+2017-10-13 08:26:34_0.22992800 1507854394 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:26:39_0.38588700 1507854399 :/abnormal/piping
+
+2017-10-13 08:26:39_0.38725200 1507854399 request_uri:/abnormal/
+
+2017-10-13 08:26:39_0.38788900 1507854399 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:26:39_0.38940500 1507854399 request_uri:/abnormal/
+
+2017-10-13 08:26:39_0.38946600 1507854399 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:26:39_0.69591400 1507854399 :/Abnormal/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 08:26:39_0.69707400 1507854399 request_uri:/abnormal/
+
+2017-10-13 08:26:39_0.69790400 1507854399 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:26:43_0.35593300 1507854403 :/abnormal/piping
+
+2017-10-13 08:26:43_0.35716900 1507854403 request_uri:/abnormal/
+
+2017-10-13 08:26:43_0.35789200 1507854403 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:26:43_0.35946400 1507854403 request_uri:/abnormal/
+
+2017-10-13 08:26:43_0.35952300 1507854403 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:26:43_0.67505500 1507854403 :/Abnormal/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 08:26:43_0.67629800 1507854403 request_uri:/abnormal/
+
+2017-10-13 08:26:43_0.67685600 1507854403 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:27:12_0.80342100 1507854432 :/abnormal/piping
+
+2017-10-13 08:27:12_0.80503300 1507854432 request_uri:/abnormal/
+
+2017-10-13 08:27:12_0.80529100 1507854432 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:27:12_0.80681100 1507854432 request_uri:/abnormal/
+
+2017-10-13 08:27:12_0.80686800 1507854432 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:27:13_0.13502500 1507854433 :/Abnormal/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 08:27:13_0.13630600 1507854433 request_uri:/abnormal/
+
+2017-10-13 08:27:13_0.13703900 1507854433 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:27:13_0.79258400 1507854433 :/abnormal/piping
+
+2017-10-13 08:27:13_0.79397300 1507854433 request_uri:/abnormal/
+
+2017-10-13 08:27:13_0.79442200 1507854433 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:27:13_0.79600700 1507854433 request_uri:/abnormal/
+
+2017-10-13 08:27:13_0.79607200 1507854433 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:27:14_0.13192700 1507854434 :/Abnormal/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 08:27:14_0.13338100 1507854434 request_uri:/abnormal/
+
+2017-10-13 08:27:14_0.13387500 1507854434 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:27:15_0.90244200 1507854435 :/abnormal/piping
+
+2017-10-13 08:27:15_0.90373700 1507854435 request_uri:/abnormal/
+
+2017-10-13 08:27:15_0.90427000 1507854435 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:27:15_0.90572100 1507854435 request_uri:/abnormal/
+
+2017-10-13 08:27:15_0.90579300 1507854435 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:27:16_0.21234500 1507854436 :/Abnormal/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 08:27:16_0.21367600 1507854436 request_uri:/abnormal/
+
+2017-10-13 08:27:16_0.21426200 1507854436 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:27:18_0.10407000 1507854438 :/abnormal/piping
+
+2017-10-13 08:27:18_0.10569100 1507854438 request_uri:/abnormal/
+
+2017-10-13 08:27:18_0.10601100 1507854438 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:27:18_0.10782300 1507854438 request_uri:/abnormal/
+
+2017-10-13 08:27:18_0.10789700 1507854438 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:27:18_0.40511100 1507854438 :/Abnormal/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 08:27:18_0.40650400 1507854438 request_uri:/abnormal/
+
+2017-10-13 08:27:18_0.40709400 1507854438 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:28:26_0.93948700 1507854506 :/Abnormal/ajaxGetOneAnalysis
+
+2017-10-13 08:28:26_0.94097800 1507854506 request_uri:/abnormal/
+
+2017-10-13 08:28:26_0.94134400 1507854506 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:28:29_0.71946100 1507854509 :/Abnormal/ajaxGetOneEvaluation
+
+2017-10-13 08:28:29_0.72072700 1507854509 request_uri:/abnormal/
+
+2017-10-13 08:28:29_0.72133500 1507854509 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:31:32_0.20261800 1507854692 :/system/logout
+
+2017-10-13 08:31:32_0.20699100 1507854692 :/system/
+
+2017-10-13 08:31:32_0.23854700 1507854692 :/system/captcha
+
+2017-10-13 08:31:32_0.74632800 1507854692 :/favicon.ico
+
+2017-10-13 08:31:44_0.56319000 1507854704 :/system/ajaxLogin
+
+2017-10-13 08:31:44_0.60730400 1507854704 :/welcome/index
+
+2017-10-13 08:31:49_0.94249300 1507854709 :/standard/list_data
+
+2017-10-13 08:31:50_0.30246000 1507854710 :/Standard/ajaxImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-13 08:31:52_0.53563400 1507854712 :/standard/import_data
+
+2017-10-13 08:31:53_0.03016200 1507854713 :/Standard/ajaxGetExportDictionary
+
+2017-10-13 08:31:54_0.48936400 1507854714 :/standard/export_data
+
+2017-10-13 08:31:54_0.84354000 1507854714 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 08:31:57_0.84087800 1507854717 :/standard/report_department
+
+2017-10-13 08:31:58_0.20637600 1507854718 :/Standard/ajaxGetReportDepartment
+
+2017-10-13 08:32:02_0.30983100 1507854722 :/standard/dictionaries
+
+2017-10-13 08:32:02_0.63945800 1507854722 :/Standard/ajaxDictionaryList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-13 08:32:04_0.43744900 1507854724 :/Standard/ajaxDictionaryChildList/id/1?sort=id&order=asc&limit=10&offset=0
+
+2017-10-13 08:33:16_0.23004800 1507854796 :/abnormal/piping
+
+2017-10-13 08:33:16_0.56789200 1507854796 :/Abnormal/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 08:33:17_0.95853500 1507854797 :/abnormal/piping
+
+2017-10-13 08:33:18_0.28955600 1507854798 :/Abnormal/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 08:33:19_0.34470600 1507854799 :/abnormal/piping
+
+2017-10-13 08:33:19_0.64343600 1507854799 :/Abnormal/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 08:33:27_0.44061100 1507854807 :/abnormal/piping
+
+2017-10-13 08:33:27_0.74618300 1507854807 :/Abnormal/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 08:33:34_0.81214000 1507854814 :/system/logout
+
+2017-10-13 08:33:34_0.81702400 1507854814 :/system/
+
+2017-10-13 08:33:34_0.85396800 1507854814 :/system/captcha
+
+2017-10-13 08:33:35_0.31895800 1507854815 :/favicon.ico
+
+2017-10-13 08:33:43_0.18443800 1507854823 :/system/ajaxLogin
+
+2017-10-13 08:33:43_0.20600000 1507854823 :/system/captcha?0.975999043386768
+
+2017-10-13 08:33:43_0.35004600 1507854823 :/system/ajaxLogin
+
+2017-10-13 08:33:43_0.37096900 1507854823 :/system/captcha?0.9425357947365121
+
+2017-10-13 08:33:46_0.31732800 1507854826 :/system/ajaxLogin
+
+2017-10-13 08:33:46_0.38711400 1507854826 :/welcome/index
+
+2017-10-13 08:33:46_0.38834500 1507854826 request_uri:/welcome/
+
+2017-10-13 08:33:46_0.38903100 1507854826 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:33:48_0.35931700 1507854828 :/abnormal/piping
+
+2017-10-13 08:33:48_0.36109100 1507854828 request_uri:/abnormal/
+
+2017-10-13 08:33:48_0.36132900 1507854828 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:33:48_0.36282800 1507854828 request_uri:/abnormal/
+
+2017-10-13 08:33:48_0.36288200 1507854828 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:33:48_0.67821500 1507854828 :/Abnormal/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 08:33:48_0.68038700 1507854828 request_uri:/abnormal/
+
+2017-10-13 08:33:48_0.68050100 1507854828 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:34:06_0.68181300 1507854846 :/abnormal/piping
+
+2017-10-13 08:34:06_0.68350700 1507854846 request_uri:/abnormal/
+
+2017-10-13 08:34:06_0.68377300 1507854846 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:34:06_0.68553200 1507854846 request_uri:/abnormal/
+
+2017-10-13 08:34:06_0.68560500 1507854846 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:34:07_0.02387000 1507854847 :/Abnormal/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 08:34:07_0.02527700 1507854847 request_uri:/abnormal/
+
+2017-10-13 08:34:07_0.02570600 1507854847 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:34:11_0.64176200 1507854851 :/abnormal/piping
+
+2017-10-13 08:34:11_0.64291000 1507854851 request_uri:/abnormal/
+
+2017-10-13 08:34:11_0.64388000 1507854851 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:34:11_0.64556000 1507854851 request_uri:/abnormal/
+
+2017-10-13 08:34:11_0.64563800 1507854851 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:34:11_0.95317600 1507854851 :/Abnormal/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 08:34:11_0.95448400 1507854851 request_uri:/abnormal/
+
+2017-10-13 08:34:11_0.95512900 1507854851 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:40:22_0.88318200 1507855222 :/examine/piping
+
+2017-10-13 08:40:22_0.88459600 1507855222 request_uri:/examine/
+
+2017-10-13 08:40:22_0.88506300 1507855222 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:40:24_0.83812600 1507855224 :/
+
+2017-10-13 08:40:24_0.86505400 1507855224 :/system/captcha
+
+2017-10-13 08:40:25_0.43861000 1507855225 :/favicon.ico
+
+2017-10-13 08:40:27_0.29130900 1507855227 :/abnormal/piping
+
+2017-10-13 08:40:27_0.32583700 1507855227 :/system/captcha
+
+2017-10-13 08:40:27_0.80559500 1507855227 :/favicon.ico
+
+2017-10-13 08:40:34_0.95224100 1507855234 :/system/ajaxLogin
+
+2017-10-13 08:40:34_0.97173500 1507855234 :/system/captcha?0.49084791521103965
+
+2017-10-13 08:40:39_0.02587200 1507855239 :/system/ajaxLogin
+
+2017-10-13 08:40:39_0.04725800 1507855239 :/system/captcha?0.46870479250312047
+
+2017-10-13 08:40:44_0.56686900 1507855244 :/system/ajaxLogin
+
+2017-10-13 08:40:44_0.61419800 1507855244 :/welcome/index
+
+2017-10-13 08:40:44_0.61547900 1507855244 request_uri:/welcome/
+
+2017-10-13 08:40:44_0.61603600 1507855244 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:40:46_0.67787300 1507855246 :/abnormal/piping
+
+2017-10-13 08:40:46_0.67917500 1507855246 request_uri:/abnormal/
+
+2017-10-13 08:40:46_0.67971200 1507855246 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:40:46_0.68144100 1507855246 request_uri:/abnormal/
+
+2017-10-13 08:40:46_0.68155700 1507855246 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:40:47_0.07068400 1507855247 :/Abnormal/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 08:40:47_0.07227100 1507855247 request_uri:/abnormal/
+
+2017-10-13 08:40:47_0.07268300 1507855247 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:40:48_0.45446100 1507855248 :/abnormal/piping
+
+2017-10-13 08:40:48_0.45569600 1507855248 request_uri:/abnormal/
+
+2017-10-13 08:40:48_0.45641800 1507855248 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:40:48_0.45803700 1507855248 request_uri:/abnormal/
+
+2017-10-13 08:40:48_0.45819400 1507855248 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:40:48_0.78223100 1507855248 :/Abnormal/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 08:40:48_0.78350100 1507855248 request_uri:/abnormal/
+
+2017-10-13 08:40:48_0.78407100 1507855248 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:40:49_0.71788800 1507855249 :/abnormal/piping
+
+2017-10-13 08:40:49_0.71904000 1507855249 request_uri:/abnormal/
+
+2017-10-13 08:40:49_0.71995500 1507855249 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:40:49_0.72172700 1507855249 request_uri:/abnormal/
+
+2017-10-13 08:40:49_0.72188100 1507855249 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:40:50_0.00768800 1507855250 :/Abnormal/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 08:40:50_0.00884900 1507855250 request_uri:/abnormal/
+
+2017-10-13 08:40:50_0.00952800 1507855250 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:45:28_0.36835900 1507855528 :/abnormal/piping
+
+2017-10-13 08:45:28_0.36960300 1507855528 request_uri:/abnormal/
+
+2017-10-13 08:45:28_0.37018100 1507855528 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:45:28_0.37195300 1507855528 request_uri:/abnormal/
+
+2017-10-13 08:45:28_0.37203900 1507855528 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:45:28_0.76967900 1507855528 :/Abnormal/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 08:45:28_0.77086600 1507855528 request_uri:/abnormal/
+
+2017-10-13 08:45:28_0.77151400 1507855528 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:45:39_0.48177300 1507855539 :/abnormal/piping
+
+2017-10-13 08:45:39_0.48313300 1507855539 request_uri:/abnormal/
+
+2017-10-13 08:45:39_0.48361100 1507855539 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:45:39_0.48523700 1507855539 request_uri:/abnormal/
+
+2017-10-13 08:45:39_0.48531400 1507855539 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:45:39_0.79940400 1507855539 :/Abnormal/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 08:45:39_0.80060000 1507855539 request_uri:/abnormal/
+
+2017-10-13 08:45:39_0.80122600 1507855539 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:45:41_0.27234500 1507855541 :/abnormal/piping
+
+2017-10-13 08:45:41_0.27354900 1507855541 request_uri:/abnormal/
+
+2017-10-13 08:45:41_0.27422400 1507855541 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:45:41_0.27573700 1507855541 request_uri:/abnormal/
+
+2017-10-13 08:45:41_0.27579300 1507855541 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:45:41_0.58384900 1507855541 :/Abnormal/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 08:45:41_0.58501800 1507855541 request_uri:/abnormal/
+
+2017-10-13 08:45:41_0.58571800 1507855541 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:46:06_0.96863500 1507855566 :/abnormal/piping
+
+2017-10-13 08:46:06_0.97574900 1507855566 request_uri:/abnormal/
+
+2017-10-13 08:46:06_0.98161800 1507855566 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:46:06_0.98843600 1507855566 request_uri:/abnormal/
+
+2017-10-13 08:46:06_0.98853700 1507855566 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:46:07_0.37363200 1507855567 :/Abnormal/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 08:46:07_0.37480800 1507855567 request_uri:/abnormal/
+
+2017-10-13 08:46:07_0.37547500 1507855567 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:46:08_0.28318700 1507855568 :/abnormal/piping
+
+2017-10-13 08:46:08_0.28457800 1507855568 request_uri:/abnormal/
+
+2017-10-13 08:46:08_0.28521600 1507855568 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:46:08_0.28712100 1507855568 request_uri:/abnormal/
+
+2017-10-13 08:46:08_0.28735900 1507855568 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:46:08_0.58752400 1507855568 :/Abnormal/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 08:46:08_0.58890300 1507855568 request_uri:/abnormal/
+
+2017-10-13 08:46:08_0.58941500 1507855568 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:50:21_0.73146200 1507855821 :/abnormal/piping
+
+2017-10-13 08:50:21_0.73908000 1507855821 request_uri:/abnormal/
+
+2017-10-13 08:50:21_0.74534000 1507855821 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:50:21_0.74800600 1507855821 request_uri:/abnormal/
+
+2017-10-13 08:50:21_0.74813000 1507855821 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:50:22_0.13493500 1507855822 :/Abnormal/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 08:50:22_0.13618800 1507855822 request_uri:/abnormal/
+
+2017-10-13 08:50:22_0.13678100 1507855822 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:50:23_0.11088000 1507855823 :/abnormal/piping
+
+2017-10-13 08:50:23_0.11210500 1507855823 request_uri:/abnormal/
+
+2017-10-13 08:50:23_0.11272500 1507855823 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:50:23_0.11422400 1507855823 request_uri:/abnormal/
+
+2017-10-13 08:50:23_0.11429500 1507855823 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:50:23_0.50383800 1507855823 :/Abnormal/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 08:50:23_0.50507200 1507855823 request_uri:/abnormal/
+
+2017-10-13 08:50:23_0.50572900 1507855823 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:50:27_0.52406000 1507855827 :/Standard/ajaxAbnormalDownExcel
+
+2017-10-13 08:50:27_0.52640900 1507855827 request_uri:/standard/
+
+2017-10-13 08:50:27_0.52647600 1507855827 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:50:41_0.72845100 1507855841 :/abnormal/piping
+
+2017-10-13 08:50:41_0.76032500 1507855841 :/system/captcha
+
+2017-10-13 08:50:42_0.29717600 1507855842 :/favicon.ico
+
+2017-10-13 08:50:42_0.95379600 1507855842 :/abnormal/piping
+
+2017-10-13 08:50:43_0.02459100 1507855843 :/system/captcha
+
+2017-10-13 08:50:43_0.51967400 1507855843 :/favicon.ico
+
+2017-10-13 08:50:52_0.38478100 1507855852 :/system/ajaxLogin
+
+2017-10-13 08:50:52_0.43444900 1507855852 :/welcome/index
+
+2017-10-13 08:50:52_0.43693600 1507855852 request_uri:/welcome/
+
+2017-10-13 08:50:52_0.43705400 1507855852 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:50:54_0.77072700 1507855854 :/abnormal/piping
+
+2017-10-13 08:50:54_0.77199200 1507855854 request_uri:/abnormal/
+
+2017-10-13 08:50:54_0.77258800 1507855854 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:50:54_0.77407300 1507855854 request_uri:/abnormal/
+
+2017-10-13 08:50:54_0.77413800 1507855854 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:50:55_0.10186500 1507855855 :/Abnormal/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 08:50:55_0.10356900 1507855855 request_uri:/abnormal/
+
+2017-10-13 08:50:55_0.10396900 1507855855 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:50:57_0.30988300 1507855857 :/Standard/ajaxAbnormalDownExcel/type/piping/ids/5,2
+
+2017-10-13 08:50:57_0.31219500 1507855857 request_uri:/standard/
+
+2017-10-13 08:50:57_0.31226500 1507855857 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:50:59_0.56017500 1507855859 :/
+
+2017-10-13 08:50:59_0.58451000 1507855859 :/system/captcha
+
+2017-10-13 08:51:00_0.05855900 1507855860 :/favicon.ico
+
+2017-10-13 08:51:12_0.97782100 1507855872 :/system/ajaxLogin
+
+2017-10-13 08:51:13_0.03472000 1507855873 :/welcome/index
+
+2017-10-13 08:51:13_0.03618400 1507855873 request_uri:/welcome/
+
+2017-10-13 08:51:13_0.03662900 1507855873 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:51:20_0.24112000 1507855880 :/abnormal/piping
+
+2017-10-13 08:51:20_0.24233300 1507855880 request_uri:/abnormal/
+
+2017-10-13 08:51:20_0.24298400 1507855880 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:51:20_0.24446300 1507855880 request_uri:/abnormal/
+
+2017-10-13 08:51:20_0.24452800 1507855880 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:51:20_0.57696900 1507855880 :/Abnormal/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 08:51:20_0.57814600 1507855880 request_uri:/abnormal/
+
+2017-10-13 08:51:20_0.57879600 1507855880 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:51:24_0.12789500 1507855884 :/abnormal/fall
+
+2017-10-13 08:51:24_0.12913200 1507855884 request_uri:/abnormal/
+
+2017-10-13 08:51:24_0.12994500 1507855884 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:51:24_0.13153000 1507855884 request_uri:/abnormal/
+
+2017-10-13 08:51:24_0.13158200 1507855884 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:51:24_0.43011400 1507855884 :/Abnormal/ajaxFallList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 08:51:24_0.43123700 1507855884 request_uri:/abnormal/
+
+2017-10-13 08:51:24_0.43197200 1507855884 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:51:29_0.38859600 1507855889 :/system/logout
+
+2017-10-13 08:51:29_0.39304300 1507855889 :/system/
+
+2017-10-13 08:51:29_0.42699000 1507855889 :/system/captcha
+
+2017-10-13 08:51:29_0.92939900 1507855889 :/favicon.ico
+
+2017-10-13 08:51:35_0.78766000 1507855895 :/system/ajaxLogin
+
+2017-10-13 08:51:35_0.83902800 1507855895 :/welcome/index
+
+2017-10-13 08:51:35_0.84083400 1507855895 request_uri:/welcome/
+
+2017-10-13 08:51:35_0.84098300 1507855895 list:["\/welcome\/","\/abnormal\/","\/examine\/"]
+
+2017-10-13 08:51:38_0.84556200 1507855898 :/system/logout
+
+2017-10-13 08:51:38_0.84912300 1507855898 :/system/
+
+2017-10-13 08:51:38_0.88199200 1507855898 :/system/captcha
+
+2017-10-13 08:51:39_0.33508600 1507855899 :/favicon.ico
+
+2017-10-13 08:51:45_0.30933800 1507855905 :/system/ajaxLogin
+
+2017-10-13 08:51:45_0.35958900 1507855905 :/welcome/index
+
+2017-10-13 08:51:45_0.36260200 1507855905 request_uri:/welcome/
+
+2017-10-13 08:51:45_0.36271700 1507855905 list:["\/welcome\/","\/system\/","\/base\/","\/examine\/","\/standard\/"]
+
+2017-10-13 08:51:51_0.84617400 1507855911 :/standard/import_data
+
+2017-10-13 08:51:51_0.84970000 1507855911 request_uri:/standard/
+
+2017-10-13 08:51:51_0.84983200 1507855911 list:["\/welcome\/","\/system\/","\/base\/","\/examine\/","\/standard\/"]
+
+2017-10-13 08:51:51_0.85171900 1507855911 request_uri:/standard/
+
+2017-10-13 08:51:51_0.85178800 1507855911 list:["\/welcome\/","\/system\/","\/base\/","\/examine\/","\/standard\/"]
+
+2017-10-13 08:51:52_0.29021500 1507855912 :/Standard/ajaxGetExportDictionary
+
+2017-10-13 08:51:52_0.29338100 1507855912 request_uri:/standard/
+
+2017-10-13 08:51:52_0.29345300 1507855912 list:["\/welcome\/","\/system\/","\/base\/","\/examine\/","\/standard\/"]
+
+2017-10-13 08:51:53_0.43022500 1507855913 :/Standard/ajaxDownTemplate/
+
+2017-10-13 08:51:53_0.43329700 1507855913 request_uri:/standard/
+
+2017-10-13 08:51:53_0.43336700 1507855913 list:["\/welcome\/","\/system\/","\/base\/","\/examine\/","\/standard\/"]
+
+2017-10-13 08:51:53_0.44236200 1507855913 :/Standard/downTemplate/section/1
+
+2017-10-13 08:51:53_0.44584700 1507855913 request_uri:/standard/
+
+2017-10-13 08:51:53_0.44600400 1507855913 list:["\/welcome\/","\/system\/","\/base\/","\/examine\/","\/standard\/"]
+
+2017-10-13 08:52:47_0.16830700 1507855967 :/system/logout
+
+2017-10-13 08:52:47_0.17218500 1507855967 :/system/
+
+2017-10-13 08:52:47_0.27651500 1507855967 :/system/captcha
+
+2017-10-13 08:52:47_0.76404000 1507855967 :/favicon.ico
+
+2017-10-13 08:52:54_0.70794000 1507855974 :/system/ajaxLogin
+
+2017-10-13 08:52:54_0.75787700 1507855974 :/welcome/index
+
+2017-10-13 08:52:54_0.75919500 1507855974 request_uri:/welcome/
+
+2017-10-13 08:52:54_0.75973100 1507855974 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:52:56_0.77435200 1507855976 :/abnormal/piping
+
+2017-10-13 08:52:56_0.77561700 1507855976 request_uri:/abnormal/
+
+2017-10-13 08:52:56_0.77620000 1507855976 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:52:56_0.77771700 1507855976 request_uri:/abnormal/
+
+2017-10-13 08:52:56_0.77778200 1507855976 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:52:57_0.12051600 1507855977 :/Abnormal/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 08:52:57_0.12166900 1507855977 request_uri:/abnormal/
+
+2017-10-13 08:52:57_0.12244300 1507855977 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:53:01_0.24078200 1507855981 :/abnormal/piping
+
+2017-10-13 08:53:01_0.24209100 1507855981 request_uri:/abnormal/
+
+2017-10-13 08:53:01_0.24267400 1507855981 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:53:01_0.24415300 1507855981 request_uri:/abnormal/
+
+2017-10-13 08:53:01_0.24421800 1507855981 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:53:01_0.55076200 1507855981 :/Abnormal/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 08:53:01_0.55353900 1507855981 request_uri:/abnormal/
+
+2017-10-13 08:53:01_0.55396500 1507855981 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:53:03_0.08379000 1507855983 :/Abnormal/ajaxAbnormalDownExcel/type/piping/ids/5,2
+
+2017-10-13 08:53:03_0.08508700 1507855983 request_uri:/abnormal/
+
+2017-10-13 08:53:03_0.08578100 1507855983 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:53:03_0.26437400 1507855983 :/favicon.ico
+
+2017-10-13 08:53:03_0.26601100 1507855983 request_uri:/favicon.ico/
+
+2017-10-13 08:53:03_0.26634100 1507855983 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:57:31_0.15125700 1507856251 :/Abnormal/ajaxAbnormalDownExcel/type/piping/ids/5,2
+
+2017-10-13 08:57:31_0.19527300 1507856251 :/system/captcha
+
+2017-10-13 08:57:31_0.68558800 1507856251 :/favicon.ico
+
+2017-10-13 08:57:34_0.66488500 1507856254 :/system/ajaxLogin
+
+2017-10-13 08:57:34_0.71807300 1507856254 :/welcome/index
+
+2017-10-13 08:57:34_0.71927000 1507856254 request_uri:/welcome/
+
+2017-10-13 08:57:34_0.71992800 1507856254 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:57:38_0.85914200 1507856258 :/abnormal/piping
+
+2017-10-13 08:57:38_0.86045800 1507856258 request_uri:/abnormal/
+
+2017-10-13 08:57:38_0.86100800 1507856258 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:57:38_0.86247000 1507856258 request_uri:/abnormal/
+
+2017-10-13 08:57:38_0.86253600 1507856258 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:57:39_0.18282600 1507856259 :/Abnormal/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 08:57:39_0.18409500 1507856259 request_uri:/abnormal/
+
+2017-10-13 08:57:39_0.18470100 1507856259 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:57:43_0.11473000 1507856263 :/Abnormal/ajaxAbnormalDownExcel/type/piping/ids/5,2
+
+2017-10-13 08:57:43_0.11598900 1507856263 request_uri:/abnormal/
+
+2017-10-13 08:57:43_0.11662900 1507856263 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 08:57:43_0.30642600 1507856263 :/favicon.ico
+
+2017-10-13 08:57:43_0.30774100 1507856263 request_uri:/favicon.ico/
+
+2017-10-13 08:57:43_0.30837600 1507856263 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:02:47_0.86236800 1507856567 :/favicon.ico
+
+2017-10-13 09:03:06_0.60824500 1507856586 :/favicon.ico
+
+2017-10-13 09:03:19_0.31766200 1507856599 :/Abnormal/
+
+2017-10-13 09:03:19_0.34742400 1507856599 :/system/captcha
+
+2017-10-13 09:03:19_0.86577900 1507856599 :/favicon.ico
+
+2017-10-13 09:03:24_0.27412900 1507856604 :/system/ajaxLogin
+
+2017-10-13 09:03:24_0.32091100 1507856604 :/welcome/index
+
+2017-10-13 09:03:24_0.32231700 1507856604 request_uri:/welcome/
+
+2017-10-13 09:03:24_0.32278000 1507856604 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:03:28_0.90456500 1507856608 :/abnormal/piping
+
+2017-10-13 09:03:28_0.90763200 1507856608 request_uri:/abnormal/
+
+2017-10-13 09:03:28_0.90773800 1507856608 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:03:28_0.90961500 1507856608 request_uri:/abnormal/
+
+2017-10-13 09:03:28_0.90968600 1507856608 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:03:29_0.05964600 1507856609 :/Abnormal/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 09:03:29_0.06098900 1507856609 request_uri:/abnormal/
+
+2017-10-13 09:03:29_0.06154900 1507856609 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:03:31_0.52040700 1507856611 :/abnormal/medicine
+
+2017-10-13 09:03:31_0.52163900 1507856611 request_uri:/abnormal/
+
+2017-10-13 09:03:31_0.52242100 1507856611 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:03:31_0.52410900 1507856611 request_uri:/abnormal/
+
+2017-10-13 09:03:31_0.52416600 1507856611 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:03:31_0.64291500 1507856611 :/Abnormal/ajaxMedicineList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 09:03:31_0.64404000 1507856611 request_uri:/abnormal/
+
+2017-10-13 09:03:31_0.64475800 1507856611 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:03:41_0.97336200 1507856621 :/abnormal/stab
+
+2017-10-13 09:03:41_0.97457000 1507856621 request_uri:/abnormal/
+
+2017-10-13 09:03:41_0.97543700 1507856621 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:03:41_0.97712800 1507856621 request_uri:/abnormal/
+
+2017-10-13 09:03:41_0.97718400 1507856621 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:03:42_0.09410600 1507856622 :/Abnormal/ajaxStabList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 09:03:42_0.09523000 1507856622 request_uri:/abnormal/
+
+2017-10-13 09:03:42_0.09593000 1507856622 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:04:36_0.80463400 1507856676 :/abnormal/pressure
+
+2017-10-13 09:04:36_0.80586300 1507856676 request_uri:/abnormal/
+
+2017-10-13 09:04:36_0.80690200 1507856676 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:04:36_0.80862900 1507856676 request_uri:/abnormal/
+
+2017-10-13 09:04:36_0.80869200 1507856676 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:04:37_0.02065300 1507856677 :/Abnormal/ajaxPressureList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 09:04:37_0.02179700 1507856677 request_uri:/abnormal/
+
+2017-10-13 09:04:37_0.02257300 1507856677 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:04:46_0.21847500 1507856686 :/abnormal/fall
+
+2017-10-13 09:04:46_0.21971700 1507856686 request_uri:/abnormal/
+
+2017-10-13 09:04:46_0.22050400 1507856686 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:04:46_0.22222600 1507856686 request_uri:/abnormal/
+
+2017-10-13 09:04:46_0.22229100 1507856686 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:04:46_0.34068300 1507856686 :/Abnormal/ajaxFallList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 09:04:46_0.34180200 1507856686 request_uri:/abnormal/
+
+2017-10-13 09:04:46_0.34261200 1507856686 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:05:02_0.11520500 1507856702 :/abnormal/other
+
+2017-10-13 09:05:02_0.11643400 1507856702 request_uri:/abnormal/
+
+2017-10-13 09:05:02_0.11730000 1507856702 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:05:02_0.11897800 1507856702 request_uri:/abnormal/
+
+2017-10-13 09:05:02_0.11903500 1507856702 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:05:02_0.33846100 1507856702 :/Abnormal/ajaxOtherList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 09:05:02_0.33964800 1507856702 request_uri:/abnormal/
+
+2017-10-13 09:05:02_0.34030100 1507856702 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:08:21_0.69074700 1507856901 :/Abnormal/ajaxAbnormalDownExcel/type/piping/ids/5,2
+
+2017-10-13 09:08:21_0.69212000 1507856901 request_uri:/abnormal/
+
+2017-10-13 09:08:21_0.69263600 1507856901 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:08:21_0.90489000 1507856901 :/favicon.ico
+
+2017-10-13 09:08:21_0.90622100 1507856901 request_uri:/favicon.ico/
+
+2017-10-13 09:08:21_0.90628900 1507856901 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:11:59_0.02274400 1507857119 :/abnormal/other
+
+2017-10-13 09:11:59_0.06380500 1507857119 :/system/captcha
+
+2017-10-13 09:11:59_0.43091900 1507857119 :/favicon.ico
+
+2017-10-13 09:12:04_0.56232100 1507857124 :/system/ajaxLogin
+
+2017-10-13 09:12:04_0.61136900 1507857124 :/welcome/index
+
+2017-10-13 09:12:04_0.61267500 1507857124 request_uri:/welcome/
+
+2017-10-13 09:12:04_0.61328400 1507857124 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:12:06_0.70697500 1507857126 :/abnormal/piping
+
+2017-10-13 09:12:06_0.71969300 1507857126 request_uri:/abnormal/
+
+2017-10-13 09:12:06_0.72540900 1507857126 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:12:06_0.73137700 1507857126 request_uri:/abnormal/
+
+2017-10-13 09:12:06_0.73144700 1507857126 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:12:06_0.86409200 1507857126 :/Abnormal/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 09:12:06_0.86532900 1507857126 request_uri:/abnormal/
+
+2017-10-13 09:12:06_0.86540800 1507857126 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:12:13_0.45185700 1507857133 :/Abnormal/ajaxAbnormalDownExcel/type/piping/ids/5,2
+
+2017-10-13 09:12:13_0.45312400 1507857133 request_uri:/abnormal/
+
+2017-10-13 09:12:13_0.45376800 1507857133 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:12:13_0.89845100 1507857133 :/favicon.ico
+
+2017-10-13 09:12:13_0.89967500 1507857133 request_uri:/favicon.ico/
+
+2017-10-13 09:12:13_0.90033600 1507857133 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:13:15_0.45264700 1507857195 :/Abnormal/ajaxAbnormalDownExcel/type/piping/ids/5,2
+
+2017-10-13 09:13:15_0.47362300 1507857195 :/system/captcha
+
+2017-10-13 09:13:15_0.82896400 1507857195 :/favicon.ico
+
+2017-10-13 09:13:19_0.49585400 1507857199 :/system/ajaxLogin
+
+2017-10-13 09:13:19_0.53998100 1507857199 :/welcome/index
+
+2017-10-13 09:13:19_0.54116100 1507857199 request_uri:/welcome/
+
+2017-10-13 09:13:19_0.54197800 1507857199 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:13:22_0.05471000 1507857202 :/abnormal/piping
+
+2017-10-13 09:13:22_0.05608400 1507857202 request_uri:/abnormal/
+
+2017-10-13 09:13:22_0.05655900 1507857202 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:13:22_0.05811300 1507857202 request_uri:/abnormal/
+
+2017-10-13 09:13:22_0.05816900 1507857202 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:13:22_0.20247500 1507857202 :/Abnormal/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 09:13:22_0.20367000 1507857202 request_uri:/abnormal/
+
+2017-10-13 09:13:22_0.20439000 1507857202 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:13:26_0.03195700 1507857206 :/Abnormal/ajaxAbnormalDownExcel/type/piping/ids/5,2
+
+2017-10-13 09:13:26_0.03329600 1507857206 request_uri:/abnormal/
+
+2017-10-13 09:13:26_0.03383300 1507857206 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:13:26_0.32796100 1507857206 :/favicon.ico
+
+2017-10-13 09:13:26_0.32914700 1507857206 request_uri:/favicon.ico/
+
+2017-10-13 09:13:26_0.32986100 1507857206 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:15:20_0.37560400 1507857320 :/Abnormal/ajaxAbnormalDownExcel/type/piping/ids/5,2
+
+2017-10-13 09:15:20_0.39755600 1507857320 :/system/captcha
+
+2017-10-13 09:15:20_0.77610700 1507857320 :/favicon.ico
+
+2017-10-13 09:15:25_0.26776100 1507857325 :/system/ajaxLogin
+
+2017-10-13 09:15:25_0.31771300 1507857325 :/welcome/index
+
+2017-10-13 09:15:25_0.31892500 1507857325 request_uri:/welcome/
+
+2017-10-13 09:15:25_0.31970600 1507857325 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:15:30_0.17623400 1507857330 :/abnormal/piping
+
+2017-10-13 09:15:30_0.18796600 1507857330 request_uri:/abnormal/
+
+2017-10-13 09:15:30_0.19377700 1507857330 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:15:30_0.20088400 1507857330 request_uri:/abnormal/
+
+2017-10-13 09:15:30_0.20095900 1507857330 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:15:30_0.34491100 1507857330 :/Abnormal/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 09:15:30_0.34703700 1507857330 request_uri:/abnormal/
+
+2017-10-13 09:15:30_0.34711100 1507857330 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:15:34_0.04951600 1507857334 :/Abnormal/ajaxAbnormalDownExcel/type/piping/ids/5,2
+
+2017-10-13 09:15:34_0.05076400 1507857334 request_uri:/abnormal/
+
+2017-10-13 09:15:34_0.05137400 1507857334 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:15:34_0.34095200 1507857334 :/favicon.ico
+
+2017-10-13 09:15:34_0.34207100 1507857334 request_uri:/favicon.ico/
+
+2017-10-13 09:15:34_0.34289400 1507857334 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:19:14_0.72970100 1507857554 :/Abnormal/ajaxAbnormalDownExcel/type/piping/ids/5,2
+
+2017-10-13 09:19:14_0.74972600 1507857554 :/system/captcha
+
+2017-10-13 09:19:15_0.10969500 1507857555 :/favicon.ico
+
+2017-10-13 09:19:18_0.33931600 1507857558 :/system/ajaxLogin
+
+2017-10-13 09:19:18_0.38488800 1507857558 :/welcome/index
+
+2017-10-13 09:19:18_0.38641200 1507857558 request_uri:/welcome/
+
+2017-10-13 09:19:18_0.38674400 1507857558 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:19:19_0.65202600 1507857559 :/welcome/index
+
+2017-10-13 09:19:19_0.65352000 1507857559 request_uri:/welcome/
+
+2017-10-13 09:19:19_0.65396600 1507857559 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:20:46_0.39107600 1507857646 :/abnormal/piping
+
+2017-10-13 09:20:46_0.39248400 1507857646 request_uri:/abnormal/
+
+2017-10-13 09:20:46_0.39291900 1507857646 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:20:46_0.39431700 1507857646 request_uri:/abnormal/
+
+2017-10-13 09:20:46_0.39438200 1507857646 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:20:46_0.60139700 1507857646 :/Abnormal/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 09:20:46_0.60323400 1507857646 request_uri:/abnormal/
+
+2017-10-13 09:20:46_0.60332400 1507857646 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:20:48_0.33343700 1507857648 :/Abnormal/ajaxAbnormalDownExcel/type/piping/ids/5,2
+
+2017-10-13 09:20:48_0.33466100 1507857648 request_uri:/abnormal/
+
+2017-10-13 09:20:48_0.33526300 1507857648 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:25:25_0.48537500 1507857925 :/abnormal/piping
+
+2017-10-13 09:25:25_0.48661100 1507857925 request_uri:/abnormal/
+
+2017-10-13 09:25:25_0.48742000 1507857925 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:25:25_0.48910600 1507857925 request_uri:/abnormal/
+
+2017-10-13 09:25:25_0.48916300 1507857925 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:25:25_0.71196500 1507857925 :/Abnormal/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 09:25:25_0.71424700 1507857925 request_uri:/abnormal/
+
+2017-10-13 09:25:25_0.71433100 1507857925 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:28:30_0.88374400 1507858110 :/Abnormal/ajaxAbnormalDownExcel/type/piping/ids/5,2
+
+2017-10-13 09:28:30_0.88504200 1507858110 request_uri:/abnormal/
+
+2017-10-13 09:28:30_0.88567200 1507858110 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:30:14_0.61934000 1507858214 :/Abnormal/ajaxAbnormalDownExcel/type/piping/ids/5,2
+
+2017-10-13 09:30:14_0.62067700 1507858214 request_uri:/abnormal/
+
+2017-10-13 09:30:14_0.62130700 1507858214 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:30:34_0.82262500 1507858234 :/abnormal/piping
+
+2017-10-13 09:30:34_0.82381100 1507858234 request_uri:/abnormal/
+
+2017-10-13 09:30:34_0.82456500 1507858234 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:30:34_0.82603700 1507858234 request_uri:/abnormal/
+
+2017-10-13 09:30:34_0.82617800 1507858234 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:30:35_0.06266900 1507858235 :/Abnormal/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 09:30:35_0.06425100 1507858235 request_uri:/abnormal/
+
+2017-10-13 09:30:35_0.06460100 1507858235 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:31:07_0.33606700 1507858267 :/abnormal/piping
+
+2017-10-13 09:31:07_0.33729900 1507858267 request_uri:/abnormal/
+
+2017-10-13 09:31:07_0.33812700 1507858267 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:31:07_0.33982700 1507858267 request_uri:/abnormal/
+
+2017-10-13 09:31:07_0.33988900 1507858267 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:31:07_0.54334200 1507858267 :/Abnormal/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 09:31:07_0.54467600 1507858267 request_uri:/abnormal/
+
+2017-10-13 09:31:07_0.54529700 1507858267 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:31:09_0.31093500 1507858269 :/Abnormal/ajaxAbnormalDownExcel/type/piping/ids/5,2
+
+2017-10-13 09:31:09_0.31216000 1507858269 request_uri:/abnormal/
+
+2017-10-13 09:31:09_0.31277700 1507858269 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:32:24_0.33144400 1507858344 :/abnormal/medicine
+
+2017-10-13 09:32:24_0.33266500 1507858344 request_uri:/abnormal/
+
+2017-10-13 09:32:24_0.33349700 1507858344 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:32:24_0.33511200 1507858344 request_uri:/abnormal/
+
+2017-10-13 09:32:24_0.33516900 1507858344 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:32:24_0.54923600 1507858344 :/Abnormal/ajaxMedicineList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 09:32:24_0.55057200 1507858344 request_uri:/abnormal/
+
+2017-10-13 09:32:24_0.55109900 1507858344 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:32:38_0.95196600 1507858358 :/abnormal/stab
+
+2017-10-13 09:32:38_0.95318500 1507858358 request_uri:/abnormal/
+
+2017-10-13 09:32:38_0.95409500 1507858358 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:32:38_0.95574200 1507858358 request_uri:/abnormal/
+
+2017-10-13 09:32:38_0.95580400 1507858358 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:32:39_0.07788300 1507858359 :/Abnormal/ajaxStabList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 09:32:39_0.07903100 1507858359 request_uri:/abnormal/
+
+2017-10-13 09:32:39_0.07989900 1507858359 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:32:46_0.08495500 1507858366 :/abnormal/pressure
+
+2017-10-13 09:32:46_0.08626700 1507858366 request_uri:/abnormal/
+
+2017-10-13 09:32:46_0.08709100 1507858366 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:32:46_0.08872600 1507858366 request_uri:/abnormal/
+
+2017-10-13 09:32:46_0.08877900 1507858366 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:32:46_0.20856800 1507858366 :/Abnormal/ajaxPressureList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 09:32:46_0.20975600 1507858366 request_uri:/abnormal/
+
+2017-10-13 09:32:46_0.21038300 1507858366 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:32:56_0.30157500 1507858376 :/abnormal/fall
+
+2017-10-13 09:32:56_0.30282000 1507858376 request_uri:/abnormal/
+
+2017-10-13 09:32:56_0.30363600 1507858376 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:32:56_0.30516500 1507858376 request_uri:/abnormal/
+
+2017-10-13 09:32:56_0.30522000 1507858376 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:32:56_0.42526700 1507858376 :/Abnormal/ajaxFallList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 09:32:56_0.42638100 1507858376 request_uri:/abnormal/
+
+2017-10-13 09:32:56_0.42709400 1507858376 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:33:05_0.51542200 1507858385 :/abnormal/other
+
+2017-10-13 09:33:05_0.51675300 1507858385 request_uri:/abnormal/
+
+2017-10-13 09:33:05_0.51735300 1507858385 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:33:05_0.51899200 1507858385 request_uri:/abnormal/
+
+2017-10-13 09:33:05_0.51905700 1507858385 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:33:05_0.64592000 1507858385 :/Abnormal/ajaxOtherList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 09:33:05_0.64778400 1507858385 request_uri:/abnormal/
+
+2017-10-13 09:33:05_0.64792800 1507858385 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:33:24_0.65646000 1507858404 :/abnormal/fall
+
+2017-10-13 09:33:24_0.65766700 1507858404 request_uri:/abnormal/
+
+2017-10-13 09:33:24_0.65837600 1507858404 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:33:24_0.65975100 1507858404 request_uri:/abnormal/
+
+2017-10-13 09:33:24_0.65980100 1507858404 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:33:24_0.86848500 1507858404 :/Abnormal/ajaxFallList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 09:33:24_0.86972700 1507858404 request_uri:/abnormal/
+
+2017-10-13 09:33:24_0.87041700 1507858404 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:33:33_0.91660300 1507858413 :/abnormal/pressure
+
+2017-10-13 09:33:33_0.91777900 1507858413 request_uri:/abnormal/
+
+2017-10-13 09:33:33_0.91852700 1507858413 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:33:33_0.92004500 1507858413 request_uri:/abnormal/
+
+2017-10-13 09:33:33_0.92010100 1507858413 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:33:34_0.04207300 1507858414 :/Abnormal/ajaxPressureList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 09:33:34_0.04328600 1507858414 request_uri:/abnormal/
+
+2017-10-13 09:33:34_0.04398100 1507858414 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:33:44_0.82582000 1507858424 :/abnormal/stab
+
+2017-10-13 09:33:44_0.82702300 1507858424 request_uri:/abnormal/
+
+2017-10-13 09:33:44_0.82785800 1507858424 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:33:44_0.82964800 1507858424 request_uri:/abnormal/
+
+2017-10-13 09:33:44_0.82972100 1507858424 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:33:44_0.94948200 1507858424 :/Abnormal/ajaxStabList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 09:33:44_0.95085800 1507858424 request_uri:/abnormal/
+
+2017-10-13 09:33:44_0.95130600 1507858424 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:34:05_0.97347200 1507858445 :/abnormal/medicine
+
+2017-10-13 09:34:05_0.97471600 1507858445 request_uri:/abnormal/
+
+2017-10-13 09:34:05_0.97538900 1507858445 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:34:05_0.97690400 1507858445 request_uri:/abnormal/
+
+2017-10-13 09:34:05_0.97695900 1507858445 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:34:06_0.18579300 1507858446 :/Abnormal/ajaxMedicineList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 09:34:06_0.18691600 1507858446 request_uri:/abnormal/
+
+2017-10-13 09:34:06_0.18770900 1507858446 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:35:24_0.15243600 1507858524 :/abnormal/piping
+
+2017-10-13 09:35:24_0.15366000 1507858524 request_uri:/abnormal/
+
+2017-10-13 09:35:24_0.15462100 1507858524 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:35:24_0.15641700 1507858524 request_uri:/abnormal/
+
+2017-10-13 09:35:24_0.15647900 1507858524 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:35:24_0.36721500 1507858524 :/Abnormal/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 09:35:24_0.36846800 1507858524 request_uri:/abnormal/
+
+2017-10-13 09:35:24_0.36908300 1507858524 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:35:28_0.08640500 1507858528 :/Abnormal/ajaxAbnormalDownExcel/type/piping/ids/5,2
+
+2017-10-13 09:35:28_0.08774600 1507858528 request_uri:/abnormal/
+
+2017-10-13 09:35:28_0.08835700 1507858528 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:35:43_0.45424000 1507858543 :/abnormal/piping
+
+2017-10-13 09:35:43_0.45554400 1507858543 request_uri:/abnormal/
+
+2017-10-13 09:35:43_0.45637300 1507858543 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:35:43_0.45828800 1507858543 request_uri:/abnormal/
+
+2017-10-13 09:35:43_0.45835400 1507858543 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:35:43_0.57923300 1507858543 :/Abnormal/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 09:35:43_0.58043300 1507858543 request_uri:/abnormal/
+
+2017-10-13 09:35:43_0.58110800 1507858543 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:35:48_0.46897300 1507858548 :/Abnormal/ajaxAbnormalExamine
+
+2017-10-13 09:35:48_0.47066800 1507858548 request_uri:/abnormal/
+
+2017-10-13 09:35:48_0.47096300 1507858548 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:36:26_0.01299000 1507858586 :/abnormal/medicine
+
+2017-10-13 09:36:26_0.01425700 1507858586 request_uri:/abnormal/
+
+2017-10-13 09:36:26_0.01515500 1507858586 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:36:26_0.01707600 1507858586 request_uri:/abnormal/
+
+2017-10-13 09:36:26_0.01728400 1507858586 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:36:26_0.22738600 1507858586 :/Abnormal/ajaxMedicineList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 09:36:26_0.22865100 1507858586 request_uri:/abnormal/
+
+2017-10-13 09:36:26_0.22928000 1507858586 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:36:28_0.67757100 1507858588 :/abnormal/piping
+
+2017-10-13 09:36:28_0.67884300 1507858588 request_uri:/abnormal/
+
+2017-10-13 09:36:28_0.67957300 1507858588 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:36:28_0.68113000 1507858588 request_uri:/abnormal/
+
+2017-10-13 09:36:28_0.68118600 1507858588 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:36:28_0.79763900 1507858588 :/Abnormal/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 09:36:28_0.79899400 1507858588 request_uri:/abnormal/
+
+2017-10-13 09:36:28_0.79958800 1507858588 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:36:46_0.80519300 1507858606 :/abnormal/piping
+
+2017-10-13 09:36:46_0.80669800 1507858606 request_uri:/abnormal/
+
+2017-10-13 09:36:46_0.80677900 1507858606 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:36:46_0.80866900 1507858606 request_uri:/abnormal/
+
+2017-10-13 09:36:46_0.80873700 1507858606 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:36:47_0.01221100 1507858607 :/Abnormal/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 09:36:47_0.01335800 1507858607 request_uri:/abnormal/
+
+2017-10-13 09:36:47_0.01406000 1507858607 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:48:29_0.33228800 1507859309 :/abnormal/piping
+
+2017-10-13 09:48:29_0.33346900 1507859309 request_uri:/abnormal/
+
+2017-10-13 09:48:29_0.33418300 1507859309 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:48:29_0.33567500 1507859309 request_uri:/abnormal/
+
+2017-10-13 09:48:29_0.33573800 1507859309 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:48:29_0.55169200 1507859309 :/Abnormal/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 09:48:29_0.55279700 1507859309 request_uri:/abnormal/
+
+2017-10-13 09:48:29_0.55351300 1507859309 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:48:31_0.86792400 1507859311 :/Abnormal/ajaxAbnormalExamine
+
+2017-10-13 09:48:31_0.86966700 1507859311 request_uri:/abnormal/
+
+2017-10-13 09:48:31_0.86989100 1507859311 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:48:37_0.40956000 1507859317 :/abnormal/piping
+
+2017-10-13 09:48:37_0.41118600 1507859317 request_uri:/abnormal/
+
+2017-10-13 09:48:37_0.41154800 1507859317 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:48:37_0.41334400 1507859317 request_uri:/abnormal/
+
+2017-10-13 09:48:37_0.41340500 1507859317 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:48:37_0.53328800 1507859317 :/Abnormal/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 09:48:37_0.53448200 1507859317 request_uri:/abnormal/
+
+2017-10-13 09:48:37_0.53514500 1507859317 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:49:27_0.62146400 1507859367 :/abnormal/piping
+
+2017-10-13 09:49:27_0.62264000 1507859367 request_uri:/abnormal/
+
+2017-10-13 09:49:27_0.62343000 1507859367 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:49:27_0.62511100 1507859367 request_uri:/abnormal/
+
+2017-10-13 09:49:27_0.62518100 1507859367 list:["\/welcome\/","\/abnormal\/"]
+
+2017-10-13 09:49:27_0.86903700 1507859367 :/Abnormal/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 09:49:27_0.87039700 1507859367 request_uri:/abnormal/
+
+2017-10-13 09:49:27_0.87088900 1507859367 list:["\/welcome\/","\/abnormal\/"]
+

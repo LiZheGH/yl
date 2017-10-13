@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2017-10-11 21:57:55
+<?php /* Smarty version Smarty-3.1.13, created on 2017-10-13 09:49:27
          compiled from "/private/var/www/yl/application/views/admin/abnormal/piping.html" */ ?>
 <?php /*%%SmartyHeaderCode:62692051859d49f062e8ad1-78998675%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '67be42490c09c1673850753fd33ce827330f9d33' => 
     array (
       0 => '/private/var/www/yl/application/views/admin/abnormal/piping.html',
-      1 => 1507574726,
+      1 => 1507859355,
       2 => 'file',
     ),
   ),
@@ -41,6 +41,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
         <div class="portlet-body">
         	<div id="toolbar1" style="margin-bottom:0px;">
 				<button class="btn btn-primary btn-sm" onClick="showModal();">&nbsp;&nbsp;新增&nbsp;&nbsp;</button>
+				<button class="btn btn-primary btn-sm" onClick="examine();">&nbsp;&nbsp;上报&nbsp;&nbsp;</button>
+				<button class="btn btn-primary btn-sm" onClick="downExcel();">&nbsp;&nbsp;下载Excel&nbsp;&nbsp;</button>
 		   	</div>
 		   <table id="tableId" data-url="/Abnormal/ajaxPipingList" data-sort-name="id" data-sort-order="desc" data-toggle="table"
 		   		data-click-to-select="true"  data-pagination="true"  data-show-refresh="true" data-show-columns="true" data-search="true" data-toolbar="#toolbar1">
@@ -750,9 +752,13 @@ $(function(){
 	});
 });
 function showStatus(value,row,index){
-	if(row.status == 1){
-		return '<font color="green"></font>';
-	}else{
+	if(row.status == -1){
+		return '<font color="red">被驳回</font>';
+	}else if(row.status == 0){
+		return '待上报';
+	}else if(row.status == 4){
+		return '<font color="green">审核通过</font>';
+	} else {
 		return '待审核';
 	}
 }
@@ -826,7 +832,6 @@ function showModal() {
 	$('#myModal').modal('show').find(".modal-dialog").addClass("modal-lg");
 }
 function opUpdate(row){
-    $('#modalTitle').html('修改');
 	$('#oneForm')[0].reset();
 	$('#id').val(row.id);
 	var inputArr = ['event_time','report_name','report_time','event_type','patient',
@@ -852,6 +857,21 @@ function opUpdate(row){
 				$("."+checkArr[i]+"[value='"+vals[j]+"']").prop("checked",true);
 			}
 		}
+	}
+	if(row.status > 0 ){
+		$(".modal-body").find("input").prop("disabled",true);
+		$(".modal-body").find("textarea").prop("disabled",true);
+		$(".modal-body").find("select").prop("disabled",true);
+		if(row != 4){
+			$('#modalTitle').html('<font color="red">审核中禁止修改</font>');
+		} else {
+			$('#modalTitle').html('<font color="green">已通过禁止修改</font>');
+		}
+	} else {
+		$('#modalTitle').html('修改');
+		$(".modal-body").find("input").prop("disabled",false);
+		$(".modal-body").find("textarea").prop("disabled",false);
+		$(".modal-body").find("select").prop("disabled",false);
 	}
     $('#myModal').modal('show').find(".modal-dialog").addClass("modal-lg");
 }
@@ -901,6 +921,48 @@ function evaluation(row){
 		},"json"
 	);
 	$('#evaluationModal').modal('show').find(".modal-dialog").addClass("modal-lg");
+}
+function examine(){
+	var TableData = $('#tableId').bootstrapTable('getSelections');
+	var ids = '';
+	for(var i in TableData){
+		if(ids)
+			ids += ","+TableData[i].id;
+		else
+			ids = TableData[i].id;
+	}
+	if(!ids || ids == ''){
+		Calert("请至少选择一条记录");
+		return false;
+	} else {
+		$.post(
+			'/Abnormal/ajaxAbnormalExamine',
+			{
+				'ids':ids,
+				'type':'piping'
+			},
+			function(data){
+				Calert(data.msg);
+				refresh();
+			},"json"
+		);
+	}
+}
+function downExcel(){
+	var TableData = $('#tableId').bootstrapTable('getSelections');
+	var ids = '';
+	for(var i in TableData){
+		if(ids)
+			ids += ","+TableData[i].id;
+		else
+			ids = TableData[i].id;
+	}
+	if(!ids || ids == ''){
+		Calert("请至少选择一条记录");
+		return false;
+	} else {
+		window.location.href = '/Abnormal/ajaxAbnormalDownExcel/type/piping/ids/'+ids;
+	}
 }
 </script>
 

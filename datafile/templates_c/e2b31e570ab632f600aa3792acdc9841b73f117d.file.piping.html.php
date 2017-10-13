@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2017-10-12 16:07:47
+<?php /* Smarty version Smarty-3.1.13, created on 2017-10-13 08:09:52
          compiled from "/private/var/www/yl/application/views/admin/examine/piping.html" */ ?>
 <?php /*%%SmartyHeaderCode:32692155559df22827926a8-32872943%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'e2b31e570ab632f600aa3792acdc9841b73f117d' => 
     array (
       0 => '/private/var/www/yl/application/views/admin/examine/piping.html',
-      1 => 1507795637,
+      1 => 1507853390,
       2 => 'file',
     ),
   ),
@@ -40,7 +40,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
         </div>
         <div class="portlet-body">
         	<div id="toolbar1" style="margin-bottom:0px;">
-				<button class="btn btn-primary btn-sm" onClick="showModal();">&nbsp;&nbsp;新增&nbsp;&nbsp;</button>
+				<!-- <button class="btn btn-primary btn-sm" onClick="showModal();">&nbsp;&nbsp;新增&nbsp;&nbsp;</button> -->
 		   	</div>
 		   <table id="tableId" data-url="/Examine/ajaxPipingList" data-sort-name="id" data-sort-order="desc" data-toggle="table"
 		   		data-click-to-select="true"  data-pagination="true"  data-show-refresh="true" data-show-columns="true" data-search="true" data-toolbar="#toolbar1">
@@ -431,9 +431,17 @@ $_smarty_tpl->tpl_vars['section']->_loop = true;
 					</div>
 				</div>
 				<div class="modal-footer">
+					<div class="form-group">
+						<label class="col-sm-2 control-label">审核意见</label>
+						<div class="col-sm-9">
+	                    	<textarea type="text"  class="form-control" id="examine_info" name="examine_info" placeholder="审核意见"></textarea>
+	                    </div>
+					</div>
 					<input id="id" name="id" value="0" type="hidden" />
+					<input id="is_adopt" name="is_adopt" value="1" type="hidden" />
 					<a href="#" class="btn btn-default" data-dismiss="modal">取消</a>
-					<button class="btn btn-primary" id="modalSubmit">提交</button>
+					<button class="btn btn-primary" id="reject">驳回</button>
+					<button class="btn btn-primary" id="modalSubmit">提交审核</button>
 				</div>
             </form>
 		</div>
@@ -613,7 +621,12 @@ $_smarty_tpl->tpl_vars['section']->_loop = true;
 
 <script type="text/javascript">
 $(function(){
-	//上报提交
+	//驳回
+	$("#reject").click(function(){
+		$("#is_adopt").val(0);
+		$("#modalSubmit").click();
+	});
+	//审核提交
 	$("#modalSubmit").click(function(){
         var validateForm = function(){
         	var inputArr = ['event_time','report_name','event_type','patient','anamnesis_num',
@@ -750,9 +763,13 @@ $(function(){
 	});
 });
 function showStatus(value,row,index){
-	if(row.status == 1){
-		return '<font color="green"></font>';
-	}else{
+	if(row.status == -1){
+		return '<font color="red">被驳回</font>';
+	}else if(row.status == 0){
+		return '待上报';
+	}else if(row.status == 4){
+		return '审核通过';
+	} else {
 		return '待审核';
 	}
 }
@@ -762,11 +779,8 @@ function getSection(value,row,index){
 function operateFormatter(value, row, index) {
     return [
         '<a class="edit ml10" href="javascript:void(0)" title="Edit">',
-            '<i class="glyphicon glyphicon-pencil">编辑</i>',
+            '<i class="glyphicon glyphicon glyphicon-eye-close">审核</i>',
         '</a> ',
-        '<a class="remove ml10" href="javascript:void(0)" title="Remove">',
-            '<i class="glyphicon glyphicon-trash">删除</i>',
-        '</a>',
         '<a class="analysis ml10" href="javascript:void(0)" title="Analysis">',
             '<i class="glyphicon glyphicon-filter">分析</i>',
         '</a>',
@@ -826,7 +840,7 @@ function showModal() {
 	$('#myModal').modal('show').find(".modal-dialog").addClass("modal-lg");
 }
 function opUpdate(row){
-    $('#modalTitle').html('修改');
+    $('#modalTitle').html('审核');
 	$('#oneForm')[0].reset();
 	$('#id').val(row.id);
 	var inputArr = ['event_time','report_name','report_time','event_type','patient',
@@ -853,6 +867,10 @@ function opUpdate(row){
 			}
 		}
 	}
+	$(".modal-body").find("input").prop("disabled",true);
+	$(".modal-body").find("textarea").prop("disabled",true);
+	$(".modal-body").find("select").prop("disabled",true);
+	$("#examine_info").val(row.examine_info);
     $('#myModal').modal('show').find(".modal-dialog").addClass("modal-lg");
 }
 function analysis(row){

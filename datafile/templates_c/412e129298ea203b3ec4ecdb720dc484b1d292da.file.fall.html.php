@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2017-10-03 23:01:47
+<?php /* Smarty version Smarty-3.1.13, created on 2017-10-13 07:33:15
          compiled from "/private/var/www/yl/application/views/admin/abnormal/fall.html" */ ?>
 <?php /*%%SmartyHeaderCode:42435615859d31af3a13dc3-25321447%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '412e129298ea203b3ec4ecdb720dc484b1d292da' => 
     array (
       0 => '/private/var/www/yl/application/views/admin/abnormal/fall.html',
-      1 => 1507042904,
+      1 => 1507574693,
       2 => 'file',
     ),
   ),
@@ -733,7 +733,7 @@ $(function(){
         	for(var i=0;i< inputArr.length;i++){
         		var val = $("input[name='"+inputArr[i]+"']").val();
         		if(val == 0 || val == ''){
-        			alert(textArr[i]+' 为空!');
+        			Calert(textArr[i]+' 为空!');
         			return false;
         		}
         	}
@@ -742,19 +742,19 @@ $(function(){
         	for(var i=0;i< selectArr.length;i++){
         		var val = $("#"+selectArr[i]+"").val();
         		if(val == 0 || val == ''){
-        			alert(textArr[i]+' 为空!');
+        			Calert(textArr[i]+' 为空!');
         			return false;
         		}
         	}
         }
         var showResponse = function(data){
         	if(data['success']) {
-        		alert(data['msg']);
+        		Calert(data['msg']);
         		$('#myModal').modal('hide');
         		refresh();
         		$('#oneForm')[0].reset();
 			} else {
-				alert(data['msg']);
+				Calert(data['msg']);
 			}
         };
         var options= {
@@ -773,43 +773,43 @@ $(function(){
         	var problem2 = $("textarea[name='problem2']").val();
         	var problem3 = $("textarea[name='problem3']").val();
 			if(problem1.length == 0 && problem2.length == 0 && problem3.length == 0){
-				alert('三种类别，存在问题，至少填写一项！');
+				Calert('三种类别，存在问题，至少填写一项！');
 				return false;
 			}
         	var correction1 = $("textarea[name='correction1']").val();
         	var correction2 = $("textarea[name='correction2']").val();
         	var correction3 = $("textarea[name='correction3']").val();
         	if(correction1.length == 0 && correction2.length == 0 && correction3.length == 0){
-				alert('三种类别，改进措施，至少填写一项！');
+				Calert('三种类别，改进措施，至少填写一项！');
 				return false;
 			}
         	var responsible1 = $("input[name='responsible1']").val();
         	var responsible2 = $("input[name='responsible2']").val();
         	var responsible3 = $("input[name='responsible3']").val();
         	if(responsible1.length == 0 && responsible2.length == 0 && responsible3.length == 0){
-				alert('三种类别，责任人，至少填写一项！');
+				Calert('三种类别，责任人，至少填写一项！');
 				return false;
 			}
         	var over_time1 = $("input[name='over_time1']").val();
         	var over_time2 = $("input[name='over_time2']").val();
         	var over_time3 = $("input[name='over_time3']").val();
         	if(over_time1.length == 0 && over_time2.length == 0 && over_time3.length == 0){
-				alert('三种类别，完成时限，至少填写一项！');
+				Calert('三种类别，完成时限，至少填写一项！');
 				return false;
 			}
         	var head_department = $("input[name='head_department']").val();
         	var head_nurse = $("input[name='head_nurse']").val();
         	if(head_department.length == 0 && head_nurse.length == 0 ){
-        		alert('科主任，护士长，至少填写一项！');
+        		Calert('科主任，护士长，至少填写一项！');
 				return false;
         	}
         }
         var showResponse = function(data){
         	if(data['success']) {
-        		alert(data['msg']);
+        		Calert(data['msg']);
         		$('#analysisModal').modal('hide');
 			} else {
-				alert(data['msg']);
+				Calert(data['msg']);
 			}
         };
         var options= {
@@ -825,28 +825,28 @@ $(function(){
 	$("#evaluationSubmit").click(function(){
         var validateForm = function(){
         	if( $("input[name='frequency']:checked").length != 1 ){
-        		alert("请选择【可能再发生频率】！");
+        		Calert("请选择【可能再发生频率】！");
         		return false;
         	}
         	if( $(".event_cause:checked").length < 1 ){
-        		alert("请选择【事件原因归类】！");
+        		Calert("请选择【事件原因归类】！");
         		return false;
         	}
         	if( $("input[name='severity']:checked").length != 1 ){
-        		alert("请选择【严重程度】！");
+        		Calert("请选择【严重程度】！");
         		return false;
         	}
         	if( $("textarea[name='improvement']").val().length == 0 ){
-        		alert("请填写【验证改进】！");
+        		Calert("请填写【验证改进】！");
         		return false;
         	}
         }
         var showResponse = function(data){
         	if(data['success']) {
-        		alert(data['msg']);
+        		Calert(data['msg']);
         		$('#evaluationModal').modal('hide');
 			} else {
-				alert(data['msg']);
+				Calert(data['msg']);
 			}
         };
         var options= {
@@ -904,11 +904,11 @@ window.operateEvents = {
 	    			success:function(data){
 	    	        	if(data['success']) {
 	    	        		$('#myModal').modal('hide');
-	    	        		alert(data['msg']);
+	    	        		Calert(data['msg']);
 	    	        		refresh()
 	    	        		$('#oneForm')[0].reset();
 	    				} else {
-	    					alert(data['msg']);
+	    					Calert(data['msg']);
 	    				}
 	    	        },
 	    	        error:function(){}

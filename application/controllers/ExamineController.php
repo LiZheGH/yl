@@ -68,68 +68,28 @@ class ExamineController extends WebBaseController {
 	}
 	//事件上报-管路 列表
     public function ajaxPipingListAction(){
-        $uid = $this->curUser['id'];
-        $this->__displayOutput($this->abnormalPiping->getListByUserId($uid));
+        $level = $this->curUser['level']-1;
+        $this->__displayOutput($this->abnormalPiping->getListByUserLevel($level));
     }
     //事件上报-管路 添加/更新 提交
     public function ajaxPipingAddOrUpdateAction(){
         $data = array(
             'id'                => intval($this->__getParam('id')),
-            'cdate'             => date('Y-m-d H:i:s'),
-            'uid'               => $this->curUser['id'],
-            'event_time'        => $this->__getParam('event_time'),
-            'report_name'       => $this->__getParam('report_name'),
-            'report_time'       => $this->__getParam('report_time'),
-            'event_type'        => $this->__getParam('event_type'),
-            'report_section'    => $this->__getParam('report_section'),
-            'patient'           => $this->__getParam('patient'),
-            'anamnesis_num'     => $this->__getParam('anamnesis_num'),
-            'incident_disposal' => empty($_POST['incident_disposal'])?
-                                    '':implode(',', $_POST['incident_disposal']),
-            'patient_response'  => $this->__getParam('patient_response'),
-            'notice_of_incident'=> $this->__getParam('notice_of_incident'),
-            'incident'          => $this->__getParam('incident'),
-            'patient_gender'    => $this->__getParam('patient_gender'),
-            'patient_age'       => $this->__getParam('patient_age'),
-            'patient_section'   => $this->__getParam('patient_section'),
-            'shift'             => $this->__getParam('shift'),
-            'party_name'        => $this->__getParam('party_name'),
-            'event_section'     => $this->__getParam('event_section'),
-            'party_title'       => $this->__getParam('party_title'),
-            'patient_type'      => $this->__getParam('patient_type'),
-            'patient_edu'       => $this->__getParam('patient_edu'),
-            'health_education'  => $this->__getParam('health_education'),
-            'fixation_method'   => $this->__getParam('fixation_method'),
-            'escort'            => $this->__getParam('escort'),
-            'complication'      => empty($_POST['complication']) ?
-                                    '':implode(',', $_POST['complication']),
-            'sedative'          => $this->__getParam('sedative'),
-            'sedatives_before'  => $this->__getParam('sedatives_before'),
-            'conscious_state'   => empty($_POST['conscious_state']) ?
-                                    '': implode(',', $_POST['conscious_state']),
-            'mentality'         => $this->__getParam('mentality'),
-            'activity_ability'  => $this->__getParam('activity_ability'),
-            'working_years'     => $this->__getParam('working_years'),
-            'self_care_ability' => $this->__getParam('self_care_ability'),
-            'status'            => 0
+            'examine_date'      => date('Y-m-d H:i:s'),
+            'examine_info'      => $this->__getParam('examine_info'),
+            'examine_id'        => $this->curUser['id']
         );
-        if (empty($data['report_time']))
-            $data['report_time'] = date('Y-m-d H:i:s');
+        if (intval($this->__getParam('is_adopt')) == 1){
+            $data['status'] = $this->curUser['level'];
+        } else {
+            $data['status'] = -1;
+        }
         if ($data['id'] > 0)
             $res = $this->abnormalPiping->update($data);
         else{
             unset($data['id']);
             $res = $this->abnormalPiping->add($data);
         }
-        if ($res)
-            $this->__ajaxReturn(true,'成功');
-        else
-            $this->__ajaxReturn(false,'失败');
-    }
-    //事件上报-管路 删除
-    public function ajaxPipingDeleteAction(){
-        $id = intval($this->__getParam('id'));
-        $res = $this->abnormalPiping->delete($id);
         if ($res)
             $this->__ajaxReturn(true,'成功');
         else
@@ -203,15 +163,6 @@ class ExamineController extends WebBaseController {
         else
             $this->__ajaxReturn(false,'失败');
     }
-    //事件上报-给药 删除
-    public function ajaxMedicineDeleteAction(){
-        $id = intval($this->__getParam('id'));
-        $res = $this->abnormalMedicine->delete($id);
-        if ($res)
-            $this->__ajaxReturn(true,'成功');
-        else
-            $this->__ajaxReturn(false,'失败');
-    }
     //事件上报-锐器 列表
     public function ajaxStabListAction(){
         $uid = $this->curUser['id'];
@@ -268,15 +219,6 @@ class ExamineController extends WebBaseController {
         else
             $this->__ajaxReturn(false,'失败');
     }
-    //事件上报-锐器 删除
-    public function ajaxStabDeleteAction(){
-        $id = intval($this->__getParam('id'));
-        $res = $this->abnormalStab->delete($id);
-        if ($res)
-            $this->__ajaxReturn(true,'成功');
-        else
-            $this->__ajaxReturn(false,'失败');
-    }
     //事件上报-压疮 列表
     public function ajaxPressureListAction(){
         $uid = $this->curUser['id'];
@@ -327,15 +269,6 @@ class ExamineController extends WebBaseController {
             unset($data['id']);
             $res = $this->abnormalPressure->add($data);
         }
-        if ($res)
-            $this->__ajaxReturn(true,'成功');
-        else
-            $this->__ajaxReturn(false,'失败');
-    }
-    //事件上报-压疮 删除
-    public function ajaxPressureDeleteAction(){
-        $id = intval($this->__getParam('id'));
-        $res = $this->abnormalPressure->delete($id);
         if ($res)
             $this->__ajaxReturn(true,'成功');
         else
@@ -403,15 +336,6 @@ class ExamineController extends WebBaseController {
         else
             $this->__ajaxReturn(false,'失败');
     }
-    //事件上报-坠床 删除
-    public function ajaxFallDeleteAction(){
-        $id = intval($this->__getParam('id'));
-        $res = $this->abnormalFall->delete($id);
-        if ($res)
-            $this->__ajaxReturn(true,'成功');
-        else
-            $this->__ajaxReturn(false,'失败');
-    }
     //事件上报-其他 列表
     public function ajaxOtherListAction(){
         $uid = $this->curUser['id'];
@@ -468,15 +392,6 @@ class ExamineController extends WebBaseController {
             unset($data['id']);
             $res = $this->abnormalOther->add($data);
         }
-        if ($res)
-            $this->__ajaxReturn(true,'成功');
-        else
-            $this->__ajaxReturn(false,'失败');
-    }
-    //事件上报-其他 删除
-    public function ajaxOtherDeleteAction(){
-        $id = intval($this->__getParam('id'));
-        $res = $this->abnormalOther->delete($id);
         if ($res)
             $this->__ajaxReturn(true,'成功');
         else
