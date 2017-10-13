@@ -184,14 +184,15 @@ class SystemController extends WebBaseController {
 		if ($remark)
 			$account ['remark'] = $remark;
 		$status = $this->__getParam ( 'status' );
-		if (($status || ($status == 0)) && in_array ( $status, array (
-				0,
-				1
-		) ))
+		if (($status || ($status == 0)) && in_array( $status,array(0,1) ))
 			$account ['status'] = $status;
 		$email = $this->__getParam ( 'email' );
 		if ($email)
 			$account ['email'] = $email;
+		$level = $this->__getParam('level');
+		if ($level)
+		    $account['level'] = $level;
+        var_dump($account);exit;
 		$s_account = $this->systemAccount->getByUserName ( $username );
 		$avatar = $this->__getParam('avatar');
         if($avatar){
@@ -236,11 +237,11 @@ class SystemController extends WebBaseController {
 					'info' => '用户名或密码不能为空'
 			);
 		}
+		exit;
 		$this->__displayOutput ( $result );
 	}
 	public function ajaxAccountUpdateAction() {
 		$this->__checkAdminUserLogin ();
-
 		$id = $this->__getParam ( 'id' );
 		$account = $this->systemAccount->getById ( $id );
 		$username = $this->__getParam ( 'username' );
@@ -253,15 +254,15 @@ class SystemController extends WebBaseController {
 		if ($remark)
 			$account ['remark'] = $remark;
 		$status = $this->__getParam ( 'status' );
-		if (($status || ($status == 0)) && in_array ( $status, array (
-				0,
-				1
-		) )) {
+		if (($status || ($status == 0)) && in_array ( $status, array (0,1) )) {
 			$account ['status'] = $status;
 		}
 		$email = $this->__getParam ( 'email' );
 		if ($email)
 			$account ['email'] = $email;
+		$level = $this->__getParam('level');
+		if ($level)
+		    $account['level'] = $level;
 		$avatar = trim($this->__getParam('avatar'));
 		if($avatar){
 		   $account['avatar'] = $avatar;
@@ -286,10 +287,8 @@ class SystemController extends WebBaseController {
 			}
 		}
 		$flag = $this->systemAccount->update ( $account );
-
-		if (true) {
+		if ($flag) {
 			$this->curUser = $this->systemAccount->getById ( $id );
-			// $_SESSION['system_account'] = $this->curUser;
 			$result = array (
 					'result_code' => 0,
 					'info' => '成功'

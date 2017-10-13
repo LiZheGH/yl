@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2017-10-11 11:58:28
+<?php /* Smarty version Smarty-3.1.13, created on 2017-10-13 11:34:23
          compiled from "/private/var/www/yl/application/views/admin/system/account/list.html" */ ?>
 <?php /*%%SmartyHeaderCode:58503236959d8d8510e6626-72003089%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '048017ad47eba615435adad688873417646ddbf1' => 
     array (
       0 => '/private/var/www/yl/application/views/admin/system/account/list.html',
-      1 => 1507693403,
+      1 => 1507865404,
       2 => 'file',
     ),
   ),
@@ -101,7 +101,7 @@ $(function() {
                     <div class="form-group">
 	                        <label for="avatar">头像</label>
 	                        <span class="help-block">
-		                        <img id="avatar" style="width:103px;height:75px;margin-bottom:5px;" src="/public/img/store.jpg"  class="cover" placeholder="新闻配图">
+		                        <img id="avatar" style="width:103px;height:75px;margin-bottom:5px;" src="/public/img/icon.png"  class="cover" placeholder="新闻配图">
 		                        <input id="file_upload" name="file_upload" type="file" multiple="true">
 		                    </span>
 	                </div>
@@ -123,6 +123,18 @@ $_smarty_tpl->tpl_vars['role']->_loop = true;
                         	<?php } ?>
 						</div>
                     </div>
+                    <div class="form-group">
+						<label class="col-sm-1 control-label" style="padding-left: 0;">权重</label>
+						<div>
+							<em style="color:#ccc">（分为4个级别，数值越大，权重越高）</em>
+							<select  class="form-control" id="level" name="level">
+                    			<option value="1">1：（普通职工）</option>
+                    			<option value="2">2：（科室管理人员）</option>
+                    			<option value="3">3：（医院管理人员）</option>
+                    			<option value="4">4：（集团管理人员）</option>
+	                    	</select>
+	                    </div>
+					</div>
                     <div class="form-group">
                         <label for="email">邮箱</label>
                         <input type="email" class="form-control" id="email" placeholder="Email">
@@ -221,8 +233,9 @@ function opUpdate(row) {
         	$('#password').val('');
         	$('#email').val(data['email']);
         	$('#status').val(data['status']);
+        	$('#level').val(data['level']);
         	if(data['avatar'] == ''){
-        		$('#avatar').attr('src','/public/img/store.jpg');
+        		$('#avatar').attr('src','/public/img/icon.png');
         	}else{
         		$('#avatar').attr('src',data['avatar']);
         	}
@@ -253,12 +266,13 @@ function addOne() {
 		role_ids = role_ids.substring(0, role_ids.length-1);
 	var email = $('#email').val();
 	var status = $('#status').val();
+	var level = $('#level').val();
 	var avatar = $('#avatar').attr('src');
 	$.ajax({
         url:'/system/ajaxAccountAdd',
         type:'post',
 		dataType : 'json',
-		data : encodeURI('username=' + username +  '&password=' + password + '&role_ids=' + role_ids + '&email=' + email + '&status=' + status + '&avatar=' + avatar),
+		data : encodeURI('username=' + username +  '&password=' + password + '&role_ids=' + role_ids + '&email=' + email + '&level=' + level +'&status=' + status + '&avatar=' + avatar),
         success:function(data){
         	if(data['result_code'] == 0) {
         		Calert("添加成功!");
@@ -290,12 +304,13 @@ function updateOne() {
 		role_ids = role_ids.substring(0, role_ids.length-1);
 	var email = $('#email').val();
 	var status = $('#status').val();
+	var level = $('#level').val();
 	var avatar = $('#avatar').attr('src');
 	$.ajax({
         url:'/system/ajaxAccountUpdate',
         type:'post',
 		dataType : 'json',
-		data : encodeURI('id=' + id + '&username=' + username +  '&password=' + password + '&role_ids=' + role_ids + '&email=' + email + '&status=' + status + '&avatar=' + avatar),
+		data : encodeURI('id=' + id + '&username=' + username +  '&password=' + password + '&role_ids=' + role_ids + '&level=' + level + '&email=' + email + '&status=' + status + '&avatar=' + avatar),
         success:function(data){
         	if(data['result_code'] == 0) {
         		Calert("修改成功!");
