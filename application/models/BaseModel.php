@@ -74,6 +74,9 @@ class BaseModel {
 	public function getAll() {
 	    return $this->db->getAll("SELECT * FROM $this->table WHERE 1=1");
 	}
+	public function getListByWhere($where){
+	    return $this->db->getAll("SELECT * FROM $this->table ".$where);
+	}
 	public function getPageData($page, $rows, $order_by=' order by id desc ') {
 		return $this->db->fetAll($this->table, '*', $order_by . ' ' . "LIMIT " . ($page-1)*$rows . ", " . $rows, '1=1');
 	}

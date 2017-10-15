@@ -5,7 +5,7 @@
         		<div class="sidebar-toggler"> </div>
       		</li>
 	  		<li class="start active open"><a href="/welcome/index"><i class="icon-home"></i><span class="title">欢迎</span></a></li>
-			{if $cUser['is_admin']}
+			{if $cUser['is_admin'] || in_array('/system/',$power)}
 			<li class="">
 		      	<a href="javascript:;">
 		      		<i class="glyphicon glyphicon-cog"></i>
@@ -19,6 +19,8 @@
 					<li> <a class="ajax-link" href="/system/power/list">菜单管理 </a> </li>
 				</ul>
 			</li>
+      		{/if}
+      		{if $cUser['is_admin'] || in_array('/base/',$power)}
 			<li>
 		    	<a href="javascript:;">
 		      		<i class="glyphicon glyphicon-th-list"></i>
@@ -30,6 +32,8 @@
 					<li><a href="/base/section">科室管理</a></li>
 				</ul>
 			</li>
+			{/if}
+			{if $cUser['is_admin'] || in_array('/abnormal/',$power)}
 			<li>
 		      	<a href="javascript:;">
 		      		<i class="glyphicon glyphicon-list-alt"></i>
@@ -46,6 +50,8 @@
 					<li><a href="/abnormal/other">其他事件报告</a></li>
 				</ul>
 	   		</li>
+	   		{/if}
+      		{if $cUser['is_admin'] || in_array('/examine/',$power)}
       		<li>
 		      	<a href="javascript:;">
 		      		<i class="glyphicon glyphicon-eye-close"></i>
@@ -62,6 +68,8 @@
 					<li><a href="/examine/other">其他事件报告</a></li>
 				</ul>
 	   		</li>
+	   		{/if}
+		   	{if $cUser['is_admin'] || in_array('/standard/',$power)}
 		   	<li>
 		   	    <a href="javascript:;">
 			  	  	<i class="glyphicon glyphicon-book"></i>
@@ -83,26 +91,6 @@
 					<li><a href="/standard/dictionaries">检测指标字典</a></li>
 				</ul>
 			</li>
-			{else}
-			{if !empty($menu)}
-			{foreach from=$menu item=pmenu}
-			<li>
-		   	    <a href="javascript:;">
-			  	  	<i class="{$pmenu.icon}"></i>
-			  	  	<span class="title">{$pmenu.power_name}</span>
-			  	  	<span class="selected"></span>
-			  	  	<span class="arrow"></span>
-			    </a>
-				<ul class="sub-menu">
-					{if !empty($pmenu['child'])}
-					{foreach from=$pmenu.child item=cmenu}
-					<li><a href="{$cmenu.uri}">{$cmenu.power_name}</a></li>
-					{/foreach}
-					{/if}
-				</ul>
-			</li>
-			{/foreach}
-			{/if}
 			{/if}
 		</ul>
 	</div>

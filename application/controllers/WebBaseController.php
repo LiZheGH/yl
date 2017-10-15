@@ -109,6 +109,32 @@ class WebBaseController {
 		$this->smarty = LibSmarty::getInstance();
 		$this->smarty->assign('WEB_BASE_URL', WEB_BASE_URL);
         $this->smarty->assign('ip', $this->getIp());
+        if (isset($_SESSION['system_account']['id']) && $_SESSION['system_account']['id'] != 1){
+            $role_user = $this->systemRoleUser->getByAccountId($_SESSION['system_account']['id']);
+            $ids = '';
+            foreach ($role_user as $value){
+                $ids .= $value['role_id'].',';
+            }
+            $ids = trim($ids,',');
+            $role_power_list = $this->systemRolePower->getByRoleIds($ids);
+            $ids = '';
+            foreach ($role_power_list as $value){
+               $ids .= $value['power_id'].",";
+            }
+            $ids = trim($ids,',');
+            $powerData = $this->systemPower->getByIds($ids);
+            $allPower = array();
+            foreach ($powerData as $v){
+                if ($v['power_name'] == '欢迎')
+                    continue;
+                if ($v['p_id'] == 0){
+                    $allPower[$v['id']] = $v;
+                } else {
+                    $allPower[$v['p_id']]['child'][$v['id']] = $v;
+                }
+            }
+            $this->smarty->assign('menu', $allPower);
+        }
 		$this->params = $params;
 	}
 
@@ -194,7 +220,6 @@ class WebBaseController {
 	    $this->smarty->assign('cUser',$_SESSION['system_account']);
 	    // 判断是否有权限访问
 	    if($this->curUser['is_admin'] == 0) { // 超级管理员，不受限制
-
 	        $role_user_list = $this->systemRoleUser->getByAccountId( $user_id );
 	        $power_ids = array();
 	        $account_power_list = array();
@@ -212,7 +237,6 @@ class WebBaseController {
 	                }
 	            }
 	        }
-//	        $uri = strtolower($_SERVER['REQUEST_URI']);
             $uri = $_SERVER['REQUEST_URI'];
 	        $uriArr = explode('/', trim($uri,'\/'));
 	        $uri = '/'.lcfirst($uriArr[0]).'/';

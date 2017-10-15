@@ -118,22 +118,7 @@ class SystemAccount {
 	 * @return void|resource
 	 */
 	public function add($data) {
-	    if(!isset($data['username']) || !$data['username'])
-	        return;
-	    if(!isset($data['password']) || !$data['password'] || !CommonFuncs::checkMd5String($data['password']))
-	        return;
-	    if(!isset($data['email']))
-	        $data['email'] = '';
-	    if(!isset($data['mobile']))
-	        $data['mobile'] = '';
-	    if(!isset($data['remark']))
-	        $data['remark'] = '';
-	    if(!isset($data['avatar']))
-	        $data['avatar'] = '';
-	    $data['ldate'] = date('Y-m-d H:i:s');
-	    $sql = "insert into system_account(ldate, username, password, email, mobile, remark, rdate, udate, status,avatar)"
-	         . " values('" . $data['ldate'] . "' , '" . $data['username'] . "','" . $data['password'] . "','" . $data['email'] . "','" . $data['mobile'] . "','" . $data['remark'] . "','" . date('Y-m-d H:i:s') . "','" . date('Y-m-d H:i:s') . "', " . $data['status'] . ",'" . $data['avatar'] . "')";
-	    return $this->db->execute($sql);
+	   return $this->db->add('system_account', $data);
 	}
 
 	/**

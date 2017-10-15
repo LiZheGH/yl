@@ -308,11 +308,8 @@ class SystemController extends WebBaseController {
 	}
 	public function ajaxAccountGetOneAction() {
 		$this->__checkAdminUserLogin ();
-
 		$id = $this->__getParam ( 'id' );
 		$result = $this->systemAccount->getById ( $id );
-		//加入角色列表及所属角色数据
-		$role_list = $this->systemRole->getAllKey();
 		$role_user_list = $this->systemRoleUser->getByAccountId($id);
 		$role_ids = '';
 		foreach($role_user_list as $key => $value){
@@ -333,6 +330,7 @@ class SystemController extends WebBaseController {
 		       unset($data_list[$k]);
 		   }
 		}
+		$result = array();
 		$result ['total_page'] = ceil ( $this->systemAccount->getCount () / $rows );
 		$result ['cur_page'] = $page;
 		$result ['data'] = $data_list;
@@ -415,6 +413,7 @@ class SystemController extends WebBaseController {
 			$page = 1;
 		$rows = 15;
 		$data_list = $this->systemRole->getPageData ( $page, $rows );
+		$result = array();
 		$result ['total_page'] = ceil ( $this->systemAccount->getCount () / $rows );
 		$result ['cur_page'] = $page;
 		$result ['data'] = $data_list;
@@ -586,7 +585,15 @@ class SystemController extends WebBaseController {
 	public function roleAction(){
 	    $this->__checkAdminUserLogin ();
 	    $power_list = $this->systemPower->getAll();
-	    $this->smarty->assign('power_list', $power_list);
+	    $allPower = array();
+	    foreach ($power_list as $v){
+	        if ($v['p_id'] == 0){
+	            $allPower[$v['id']]['name'] = $v['power_name'];
+	        } else {
+	            $allPower[$v['p_id']]['child'][$v['id']] = $v['power_name'];
+	        }
+	    }
+	    $this->smarty->assign('power_list', $allPower);
 	    $this->smarty->display(VIEW_DIR . 'system/role/list.html');
 	}
 
@@ -596,28 +603,16 @@ class SystemController extends WebBaseController {
 	 *
 	 * *******************************************
 	 */
-	public function powerAction(){
-	    $this->__checkAdminUserLogin();
-	    $this->smarty->display(VIEW_DIR . 'system/power/list.html');
-	}
-
-   public function ajaxPowerGetListAction() {
+    public function ajaxPowerGetListAction() {
 		$this->__checkAdminUserLogin ();
-		$page = $this->__getParam ( 'page' );
-		if ($page < 1)
-			$page = 1;
-		$rows = 15;
-		$data_list = $this->systemPower->getPageData ( $page, $rows );
-		$result ['total_page'] = ceil ( $this->systemPower->getCount () / $rows );
-		$result ['cur_page'] = $page;
-		$result ['data'] = $data_list;
+        $p_id = intval($this->__getParam('p_id'));
+		$result = $this->systemPower->getListByPid($p_id);
 		$this->__displayOutput ( $result );
 	}
 	public function ajaxPowerGetOneAction() {
 		$this->__checkAdminUserLogin ();
 		$id = $this->__getParam ( 'id' );
 		$result = $this->systemPower->getById ( $id );
-
 		$this->__displayOutput ( $result );
 	}
 
@@ -626,108 +621,59 @@ class SystemController extends WebBaseController {
 	    $id = intval($this->__getParam ( 'id' ));
 	    $role_power_list = $this->systemRolePower->getByRoleId($id);
 	    $powerData = $this->systemPower->getAll();
-	    foreach($powerData as $k => $v){
+	    $power = array();
+	    foreach($powerData as $v){
 	        $power[$v['id']] = $v;
 	    }
 	    $result = array();
 	    if($role_power_list){
-	        $result['have_power'] = array();
-	        foreach($role_power_list as $key => $value){
-	            if($power[$value['power_id']]){
-	                $result['have_power'][] = $power[$value['power_id']];
+	        foreach($role_power_list as $value){
+	            if(isset($power[$value['power_id']])){
+	                $result[$value['power_id']] = $power[$value['power_id']]['power_name'];
 	            }
 	        }
-	        $result['all_power'] = $powerData;
 	    }
 	    $this->__displayOutput ($result);
 	}
 
-	public function ajaxPowerAddAction() {
+    public function ajaxPowerAddAction() {
 		$this->__checkAdminUserLogin ();
-		$power = array ();
-		$power_name = $this->__getParam ( 'power_name' );
-		if ($power_name)
-			$power ['power_name'] = $power_name;
-
-		$uri = urldecode ( $this->__getParam ( 'uri' ) );
-		if ($uri)
-			$power ['uri'] = $uri;
-
-		$s_account = $this->systemPower->getByPowerName ( $power_name );
-
-		// 判断权限名重复
-		if ($power_name != '') {
-			if ($s_account) {
-				$result = array (
-						'result_code' => 1,
-						'info' => '权限名有重复'
-				);
-			} else {
-				$flag = $this->systemPower->add ( $power );
-				if ($flag) {
-					$result = array (
-							'result_code' => 0,
-							'info' => '成功'
-					);
-				} else {
-					$result = array (
-							'result_code' => 1,
-							'info' => '失败'
-					);
-				}
-			}
-		} else {
-			$result = array (
-					'result_code' => 1,
-					'info' => '权限名不能为空'
-			);
-		}
-		$this->__displayOutput ( $result );
+		$power = array (
+		    'power_name' => $this->__getParam('power_name'),
+		    'uri' => urldecode($_POST['uri']),
+		    'sort' => intval($this->__getParam('sort')),
+		    'p_id' => intval($this->__getParam('p_id')),
+		);
+		if ($power['power_name'] == '')
+		    $this->__ajaxReturn(false,'权限名不能为空');
+		$s_account = $this->systemPower->getByPowerName($power['power_name']);
+		if ($s_account)
+		    $this->__ajaxReturn(false,'权限名有重复');
+        $flag = $this->systemPower->add ( $power );
+		if ($flag)
+		    $this->__ajaxReturn(true,'添加成功');
+		else
+		    $this->__ajaxReturn(false,'添加失败');
 	}
 	public function ajaxPowerUpdateAction() {
 		$this->__checkAdminUserLogin ();
-		$power = array ();
-		$id = $this->__getParam ( 'id' );
-		$power = $this->systemPower->getById ( $id );
-
-		$power_name = $this->__getParam ( 'power_name' );
-		if ($power_name)
-			$power ['power_name'] = $power_name;
-
-		$uri = urldecode ( $this->__getParam ( 'uri' ) );
-		if ($uri)
-			$power ['uri'] = $uri;
-
-			// $s_account = $this->systemPower->getByPowerName($power_name);
-
-		// 判断权限名重复
-		if ($power_name != '') {
-			if (false) { // $s_account) {
-				$result = array (
-						'result_code' => 1,
-						'info' => '权限名有重复'
-				);
-			} else {
-				$flag = $this->systemPower->update ( $power );
-				if (true) {//$flag) {
-					$result = array (
-							'result_code' => 0,
-							'info' => '成功'
-					);
-				} else {
-					$result = array (
-							'result_code' => 1,
-							'info' => '失败'
-					);
-				}
-			}
-		} else {
-			$result = array (
-					'result_code' => 1,
-					'info' => '权限名不能为空'
-			);
-		}
-		$this->__displayOutput ( $result );
+		$power = array (
+		    'id'  => intval($this->__getParam('id')),
+		    'power_name' => $this->__getParam('power_name'),
+		    'uri' => urldecode($_POST['uri']),
+		    'sort' => intval($this->__getParam('sort')),
+		    'p_id' => intval($this->__getParam('p_id')),
+		);
+		if ($power['power_name'] == '')
+		    $this->__ajaxReturn(false,'权限名不能为空');
+		$s_account = $this->systemPower->getByPowerName($power['power_name']);
+		if (count($s_account) > 1 && $s_account['0']['id'] != $power['id'])
+		    $this->__ajaxReturn(false,'权限名有重复');
+        $flag = $this->systemPower->update( $power );
+		if ($flag)
+		    $this->__ajaxReturn(true,'修改成功');
+		else
+		    $this->__ajaxReturn(false,'修改失败');
 	}
 	public function ajaxPowerDeleteAction() {
 		$this->__checkAdminUserLogin ();
@@ -747,123 +693,6 @@ class SystemController extends WebBaseController {
 
 		$this->__displayOutput ( $result );
 	}
-
-	public function ajaxGetJsonAction() {
-		$str = '[
-    {
-        "id": 0,
-        "name": "Item 0",
-        "price": "$0"
-    },
-    {
-        "id": 1,
-        "name": "Item 1",
-        "price": "$1"
-    },
-    {
-        "id": 2,
-        "name": "Item 2",
-        "price": "$2"
-    },
-    {
-        "id": 3,
-        "name": "Item 3",
-        "price": "$3"
-    },
-    {
-        "id": 4,
-        "name": "Item 4",
-        "price": "$4"
-    },
-    {
-        "id": 5,
-        "name": "Item 5",
-        "price": "$5"
-    },
-    {
-        "id": 6,
-        "name": "Item 6",
-        "price": "$6"
-    },
-    {
-        "id": 7,
-        "name": "Item 7",
-        "price": "$7"
-    },
-    {
-        "id": 8,
-        "name": "Item 8",
-        "price": "$8"
-    },
-    {
-        "id": 9,
-        "name": "Item 9",
-        "price": "$9"
-    },
-    {
-        "id": 10,
-        "name": "Item 10",
-        "price": "$10"
-    },
-    {
-        "id": 11,
-        "name": "Item 11",
-        "price": "$11"
-    },
-    {
-        "id": 12,
-        "name": "Item 12",
-        "price": "$12"
-    },
-    {
-        "id": 13,
-        "name": "Item 13",
-        "price": "$13"
-    },
-    {
-        "id": 14,
-        "name": "Item 14",
-        "price": "$14"
-    },
-    {
-        "id": 15,
-        "name": "Item 15",
-        "price": "$15"
-    },
-    {
-        "id": 16,
-        "name": "Item 16",
-        "price": "$16"
-    },
-    {
-        "id": 17,
-        "name": "Item 17",
-        "price": "$17"
-    },
-    {
-        "id": 18,
-        "name": "Item 18",
-        "price": "$18"
-    },
-    {
-        "id": 19,
-        "name": "Item 19",
-        "price": "$19"
-    },
-    {
-        "id": 20,
-        "name": "Item 20",
-        "price": "$20"
-    }
-]';
-		$obj = json_decode($str);
-		$result['total'] = 800;
-		$result['rows'] = $obj;
-		$this->__displayOutput($result);
-	}
-
-
-
 	public function captchaAction() {
 		//文件头...
 		header("Content-type: image/png");

@@ -1,7 +1,34 @@
-{include file="{$VIEW_DIR}common/header.html"}
+<?php /* Smarty version Smarty-3.1.13, created on 2017-10-14 18:24:14
+         compiled from "/private/var/www/yl/application/views/admin/standard/export_data.html" */ ?>
+<?php /*%%SmartyHeaderCode:64635120759e0b0b695d3a8-17534240%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    '64ed850ce5fdb7b3d4d71f40b9f01ccc920444d3' => 
+    array (
+      0 => '/private/var/www/yl/application/views/admin/standard/export_data.html',
+      1 => 1507976652,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '64635120759e0b0b695d3a8-17534240',
+  'function' => 
+  array (
+  ),
+  'version' => 'Smarty-3.1.13',
+  'unifunc' => 'content_59e0b0b697d573_21108127',
+  'variables' => 
+  array (
+    'VIEW_DIR' => 0,
+  ),
+  'has_nocache_code' => false,
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_59e0b0b697d573_21108127')) {function content_59e0b0b697d573_21108127($_smarty_tpl) {?><?php echo $_smarty_tpl->getSubTemplate (((string)$_smarty_tpl->tpl_vars['VIEW_DIR']->value)."common/header.html", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
+
 <body class="page-header-fixed page-quick-sidebar-over-content">
 	<div class="page-container">
-	{include file="{$VIEW_DIR}common/left_menu.html"}
+	<?php echo $_smarty_tpl->getSubTemplate (((string)$_smarty_tpl->tpl_vars['VIEW_DIR']->value)."common/left_menu.html", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
+
 	<div class="page-content-wrapper"><div class="page-content">
 	<div class="modal fade" id="portlet-config" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"></div>
       <div class="portlet box blue-madison">
@@ -64,7 +91,7 @@
     </div>
   </div>
 </div>
-{literal}
+
 <style>
 .pull-left{width:70%;margin-top:0!important}
 </style>
@@ -122,7 +149,9 @@ function downExcel(){
 	}
 }
 </script>
-{/literal}
-{include file="{$VIEW_DIR}common/footer.html"}
+
+<?php echo $_smarty_tpl->getSubTemplate (((string)$_smarty_tpl->tpl_vars['VIEW_DIR']->value)."common/footer.html", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
+
 </body>
 </html>
+<?php }} ?>

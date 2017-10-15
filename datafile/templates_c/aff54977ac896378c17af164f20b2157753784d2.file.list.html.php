@@ -1,6 +1,38 @@
-{include file="{$VIEW_DIR}common/header.html"}
+<?php /* Smarty version Smarty-3.1.13, created on 2017-10-15 09:37:20
+         compiled from "/private/var/www/yl/application/views/admin/system/role/list.html" */ ?>
+<?php /*%%SmartyHeaderCode:4819294859e1f0dc8b5aa2-94007487%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    'aff54977ac896378c17af164f20b2157753784d2' => 
+    array (
+      0 => '/private/var/www/yl/application/views/admin/system/role/list.html',
+      1 => 1508031436,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '4819294859e1f0dc8b5aa2-94007487',
+  'function' => 
+  array (
+  ),
+  'version' => 'Smarty-3.1.13',
+  'unifunc' => 'content_59e1f0dc8fbcf7_79547062',
+  'variables' => 
+  array (
+    'VIEW_DIR' => 0,
+    'power_list' => 0,
+    'key' => 0,
+    'power' => 0,
+    'ckey' => 0,
+    'child' => 0,
+  ),
+  'has_nocache_code' => false,
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_59e1f0dc8fbcf7_79547062')) {function content_59e1f0dc8fbcf7_79547062($_smarty_tpl) {?><?php echo $_smarty_tpl->getSubTemplate (((string)$_smarty_tpl->tpl_vars['VIEW_DIR']->value)."common/header.html", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
+
 <body class="page-header-fixed page-quick-sidebar-over-content">
-<div class="page-container"> {include file="{$VIEW_DIR}common/left_menu.html"}
+<div class="page-container"> <?php echo $_smarty_tpl->getSubTemplate (((string)$_smarty_tpl->tpl_vars['VIEW_DIR']->value)."common/left_menu.html", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
+
   <div class="page-content-wrapper">
     <div class="page-content">
       <div class="modal fade" id="portlet-config" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"> </div>
@@ -49,22 +81,41 @@
                     <div class="form-group" >
                         <label for="power_ids">权限</label>
                         <div class="" id="powers">
-                        	{foreach from=$power_list item=power key=key}
+                        	<?php  $_smarty_tpl->tpl_vars['power'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['power']->_loop = false;
+ $_smarty_tpl->tpl_vars['key'] = new Smarty_Variable;
+ $_from = $_smarty_tpl->tpl_vars['power_list']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
+foreach ($_from as $_smarty_tpl->tpl_vars['power']->key => $_smarty_tpl->tpl_vars['power']->value){
+$_smarty_tpl->tpl_vars['power']->_loop = true;
+ $_smarty_tpl->tpl_vars['key']->value = $_smarty_tpl->tpl_vars['power']->key;
+?>
 	                        	<hr>
 	                        	<label class="checkbox-inline " style="width:25%;margin:0;">
-								<input id="power{$key}" name="power_ids" type="checkbox" value="{$key}" {if $power.name == '欢迎'} checked disabled {else} class="power_ids parent"{/if}>
-								<b style="color:#578ebe;">【{$power.name}】</b>
+								<input id="power<?php echo $_smarty_tpl->tpl_vars['key']->value;?>
+" name="power_ids" type="checkbox" value="<?php echo $_smarty_tpl->tpl_vars['key']->value;?>
+" <?php if ($_smarty_tpl->tpl_vars['power']->value['name']=='欢迎'){?> checked disabled <?php }else{ ?> class="power_ids parent"<?php }?>>
+								<b style="color:#578ebe;">【<?php echo $_smarty_tpl->tpl_vars['power']->value['name'];?>
+】</b>
 								</label>
 								<br>
-								{if isset($power['child'])}
-								{foreach from=$power['child'] item=child key=ckey}
+								<?php if (isset($_smarty_tpl->tpl_vars['power']->value['child'])){?>
+								<?php  $_smarty_tpl->tpl_vars['child'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['child']->_loop = false;
+ $_smarty_tpl->tpl_vars['ckey'] = new Smarty_Variable;
+ $_from = $_smarty_tpl->tpl_vars['power']->value['child']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
+foreach ($_from as $_smarty_tpl->tpl_vars['child']->key => $_smarty_tpl->tpl_vars['child']->value){
+$_smarty_tpl->tpl_vars['child']->_loop = true;
+ $_smarty_tpl->tpl_vars['ckey']->value = $_smarty_tpl->tpl_vars['child']->key;
+?>
 									<label class="checkbox-inline" style="width:23%;margin-left:1%;">
-										<input id="power{$ckey}" name="power_ids" p_id={$key} type="checkbox" value="{$ckey}" class="power_ids child" >
-										{$child}
+										<input id="power<?php echo $_smarty_tpl->tpl_vars['ckey']->value;?>
+" name="power_ids" p_id=<?php echo $_smarty_tpl->tpl_vars['key']->value;?>
+ type="checkbox" value="<?php echo $_smarty_tpl->tpl_vars['ckey']->value;?>
+" class="power_ids child" >
+										<?php echo $_smarty_tpl->tpl_vars['child']->value;?>
+
 									</label>
-								{/foreach}
-								{/if}
-                        	{/foreach}
+								<?php } ?>
+								<?php }?>
+                        	<?php } ?>
 						</div>
                     </div>
                     <div class="form-group">
@@ -86,7 +137,7 @@
 			</div>
 		</div>
 	</div>
-{literal}
+
 <script type="text/javascript">
 function operateFormatter(value, row, index) {
     return [
@@ -285,7 +336,8 @@ function updateOne() {
 	);
 }
 </script>
-{/literal}
-{include file="{$VIEW_DIR}common/footer.html"}
+
+<?php echo $_smarty_tpl->getSubTemplate (((string)$_smarty_tpl->tpl_vars['VIEW_DIR']->value)."common/footer.html", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
+
 </body>
-</html>
+</html><?php }} ?>

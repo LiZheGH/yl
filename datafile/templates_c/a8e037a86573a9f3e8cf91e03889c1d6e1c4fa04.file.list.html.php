@@ -1,6 +1,33 @@
-{include file="{$VIEW_DIR}common/header.html"}
+<?php /* Smarty version Smarty-3.1.13, created on 2017-10-15 07:05:46
+         compiled from "/private/var/www/yl/application/views/admin/system/power/list.html" */ ?>
+<?php /*%%SmartyHeaderCode:82413082959e1f0ddb8f555-47294913%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    'a8e037a86573a9f3e8cf91e03889c1d6e1c4fa04' => 
+    array (
+      0 => '/private/var/www/yl/application/views/admin/system/power/list.html',
+      1 => 1508022341,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '82413082959e1f0ddb8f555-47294913',
+  'function' => 
+  array (
+  ),
+  'version' => 'Smarty-3.1.13',
+  'unifunc' => 'content_59e1f0ddbc8b17_03411059',
+  'variables' => 
+  array (
+    'VIEW_DIR' => 0,
+  ),
+  'has_nocache_code' => false,
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_59e1f0ddbc8b17_03411059')) {function content_59e1f0ddbc8b17_03411059($_smarty_tpl) {?><?php echo $_smarty_tpl->getSubTemplate (((string)$_smarty_tpl->tpl_vars['VIEW_DIR']->value)."common/header.html", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
+
 <body class="page-header-fixed page-quick-sidebar-over-content">
-<div class="page-container"> {include file="{$VIEW_DIR}common/left_menu.html"}
+<div class="page-container"> <?php echo $_smarty_tpl->getSubTemplate (((string)$_smarty_tpl->tpl_vars['VIEW_DIR']->value)."common/left_menu.html", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
+
   <div class="page-content-wrapper">
     <div class="page-content">
       <div class="modal fade" id="portlet-config" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"> </div>
@@ -96,7 +123,7 @@
 		</div>
 	</div>
 </div>
-{literal}
+
 <script type="text/javascript">
 function addOne() {
 	var power_name = $('#power_name').val();
@@ -300,7 +327,9 @@ function opChildUpdate(row){
 	$('#myModal').modal('show');
 }
 </script>
-{/literal}
-{include file="{$VIEW_DIR}common/footer.html"}
+
+<?php echo $_smarty_tpl->getSubTemplate (((string)$_smarty_tpl->tpl_vars['VIEW_DIR']->value)."common/footer.html", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
+
 </body>
 </html>
+<?php }} ?>

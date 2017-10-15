@@ -1,12 +1,43 @@
-{include file="{$VIEW_DIR}common/header.html"}
-{literal}
+<?php /* Smarty version Smarty-3.1.13, created on 2017-10-14 01:59:26
+         compiled from "/private/var/www/yl/application/views/admin/standard/import_data.html" */ ?>
+<?php /*%%SmartyHeaderCode:32614698359e0b2653f7bb6-57995683%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    'fefa5ef467cd83a8983025184ddea05e7c6209e8' => 
+    array (
+      0 => '/private/var/www/yl/application/views/admin/standard/import_data.html',
+      1 => 1507917558,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '32614698359e0b2653f7bb6-57995683',
+  'function' => 
+  array (
+  ),
+  'version' => 'Smarty-3.1.13',
+  'unifunc' => 'content_59e0b265452f70_60703148',
+  'variables' => 
+  array (
+    'VIEW_DIR' => 0,
+    'sessionid' => 0,
+    'reportDictionaryList' => 0,
+    'section_id' => 0,
+    'sectionList' => 0,
+  ),
+  'has_nocache_code' => false,
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_59e0b265452f70_60703148')) {function content_59e0b265452f70_60703148($_smarty_tpl) {?><?php echo $_smarty_tpl->getSubTemplate (((string)$_smarty_tpl->tpl_vars['VIEW_DIR']->value)."common/header.html", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
+
+
 <script>
 var myDate = new Date();
 </script>
-{/literal}
+
 <body class="page-header-fixed page-quick-sidebar-over-content">
 	<div class="page-container">
-	{include file="{$VIEW_DIR}common/left_menu.html"}
+	<?php echo $_smarty_tpl->getSubTemplate (((string)$_smarty_tpl->tpl_vars['VIEW_DIR']->value)."common/left_menu.html", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
+
 	<div class="page-content-wrapper"><div class="page-content">
 	<div class="modal fade" id="portlet-config" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"></div>
       <div class="portlet box blue-madison">
@@ -25,23 +56,35 @@ var myDate = new Date();
 			                </div>
 		                </div>
 		            </div>
-	                <input type="hidden" id="sessionid" name="sessionid" value="{$sessionid}"/>
-					{foreach from=$reportDictionaryList item=item key=section_id}
-					{if $section_id != 0 }
+	                <input type="hidden" id="sessionid" name="sessionid" value="<?php echo $_smarty_tpl->tpl_vars['sessionid']->value;?>
+"/>
+					<?php  $_smarty_tpl->tpl_vars['item'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['item']->_loop = false;
+ $_smarty_tpl->tpl_vars['section_id'] = new Smarty_Variable;
+ $_from = $_smarty_tpl->tpl_vars['reportDictionaryList']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
+foreach ($_from as $_smarty_tpl->tpl_vars['item']->key => $_smarty_tpl->tpl_vars['item']->value){
+$_smarty_tpl->tpl_vars['item']->_loop = true;
+ $_smarty_tpl->tpl_vars['section_id']->value = $_smarty_tpl->tpl_vars['item']->key;
+?>
+					<?php if ($_smarty_tpl->tpl_vars['section_id']->value!=0){?>
 					<div class="form-group col-sm-6" style="margin-left:10px;">
 						<div class="col-sm-12" style="border:1px solid #e5e5e5;padding-top: 1em;">
 							<div style="float:left;margin:0 10px;">
-			                   	 <input id="file_upload{$section_id}" name="file_upload" type="file" style="width:200px;float:left;">
+			                   	 <input id="file_upload<?php echo $_smarty_tpl->tpl_vars['section_id']->value;?>
+" name="file_upload" type="file" style="width:200px;float:left;">
 			                   	 <input type="hidden" id="file_id" name="file_id"/>
 		                   	</div>
-		                   	<a onclick="ajaxDownTemplate({$section_id})" style="float:right;width:45%;line-height:30px;">
-		                   		<span><i class="glyphicon glyphicon-download"></i>下载 <font color="#555" class="t_{$section_id}">{$sectionList[$section_id]}</font> 标准模板</span>
+		                   	<a onclick="ajaxDownTemplate(<?php echo $_smarty_tpl->tpl_vars['section_id']->value;?>
+)" style="float:right;width:45%;line-height:30px;">
+		                   		<span><i class="glyphicon glyphicon-download"></i>下载 <font color="#555" class="t_<?php echo $_smarty_tpl->tpl_vars['section_id']->value;?>
+"><?php echo $_smarty_tpl->tpl_vars['sectionList']->value[$_smarty_tpl->tpl_vars['section_id']->value];?>
+</font> 标准模板</span>
 		                	</a>
 		                </div>
 	                </div>
-	                {literal}
+	                
 	                <script>
-	                $('#file_upload{/literal}{$section_id}{literal}').uploadify({
+	                $('#file_upload<?php echo $_smarty_tpl->tpl_vars['section_id']->value;?>
+').uploadify({
 	            		'formData'  : {
 	            			'timestamp' : myDate.getTime(),
 	            			'token'     : 'aaa' + myDate.getTime(),
@@ -58,12 +101,15 @@ var myDate = new Date();
 	            			var report_time = $('#report_time').val();
 	            			if(report_time == ''){
 	            				Calert("请选择上报日期");
-	            				$('#file_upload{/literal}{$section_id}{literal}').uploadify('cancel');
+	            				$('#file_upload<?php echo $_smarty_tpl->tpl_vars['section_id']->value;?>
+').uploadify('cancel');
 	            				return false;
 	            			}
-	            			$("#file_upload{/literal}{$section_id}{literal}")
+	            			$("#file_upload<?php echo $_smarty_tpl->tpl_vars['section_id']->value;?>
+")
 	            				.uploadify("settings", "formData", {
-	            					'report_section':{/literal}{$section_id}{literal},
+	            					'report_section':<?php echo $_smarty_tpl->tpl_vars['section_id']->value;?>
+,
 	            					'report_time' : $('#report_time').val()
 	            				});
 	            			juhuaShow();
@@ -77,19 +123,22 @@ var myDate = new Date();
 	            				var res = JSON.parse(data);
 	            				Calert(res.msg);
 	            				if(res.success){
-									$("#file_upload{/literal}{$section_id}{literal}-button").find(".uploadify-button-text")
+									$("#file_upload<?php echo $_smarty_tpl->tpl_vars['section_id']->value;?>
+-button").find(".uploadify-button-text")
 										.append('<span style="color:#5cb85c;margin-left:10px;"><i class="glyphicon glyphicon-ok-circle"></i>成功</span>');
 	            				}
 	            			}
 	            		}
 	            	});
-	                $("#file_upload{/literal}{$section_id}{literal}-button")
+	                $("#file_upload<?php echo $_smarty_tpl->tpl_vars['section_id']->value;?>
+-button")
 		                .find(".uploadify-button-text")
-		                .html('<i class="glyphicon glyphicon-upload"></i>上传 <font color="#555">'+$(".t_{/literal}{$section_id}{literal}").text()+'</font> 模板');
+		                .html('<i class="glyphicon glyphicon-upload"></i>上传 <font color="#555">'+$(".t_<?php echo $_smarty_tpl->tpl_vars['section_id']->value;?>
+").text()+'</font> 模板');
 	                </script>
-	                {/literal}
-					{/if}
-	           		{/foreach}
+	                
+					<?php }?>
+	           		<?php } ?>
 					<div class="form-group" style="clear:both;padding:40px 3%;">
 						<div class="col-sm-12">
 							<p><em style="color:#aaa">注意：</em></p>
@@ -108,7 +157,7 @@ var myDate = new Date();
     </div>
   </div>
 </div>
-{literal}
+
 <style>
 .uploadify,.swfupload,.uploadify-button {
 	width:100%!important;
@@ -188,7 +237,9 @@ function ajaxDownTemplate(section){
 	);
 }
 </script>
-{/literal}
-{include file="{$VIEW_DIR}common/footer.html"}
+
+<?php echo $_smarty_tpl->getSubTemplate (((string)$_smarty_tpl->tpl_vars['VIEW_DIR']->value)."common/footer.html", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
+
 </body>
 </html>
+<?php }} ?>

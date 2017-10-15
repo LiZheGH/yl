@@ -1,0 +1,64 @@
+2017-10-13 20:25:26_0.61141600 1507897526 :/standard/export_data
+
+2017-10-13 20:25:26_0.96260600 1507897526 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 20:25:31_0.13092600 1507897531 :/standard/export_data
+
+2017-10-13 20:25:31_0.42962700 1507897531 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 20:26:01_0.31966500 1507897561 :/standard/export_data
+
+2017-10-13 20:26:01_0.63420200 1507897561 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 20:27:11_0.50284600 1507897631 :/system/account/list
+
+2017-10-13 20:27:11_0.82908800 1507897631 :/system/ajaxAccountGetList?sort=sort_weight&order=desc
+
+2017-10-13 20:32:33_0.82736000 1507897953 :/standard/edit_data
+
+2017-10-13 20:32:34_0.15301600 1507897954 :/Standard/ajaxEditImportDataList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-13 20:32:37_0.25841200 1507897957 :/standard/import_data
+
+2017-10-13 20:32:37_0.69837100 1507897957 :/Standard/ajaxGetExportDictionary
+
+2017-10-13 20:32:39_0.13582900 1507897959 :/standard/summary_month
+
+2017-10-13 20:32:39_0.49371000 1507897959 :/Standard/ajaxGetSummaryMonthList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-13 20:50:47_0.65732200 1507899047 :/standard/summary_month
+
+2017-10-13 20:50:47_0.98033300 1507899047 :/Standard/ajaxGetSummaryMonthList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-13 20:54:16_0.88437900 1507899256 :/standard/summary_month
+
+2017-10-13 20:54:17_0.19210900 1507899257 :/Standard/ajaxGetSummaryMonthList?sort=id&order=asc&limit=10&offset=0
+
+2017-10-13 20:59:36_0.26283500 1507899576 :/system/account/list
+
+2017-10-13 20:59:36_0.55985700 1507899576 :/system/ajaxAccountGetList?sort=sort_weight&order=desc
+
+2017-10-13 20:59:43_0.78203600 1507899583 :/base/section
+
+2017-10-13 20:59:44_0.09458700 1507899584 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 21:01:33_0.37434600 1507899693 :/welcome/index
+
+2017-10-13 22:28:47_0.78474700 1507904927 :/base/section
+
+2017-10-13 22:28:48_0.14955500 1507904928 :/base/ajaxSectionList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 22:28:50_0.11008300 1507904930 :/welcome/index
+
+2017-10-13 22:29:13_0.71286900 1507904953 :/abnormal/piping
+
+2017-10-13 22:29:14_0.07542800 1507904954 :/Abnormal/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 22:29:22_0.76132400 1507904962 :/examine/piping
+
+2017-10-13 22:29:23_0.08105500 1507904963 :/Examine/ajaxPipingList?sort=id&order=desc&limit=10&offset=0
+
+2017-10-13 22:39:52_0.63487000 1507905592 :/standard/import_data
+
+2017-10-13 22:39:53_0.05817600 1507905593 :/Standard/ajaxGetExportDictionary
+

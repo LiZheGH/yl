@@ -1,7 +1,34 @@
-{include file="{$VIEW_DIR}common/header.html"}
+<?php /* Smarty version Smarty-3.1.13, created on 2017-10-14 20:24:47
+         compiled from "/private/var/www/yl/application/views/admin/standard/irrelevant.html" */ ?>
+<?php /*%%SmartyHeaderCode:169211232959e2020f6d2e11-90811752%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    'ff7b972938322e44454e0d5695d0778d9182fe8e' => 
+    array (
+      0 => '/private/var/www/yl/application/views/admin/standard/irrelevant.html',
+      1 => 1507919120,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '169211232959e2020f6d2e11-90811752',
+  'function' => 
+  array (
+  ),
+  'variables' => 
+  array (
+    'VIEW_DIR' => 0,
+  ),
+  'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.13',
+  'unifunc' => 'content_59e2020f6ef083_11446042',
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_59e2020f6ef083_11446042')) {function content_59e2020f6ef083_11446042($_smarty_tpl) {?><?php echo $_smarty_tpl->getSubTemplate (((string)$_smarty_tpl->tpl_vars['VIEW_DIR']->value)."common/header.html", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
+
 <body class="page-header-fixed page-quick-sidebar-over-content">
 	<div class="page-container">
-	{include file="{$VIEW_DIR}common/left_menu.html"}
+	<?php echo $_smarty_tpl->getSubTemplate (((string)$_smarty_tpl->tpl_vars['VIEW_DIR']->value)."common/left_menu.html", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
+
 	<div class="page-content-wrapper"><div class="page-content">
 	<div class="modal fade" id="portlet-config" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"></div>
       <div class="portlet box blue-madison">
@@ -65,7 +92,7 @@
 		</div>
 	</div>
 </div>
-{literal}
+
 <script type="text/javascript">
 function showStatus(value,row,index){
 	if(row.status == 1){
@@ -199,7 +226,9 @@ function updateOne() {
 	});
 }
 </script>
-{/literal}
-{include file="{$VIEW_DIR}common/footer.html"}
+
+<?php echo $_smarty_tpl->getSubTemplate (((string)$_smarty_tpl->tpl_vars['VIEW_DIR']->value)."common/footer.html", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
+
 </body>
 </html>
+<?php }} ?>

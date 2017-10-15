@@ -660,7 +660,6 @@ class StandardController extends WebBaseController {
             $report_time = date("Y-m");
         else
             $report_time = date("Y-m",strtotime($report_time));
-            $report_time = '2017-09';
         $list = $this->importData->getListByReportTime($report_time);
         $allChild = $this->dictionary->getAllChildKeyInfo();
         $data = array();
@@ -681,6 +680,189 @@ class StandardController extends WebBaseController {
             $i++;
         }
         $this->__displayOutput($listData);
+    }
+    //导出数据-展示
+    public function ajaxGetExportDataListAction(){
+        $start_time = $this->__getParam('report_time_start');
+        $end_time = $this->__getParam('report_time_end');
+        if (empty($start_time) && empty($end_time)){
+            $start_time = date("Y-m-01");
+            $end_time = date("Y-m-d");
+        } else {
+            $start_time = strtotime($start_time);
+            $end_time = strtotime($end_time);
+            if ($start_time > $end_time){
+                $temp_time = $start_time;
+                $start_time = $end_time;
+                $end_time = $temp_time;
+            }
+            $start_time = date("Y-m-d",$start_time);
+            $end_time = date("Y-m-d",$end_time);
+        }
+        $where = " WHERE `report_time` >= '{$start_time}' AND `report_time` <= '{$end_time}'";
+        $list = $this->importData->getListByWhere($where);
+        $data = array();
+        foreach ($list as $value){
+            $month = substr($value['report_time'],5,2);
+            $data[$value['section'].'-'.$value['subject_id']][$month] = $value['value'];
+        }
+        $allChild = $this->dictionary->getAllChildKeyInfo();
+        $listData = array();
+        $i = 0;
+        foreach ($data as $key => $value){
+            $sectionSubjectArr = explode('-',$key);
+            $subject_id = $sectionSubjectArr[1];
+            $listData[$i]['id'] = $i;
+            if ($sectionSubjectArr[0] == 0)
+                $section_name = '全院';
+            else
+                $section_name = $this->sectionList[$sectionSubjectArr[0]];
+            $listData[$i]['section_name'] = $section_name;
+            $listData[$i]['type_name'] = $allChild[$subject_id]['type_name'];
+            $listData[$i]['standard'] = $allChild[$subject_id]['range'].$allChild[$subject_id]['standard'];
+            $num = 0;
+            $sum = 0;
+            foreach ($value as $k => $v){
+                $listData[$i]['m'.$k] = $v;
+                $num++;
+                $sum += $v;
+            }
+            $average = $sum/$num;
+            $listData[$i]['average'] = $average;
+            if (
+                in_array($allChild[$subject_id]['range'],array('≥','＞'))
+                && $average < $allChild[$subject_id]['standard']
+            ) {
+                $listData[$i]['status'] = -1;
+            } elseif (
+                in_array($allChild[$subject_id]['range'],array('≤','＜'))
+                && $average > $allChild[$subject_id]['standard']
+            ){
+                $listData[$i]['status'] = 1;
+            } else {
+                $listData[$i]['status'] = 0;
+            }
+            $i++;
+        }
+        $this->__displayOutput($listData);
+    }
+    //导出数据-下载Excel
+    public function ajaxExportImportDataListAction(){
+        set_time_limit(0);
+        $start_time = $this->__getParam('s');
+        $end_time = $this->__getParam('e');
+        if (empty($start_time) && empty($end_time)){
+            $start_time = date("Y-m-01");
+            $end_time = date("Y-m-d");
+        } else {
+            $start_time = strtotime($start_time);
+            $end_time = strtotime($end_time);
+            if ($start_time > $end_time){
+                $temp_time = $start_time;
+                $start_time = $end_time;
+                $end_time = $temp_time;
+            }
+            $start_time = date("Y-m-d",$start_time);
+            $end_time = date("Y-m-d",$end_time);
+        }
+        $where = " WHERE `report_time` >= '{$start_time}' AND `report_time` <= '{$end_time}'";
+        $list = $this->importData->getListByWhere($where);
+        $data = array();
+        foreach ($list as $value){
+            $month = substr($value['report_time'],5,2);
+            $data[$value['section'].'-'.$value['subject_id']][$month] = $value['value'];
+        }
+        $allChild = $this->dictionary->getAllChildKeyInfo();
+        $listData = array();
+        $i = 0;
+        $idsArr = explode(',',$this->__getParam('ids'));
+        foreach ($data as $key => $value){
+            if (!in_array(($i+1),$idsArr)){
+                $i++;
+                continue;
+            }
+            $sectionSubjectArr = explode('-',$key);
+            $subject_id = $sectionSubjectArr[1];
+            $listData[$i]['id'] = $i;
+            if ($sectionSubjectArr[0] == 0)
+                $section_name = '全院';
+            else
+                $section_name = $this->sectionList[$sectionSubjectArr[0]];
+            $listData[$i]['section_name'] = $section_name;
+            $listData[$i]['type_name'] = $allChild[$subject_id]['type_name'];
+            $listData[$i]['standard'] = $allChild[$subject_id]['range'].$allChild[$subject_id]['standard'];
+            $num = 0;
+            $sum = 0;
+            foreach ($value as $k => $v){
+                $listData[$i]['m'.$k] = $v;
+                $num++;
+                $sum += $v;
+            }
+            $average = $sum/$num;
+            $listData[$i]['average'] = $average;
+            if (
+                in_array($allChild[$subject_id]['range'],array('≥','＞'))
+                && $average < $allChild[$subject_id]['standard']
+            ) {
+                $listData[$i]['status'] = -1;
+            } elseif (
+                in_array($allChild[$subject_id]['range'],array('≤','＜'))
+                && $average > $allChild[$subject_id]['standard']
+            ){
+                $listData[$i]['status'] = 1;
+            } else {
+                $listData[$i]['status'] = 0;
+            }
+            $i++;
+        }
+        $data = array();
+        $statusArr = array('0'=>'↓','1'=>'','2'=>'↑');
+        $data[1]['A'] = '起止日期：'.$start_time.' 至 '.$end_time;
+        $i = 3;
+        foreach ($listData as $value){
+            $data[$i++] = array(
+                'A' => $i-3,
+                'B' => $value['section_name'],
+                'C' => $value['type_name'],
+                'D' => $value['standard'],
+                'E' => isset($value['m01'])?$value['m01']:'',
+                'F' => isset($value['m02'])?$value['m02']:'',
+                'G' => isset($value['m03'])?$value['m03']:'',
+                'H' => isset($value['m04'])?$value['m04']:'',
+                'I' => isset($value['m05'])?$value['m05']:'',
+                'J' => isset($value['m06'])?$value['m06']:'',
+                'K' => isset($value['m07'])?$value['m07']:'',
+                'L' => isset($value['m08'])?$value['m08']:'',
+                'M' => isset($value['m09'])?$value['m09']:'',
+                'N' => isset($value['m010'])?$value['m010']:'',
+                'O' => isset($value['m011'])?$value['m011']:'',
+                'P' => isset($value['m012'])?$value['m012']:'',
+                'Q' => $value['average'].$statusArr[$value['status']+1],
+            );
+        }
+        $fileName = "导出模板.xlsx";
+        require_once 'lib/PHPExcel.php';
+        require_once 'lib/PHPExcel/IOFactory.php';
+        require_once 'lib/PHPExcel/Reader/Excel2007.php';
+        // 创建PHPExcel对象
+        $objPHPExcel = new PHPExcel();
+        $objReader = PHPExcel_IOFactory::createReader('Excel2007');
+        $objPHPExcel = $objReader->load(BASE_DIR . "public/temp/" . $fileName);
+        // 循环设置特殊值
+        $objActSheet = $objPHPExcel->getActiveSheet();
+        foreach ($data as $key => $line) {
+            foreach ($line as $k => $v) {
+                $objActSheet->setCellValue($k . $key, $v);
+            }
+        }
+        // 重命名表
+        $fileName = iconv("utf-8", "gb2312", "导出数据".$start_time."至".$end_time.".xlsx");
+        header('Content-Type: application/vnd.ms-excel');
+        header("Content-Disposition: attachment;filename=\"$fileName\"");
+        header('Cache-Control: max-age=0');
+        $objWriter = \PHPExcel_IOFactory::createWriter($objPHPExcel, 'Excel2007');
+        $objWriter->save('php://output'); // 文件通过浏览器下载
+        exit();
     }
 	protected function log($title, $log_data = '') {
 		$f = fopen ( $this->log_file, 'a+' );
