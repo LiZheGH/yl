@@ -130,7 +130,6 @@ class SystemAccount {
 	public function getById($id) {
 		if(!CommonFuncs::checkId($id))
 			return;
-
 		$sql = "select * from system_account where 1=1 and id=" . $id;
 		return $this->db->getOne($sql);
 	}

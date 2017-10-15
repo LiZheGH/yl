@@ -179,7 +179,6 @@ class PDOMysql {
 		$sql = "INSERT INTO `$table` SET ";
 		$code = self::getCode ( $table, $args );
 		$sql .= $code;
-// 		echo $sql;exit;
 		if (self::execute ( $sql )){
     		return $this->getLastId();
 	    } else {

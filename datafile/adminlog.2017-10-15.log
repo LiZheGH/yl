@@ -1,0 +1,116 @@
+2017-10-15 10:43:13_0.42667600 1508035393 :/system/account/list
+
+2017-10-15 10:43:13_0.70827600 1508035393 :/system/ajaxAccountGetList?sort=sort_weight&order=desc
+
+2017-10-15 10:44:40_0.42452100 1508035480 :/system/ajaxAccountGetOne
+
+2017-10-15 10:44:48_0.11495700 1508035488 :/system/ajaxAccountUpdate
+
+2017-10-15 10:44:54_0.50677900 1508035494 :/system/ajaxAccountGetOne
+
+2017-10-15 10:44:58_0.45754200 1508035498 :/system/ajaxAccountUpdate
+
+2017-10-15 10:46:31_0.39329800 1508035591 :/system/ajaxAccountGetOne
+
+2017-10-15 10:46:37_0.48595600 1508035597 :/system/ajaxAccountUpdate
+
+2017-10-15 10:49:02_0.30051200 1508035742 :/system/ajaxAccountGetOne
+
+2017-10-15 10:49:18_0.96183000 1508035758 :/system/ajaxAccountUpdate
+
+2017-10-15 10:49:50_0.83349500 1508035790 :/system/ajaxAccountGetOne
+
+2017-10-15 10:49:56_0.70282800 1508035796 :/system/ajaxAccountUpdate
+
+2017-10-15 10:50:12_0.59966900 1508035812 :/system/ajaxAccountGetOne
+
+2017-10-15 10:50:21_0.65118000 1508035821 :/system/ajaxAccountUpdate
+
+2017-10-15 10:50:53_0.51547400 1508035853 :/system/ajaxAccountGetOne
+
+2017-10-15 10:50:58_0.09114700 1508035858 :/system/ajaxAccountUpdate
+
+2017-10-15 10:52:49_0.26362100 1508035969 :/system/ajaxAccountGetOne
+
+2017-10-15 10:52:54_0.56689700 1508035974 :/system/ajaxAccountUpdate
+
+2017-10-15 10:52:54_0.58350500 1508035974 :/system/ajaxAccountGetList?sort=sort_weight&order=desc
+
+2017-10-15 10:52:54_0.59270600 1508035974 :/system/account/list
+
+2017-10-15 10:52:54_0.95870500 1508035974 :/system/ajaxAccountGetList?sort=sort_weight&order=desc
+
+2017-10-15 10:53:02_0.83655000 1508035982 :/system/logout
+
+2017-10-15 10:53:02_0.84084800 1508035982 :/system/
+
+2017-10-15 10:53:02_0.89195300 1508035982 :/system/captcha
+
+2017-10-15 10:53:03_0.37142700 1508035983 :/favicon.ico
+
+2017-10-15 10:53:06_0.61073300 1508035986 :/system/ajaxLogin
+
+2017-10-15 10:53:06_0.65837800 1508035986 :/welcome/index
+
+2017-10-15 10:54:37_0.10679000 1508036077 :/system/logout
+
+2017-10-15 10:54:37_0.11031800 1508036077 :/system/
+
+2017-10-15 10:54:37_0.15599300 1508036077 :/system/captcha
+
+2017-10-15 10:54:37_0.66995400 1508036077 :/favicon.ico
+
+2017-10-15 10:54:43_0.86095600 1508036083 :/system/ajaxLogin
+
+2017-10-15 10:54:43_0.91598400 1508036083 :/welcome/index
+
+2017-10-15 10:54:47_0.72847000 1508036087 :/system/account/list
+
+2017-10-15 10:54:48_0.05804100 1508036088 :/system/ajaxAccountGetList?sort=sort_weight&order=desc
+
+2017-10-15 10:54:49_0.33861000 1508036089 :/system/ajaxAccountGetOne
+
+2017-10-15 10:54:54_0.00186800 1508036094 :/system/ajaxAccountUpdate
+
+2017-10-15 10:54:57_0.57087100 1508036097 :/system/ajaxAccountGetOne
+
+2017-10-15 10:55:01_0.33384000 1508036101 :/system/ajaxAccountUpdate
+
+2017-10-15 10:58:23_0.69820700 1508036303 :/system/ajaxAccountGetOne
+
+2017-10-15 11:04:36_0.54748400 1508036676 :/system/account/list
+
+2017-10-15 11:04:36_0.91152100 1508036676 :/system/ajaxAccountGetList?sort=sort_weight&order=desc
+
+2017-10-15 11:04:40_0.18869700 1508036680 :/system/ajaxAccountGetOne
+
+2017-10-15 11:04:44_0.19001600 1508036684 :/system/ajaxAccountGetOne
+
+2017-10-15 11:04:54_0.65155400 1508036694 :/system/ajaxAccountUpdate
+
+2017-10-15 11:04:54_0.66762700 1508036694 :/system/ajaxAccountGetList?sort=sort_weight&order=desc
+
+2017-10-15 11:04:54_0.68669300 1508036694 :/system/account/list
+
+2017-10-15 11:04:55_0.03776400 1508036695 :/system/ajaxAccountGetList?sort=sort_weight&order=desc
+
+2017-10-15 11:04:59_0.88900700 1508036699 :/system/ajaxAccountGetOne
+
+2017-10-15 11:05:02_0.54304400 1508036702 :/system/ajaxAccountUpdate
+
+2017-10-15 11:05:02_0.56036800 1508036702 :/system/ajaxAccountGetList?sort=sort_weight&order=desc
+
+2017-10-15 11:05:02_0.57922500 1508036702 :/system/account/list
+
+2017-10-15 11:05:02_0.93756100 1508036702 :/system/ajaxAccountGetList?sort=sort_weight&order=desc
+
+2017-10-15 11:05:05_0.06228500 1508036705 :/system/ajaxAccountGetOne
+
+2017-10-15 11:05:11_0.64278700 1508036711 :/system/ajaxAccountUpdate
+
+2017-10-15 11:05:11_0.66015500 1508036711 :/system/ajaxAccountGetList?sort=sort_weight&order=desc
+
+2017-10-15 11:05:11_0.67809800 1508036711 :/system/account/list
+
+2017-10-15 11:05:12_0.04822900 1508036712 :/system/ajaxAccountGetList?sort=sort_weight&order=desc
+

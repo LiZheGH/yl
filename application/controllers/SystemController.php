@@ -240,53 +240,39 @@ class SystemController extends WebBaseController {
 	}
 	public function ajaxAccountUpdateAction() {
 		$this->__checkAdminUserLogin ();
-		$id = $this->__getParam ( 'id' );
-		$account = $this->systemAccount->getById ( $id );
-		$username = $this->__getParam ( 'username' );
-		if ($username)
-			$account ['username'] = $username;
-		$password = $this->__getParam ( 'password' );
-		if ($password && $password != $account ['password'])
-			$account ['password'] = md5 ( $password );
-		$remark = urldecode ( $this->__getParam ( 'remark' ) );
-		if ($remark)
-			$account ['remark'] = $remark;
-		$status = $this->__getParam ( 'status' );
-		if (($status || ($status == 0)) && in_array ( $status, array (0,1) )) {
-			$account ['status'] = $status;
-		}
-		$email = $this->__getParam ( 'email' );
-		if ($email)
-			$account ['email'] = $email;
-		$level = $this->__getParam('level');
-		if ($level)
-		    $account['level'] = $level;
-		$avatar = trim($this->__getParam('avatar'));
-		if($avatar){
-		   $account['avatar'] = $avatar;
-		}
+		$account = array(
+		    'id' => intval($this->__getParam('id')),
+		    'username' => trim($this->__getParam('username')),
+		    'udate' => date('Y-m-d H:i:s'),
+		    'status' => intval($this->__getParam('status')),
+		    'level' => intval($this->__getParam('level')),
+		    'avatar' => trim($this->__getParam('avatar')),
+		    'email' => trim($this->__getParam('email')),
+		);
+		$password = trim($this->__getParam('password'));
+		if ($password != '')
+			$account['password'] = md5 ( $password );
 		$role_ids = $this->__getParam ( 'role_ids' );
-		$this->systemRoleUser->deleteByAccountId ( $id );
-
+		$this->systemRoleUser->deleteByAccountId ( $account['id'] );
 		if ($role_ids && strlen ( $role_ids ) > 2) {
 			$arr_ids = explode ( ',', $role_ids );
 			foreach ( $arr_ids as $role_id ) {
 				$one = array ();
 				$one ['role_id'] = $role_id;
-				$one ['account_id'] = $id;
+				$one ['account_id'] = $account['id'];
 				$this->systemRoleUser->add ( $one );
 			}
 		} else {
 			if ($role_ids) {
 				$one = array ();
 				$one ['role_id'] = $role_ids;
-				$one ['account_id'] = $id;
+				$one ['account_id'] = $account['id'];
 				$this->systemRoleUser->add ( $one );
 			}
 		}
 		$flag = $this->systemAccount->update ( $account );
 		if ($flag) {
-			$this->curUser = $this->systemAccount->getById ( $id );
+			$this->curUser = $this->systemAccount->getById ( $account['id'] );
 			$result = array (
 					'result_code' => 0,
 					'info' => '成功'
